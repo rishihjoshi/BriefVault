@@ -13,8 +13,12 @@ let current = 'local';
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+// esc() keeps a value inside the quoted attribute but does NOT block the javascript:/data:
+// scheme, so href needs its own allowlist: only http(s) links render, anything else → '#'.
+const safeUrl = u => /^https?:\/\//i.test(String(u ?? '').trim()) ? String(u).trim() : '#';
+
 function newsItem(it) {
-  return `<a class="item" href="${esc(it.link)}" target="_blank" rel="noopener">
+  return `<a class="item" href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener">
     <h3>${esc(it.title)}</h3>
     ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
     <div class="src">${esc(it.source || '')}</div>
@@ -22,7 +26,7 @@ function newsItem(it) {
 }
 
 function topStory(it) {
-  return `<a class="top-story" href="${esc(it.link)}" target="_blank" rel="noopener">
+  return `<a class="top-story" href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener">
     <div class="flag">Top Story</div>
     <h2>${esc(it.title)}</h2>
     ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
@@ -130,4 +134,7 @@ function init() {
   loadDigest();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+// Guarded so the pure render helpers can be imported in Node tests without a DOM.
+if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', init);
+
+export { esc, safeUrl, newsItem, topStory };
