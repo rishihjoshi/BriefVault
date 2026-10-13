@@ -16,6 +16,11 @@
   <meta name="theme-color" content="#0a0a0a">
   <meta name="description" content="Your daily briefing: St. Louis news & weather, world, India & immigration, microlearning.">
 
+  <!-- Editorial type (Newsreader headlines / Roboto body); swap avoids FOIT, Georgia/system fallback works offline -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Roboto:wght@400;500;700&display=swap">
+
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
   <link rel="stylesheet" href="./styles.css">
@@ -30,15 +35,27 @@
       </div>
     </header>
 
-    <main class="main-content" id="main">
+    <main class="main-content" id="main" role="region" aria-labelledby="tab-title" tabindex="-1">
       <div id="loading" class="loading">Loading your briefing…</div>
     </main>
 
-    <nav class="bottom-nav" id="nav">
-      <button class="nav-btn active" data-tab="local"><span class="ico">📍</span><span>Local</span></button>
-      <button class="nav-btn" data-tab="world"><span class="ico">🌍</span><span>World</span></button>
-      <button class="nav-btn" data-tab="india"><span class="ico">🇮🇳</span><span>India</span></button>
-      <button class="nav-btn" data-tab="micro"><span class="ico">💡</span><span>Learn</span></button>
+    <nav class="bottom-nav" id="nav" aria-label="Sections">
+      <button class="nav-btn active" data-tab="local" aria-current="page">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Local</span>
+      </button>
+      <button class="nav-btn" data-tab="world">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+        <span>World</span>
+      </button>
+      <button class="nav-btn" data-tab="india">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+        <span>India</span>
+      </button>
+      <button class="nav-btn" data-tab="micro">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>Learn</span>
+      </button>
     </nav>
   </div>
 

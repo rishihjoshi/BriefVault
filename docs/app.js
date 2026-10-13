@@ -23,7 +23,7 @@ function newsItem(it) {
 
 function topStory(it) {
   return `<a class="top-story" href="${esc(it.link)}" target="_blank" rel="noopener">
-    <div class="flag">★ Top Story</div>
+    <div class="flag">Top Story</div>
     <h2>${esc(it.title)}</h2>
     ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
     <div class="src">${esc(it.source || '')}</div>
@@ -32,7 +32,7 @@ function topStory(it) {
 
 // A ranked list: first item becomes the Top Story banner, the rest are a plain list.
 function rankedBlock(items) {
-  if (!items || !items.length) return '<div class="error">No stories available.</div>';
+  if (!items || !items.length) return '<div class="error">No stories yet — check back after the next update.</div>';
   const [top, ...rest] = items;
   return topStory(top) + rest.map(newsItem).join('');
 }
@@ -42,7 +42,7 @@ function renderWeather(w) {
     <div class="emoji">${esc(w.emoji)}</div>
     <div>
       <div class="temps">${esc(w.high)}° / ${esc(w.low)}°F</div>
-      <div class="meta">${esc(w.label)} · ${esc(w.precip)}% precip · St. Louis, MO</div>
+      <div class="meta">${esc(w.label)} · ${esc(w.precip)}% precipitation · St. Louis, MO</div>
     </div>
   </div>`;
 }
@@ -69,12 +69,19 @@ function renderTab(tab) {
   return '';
 }
 
-function show(tab) {
+function show(tab, { focus = false } = {}) {
   current = tab;
   document.getElementById('tab-title').textContent = TITLES[tab];
-  document.getElementById('main').innerHTML = renderTab(tab);
-  document.getElementById('main').scrollTop = 0;
-  document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  const main = document.getElementById('main');
+  main.innerHTML = renderTab(tab);
+  main.scrollTop = 0;
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    const on = b.dataset.tab === tab;
+    b.classList.toggle('active', on);
+    if (on) b.setAttribute('aria-current', 'page');
+    else b.removeAttribute('aria-current');
+  });
+  if (focus) main.focus();  // move SR focus to the new panel on user tab change
 }
 
 function fmtUpdated(iso) {
@@ -88,7 +95,7 @@ function fmtUpdated(iso) {
 async function init() {
   document.getElementById('nav').addEventListener('click', e => {
     const btn = e.target.closest('.nav-btn');
-    if (btn) show(btn.dataset.tab);
+    if (btn) show(btn.dataset.tab, { focus: true });
   });
 
   try {
