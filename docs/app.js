@@ -45,8 +45,9 @@ function renderWeather(w) {
   return `<div class="weather">
     <div class="emoji">${esc(w.emoji)}</div>
     <div>
-      <div class="temps">${esc(w.high)}° / ${esc(w.low)}°F</div>
-      <div class="meta">${esc(w.label)} · ${esc(w.precip)}% precipitation · St. Louis, MO</div>
+      <div class="temps">${esc(w.high)}°F / ${esc(w.highC)}°C</div>
+      <div class="meta">${esc(w.label)} · Low ${esc(w.low)}°F (${esc(w.lowC)}°C) · ${esc(w.precip)}% precipitation</div>
+      <div class="meta">🌅 ${esc(w.sunrise)} · 🌇 ${esc(w.sunset)} · 💨 ${esc(w.wind)} mph · St. Louis, MO</div>
     </div>
   </div>`;
 }

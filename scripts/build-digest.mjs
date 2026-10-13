@@ -8,7 +8,7 @@
 // Check: node scripts/build-digest.mjs --selfcheck   (validates existing digest.json)
 
 import { writeFileSync, readFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
 import assert from 'node:assert/strict';
 import Parser from 'rss-parser';
@@ -79,19 +79,36 @@ async function fetchPool(urls) {
     .slice(0, POOL_CAP);
 }
 
+const fToC = f => Math.round((f - 32) * 5 / 9);
+
+// Open-Meteo returns sunrise/sunset as a local-time ISO string (no offset, e.g.
+// "2026-10-13T07:12") — format the HH:MM directly so it's correct for any viewer.
+export const fmtClock = iso => {
+  const m = /T(\d{2}):(\d{2})/.exec(iso || '');
+  if (!m) return '';
+  let h = +m[1];
+  const ap = h < 12 ? 'AM' : 'PM';
+  h = h % 12 || 12;
+  return `${h}:${m[2]} ${ap}`;
+};
+
 async function fetchWeather() {
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}`
-    + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code`
-    + `&temperature_unit=fahrenheit&timezone=${encodeURIComponent(TZ)}&forecast_days=1`;
+    + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code,sunrise,sunset,wind_speed_10m_max`
+    + `&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=${encodeURIComponent(TZ)}&forecast_days=1`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`open-meteo ${res.status}`);
   const d = (await res.json()).daily;
   const code = d.weather_code[0];
   const [label, emoji] = WMO[code] || ['—', '🌡️'];
+  const highF = d.temperature_2m_max[0], lowF = d.temperature_2m_min[0];
   return {
-    high: Math.round(d.temperature_2m_max[0]),
-    low: Math.round(d.temperature_2m_min[0]),
+    high: Math.round(highF),  low: Math.round(lowF),   // °F
+    highC: fToC(highF),       lowC: fToC(lowF),         // °C
     precip: d.precipitation_probability_max[0] ?? 0,
+    wind: Math.round(d.wind_speed_10m_max[0]),          // mph
+    sunrise: fmtClock(d.sunrise[0]),
+    sunset: fmtClock(d.sunset[0]),
     label, emoji,
   };
 }
@@ -142,7 +159,8 @@ function extractJson(text) {
 function validateDigest(d) {
   assert.ok(d.generatedAt, 'missing generatedAt');
   const w = d.weather;
-  for (const k of ['high', 'low', 'precip']) assert.equal(typeof w[k], 'number', `weather.${k} not a number`);
+  for (const k of ['high', 'low', 'highC', 'lowC', 'precip', 'wind']) assert.equal(typeof w[k], 'number', `weather.${k} not a number`);
+  for (const k of ['sunrise', 'sunset']) assert.ok(w[k], `weather.${k} missing`);
   const check = (items, n, name) => {
     assert.equal(items.length, n, `${name} expected ${n} items, got ${items.length}`);
     for (const it of items) {
@@ -207,4 +225,8 @@ async function main() {
   console.log(`wrote ${OUT} @ ${digest.generatedAt} (theme: ${theme})`);
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+// Only run the network build when executed directly, not when imported by a test.
+// (Portable across Node 20 — import.meta.main predates it by years.)
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch(err => { console.error(err); process.exit(1); });
+}
