@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailypulse-v7'; // bump on any static asset change
+const CACHE_NAME = 'dailypulse-v8'; // bump on any static asset change
 const STATIC_ASSETS = [
   './index.html',
   './app.js',

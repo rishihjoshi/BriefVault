@@ -77,6 +77,7 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 }
 .app-header h1 { font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: -0.01em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .updated { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.updated.stale { color: #f59e0b; }  /* briefing older than a day — build likely failing */
 
 .main-content {
   flex: 1;

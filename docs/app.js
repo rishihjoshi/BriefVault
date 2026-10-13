@@ -97,6 +97,16 @@ function fmtUpdated(iso) {
   } catch { return ''; }
 }
 
+// Briefing is built ~2x/day; if it's clearly older than a day the scheduled build
+// has likely been failing, so flag it rather than showing stale news as current.
+function freshness(iso, now = Date.now()) {
+  const t = new Date(iso).getTime();
+  if (Number.isNaN(t)) return { label: '', stale: false };
+  const label = fmtUpdated(iso);
+  const stale = now - t > 24 * 3.6e6;
+  return { label: stale ? `⚠ ${label} · may be stale` : label, stale };
+}
+
 // Skeleton that mirrors the real layout (weather block + a few cards) so there's
 // no layout shift when content arrives.
 const SKELETON =
@@ -112,7 +122,10 @@ async function loadDigest() {
     const res = await fetch('./data/digest.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     digest = await res.json();
-    document.getElementById('updated').textContent = fmtUpdated(digest.generatedAt);
+    const f = freshness(digest.generatedAt);
+    const u = document.getElementById('updated');
+    u.textContent = f.label;
+    u.classList.toggle('stale', f.stale);
     main.removeAttribute('aria-busy');
     show(current);
   } catch (err) {
@@ -138,4 +151,4 @@ function init() {
 // Guarded so the pure render helpers can be imported in Node tests without a DOM.
 if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', init);
 
-export { esc, safeUrl, newsItem, topStory, renderWeather, rankedBlock, renderTab, show, loadDigest };
+export { esc, safeUrl, newsItem, topStory, renderWeather, rankedBlock, renderTab, show, loadDigest, freshness };
