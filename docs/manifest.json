@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "scope": "./",
+  "lang": "en",
+  "name": "BriefVault — Daily Briefing",
+  "short_name": "BriefVault",
+  "description": "Your daily briefing: St. Louis news & weather, world, India & immigration, and microlearning.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "categories": ["news", "education"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

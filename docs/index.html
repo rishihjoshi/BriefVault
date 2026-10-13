@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- NO viewport-fit=cover (blueprint fix for iOS bottom-gap) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BriefVault">
+  <link rel="apple-touch-icon" href="./icons/icon.svg">
+
+  <meta name="application-name" content="BriefVault">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Your daily briefing: St. Louis news & weather, world, India & immigration, microlearning.">
+
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>BriefVault</title>
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="header-row">
+        <h1 id="tab-title">Local · St. Louis</h1>
+        <span id="updated" class="updated"></span>
+      </div>
+    </header>
+
+    <main class="main-content" id="main">
+      <div id="loading" class="loading">Loading your briefing…</div>
+    </main>
+
+    <nav class="bottom-nav" id="nav">
+      <button class="nav-btn active" data-tab="local"><span class="ico">📍</span><span>Local</span></button>
+      <button class="nav-btn" data-tab="world"><span class="ico">🌍</span><span>World</span></button>
+      <button class="nav-btn" data-tab="india"><span class="ico">🇮🇳</span><span>India</span></button>
+      <button class="nav-btn" data-tab="micro"><span class="ico">💡</span><span>Learn</span></button>
+    </nav>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW:', err));
+    }
+  </script>
+  <script src="./app.js"></script>
+</body>
+</html>

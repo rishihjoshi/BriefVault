@@ -1,0 +1,16 @@
+{
+  "name": "briefvault",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal daily-briefing PWA: St. Louis local + weather, world, India + US–India immigration, and microlearning.",
+  "scripts": {
+    "build": "node scripts/build-digest.mjs",
+    "check": "node scripts/build-digest.mjs --selfcheck",
+    "serve": "npx serve docs -l 3000"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "rss-parser": "^3.13.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-13T11:00:00.000Z",
+  "location": "St. Louis, MO",
+  "weather": { "high": 72, "low": 54, "precip": 10, "label": "Partly cloudy", "emoji": "⛅" },
+  "tabs": {
+    "local": {
+      "items": [
+        { "title": "Sample: St. Louis budget vote scheduled this week", "link": "https://example.com/stl-1", "source": "Seed", "why": "Placeholder until the first scheduled build runs." },
+        { "title": "Sample: Metro transit expansion update", "link": "https://example.com/stl-2", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Cardinals offseason news", "link": "https://example.com/stl-3", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Local school district announcement", "link": "https://example.com/stl-4", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Weather advisory for the region", "link": "https://example.com/stl-5", "source": "Seed", "why": "Placeholder item." }
+      ]
+    },
+    "world": {
+      "items": [
+        { "title": "Sample: Major world headline", "link": "https://example.com/w-1", "source": "Seed", "why": "Placeholder until the first scheduled build runs." },
+        { "title": "Sample: International summit concludes", "link": "https://example.com/w-2", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Global markets move", "link": "https://example.com/w-3", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Climate report released", "link": "https://example.com/w-4", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Regional conflict update", "link": "https://example.com/w-5", "source": "Seed", "why": "Placeholder item." }
+      ]
+    },
+    "india": {
+      "items": [
+        { "title": "Sample: Top India headline", "link": "https://example.com/in-1", "source": "Seed", "why": "Placeholder until the first scheduled build runs." },
+        { "title": "Sample: Economic policy update", "link": "https://example.com/in-2", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Infrastructure project launched", "link": "https://example.com/in-3", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Tech sector news", "link": "https://example.com/in-4", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: Monsoon / agriculture report", "link": "https://example.com/in-5", "source": "Seed", "why": "Placeholder item." }
+      ],
+      "immigration": [
+        { "title": "Sample: H-1B visa policy update", "link": "https://example.com/imm-1", "source": "Seed", "why": "Placeholder US–India immigration item." },
+        { "title": "Sample: Green card backlog news", "link": "https://example.com/imm-2", "source": "Seed", "why": "Placeholder item." },
+        { "title": "Sample: USCIS processing change", "link": "https://example.com/imm-3", "source": "Seed", "why": "Placeholder item." }
+      ]
+    }
+  },
+  "micro": {
+    "theme": "productivity & focus",
+    "cards": [
+      { "title": "Protect your first 90 minutes", "insight": "Willpower and attention are highest early in the day. Spending the first block on reactive work (email, chat) trades your sharpest hours for other people's priorities.", "takeaway": "Block the first 90 minutes for one meaningful task before opening any inbox." },
+      { "title": "The two-minute rule", "insight": "If a task takes under two minutes, doing it immediately is cheaper than tracking it. Small deferrals accumulate into a heavy mental backlog.", "takeaway": "When something under two minutes appears, do it now instead of writing it down." },
+      { "title": "Single-task to go faster", "insight": "Context switching has a real reload cost; 'multitasking' is mostly rapid switching that fragments attention and slows every thread.", "takeaway": "Close every tab and app not tied to your current task for one focused block." },
+      { "title": "Define 'done' before you start", "insight": "Open-ended tasks expand to fill available time. A concrete finish line turns an anxious, endless task into a bounded one.", "takeaway": "Write one sentence describing what 'finished' looks like before beginning a task." }
+    ]
+  }
+}
