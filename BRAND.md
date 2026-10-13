@@ -1,4 +1,4 @@
-# BriefVault — Brand Voice
+# DailyPulse — Brand Voice
 
 A lightweight voice guide for a personal daily-briefing PWA. Keep it short; this is a
 utility, not a marketing site.

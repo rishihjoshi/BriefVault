@@ -1,10 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
-  <rect x="112" y="120" width="288" height="272" rx="20" fill="#f4f4f5"/>
-  <rect x="140" y="152" width="160" height="22" rx="6" fill="#0a0a0a"/>
-  <rect x="140" y="196" width="232" height="12" rx="6" fill="#a1a1aa"/>
-  <rect x="140" y="222" width="232" height="12" rx="6" fill="#a1a1aa"/>
-  <rect x="140" y="248" width="180" height="12" rx="6" fill="#a1a1aa"/>
-  <rect x="140" y="300" width="232" height="60" rx="10" fill="#38bdf8"/>
-  <circle cx="360" cy="150" r="14" fill="#38bdf8"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Squircle base (purpose: any) -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Local / global scope rings -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 8" opacity="0.6" />
+  <circle cx="256" cy="256" r="110" fill="none" stroke="#334155" stroke-width="2" opacity="0.4" />
+
+  <!-- Pulse / ECG waveform -->
+  <path d="M 96 256 L 160 256 L 192 192 L 232 320 L 280 176 L 320 288 L 352 256 L 416 256"
+        fill="none"
+        stroke="url(#pulseGrad)"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#shadow)" />
+
+  <!-- Twice-daily update indicator -->
+  <circle cx="360" cy="152" r="12" fill="#38bdf8" />
+  <circle cx="360" cy="152" r="20" fill="#38bdf8" opacity="0.3" />
 </svg>

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Builds docs/data/digest.json for BriefVault.
+// Builds docs/data/digest.json for DailyPulse.
 // Fetches free RSS feeds + Open-Meteo weather, then ONE Claude call ranks the
 // news to the top 5 per tab (+ "why it matters"), picks a Top Story, and writes
 // the microlearning cards. The browser never does any of this and never sees a key.

@@ -1,4 +1,4 @@
-// BriefVault — reads the pre-built digest.json and renders 4 tabs.
+// DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
 const TITLES = {
