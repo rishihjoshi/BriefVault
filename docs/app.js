@@ -138,4 +138,4 @@ function init() {
 // Guarded so the pure render helpers can be imported in Node tests without a DOM.
 if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', init);
 
-export { esc, safeUrl, newsItem, topStory };
+export { esc, safeUrl, newsItem, topStory, renderWeather, rankedBlock, renderTab, show, loadDigest };
