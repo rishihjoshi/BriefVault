@@ -115,23 +115,24 @@ async function fetchWeather() {
 
 function buildPrompt(pools, theme) {
   const show = arr => arr.map((it, i) =>
-    `  [${i}] ${it.title} — ${it.source}${it.snippet ? ` :: ${it.snippet}` : ''}  <${it.link}>`
+    `  [${i}] ${it.title} — ${it.source}${it.snippet ? ` :: ${it.snippet}` : ''}`
   ).join('\n');
   return `You are the editor of a personal daily briefing. From each pool of raw headlines,
-pick the 5 MOST IMPORTANT, distinct stories (dedupe near-identical coverage; prefer
-substantive, recent, high-impact news over fluff). Keep each item's exact link.
+pick the N MOST IMPORTANT, distinct stories (dedupe near-identical coverage; prefer
+substantive, recent, high-impact news over fluff). Refer to each pick by its [index]
+number only — do NOT copy titles or URLs back.
 
 Return ONLY valid JSON, no prose, no code fences, matching this shape exactly:
 {
-  "local":       { "items": [ {"title","link","source","why"} x5 ] },
-  "world":       { "items": [ {"title","link","source","why"} x5 ] },
-  "india":       { "items": [ {"title","link","source","why"} x5 ] },
-  "immigration": { "items": [ {"title","link","source","why"} x3 ] },
+  "local":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
+  "world":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
+  "india":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
+  "immigration": [ {"i": <index>, "why": "<one sentence>"} x3 ],
   "micro":       { "theme": "${theme}", "cards": [ {"title","insight","takeaway"} x4 ] }
 }
 Rules:
-- "why" = ONE short sentence on why it matters. "title"/"link"/"source" copied from the pool.
-- The first item in each list is the Top Story (most important) — order by importance.
+- "i" = the [index] of the chosen item in that pool. "why" = ONE short sentence on why it matters.
+- Order each array by importance — the first pick is the Top Story.
 - "immigration" = the 3 most important US–India immigration items (H-1B, green card, USCIS, visas).
 - "micro" cards are ORIGINAL insights you write on the theme "${theme}" (do NOT quote or
   summarize any specific copyrighted book). "insight" = 2–3 sentences; "takeaway" = one action.
@@ -147,6 +148,23 @@ ${show(pools.india)}
 
 POOL immigration (US–India):
 ${show(pools.immigration)}`;
+}
+
+// Resolve the model's chosen indices back to real pool items (trusted title/link/source).
+// Drops out-of-range/duplicate picks and pads from the top of the pool so we always
+// return exactly n items even if the model under-picks or returns junk.
+export function resolvePicks(pool, picks, n) {
+  const out = [], used = new Set();
+  const add = (i, why) => { used.add(i); out.push({ title: pool[i].title, link: pool[i].link, source: pool[i].source, why }); };
+  for (const p of Array.isArray(picks) ? picks : []) {
+    const i = Number(p?.i);
+    if (Number.isInteger(i) && i >= 0 && i < pool.length && !used.has(i)) {
+      add(i, String(p?.why ?? '').trim() || 'Notable update.');
+      if (out.length === n) break;
+    }
+  }
+  for (let i = 0; i < pool.length && out.length < n; i++) if (!used.has(i)) add(i, 'Notable update.');
+  return out;
 }
 
 function extractJson(text) {
@@ -203,7 +221,7 @@ async function main() {
   const client = new Anthropic({ apiKey });
   const msg = await client.messages.create({
     model: MODEL,
-    max_tokens: 2500,
+    max_tokens: 4000,
     messages: [{ role: 'user', content: buildPrompt(pools, theme) }],
   });
   const r = extractJson(msg.content[0].text);
@@ -213,9 +231,9 @@ async function main() {
     location: 'St. Louis, MO',
     weather,
     tabs: {
-      local: { items: r.local.items },
-      world: { items: r.world.items },
-      india: { items: r.india.items, immigration: r.immigration.items },
+      local: { items: resolvePicks(local, r.local, 5) },
+      world: { items: resolvePicks(world, r.world, 5) },
+      india: { items: resolvePicks(india, r.india, 5), immigration: resolvePicks(immigration, r.immigration, 3) },
     },
     micro: r.micro,
   };
