@@ -75,7 +75,7 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   justify-content: space-between;
   gap: 12px;
 }
-.app-header h1 { font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.app-header h1 { font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: -0.01em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .updated { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 
 .main-content {
@@ -88,7 +88,29 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 }
 
 .loading { color: var(--muted); text-align: center; padding: 40px 0; }
-.error { color: var(--break); text-align: center; padding: 40px 16px; line-height: 1.5; }
+.empty   { color: var(--muted); font-size: 14px; padding: 14px 2px; }
+
+/* Error state with a recovery path (retry) */
+.error {
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+  text-align: center; padding: 48px 16px; line-height: 1.5; color: var(--muted);
+}
+.error p { color: var(--text); font-size: 15px; }
+.retry {
+  font-family: var(--sans); font-size: 14px; font-weight: 500;
+  color: var(--bg); background: var(--accent);
+  border: none; border-radius: 10px; padding: 10px 20px;
+  min-height: 44px; cursor: pointer; transition: opacity var(--t);
+}
+.retry:active { opacity: 0.85; }
+
+/* Skeleton loader — mirrors real layout so content swaps in without shift */
+.skeleton { display: flex; flex-direction: column; }
+.skel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; animation: skel-pulse 1.4s ease-in-out infinite; }
+.skel-weather { height: 86px; margin-bottom: 18px; border-radius: 16px; }
+.skel-top    { height: 118px; margin-bottom: 18px; }
+.skel-item   { height: 74px; margin-bottom: 10px; }
+@keyframes skel-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
 
 /* ── Weather card ── */
 .weather {

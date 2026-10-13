@@ -32,7 +32,7 @@ function topStory(it) {
 
 // A ranked list: first item becomes the Top Story banner, the rest are a plain list.
 function rankedBlock(items) {
-  if (!items || !items.length) return '<div class="error">No stories yet — check back after the next update.</div>';
+  if (!items || !items.length) return '<div class="empty">No stories yet — check back after the next update.</div>';
   const [top, ...rest] = items;
   return topStory(top) + rest.map(newsItem).join('');
 }
@@ -55,7 +55,7 @@ function renderTab(tab) {
     const imm = t.india.immigration || [];
     return rankedBlock(t.india.items)
       + `<div class="section-label">US–India Immigration</div>`
-      + (imm.length ? imm.map(newsItem).join('') : '<div class="item"><h3>No immigration updates today.</h3></div>');
+      + (imm.length ? imm.map(newsItem).join('') : '<div class="empty">No US–India immigration news today.</div>');
   }
   if (tab === 'micro') {
     const m = digest.micro;
@@ -92,23 +92,42 @@ function fmtUpdated(iso) {
   } catch { return ''; }
 }
 
-async function init() {
-  document.getElementById('nav').addEventListener('click', e => {
-    const btn = e.target.closest('.nav-btn');
-    if (btn) show(btn.dataset.tab, { focus: true });
-  });
+// Skeleton that mirrors the real layout (weather block + a few cards) so there's
+// no layout shift when content arrives.
+const SKELETON =
+  '<div class="skel skel-weather"></div>'
+  + '<div class="skel skel-top"></div>'
+  + Array.from({ length: 4 }, () => '<div class="skel skel-item"></div>').join('');
 
+async function loadDigest() {
+  const main = document.getElementById('main');
+  main.setAttribute('aria-busy', 'true');
+  main.innerHTML = `<div class="skeleton" aria-hidden="true">${SKELETON}</div>`;
   try {
     const res = await fetch('./data/digest.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     digest = await res.json();
     document.getElementById('updated').textContent = fmtUpdated(digest.generatedAt);
-    show('local');
+    main.removeAttribute('aria-busy');
+    show(current);
   } catch (err) {
-    document.getElementById('main').innerHTML =
-      `<div class="error">Couldn't load today's briefing.<br>Check your connection and reopen.</div>`;
+    main.removeAttribute('aria-busy');
+    main.innerHTML =
+      `<div class="error" role="alert">
+        <p>Couldn't load today's briefing.</p>
+        <button class="retry" type="button">Try again</button>
+      </div>`;
+    main.querySelector('.retry').addEventListener('click', loadDigest);
     console.error('digest load failed:', err);
   }
+}
+
+function init() {
+  document.getElementById('nav').addEventListener('click', e => {
+    const btn = e.target.closest('.nav-btn');
+    if (btn && digest) show(btn.dataset.tab, { focus: true });
+  });
+  loadDigest();
 }
 
 document.addEventListener('DOMContentLoaded', init);
