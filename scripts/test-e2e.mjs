@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 
 // --- fixture: a realistic digest with one booby-trapped link -----------------
 const DIGEST = {
-  generatedAt: '2026-10-13T11:00:00.000Z',
+  generatedAt: new Date().toISOString(),  // fresh, so the staleness badge stays off
   location: 'St. Louis, MO',
   weather: {
     high: 72, low: 54, highC: 22, lowC: 12, precip: 10, wind: 8,
@@ -33,6 +33,7 @@ function makeEl() {
   return {
     set innerHTML(v) { html = v; }, get innerHTML() { return html; },
     textContent: '', scrollTop: 0,
+    classList: { toggle() {}, add() {}, remove() {} },
     setAttribute() {}, removeAttribute() {}, focus() {}, addEventListener() {},
     querySelector() { return { addEventListener() {} }; },
   };

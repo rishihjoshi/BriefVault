@@ -1,7 +1,7 @@
 // Unit tests for the pure render helpers in app.js. Run: node --test scripts/test-render.mjs
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { renderWeather, rankedBlock } from '../docs/app.js';
+import { renderWeather, rankedBlock, freshness } from '../docs/app.js';
 
 test('renderWeather shows °F, °C, sunrise, sunset, and wind', () => {
   const html = renderWeather({
@@ -30,4 +30,17 @@ test('rankedBlock makes the first item the Top Story and lists the rest', () => 
   ]);
   assert.ok(html.includes('Top Story'), 'first item should be the Top Story banner');
   assert.ok(html.includes('Lead') && html.includes('Second'));
+});
+
+test('freshness flags a day-old briefing as stale', () => {
+  const now = Date.parse('2026-10-13T12:00:00Z');
+  const fresh = freshness('2026-10-13T06:00:00Z', now);   // 6h old
+  assert.equal(fresh.stale, false);
+  assert.ok(!fresh.label.includes('⚠'));
+
+  const old = freshness('2026-10-11T06:00:00Z', now);     // >2 days old
+  assert.equal(old.stale, true);
+  assert.ok(old.label.includes('⚠') && old.label.includes('may be stale'));
+
+  assert.deepEqual(freshness('garbage', now), { label: '', stale: false });
 });

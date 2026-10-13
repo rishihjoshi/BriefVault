@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   build:
@@ -16,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: npm install
       - name: Build digest
         env:
@@ -29,3 +30,19 @@ jobs:
           git add docs/data/digest.json
           git diff --cached --quiet || git commit -m "chore: refresh digest $(date -u +%FT%TZ)"
           git push
+      - name: Open an issue if the build failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # One open issue at a time — update it rather than spamming a new one each run.
+          gh label create build-failure --color B60205 --description "Scheduled digest build failed" --force
+          open=$(gh issue list --state open --label build-failure --json number --jq 'length')
+          if [ "$open" = "0" ]; then
+            gh issue create --title "Digest build failed" --label build-failure \
+              --body "The scheduled digest build failed. Latest run: $RUN_URL"
+          else
+            num=$(gh issue list --state open --label build-failure --json number --jq '.[0].number')
+            gh issue comment "$num" --body "Failed again — latest run: $RUN_URL"
+          fi
