@@ -1,13 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+
   <!-- Full-bleed background (no rounded corners) so any Android mask shape works -->
-  <rect width="512" height="512" fill="#0a0a0a"/>
-  <!-- Content kept inside the inner 80% safe zone -->
-  <g transform="translate(102,102) scale(0.6)">
-    <rect x="10" y="30" width="300" height="290" rx="22" fill="#f4f4f5"/>
-    <rect x="42" y="66" width="168" height="24" rx="6" fill="#0a0a0a"/>
-    <rect x="42" y="112" width="236" height="14" rx="7" fill="#a1a1aa"/>
-    <rect x="42" y="142" width="236" height="14" rx="7" fill="#a1a1aa"/>
-    <rect x="42" y="172" width="188" height="14" rx="7" fill="#a1a1aa"/>
-    <rect x="42" y="228" width="236" height="64" rx="12" fill="#38bdf8"/>
+  <rect width="512" height="512" fill="url(#bgGrad)" />
+
+  <!-- Content scaled into the inner 80% safe zone -->
+  <g transform="translate(256 256) scale(0.72) translate(-256 -256)">
+    <circle cx="256" cy="256" r="160" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 8" opacity="0.6" />
+    <circle cx="256" cy="256" r="110" fill="none" stroke="#334155" stroke-width="2" opacity="0.4" />
+    <path d="M 96 256 L 160 256 L 192 192 L 232 320 L 280 176 L 320 288 L 352 256 L 416 256"
+          fill="none"
+          stroke="url(#pulseGrad)"
+          stroke-width="18"
+          stroke-linecap="round"
+          stroke-linejoin="round" />
+    <circle cx="360" cy="152" r="12" fill="#38bdf8" />
+    <circle cx="360" cy="152" r="20" fill="#38bdf8" opacity="0.3" />
   </g>
 </svg>

@@ -1,6 +1,7 @@
-# BriefVault
+# DailyPulse
 
-Personal daily-briefing PWA. Four tabs, refreshed on a schedule:
+Personal daily-briefing PWA that captures the rhythm of twice-daily updates
+spanning local news, world events, and India insights. Four tabs, refreshed on a schedule:
 
 1. **Local** — St. Louis, MO weather for the day + 5 ranked local stories
 2. **World** — 5 ranked world stories
