@@ -92,13 +92,27 @@ export const fmtClock = iso => {
   return `${h}:${m[2]} ${ap}`;
 };
 
+// Unattended scheduled job: a single flaky connect shouldn't fail the whole build.
+// Retry transient fetch errors with a longer per-attempt timeout and backoff.
+async function fetchJson(url, tries = 3) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (err) {
+      if (attempt >= tries) throw err;
+      console.warn(`fetch ${url} failed (attempt ${attempt}/${tries}): ${err.message} — retrying`);
+      await new Promise(r => setTimeout(r, 1000 * attempt));
+    }
+  }
+}
+
 async function fetchWeather() {
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}`
     + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code,sunrise,sunset,wind_speed_10m_max`
     + `&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=${encodeURIComponent(TZ)}&forecast_days=1`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`open-meteo ${res.status}`);
-  const d = (await res.json()).daily;
+  const d = (await fetchJson(url)).daily;
   const code = d.weather_code[0];
   const [label, emoji] = WMO[code] || ['—', '🌡️'];
   const highF = d.temperature_2m_max[0], lowF = d.temperature_2m_min[0];
