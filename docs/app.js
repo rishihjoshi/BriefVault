@@ -69,7 +69,7 @@ function renderTab(tab) {
   return '';
 }
 
-function show(tab, { focus = false } = {}) {
+function show(tab, focus = false) {
   current = tab;
   document.getElementById('tab-title').textContent = TITLES[tab];
   const main = document.getElementById('main');
@@ -125,7 +125,7 @@ async function loadDigest() {
 function init() {
   document.getElementById('nav').addEventListener('click', e => {
     const btn = e.target.closest('.nav-btn');
-    if (btn && digest) show(btn.dataset.tab, { focus: true });
+    if (btn && digest) show(btn.dataset.tab, true);
   });
   loadDigest();
 }

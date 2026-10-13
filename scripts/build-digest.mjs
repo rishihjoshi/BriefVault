@@ -96,19 +96,6 @@ async function fetchWeather() {
   };
 }
 
-async function callWithRetry(fn, maxRetries = 2) {
-  for (let i = 0; i <= maxRetries; i++) {
-    try { return await fn(); }
-    catch (err) {
-      if (err.status === 429 && i < maxRetries) {
-        await new Promise(r => setTimeout(r, 2 ** i * 1000));
-        continue;
-      }
-      throw err;
-    }
-  }
-}
-
 function buildPrompt(pools, theme) {
   const show = arr => arr.map((it, i) =>
     `  [${i}] ${it.title} — ${it.source}${it.snippet ? ` :: ${it.snippet}` : ''}  <${it.link}>`
@@ -146,8 +133,8 @@ ${show(pools.immigration)}`;
 }
 
 function extractJson(text) {
-  const t = text.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
-  const s = t.indexOf('{'), e = t.lastIndexOf('}');
+  const t = text.trim();
+  const s = t.indexOf('{'), e = t.lastIndexOf('}');  // first..last brace ignores any ``` fences
   if (s === -1 || e === -1) throw new Error('no JSON object in model output');
   return JSON.parse(t.slice(s, e + 1));
 }
@@ -196,11 +183,11 @@ async function main() {
   }
 
   const client = new Anthropic({ apiKey });
-  const msg = await callWithRetry(() => client.messages.create({
+  const msg = await client.messages.create({
     model: MODEL,
     max_tokens: 2500,
     messages: [{ role: 'user', content: buildPrompt(pools, theme) }],
-  }));
+  });
   const r = extractJson(msg.content[0].text);
 
   const digest = {

@@ -255,10 +255,6 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   body { background: #050505; }
   #app { border-left: 1px solid var(--line); border-right: 1px solid var(--line); box-shadow: 0 0 60px rgba(0,0,0,0.8); }
 }
-@media (min-width: 900px) {
-  body { display: flex; align-items: center; justify-content: center; }
-  #app { height: min(900px, 96vh); border-radius: 20px; border: 1px solid var(--line); overflow: hidden; }
-}
 
 /* ── Respect reduced motion (a11y) ── */
 @media (prefers-reduced-motion: reduce) {
