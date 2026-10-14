@@ -190,9 +190,9 @@
         }
       ],
       "quotes": [
-        { "symbol": "^GSPC", "name": "S&P 500", "price": 5815.03, "changePct": 0.41 },
-        { "symbol": "^IXIC", "name": "Nasdaq", "price": 18502.69, "changePct": -0.23 },
-        { "symbol": "^NSEI", "name": "Nifty 50", "price": 24781.1, "changePct": 0.62 }
+        { "symbol": "SPY", "name": "S&P 500 · SPY", "price": 581.5, "changePct": 0.41 },
+        { "symbol": "QQQ", "name": "Nasdaq · QQQ", "price": 495.02, "changePct": -0.23 },
+        { "symbol": "INDA", "name": "India · INDA", "price": 52.18, "changePct": 0.62 }
       ]
     }
   },

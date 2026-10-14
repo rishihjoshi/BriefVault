@@ -162,10 +162,12 @@ async function fetchWeather() {
 
 // Major indices for the Finance tab. Fetched server-side with FMP_API_KEY so the key
 // never reaches the client (same model as ANTHROPIC_API_KEY).
+// US-listed ETF proxies (free FMP plan serves these; raw index symbols are 403 on free).
+// Price is the ETF's; the % change tracks each market, which is the signal that matters.
 const MARKET_SYMBOLS = [
-  ['^GSPC', 'S&P 500'], ['^DJI', 'Dow Jones'], ['^IXIC', 'Nasdaq'],
-  ['^NSEI', 'Nifty 50'], ['^BSESN', 'Sensex'],
-  ['^FTSE', 'FTSE 100'], ['^N225', 'Nikkei 225'], ['^HSI', 'Hang Seng'],
+  ['SPY', 'S&P 500 · SPY'], ['QQQ', 'Nasdaq · QQQ'], ['DIA', 'Dow · DIA'],
+  ['INDA', 'India · INDA'], ['EWJ', 'Japan · EWJ'], ['EWU', 'UK · EWU'],
+  ['EWH', 'Hong Kong · EWH'], ['VT', 'World · VT'],
 ];
 
 async function fetchMarkets() {
