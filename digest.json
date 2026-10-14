@@ -1,138 +1,192 @@
 {
-  "generatedAt": "2026-10-14T15:36:25.907Z",
+  "generatedAt": "2026-10-14T19:26:03.551Z",
   "location": "St. Louis, MO",
   "weather": {
     "high": 80,
-    "low": 69,
+    "low": 70,
     "highC": 27,
-    "lowC": 20,
+    "lowC": 21,
     "precip": 81,
     "wind": 11,
     "sunrise": "7:09 AM",
     "sunset": "6:23 PM",
-    "label": "Rain",
-    "emoji": "🌧️"
+    "label": "Overcast",
+    "emoji": "☁️"
   },
   "tabs": {
     "local": {
       "items": [
         {
-          "title": "Stock market today: Hot inflation report drops tech, drives S&P 500, Nasdaq down - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd1dyS0JCRnFXYVM3dS00OUFGc2EzdV9pRm0yR3M3TndxOF84SE5iN3BNcmN1UWpnWVFBVmhTVHhNekczM3FKSVNZUUdXLWZGanM3c09sMDFFa3dPV2VoMUJUekhYaC1FZlAyclBSQVhIV1c3c3dsUUZCV09RWkFUSHJZRVNkOG5kQXV4eTNlTFhnVXhzWElwU0pVYlpKUUNucEplSWNHdzRSbDFSbFJuYi1UWkRiT3U5VUotYUM1cUhKMnVuTndydnR3?oc=5",
+          "title": "Prices increased sharply in September in last inflation report ahead of elections - The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNDN2VFVqajVYaktjTE5GTmFOVE1ZSmRYNW1kQjBKQV8wdWFraFJfZHJUZVRvRGNjNVdsa0xsUDJlNFdDMXBvdFJ4cU1SWkZwOGRoVzhVZ3pBT1p1Q3RSOUV1aHNfdWRDOHNsY2MwSEtublVxYkIwZVZiXzNLckswWVY1Yl9JdVlGRncyMGppTFFucTgzeDM1UG5QQ3hoUkhQTFhZQUN6WU9jNDQ5TXNVbnFRdFZaNWM?oc=5",
           "source": "Top stories - Google News",
-          "why": "Inflation at 3.7% in September significantly impacts consumer purchasing power and monetary policy ahead of midterms."
+          "why": "Sharp September inflation spike directly impacts consumer costs and election-year economic sentiment just weeks before voting."
         },
         {
-          "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico - The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNE84dTlMaURmaG9obkVKY2tPYzdoSHRuQjFrZUQ4Szh0dzFfOFpNeVlKcVRDNXVXQXVRYU1LZTNHQ2h4ckNLc01HSzdjWmIzQUFZTHdJUFo1OTN1bGJOVWVwRllrZFhLdUtvZTVaLUJnN0RnUDhwcWpvUGx6aVlJc3lEeGhIQUNxNFlNRkRQZGFxMHUwOVVqUENSdw?oc=5",
+          "title": "Plane crashes near Wisconsin Dells, killing all 6 on board - The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTTYwS0RfSkV0aFl0enAyMU8xNU9zMl8ycmcxYjBCVzREZHdZZUZvem1BWlFUTm5fcDZiMWpZbDkxUjRMVTdjelJOVU1RbTRpUVFUVjZCa0FxRzJRczhIamFGNEJvT0lJZXVsU19hME9EVlJtdjVuX29pckV0WVF5YUVKRlBoOGEwMm16RTN6RmVoR0poNXRCNWRlVk1Ramc?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "Judge's ruling on Trump's media ban sets critical precedent for First Amendment and executive power limits."
+          "why": "Fatal plane crash near Wisconsin Dells with six deaths raises aviation safety concerns and investigative questions about icing conditions."
         },
         {
-          "title": "These common infections can cause cancer. Here’s what can lower your risk. - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVS1uWEVvQS0tQkU5dG43X2JNV2szU3E5LVBpV1IzRTdfNVI1N2VKdklwYXBEX0RkdUxyZlBqU2JpbTN1alZLQkhTYlB6cEZOZTZ6XzNybktldjNqTmlYeW9uaUFUWk1XMkRhOTR5UncyenFDcmZ5OS1Dd2FCTnZpZVdUWEdwYXpWckZlTnF3STMwWkJnanR6Rm82OHJOem15NDcybl94dlhLbmZPdngtSXZiZVpQX2c?oc=5",
+          "title": "Ukraine says new Starlink restrictions disrupt military as it reels from intel gaps and Trump clash - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVFZxOFpYUkhfNjVDUzFoSUhVQ3JRdERHWXdlbk1PUW9zc0tvNEo5cnVnODNTUHA0V1lmX1hyVERYc2FtX0d4MjMzdVZOVGpETjNTTy1FaHpFakZKYzQwWW9RV2hJeE9nQ0JoSUs4c0FJVE1ZSUdsWk5zSmxJcHVEaHJza2NjSEd1RmNYNVM0MHUxcDV1dzBraTB2UUh2RzhSdk05VmMyOUhVeEdKcFZjXzZGYUhTSlE?oc=5",
           "source": "Top stories - Google News",
-          "why": "Study linking 12% of global cancers to infections provides actionable public health prevention strategies."
+          "why": "Ukraine's military disruption from Starlink restrictions during active conflict signals critical technology-geopolitics intersection affecting wartime operations."
         },
         {
-          "title": "Texas prosecutor considering felony charges for ICE agent who ran over man - The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXVsV1Q1THg5aFNuV18tMDZIeVRtNmhLTlRCNUtneGZ2aW5RSU92bENXYkRCSlFaeU96N2VNSV94eENtMnVmQjNxZExMakJXYmZZTWItbmpHTkNrYkh2SEh1VVBQMjhJMm16QUhtYW4ydnNWWjZ4YzAzU0pFbk5xbjZPLXY?oc=5",
+          "title": "DOJ seized Rep. Ilhan Omar’s phone, subpoenaed family members in immigration status probe - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc3JLbHpQdmhZY2ZyY3RpZlJIS1k4aXdkZDZEWGxhTzRMVFpUY1A0ajZvT3E2bUR3RFROTnh1SjZaTGxDNzJqcC1aQ1c3dG44TEdTLUNzWDd2V0oyUjBIY1hWWFgzSk1XQzNUaTctQ3VxTzNTdnRmcXdPNk00VUZCaEpKbzc4SWJuYkxKRjVYUEI2Rl9qaW04Y3g0Mk91UktqLVlZLVdseEUwRTRxUVdXV0pRUGZJSXlCRXM2bEhUbzRBUmkydWZ0NHBRSkhwTFFy?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "ICE agent felony charges for striking migrant raise accountability questions in immigration enforcement."
+          "why": "DOJ seizure of Rep. Ilhan Omar's phone in immigration probe raises constitutional and political accountability questions with broader implications."
         },
         {
-          "title": "Russell Brand was a 'sexual predator', says prosecution as rape trial begins - BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpUlB6aE1lOGxGNFdMMWVQcU9JWnJOTlZoUFlYYWFrWElKOU56eGhNa05KWWpMZ1I5SmlTd1NCcFB6c1VfaGFwQlZKUi1fUExvc2FPNEs1aGwwMEk?oc=5",
-          "source": "Top stories - Google News",
-          "why": "Russell Brand rape trial opening statements mark significant #MeToo case in entertainment industry."
+          "title": "Nancy Mace’s ex-fiance, 2 other men face sex crime charges after her accusations in House speech - The Hill",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZkx4Q2diR2JUejBtdV9hLTRwcU5qYmlhQ1lSMThVN3JnX2NRNXZkNGRuWERIRkFJMm9qVHBfa0wxZmJ0Y2Z3WkNJVElodmdJTVF5aWxodGdUQUxzZGJMUzhZd2p6VlNsd0lLemRWMzViUllUOXZ4YjNjRzdkTjVSX1IwVG1iRW42dnFEdV9UOW01Smc3TjA40gGcAUFVX3lxTE9DbU52WGg0X05TQzJnTkg5WEZEbzdwUC1kWWM4NnZKTnZ6WHJkRHFDVDM3T3l6OEJaUVlyWlN3SEhjZGpjZXVRRjdGZExmZVQtWnY5TC1KT2phQ0VlMVhsMXhqRXZFRTBuR2pycVZHSjdWTThSQmhLbFB3MVNSWlpvcENra2RydWdNYmJkblFKbTNRUEpkS3YtbDM4bg?oc=5",
+          "source": "U.S. - Latest - Google News",
+          "why": "Sex crime charges against Rep. Nancy Mace's ex-fiancé validate her public accusations and underscore accountability for sexual assault allegations."
+        }
+      ],
+      "stlouis": [
+        {
+          "title": "First Full MetroLink Rail Expansion Completed in 20 Years with $192M Airport Project - Metro Magazine",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGVON1JKZk1CTndDY2UxelVxdi1WWG53OXkxVUFhUUdERGhlbzNaWnEzRlNWeXJubnVjZG5MOE5VbHJTR1d0b3RrMEVMb0FtR2FMdzhKQmYycFJjM3VwU244V05XcXljTlJpWlhaOU5RU0wzRFdOSHdWZV8tQlJEbVRsME1URUJldEc1Qzk1RGNLQ3JUYjdHYThMWURwT3JBZThtUVdmdzhzclhyUmxrM1RqUUZ0M2U4NGZZ?oc=5",
+          "source": "\"\"St. Louis\" metro\" - Google News",
+          "why": "MetroLink's first full rail expansion in 20 years with $192M investment to airport signals major regional transit infrastructure progress."
+        },
+        {
+          "title": "Ameren’s energy plans draw protests over coal, gas - St. Louis American",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY2NxdFlEeHJGNzNhemhzWllvaVBfVENWNXJycy1TM1JzSjkwMks3TnNsN2ZhZkRXUW8tMDduQWZlUE0zWjduMFpsRVlwbG1nUThyWk5SMDJ3azJyNEFFdVNwN2ZONkRTbnAtd3N6azV1UzBoSzEzeGJHTUpSX1hkSjY1M244YUo5SkE?oc=5",
+          "source": "\"\"St. Louis\" Missouri\" - Google News",
+          "why": "Ameren's energy plan protests highlight ongoing local tensions between coal/gas expansion and clean energy transition preferences."
+        },
+        {
+          "title": "St. Louis City SC could set MLS unbeaten record, clinch playoff spot on Wednesday - FOX 2",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYXJ0WjY4UVh6b29Jc0cxLVNDd3dKSzVBTTVGRkRnX1RzeVhuQV91TVFmMnRIMjY3UTEyV0lpY3ZpTjk4T2VOaW9teGtHMUJUNlpJYjJFUDRiR1djRU1uYjNVQmhPQWRwcDQ5UUlGeURFNVp1UE5xQ2VVN1pnNGVBSVZuRUZ1d1c2M3NnYnZJZF9zNHBxaFVhZG5rYm84OHBuamVKWWdzYWlYTFR3NzhBMXFpdVFOaVNwN2F3?oc=5",
+          "source": "\"\"St. Louis\" Missouri\" - Google News",
+          "why": "St. Louis City SC's potential MLS unbeaten record and playoff clinch represents significant achievement for the newly-launched franchise."
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "Live Updates: Houthis launch new attack on Saudi capital as Trump mulls U.S. role in Mideast war's new front - CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
+          "title": "Turkey Raids Pro-Opposition TV Station - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkxKZTA2UzBwb2hjWWtMRkRyZUw4bjJybmNPaFl4Mm5aSmxtOTJTbzFUNGgza0dYNDJoYUF1TzJjTXJYWTlzRlIzaDBrZ1R2Y0tFa2l0SWhLakI4UkhjTlFqTDR0MWJZajhkVDlON0NINmtXU09sbmJWMk5XdlhWRVlYQTY0ZjZ2TWZNVjBvX2dTR2tG?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Houthi attacks on Saudi Aramco escalate Middle East tensions as Trump weighs U.S. military involvement."
+          "why": "Turkish raid on pro-opposition TV station reflects escalating press freedom concerns and government control over independent media."
         },
         {
-          "title": "Two Cargo Ships Sink Near Hormuz, as Iranian Attacks Spike - WSJ",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+          "title": "Oil price hikes, Saudi-Houthi strikes carry on amid Trump's midterm pause on Iran war - Fox News",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWVpMUFEeDIzNVZsN1hTVlFCbTJXWm1qRHh6RUgyczJVUF9Ha3FLblZOVzVaS2QtSDJDMDRIaUFrRzRkZmlOaTR4OFVVcml1Z21NWXhDUjl6SmZtWkE0SFVHRmszbnYwRU5oRFVCTHVNQm15dkNSRWo4dGl0Y3lnSmZBZWx6Z3hZRVVBMWJ2eWxLeENhd3NZNmppLVRxNlF2Qmlv?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Iranian cargo ship sinkings near Hormuz threaten global shipping routes and oil prices before U.S. elections."
+          "why": "Ongoing Houthi strikes on Saudi oil infrastructure and Riyadh amid Middle East tensions drive oil price volatility with global economic spillover."
         },
         {
-          "title": "Ukrainian drones hit Russia's top data centre in attack on AI ambitions - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlNheVdFZk5KM25CV0NxS0tHbG81dGlSTTRZaVNLbkNiQklzNmV5d0s5M2NtTlBlSTIzTk5DbXFBME5USFNYS21ZYUxpeVhuUXpkZ2hCVVVITFZ1Q2ZJOWZsWlVkWVdSX3k4Qm5vNkl4MjhGWXp0NXVIcnNHc1c5S0VwU2Q5V29FcmF1NWh1a0hZa0FycXdvRVd3Q0I2VU9sS3NB?oc=5",
+          "title": "Pope Leo is eating, celebrating Mass and walking after cancer surgery, but trip is in question - AP News",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd2xLYi1GaG84eGZndEJRLXpCS0JWUTZjeTU4N3drUTVxVzFGLUlLSHg2b1ZXU3M2SG44NVFhYnh4MzlsaW1EaEtTQVBaeEJHcTZ5ejVOY2NpQzVNcURpY0taa1V6di1DN1M0RlMyR2pibHlTbWFRaDg5SUJFQWNMWUlaRXNvd0stV3dYY2J6Q0t3YjlKaDNOaW9RbWw?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Ukrainian drone strike on Russia's top data centre demonstrates asymmetric warfare targeting AI infrastructure."
+          "why": "Pope Leo's recovery from lung cancer surgery and ability to perform duties signals his continued leadership despite recent health crisis."
         },
         {
-          "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
-          "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "title": "What if you could turn off your algorithm? Australia is about to try",
+          "link": "https://www.bbc.co.uk/news/videos/ck78pj2qy42po?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "why": "Elon Musk's Starlink restrictions to Ukraine signal political influence over military technology in active conflict."
+          "why": "Australia's new legislation forcing tech companies to allow algorithm opt-outs sets precedent for global digital regulation and user autonomy."
         },
         {
-          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-          "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "German trial of Ukrainian for Nord Stream pipeline bombing reopens geopolitical investigation into energy sabotage."
+          "title": "Fire erupts at Albania’s Education Ministry as protests enter third day - Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObDVTODloalNSd1pjNlI3ODZjM2xBbDl6SFA3RTNNdlNoSDFkTnlMUHlVbHJQQXRuSXRyalFCdllKMGViM09WMEJhU1pRQjA5SG90SDI4ZlJkU1hDMXhRZ293bVUwQUFCOENZZFlJeVh3bkJrb3BiZTZyV05GakFzT1pmNmNyaVByRTlRaUdET012a3I4Z2EtaUN2eDBUU3lvYW5uNG8zNkc4UEprX0otRUhR0gG3AUFVX3lxTFByNFJYR2VyZk5CYUpJc1l5cms1TjhocU1zRDFlOWVodmtxUHl1b0RSZGVWcElvY1VwUU8tRHVaSUFhUGpmRGtIMXRYWVhWcDR1SE5wR1B1MHkyM1JPS0xDU2JmMGRBR2VVOHpRLXZPZE5EaVMxV0phSGNfU21Rd2hqV2RUeEJVbWNkeXoxQUJ3bDNrUG42TWNidTduazdGeW16OGRDOUZUTzhtMHZGTVFDTUxvQ3NHOA?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Albania's violent student protests over education and jobs escalate into third day, reflecting regional youth frustration with economic prospects."
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "Mukesh Ambani's Jio to launch record India IPO on October 21 - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN2pOLUFIMVROWjYtbmFkc1p1SU4zb0dENXZ6RHVRR2F2ZDFMYkU5QlRmTi01V2g0c0p4QkdadjRsdW5XeWNZU2F3VUNsR1pnZ0s1QTRPTjNoSUZhUjFXdk9IZ3hSZkhUX0lIWGhYYlk5OEpqSGtnZjdsQzdnM2EwZThhcFF5VjhqcXU1VWprc3pFdGZPeTl4cFhhbmp2UGE3SFpXalBWTHJqTDNX?oc=5",
+          "title": "MEA highlights sustained India-China diplomatic talks as Piyush Goyal's signals scope for renewed engagement - ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaUlqb1l2cFgxZWJuVVZjU2VHb2NaRHhydkxMb01wMjRUcWVabEtCSUswNXZoZW9ScU1vTzd4bDVFNkt1VjhWMkFPYTZRYUZkSnNwdHp4a2xFTjg2NTQxZDlTN0ItMmVzc21EYWU4TjhNYjB0MXRoek51cWlMWGE3TUtEVUxGQ1ZfWlFjOFdFQVQ5M2lhMkU1OThsRkFvNktyblhnRU55QWVGQnQwbFV3dDVJVzhGQVZyeFZpdUh0UkxLc1k2SmIzUm9UR25RWVpHdlZVQmpaSV9WRGFvSFhTRzdtMGdHQkpFRmFnRGhTN212UQ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Jio's record India IPO launch on October 21 marks major market event for Mukesh Ambani's conglomerate expansion."
+          "why": "India-China diplomatic engagement through sustained talks and Piyush Goyal signals potential reset in bilateral ties after border tensions."
         },
         {
-          "title": "Canada's Fairfax to buy 60.2% stake in IDBI Bank for Rs 53,000 crore; largest FDI in an Indian bank - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQczA1WjF2aUpmVDhwXy0wWmNmZGN0aUhDbG8tak5DWVk4TEU4TWRVNWxXUW9IQV9sUUg4XzFGdVNJUXBNYkZtbHdCaGg1bG54cUtBV2dMeUV4Q2tDeG5hbWs4UzV2ekt5QTkyOUh0THZsaDdkbG1QLTBuYi1yMHB1S1NVYjZIRnB5UzZhTEpEQWF4Q1dhZVlDQXhzWWZSaGcxNWlzb2t5XzhOYTlob0RZcEdJTnlJVk9CU2ZoOHFxZ2M4RGZEZHBwdDlHdzRTQU5uWjEta0JqSUJVUVJSQ285OXRwV1EyQnRPMEZ1NU5YZDRSQXphZWdEZmtNR29OZHZ4SU5XTWdTbU8zbXhObUHSAZMCQVVfeXFMTXhWXzd4ZlJTekcwbTVDcGM3R25GRmQ5eTRBaFZxRFktc1RIVG05QlJHbWF6MmpJSTVmU281ODhZYVJMaEFwNTFGRlRPd0pJZDQ4RWozQ0RsT3ZqWFFWNjFIdG5IM0xBU1N1SDZaN0ZiVEJ6RTBwNncwbTdlYTlkWVZYNHdKRDlJSDF1bWk2Y2RVVjhoVzV2TVRWUk1IcTl1TjU3UmNWU3VJQWhLLVplSE5Nd2hMRlkzUEZ2cE9WVmlMbEJFQ2VURTk3YVc2cmdCS2JvZ3M0c0R4MWZDd2N1YjNDcVdGcFBjdG83eHdjd0dYU3c0OFlSTU1kY0U3ZVBMSVdRaGV4S3l0OVVtWFhMaWhFSDg?oc=5",
+          "title": "Smriti Mandhana set for new chapter as India captain - The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUG5fcTJhTnlYQzF6QVpkRWROTmJ3bnZRWVFOVHZ0bXNJeXM5OENwX3Y2b0pTeWw3a293T2dYZjBJUDFtNkM3Ni1sTmZYeTBZQnRUQjAwQ3A0Mlh2YUtDbmxUX3NnbXRTNG9RUWx0T19fRGRBVEZxSE5xeVRVRmNULW9rampDUVRudW1qRTJFQjJDa1c4cl9hVnEzblpyUTJINlhzQTZfODlGVWg4V1FWaNIBvgFBVV95cUxPSjVlU3dfTmp4Q1dIUTUyTzFRM09TZ3NjdFpNOWpnQmJWajBwV1NxV3Z4bWhDd2RnQ01KeHlkU3dtVUE3SlRrbzN6enYybFhoRnJndHM0MjBtaGVZeXNLSDExektCU2ZJQ2dXQkVieFY5VXNIWFp1bENIbkUzU2RnODQxREVJM2NkR2c2X1JQU1c5UVhkZjZ3UFhBYlJKS2NSSzR2RTBTQWRJV1JLRHQxbm9jQWZkQ09lVFBrbzJn?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Canada's Fairfax $53 billion IDBI Bank stake acquisition is largest-ever FDI in Indian banking sector."
+          "why": "Smriti Mandhana's appointment as India cricket captain marks significant milestone for women's cricket leadership."
         },
         {
-          "title": "India issues fresh advisory for nationals in Saudi Arabia amid Houthi attacks - The New Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEtJZ19ZVWo2UkhUbDVlVUhwZk1DNmRsc01TanZEX3QwWktLak5qdlRUU2RSU0ZoZ19SX1BOeEdvSDkwZHpDQUtTRy1sRjVpR25fcXliQ1paSy1WV2FWaE5XWXh3ZzJOS3AtU1Z1N1N0cU5NaXl0V1h1TnhuQUliODQ5Z0VKNWtKX2NNaE00bEhFcmhScmI5QWU4emhoRzAyVjVXVVdUS1A3MFdzd2N1N2dWMjFPUHI2eXBENWNNc2U3NS03OFhr0gHUAUFVX3lxTE9WZ3hvTUQzcm5mT0hCRkVabjlGYjZ6YnVsMW4tRV9zWEN3VnljemZqczVManlBb1hrZ3NoeWVRVVZ6SlhZYWVHNmJseUhyTHZqUHAzUy1Gb3NzYkd6ZkYtNGpTa2dUMlJWY1ZvMEE0cTdYbEdLR2J6Y3JyUEhPblRrdGtidkxkWHBuLWstLWp5cnA1MFNDT2VrMmtLV3dEaWFlUmlfZXJsNHRWNmF3SE5xNHlHbDNCTEVxcGY0b2lTXzNnak1XZl9EaUwzZ0kzSW9jZklR?oc=5",
+          "title": "Poverty Went Down In India Over A Decade. How Earnings Are Keeping Up - NDTV",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGlKTWJkaTRnV2VtZE0ya1cxTWVLOG9tRlpqQ01jMVZibm5TVTNHVk96a09qb1FJSWJIQUFLOUphZkp0eUN6RnFVMUpFcE1PUHl3RVgwOHVBUVNYcnJuSGNVdlBLdnlTQVBkYXJMTmZKTnZseHFaSnFIUWtBVERIMDFLcWhfb0R4UXRMUk0zZXlnV0sxUE1GQXJzYjdwbU9vbFZZMGxIR3VhOUdwaWfSAbYBQVVfeXFMTlNERmw1Nl9oM0RkVWdva29kTVZqUTFXQ1d0WTVab3BYTWFVSWFUVDVlYjBaRU1oQVlHbjFONkpwYXdvUFczM0J1NEdwZE4xMDlsaGFNR3hPa19leTdaYmV0aXRhZmJ0TDlTZDM0dkZJZEdUVjJCc1hNbS1aUlkxR3VWRTNFLXI1bF94SGpjbmQ0M0lGQ1owX0RNZW5YckRTdV82a3hnaVRLMWRBanpkQXVoQUpSX3c?oc=5",
           "source": "\"India\" - Google News",
-          "why": "India issues advisory for nationals in Saudi Arabia as Houthi attacks escalate regional security risks."
+          "why": "Decade-long poverty reduction in India combined with rising earnings demonstrates substantial economic progress for lower-income populations."
         },
         {
-          "title": "India joins international fishing agreement for greater influence, sustainable practices - The New Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWVd5OTNXN1hta3hlNFUzQ3lXSkhTRmdldXNOSGtNUHBTQlA5WWlrZlQ2OGVMTUZFa1NHNkpaeXRjelJjUUlLVVUzUldtSnZka3FrbmttUUhwVzlZLTZqd2p2Z0x3aHJpSF9zSkJtX1BKUVZYcUFWbmRZVExGNmRWTGxjbkZRMlBnaGtwLUNzMmhDbjk4eFdlTlhnN1U5elQ5NWItUk9JUDhjSDJXZ1AzR2RBQjJCNnBsZHAxMEJzcHkyeElkaDJ2WlVlSXM1QmRiLUc0MdIB4gFBVV95cUxOZ3pNTVh3OV9vQVFJZV9uXzJxTDI1a0dUUDZ6UERmVi02aWRxSGRhM096WVlNOEZUT0VNYkw3MVJCQjUxNHJNYTF4blZzNGVCbGRzZS1TYmttTjM1YVRmcXVUN0pGanNndFBUY09admc5R2xFRVBMdlBFQlJrMVpQd3pnS3hpYVBwM0J1ZUVNZzJLWXdHbmpHc25BQjNPZkxwWW9QQU9JVVFnTkhBUjBFT1Zlc1VNMnBFZzNsSDhKNjBSX21QU1pFdnRvR28wWkFUR0o4aWdwSWJCb1hFYk1Bb3lB?oc=5",
+          "title": "US stocks: You receive $75 on a $100 dividend, but India may tax the full amount again; how to claim relief - Livemint",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPQjFKaGt3Ny1ZNW9CdXRDdnItR0lLZjZpX3F1QllIYno0U01oM0ptbkFyRW5BVnNmREpBcThFSVhSNFpHYTB6SkVaLXE3eXpGTkk4QVhINnBGR2kzUGRFNFB1OFRFdlFJdmNVdU5jUEEzMmZjbkpqQjlCVkN5SDFUMm0zYTkxSTNOWVNuekFCOHRENUJpei1QN1VoQzRjeU5yNkNTNFhObEhuQkZjWFI0QWJLaGoyTUkyVUNmWDB0bUxRUWkzQ2ZmaU54bVdJUzRCQkgwOFdtTkpESnlLenJic1VWN1M0QWhiREh0TkNWeEZhejBHclJtSmJMZ3QyT1XSAYQCQVVfeXFMUHBxNGJzQlpTV0ZXaFh0bE54UzQxbFVnMkdhNGNYbXBoOXl5dk85YXBYcXZLYzdQREtVdjJLQnBhUXM1TXVCY0w4NmFDc3hSRHdyU2VrWHdwa19hYnBwMDZuc1BGbTQ1aXpjY3ZpWlp3MFhIWjVSSzhnUjhYM1BXa3YyaWJYNlVqdFR4NVpvWHdNbGhyRFpxRjNBN0tJMld1d3VzUHBOS2hpMDNleXZyRHlHZ2FWMW9lRU91bTFGa2o5QjdOZGdMYjhfWHVBMlhoTmZ2UGNZcUpfM2ZlUGlPZ3lSRm9faHp0eFJiZTgyQ0prYmtLVDhLZWhhS01wb2ljcTF4Y18?oc=5",
           "source": "\"India\" - Google News",
-          "why": "India joins international fishing agreement to enhance sustainability practices and geopolitical maritime influence."
+          "why": "US dividend taxation double-dipping issue for Indian investors requires relief claim navigation, affecting investment strategy for NRI stock holders."
         },
         {
-          "title": "Rahul Gandhi Protests At India Gate With Parents Of Uttarakhand Murder Victim Ankita Bhandari - NDTV",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLWlwWW0yVzFMc1JuRHFURjc4bHYxdlhrdEtBbjY3VElrRWwtMkkzdGxoRVJseEVmTS14VlNNRm84Q3lOS3VuTno3OU9VUWpPdGRKU0MtODZDMGdrZkI2MEU1MDZNZXVPVldPbTRQNFZSSzY3bWNVbHZCX2F3akh3aU0xckYtc2lXeENvR0llYWRYSEFGSEZtQ25SdHNZa1ByWEx0VS1xQ0V1UmNTM2VmU3N4QWJPRF9GZjNWb3NnVFRlSjM5d3R4Nl96NjnSAdQBQVVfeXFMUEJ2Tm1OZW9FTXBMUzdkOUVCWGM1c1N4RS1HczdwSXdfWElXOTVDVklYcEsxUzA0YnJ5Ri1uNUl3THF2bWI5M0VtbWJzbzVqNjBLTzJiMmxSWHEwNzRCV0toWDBEakx6MVpuVzRQUU5yUUxHcEVUY2pUcmRvY3l1c25Ba0hmb04yWFB6TEZaMWs5dzBWRGdDYk5TbEZzLW1OMjBVYTl5QTNCUG9lYnNsd2F0U2VMMGhscUdmQ3k3TzRwRVNRSG8xZ3I0aFM4VzZzemhzaVk?oc=5",
+          "title": "TVK to join INDIA bloc's anti-CEC protest in Chennai as Congress-DMK rift deepens - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNnB3X09CcW9FVWx2QThzMXZ2Tm5QT1lJTmtMNVhabW12dXZaVGtnTUNZbVJwZ3JQWTUtQ3ZlUmtGNldjSlh3OXFPa1NOQ2tSSm9kdmxWXzRKbThqLS0tS0tJOTVMZlQ5Zm11UTgyUGNXdGpocUJvQWEzLTgzNlAySE5XOUpDSmxNY1FaZVlaalU0WFBGWm8zUWJ4OXdfNTN2LW14SzhTaXdTUnJZNGVUeHNIZldJdXExTk9aekMyRkVPMTFrUFdGUkJSS3VMbm5FN3FXNEZLT3dobk5QY3llSVZR0gHnAUFVX3lxTE44Vk1kZ1BpQl9QbHppbTR1WEhVNFJybVFRU1hhX3pUeU9TQ09pM1pXYlR4dkNsU19HVDQ3cjktNW9uT2M5RFMwNmFPaUdfaTZNRkFPcTk2TEw3clNCQlhaX0dYQjI4cHFBcy1wSlRhSkZ6OUtBTHlTSVJWaFBrMXprRWdEMHBMQUtBZ2RKMlRrUThFNzAzNkx2bklNOEd2al9ZSEpaRFQ2M1ZtRHZwOGlEbTlGWEhMemJmYTcyc2s2QW84TS1QZzRoT3Iydno0TE9KbkEwRDJVMnlVOGcyR0VSY2xDRkdyUQ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Rahul Gandhi's protest over Ankita Bhandari murder case highlights accountability failures in law enforcement."
+          "why": "Opposition coalition rift over anti-CEC protests highlights fractures within INDIA bloc ahead of crucial political mobilization."
         }
       ],
       "immigration": [
         {
-          "title": "US proposes ending deference to past H-1B approvals; Indians will be disproportionately impacted - inkl",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUXM1ck5LSlpucXV0LV9TMUlNMWxGb3pzbmM0Y01WaXZWazU5NzNoQjZsUHM0bkpfTWxQM2NsV2lnYWpIMVhzMEdiMDZycENCMDhKOEo4TEdqQXpSR0hfMWpBYmtIY1B5bkE2VE9oSjZ0NDFZLUsyQ3pWczdOWG81cFZMaEhBRl85NlVWSFVwbEN2SFFIamQ1VXhRenRqb2tERlEtWWhrQVNXdFhzOGUtZDFsc2gwLVdJa3k0Q1pR?oc=5",
+          "title": "US proposes ending deference to past H-1B approvals; Indians will be disproportionately impacted - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRDlhbjh2Qzlaek13cXhBMmx6dUNDQWNHUFdGb2t6NFRId3YyQ1M0VW9DaUlrX2NLTHpFR1I0bkpwMENMTlB4aW5lNGxfRnlzOVB1SkxMc1JYX0RkTXpoRTZwQUxpWTVMZkNfNEVEX0J5M0JURHd0aXhDZEhZazBKVVV6aTZlNV94ckNDNUtFNm5pN3M1QV93N0lvSGFMR3k2VVpuRTktd185ckpvVlFuSjF1UENrNTAtRk1vSWtDaVFRLUhFVXJUejZSRmVUYjdsNTV6WWRKX3N4X2tvdUh4UXN6c0RNQm5fb1g1V09lYzNiOHc3RmV3NmNn0gH_AUFVX3lxTFBacENCRFFOeUJwZjFwZi1nWUZIT01ReXpYSXlHTzZDMVM2UGpIMlF4Q2h0aFZ3a0ZKQmw5bndWX1VzT2Z0ZHdKWUpiREFFRWM4RzBxWGkzYkZQR204OE5sZF93MERhTDBFeGpUaGJ4UEZQLWkzbkxUdUtPalIyUWJZbnJfWTVjdHlqZllpYmNLR3hZS0NkalJJcWF4elEwcVl6bUdSblhQUjF5N3JpQlp1cnJHVEFSU2VZVUhoVmJWTGtOYkl1eW1mRG9xaFc5WXpJbWFaSkIyX0ZhWVl2WTZxOG90cUpZQTFSdHVQVnNONDA3LWJFVFBWWnFXTzM2SQ?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "U.S. proposal to end H-1B prior-deference policy disproportionately impacts Indian workers, fundamentally altering visa approval certainty."
+          "why": "Proposed end to H-1B prior-deference policy disproportionately impacts Indian visa workers and threatens established employment continuity."
         },
         {
-          "title": "Fresh setback for H-1B workers: US ends 540-day automatic work permit extension, impact on Indians explained | Hindustan Times - Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdjdYTF9iWkJac0p2eHZ5RTkzdTR2M3Z6T29McU5ianpPZVlvT2EwbEkwejdHdU9YZVg1R0dqWHM0Mm0wM2gwRmNJQjlXQWlkLTY2NkROZU9zTDR5T2ZfRFFlYU0xdG9JSC1PRUt2N0pYaXJQQnVLSzAzWnI0WEh4UlIzT2RtVUgyQmUwQVJlaG1MVUw2dHdFcGZzcjdFYlFBbENGX0x3M3hMZjJtVUN2NFdtMGs0U0h5VURXUVlLaGxlbThjeWp3WnloZnhsUlRBZ2dHUzdXcXU5b2xGbmZnOVNhV3loTkxlSV85bFgxLXZ2NkcwM3JCYkdxWEpkb1I0ZUdrcTFGM2PSAY4CQVVfeXFMTUVNemx4ZTFxZFdWM0dtdnZIWkFFU3ozWUEtUVFBRTNPS2dmNmw1S3lLc3dXT0V1OUZjeVgtWGNyTm16SGMyYnBBZmI5RVR4SDdxVE9Yb2JhLXRtbGFjZG83eTVrUzNJMjdpZ2dpMjNYeEd6d0Y4V2FXQ21CbWNPckxCUmRTRTJNM0lzcXFMSlEzSWxjdldQOEYtRzVpQUFGaVJFLVAyWG01YWhGcGpxM3ctRE85VmxzaDBsb0pDZDJjSzhEUHVNazd0S0NqRkdFVlVjd3BjTHNxSVo2Wkt4U3RlUHltNW52Mk1hQTFkalhGSllOZUlxenpPc0I2eUhiUTFGdXJqMERGQTkyOHlB?oc=5",
+          "title": "USCIS ends 540-day work permit extension: Immigrants could face job disruptions - The American Bazaar",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2FlU1M3RXp2c3RwU3BXa0tkdUR2QW83Ymp0cXRVUUEwdFVxaW5Nd0JnTkl4NzJ0QXpXZFM4OHZiM1Fyc0tqVDZyNW5oM1NPV0hXdC05dl9NdkxQUWpZc2txajAzU2NGZ3g4SWtHeHpPWVIycGZHcjhwWFpHaUt6OXdGMWYxLWpfZTE4QmFNRVFENDFVLW5F?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Termination of 540-day automatic work permit extensions directly harms Indian H-1B visa holders' employment continuity."
+          "why": "USCIS termination of 540-day work permit extension forces immediate compliance changes and potential job disruptions for immigrant workers."
         },
         {
-          "title": "Divya Decodes: The U.S.-India Visa & Green Card Dispute Explained - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSFp5T0hZbUN0d0dxTW9XVzZDWm02cGk4YUNQSlRjeUJfNUNvSWgxLVFJV2tmcC1pLWxFZTAtbk1qQTJFZUVJbmlFTUc5XzQ3QlJWS1F1Rzc2WkNKb2l1aDBuYzZIalFHbGJhbTMxZXdZX21Xc19kb2VKeWRoT2VkSzRGYjRrYnVaV0pVSDQtY2ZUVTdkVEVrbWtoXzRNY0I1WGp5b0RQczdOX29vRkVMbGtUZFBISThTLU1ZMXB1c2J4dko1dlFhVkdmMEt2Z2YtQkpSN3pR0gHbAUFVX3lxTE02X2xiZWlfTnNiRTJfbi1nSHd2RTZMMVBTSDlTUmVCN0hMd2JqX18tUTZVR0xMcmZRbVpubkNMZmVUUWx5Y1FENU5iZGVtbFFlUHZsUWIyMDQ4d28tNWxfcWE2QnhnTldyMURTWjFVaUwxMnFkYXYxd2FwMmVfa2RtWHZQV2dTSUdDcHJFeFVGOV9WTHBZVXF2UDEzQlQ5Wjk4ZDk0OFRXMU14WEk1bVg5UGZTY1NadnhEWE9xaUZqNTBZVXNQNjJxalRoYjFQWkpfTVFVRm1PWVVFOA?oc=5",
+          "title": "H-1B Extension Reviews May Tighten; H-4 Spouses Risk Work Gaps - IndiaWest",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUVNva1VJWVc5a3lTOWhMc2FETWRMamh2WGdjZWFOUXU0QTc0Qngya2dUdjhFczh1WG5qMzdEc1Axd1pwWDlfblFvT0M5QWUzVXpKSC04RkVELUhXbjQwZkVPMUJVOFZQZHRjdmV6a0gyVjRGa3E4RllWLXNuTkhTX3M5Wmk1S2RXZ1F6aEFwTjJaX1lTZzFacmRB?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Detailed explainer on U.S.-India visa and green card dispute clarifies implications of recent policy changes for both nations."
+          "why": "Tightened H-1B extension reviews and H-4 spouse work authorization gaps create employment uncertainty for dependent visa holders."
+        }
+      ]
+    },
+    "finance": {
+      "items": [
+        {
+          "title": "Prices increased sharply in September in last inflation report ahead of elections - The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNDN2VFVqajVYaktjTE5GTmFOVE1ZSmRYNW1kQjBKQV8wdWFraFJfZHJUZVRvRGNjNVdsa0xsUDJlNFdDMXBvdFJ4cU1SWkZwOGRoVzhVZ3pBT1p1Q3RSOUV1aHNfdWRDOHNsY2MwSEtublVxYkIwZVZiXzNLckswWVY1Yl9JdVlGRncyMGppTFFucTgzeDM1UG5QQ3hoUkhQTFhZQUN6WU9jNDQ5TXNVbnFRdFZaNWM?oc=5",
+          "source": "Business - Latest - Google News",
+          "why": "September inflation surge triggers S&P 500 1% slump and reignites Fed rate hike concerns, creating market volatility before elections."
+        },
+        {
+          "title": "U.S. stocks drop toward their worst day since June as inflation worsens - BNN Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenhvNVVvMVVkajVSX01VZURXSXpyektVNFFTZDVGR1oyMDBYSlFqNVlGR1hSdGQxbDBDaUV2Ukl0emN4aUlNcFhWOV9EUnJfVlh2bm0xdkFrYndzSHlkLXJRTFdGM0xpTXlDVmVqWmFfTmNlRW1hTl9NZVlCa1lUdi1KY0V3eG03SDBQdjMtdl9VdF9mbGpyOFl1Z0g2RVBkUDM1X1IzTFBjM3VPSWpMcGtYMjZVV2F1?oc=5",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "why": "US stock selloff toward worst day since June reflects investor anxiety over persistent inflation and rate policy trajectory."
+        },
+        {
+          "title": "Wall Street tumbles as hot inflation data feeds worries about Fed rate hikes - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaDBmaW4tZmgyRnVGRWhpV0tQYlpic3Y2a1gyRm53Z1hFTXhRRWN5ZGNyb0laZjZHZ0hGd2piUkxiOUg1aWJoODB2X3N6d0Rwb3NkSjV6cGR0eDZ5dkJLOW9qanEtY0JINksxdnVBdDliZTlvU2R2WWwza0NQclNTWTFUSGtjQUE3a1NKTUFpYWs?oc=5",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "why": "Wall Street tumble driven by hot inflation data raises immediate concerns about Fed rate hiking cycle and equity valuations."
+        },
+        {
+          "title": "Oct 14: Sensex, Nifty Fall as Crude Oil, Inflation and FII Selling Weigh on Sentiment - The Indian Awaaz",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZDhtNkJPT3QtYldFb1gxZ3RaUkw2bDhTY0pWV0ZmSncxaVZwZkx3REJtSHZWSWFQM2d6TkFYckJSMDVrME9WMVpXQTZick9jYjNLYVRCcllZeXp5NGhsaVhZN2Q0dG5BTTREaUsyM0Z6Z3N1VUh0bUdGVmc2VW5FLWZncWh0ZVhXNHRfMUtKaUszLXhZNnc2U1FkX0tjSVRNUUkxc2RhNkU1MkJaTTFN?oc=5",
+          "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
+          "why": "Sensex and Nifty declines amid crude oil price surge and FII selling pressure signal weakening Indian market sentiment."
+        },
+        {
+          "title": "Nifty's 200-day moving average sounds alarm as market breadth thins - Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZExfVlVINkxYYi1yRlFlT2JVWE9qMTAyY1BCRDZwMDd2YWQ0MXQ1RFpMUG9IV2dUQnROMFk4MjNSbWE1WUw5c0hFbXZSZzJxejFmVU1pOXlzT1lnWm9VWE0zWXV4U0pRN2paOWM5djVSRWpSRm56WUJTcDNST0xJWWRjVTJBWGNuYWF0cnY0UFYwVnc1S3BsSVowZ2ltLXRaYTNJb1UwSHc3ZFR0eExtX3NWOWk4ZUw1RVVpd3hwQ0d5RlhEMWI5Sk5WZlJkYWfSAdQBQVVfeXFMTlNoMkl4TlhibWRMaUNGYURNTFI1YUtVRzA5dGExUkpYUFlBdlM4TXZ6V2hUcXowYzJnZC1McUdjbXpnUGgwYndjRjRhdVZTdldEWm1IdkpUQlp4R1lTOEhkaTBUeThvaDhXVGx6MjBRcERtMXlTcFlLVW8zZzcxdVBBazVidGRtX2hqSmRsMmpFcU5ld1l1cU1JcHFvdWJzN1REQVVvSFZXMndpNTNndld6THZ5RzctY2ZIcnNCdkVXamkySlctY0E2OHRrcHRZRzNfODM?oc=5",
+          "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
+          "why": "Nifty's breach of 200-day moving average with thinning market breadth warns of potential broader downtrend in Indian equities."
         }
       ]
     }
@@ -141,24 +195,24 @@
     "theme": "creativity",
     "cards": [
       {
-        "title": "Constraints Fuel Innovation",
-        "insight": "When resources or freedoms are limited, creative minds often produce their most distinctive work. History shows artists, musicians, and entrepreneurs thrive under pressure because constraints force prioritization and eliminate mediocre options.",
-        "takeaway": "Before expanding resources, define clear boundaries on your current project and observe where the most original ideas emerge."
+        "title": "Constraints as Creative Catalysts",
+        "insight": "The most innovative solutions often emerge from tight limitations rather than unlimited resources. A narrow budget, strict timeline, or technical constraint forces fresh thinking and unexpected problem-solving paths that abundance might obscure.",
+        "takeaway": "When facing a project bottleneck, reframe it as a creative boundary rather than a barrier—identify one limitation and ask 'what becomes possible within this constraint?'"
       },
       {
-        "title": "Cross-Domain Pollination",
-        "insight": "Creativity thrives at the intersection of disparate fields—when someone trained in one discipline applies unexpected methods from another. The most transformative ideas rarely come from specialists working in isolation.",
-        "takeaway": "Schedule regular conversations with people outside your field; ask how their industry solves problems you face."
+        "title": "Cross-Domain Inspiration Mining",
+        "insight": "Breakthrough ideas rarely come from deep specialization alone. Combining concepts from unrelated fields—biology applied to engineering, music patterns applied to data visualization—creates novel connections your competitors haven't made.",
+        "takeaway": "Spend 30 minutes weekly exploring an industry or discipline completely outside your expertise and note one unexpected principle you could adapt to your work."
       },
       {
-        "title": "Permission vs. Forgiveness",
-        "insight": "Creative breakthroughs often require acting before consensus forms. Waiting for perfect approval stifles experimentation; rapid iteration with feedback tolerance enables discovery of unexpected solutions.",
-        "takeaway": "Identify one low-risk idea this week you can test without formal approval, then gather feedback to refine it."
+        "title": "Failure as Feedback Loop",
+        "insight": "Creative work requires rapid iteration; failed experiments generate more learning than endless planning. Each misstep reveals what doesn't work and points toward what might, creating momentum that analysis alone cannot.",
+        "takeaway": "Set a weekly target for 'creative failures'—launch three half-baked ideas and document what each one teaches about your actual problem."
       },
       {
-        "title": "Boredom as a Feature",
-        "insight": "Modern productivity culture treats boredom as waste, but unstructured mental time—walking, showering, daydreaming—enables the subconscious to connect disparate concepts and generate novel insights.",
-        "takeaway": "Protect one hour weekly for activity without input: no phones, podcasts, or meetings; let your mind wander intentionally."
+        "title": "Incubation Over Intensity",
+        "insight": "Sustained creative breakthroughs emerge from alternating between focused work and genuine rest, not marathon grinding sessions. The subconscious continues pattern-matching during breaks, surfacing solutions conscious effort missed.",
+        "takeaway": "Schedule 'walk breaks' during complex creative work—step away for 15 minutes every 90 minutes and notice how problems often clarify in the silence."
       }
     ]
   }
