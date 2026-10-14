@@ -162,54 +162,44 @@ async function fetchWeather() {
 
 // Major indices for the Finance tab. Fetched server-side with FMP_API_KEY so the key
 // never reaches the client (same model as ANTHROPIC_API_KEY).
-// US-listed ETF proxies (free FMP plan serves these; raw index symbols are 403 on free).
-// Price is the ETF's; the % change tracks each market, which is the signal that matters.
+// US-listed ETF proxies, quoted via Stooq (free, no API key). Price is the ETF's; the
+// % change is the session move (last vs open), which tracks each market's direction.
 const MARKET_SYMBOLS = [
-  ['SPY', 'S&P 500 · SPY'], ['QQQ', 'Nasdaq · QQQ'], ['DIA', 'Dow · DIA'],
-  ['INDA', 'India · INDA'], ['EWJ', 'Japan · EWJ'], ['EWU', 'UK · EWU'],
-  ['EWH', 'Hong Kong · EWH'], ['VT', 'World · VT'],
+  ['spy.us', 'S&P 500 · SPY'], ['qqq.us', 'Nasdaq · QQQ'], ['dia.us', 'Dow · DIA'],
+  ['inda.us', 'India · INDA'], ['ewj.us', 'Japan · EWJ'], ['ewu.us', 'UK · EWU'],
+  ['ewh.us', 'Hong Kong · EWH'], ['vt.us', 'World · VT'],
 ];
 
-function normalizeQuotes(data) {
-  if (!Array.isArray(data)) return [];
+// Parse Stooq's light-quote CSV (f=sd2t2ohlcv): Symbol,Date,Time,Open,High,Low,Close,Volume.
+// Skips unavailable rows (N/D) and computes the session % change from open→close.
+export function parseStooqQuotes(csv) {
   const nameBy = Object.fromEntries(MARKET_SYMBOLS);
-  const order = Object.fromEntries(MARKET_SYMBOLS.map(([s], i) => [s, i]));
-  return data
-    .filter(q => q && typeof (q.price ?? q.close) === 'number')
-    .map(q => ({
-      symbol: q.symbol,
-      name: nameBy[q.symbol] || q.name || q.symbol,
-      price: q.price ?? q.close,
-      // Field name differs across FMP endpoints (changesPercentage / changePercentage).
-      changePct: Number(parseFloat(q.changesPercentage ?? q.changePercentage)) || 0,
-    }))
-    .sort((a, b) => (order[a.symbol] ?? 99) - (order[b.symbol] ?? 99));
+  const out = [];
+  for (const row of String(csv).trim().split('\n').slice(1)) {
+    const c = row.split(',');
+    const sym = (c[0] || '').trim(), open = parseFloat(c[3]), close = parseFloat(c[6]);
+    if (!Number.isFinite(close) || close <= 0) continue;
+    const changePct = Number.isFinite(open) && open > 0 ? Math.round(((close - open) / open) * 10000) / 100 : 0;
+    out.push({ symbol: sym, name: nameBy[sym.toLowerCase()] || sym, price: close, changePct });
+  }
+  return out;
 }
 
 async function fetchMarkets() {
-  const key = process.env.FMP_API_KEY;
-  if (!key) { console.warn('FMP_API_KEY not set — skipping market quotes'); return []; }
-  const csv = MARKET_SYMBOLS.map(([s]) => encodeURIComponent(s)).join(',');
-  // Try newer "stable" API first, then legacy v3 — whichever this plan allows. The URL
-  // (which carries the key) is never logged; only the endpoint path on failure.
-  const endpoints = [
-    `https://financialmodelingprep.com/stable/quote?symbol=${csv}&apikey=${key}`,
-    `https://financialmodelingprep.com/api/v3/quote/${csv}?apikey=${key}`,
-  ];
-  for (const url of endpoints) {
-    const path = url.split('?')[0];
-    try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const out = normalizeQuotes(await res.json());
-      if (out.length) { console.log(`FMP ok via ${path}: ${out.length} quotes`); return out; }
-      console.warn(`FMP ${path}: 200 but 0 usable quotes`);
-    } catch (err) {
-      console.warn(`FMP ${path}: ${err.message}`);
-    }
+  try {
+    const syms = MARKET_SYMBOLS.map(([s]) => s).join(',');
+    const res = await fetch(`https://stooq.com/q/l/?s=${syms}&f=sd2t2ohlcv&h&e=csv`, {
+      signal: AbortSignal.timeout(15000),
+      headers: { 'User-Agent': 'DailyPulse/1.0 (+github-actions)' },
+    });
+    if (!res.ok) throw new Error(`stooq HTTP ${res.status}`);
+    const out = parseStooqQuotes(await res.text());
+    console.log(`Stooq: ${out.length}/${MARKET_SYMBOLS.length} quotes`);
+    return out;
+  } catch (err) {
+    console.warn(`Stooq markets failed (news-only finance this run): ${err.message}`);
+    return [];
   }
-  console.warn('FMP: no endpoint returned quotes (news-only finance this run)');
-  return [];
 }
 
 function buildPrompt(pools, theme) {
