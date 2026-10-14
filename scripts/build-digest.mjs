@@ -30,12 +30,24 @@ const FEEDS = {
     'https://feeds.npr.org/1003/rss.xml',
     'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
   ],
+  // St. Louis metro subsection shown under the USA tab.
+  stlouis: [
+    'https://news.google.com/rss/search?q=%22St.+Louis%22+Missouri&hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=%22St.+Louis%22+metro&hl=en-US&gl=US&ceid=US:en',
+  ],
   world: [
     'https://feeds.bbci.co.uk/news/world/rss.xml',
     'https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en',
   ],
   india: ['https://news.google.com/rss/search?q=India&hl=en-IN&gl=IN&ceid=IN:en'],
   immigration: ['https://news.google.com/rss/search?q=H-1B+OR+%22green+card%22+OR+USCIS+OR+%22India+immigration%22&hl=en-US&gl=US&ceid=US:en'],
+  // Finance tab: US stocks, world + India markets, major market-moving news.
+  finance: [
+    'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=stock+market+OR+S%26P+500+OR+Nasdaq+OR+Dow&hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=Sensex+OR+Nifty+OR+%22Indian+stock+market%22&hl=en-IN&gl=IN&ceid=IN:en',
+    'https://news.google.com/rss/search?q=global+markets+OR+FTSE+OR+Nikkei+OR+%22Hang+Seng%22&hl=en-US&gl=US&ceid=US:en',
+  ],
 };
 
 // Microlearning theme rotates by day-of-year so it's deterministic and varied.
@@ -154,20 +166,27 @@ number only — do NOT copy titles or URLs back.
 Return ONLY valid JSON, no prose, no code fences, matching this shape exactly:
 {
   "local":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
+  "stlouis":     [ {"i": <index>, "why": "<one sentence>"} x3 ],
   "world":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
   "india":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
   "immigration": [ {"i": <index>, "why": "<one sentence>"} x3 ],
+  "finance":     [ {"i": <index>, "why": "<one sentence>"} x5 ],
   "micro":       { "theme": "${theme}", "cards": [ {"title","insight","takeaway"} x4 ] }
 }
 Rules:
 - "i" = the [index] of the chosen item in that pool. "why" = ONE short sentence on why it matters.
 - Order each array by importance — the first pick is the Top Story.
+- "stlouis" = the 3 most important St. Louis / Missouri metro stories.
 - "immigration" = the 3 most important US–India immigration items (H-1B, green card, USCIS, visas).
+- "finance" = the 5 most important markets/finance stories (US stocks, India & world markets, major market-moving news).
 - "micro" cards are ORIGINAL insights you write on the theme "${theme}" (do NOT quote or
   summarize any specific copyrighted book). "insight" = 2–3 sentences; "takeaway" = one action.
 
 POOL local — US national news (country-wide, not city-specific):
 ${show(pools.local)}
+
+POOL stlouis — St. Louis, MO metro:
+${show(pools.stlouis)}
 
 POOL world:
 ${show(pools.world)}
@@ -176,7 +195,10 @@ POOL india:
 ${show(pools.india)}
 
 POOL immigration (US–India):
-${show(pools.immigration)}`;
+${show(pools.immigration)}
+
+POOL finance — markets & money (US, India, world):
+${show(pools.finance)}`;
 }
 
 // Resolve the model's chosen indices back to real pool items (trusted title/link/source).
@@ -217,9 +239,11 @@ function validateDigest(d) {
     }
   };
   check(d.tabs.local.items, 5, 'local');
+  check(d.tabs.local.stlouis, 3, 'stlouis');
   check(d.tabs.world.items, 5, 'world');
   check(d.tabs.india.items, 5, 'india');
   check(d.tabs.india.immigration, 3, 'immigration');
+  check(d.tabs.finance.items, 5, 'finance');
   assert.ok(d.micro.theme, 'micro.theme missing');
   assert.ok(d.micro.cards.length >= 3, 'micro needs >=3 cards');
   for (const c of d.micro.cards) assert.ok(c.title && c.insight && c.takeaway, 'micro card incomplete');
@@ -238,11 +262,11 @@ async function main() {
   const dayOfYear = Math.floor((Date.now() - Date.UTC(new Date().getUTCFullYear(), 0, 0)) / 864e5);
   const theme = THEMES[dayOfYear % THEMES.length];
 
-  const [local, world, india, immigration, weather] = await Promise.all([
-    fetchPool(FEEDS.local), fetchPool(FEEDS.world), fetchPool(FEEDS.india),
-    fetchPool(FEEDS.immigration), fetchWeather(),
+  const [local, stlouis, world, india, immigration, finance, weather] = await Promise.all([
+    fetchPool(FEEDS.local), fetchPool(FEEDS.stlouis), fetchPool(FEEDS.world), fetchPool(FEEDS.india),
+    fetchPool(FEEDS.immigration), fetchPool(FEEDS.finance), fetchWeather(),
   ]);
-  const pools = { local, world, india, immigration };
+  const pools = { local, stlouis, world, india, immigration, finance };
   for (const [k, v] of Object.entries(pools)) {
     assert.ok(v.length, `empty pool: ${k} (all feeds failed?)`);
   }
@@ -260,9 +284,10 @@ async function main() {
     location: 'St. Louis, MO',
     weather,
     tabs: {
-      local: { items: resolvePicks(local, r.local, 5) },
+      local: { items: resolvePicks(local, r.local, 5), stlouis: resolvePicks(stlouis, r.stlouis, 3) },
       world: { items: resolvePicks(world, r.world, 5) },
       india: { items: resolvePicks(india, r.india, 5), immigration: resolvePicks(immigration, r.immigration, 3) },
+      finance: { items: resolvePicks(finance, r.finance, 5) },
     },
     micro: r.micro,
   };

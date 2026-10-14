@@ -46,6 +46,26 @@
           "source": "\"\"St. Louis\" Missouri\" - Google News",
           "why": "Mason McTavish's successful integration with the St. Louis Blues provides local sports momentum and community interest."
         }
+      ],
+      "stlouis": [
+        {
+          "title": "St. Louis metro board approves regional transit expansion",
+          "link": "https://example.com/seed/stl-1",
+          "source": "Seed",
+          "why": "Placeholder St. Louis metro item until the next scheduled build runs."
+        },
+        {
+          "title": "St. Louis County announces road and bridge repair plan",
+          "link": "https://example.com/seed/stl-2",
+          "source": "Seed",
+          "why": "Placeholder St. Louis metro item."
+        },
+        {
+          "title": "Downtown St. Louis development project breaks ground",
+          "link": "https://example.com/seed/stl-3",
+          "source": "Seed",
+          "why": "Placeholder St. Louis metro item."
+        }
       ]
     },
     "world": {
@@ -133,6 +153,40 @@
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORVNhOEZLcDBaeWY5S1MyNjFGMzl5SndHT0tkVGxyZm5EQ1Y0Q2VJdE5mN2pEaElKN3ZzRWpPNjhST0ltcUpkQWhSeDNLLVNaNE01NkFRUmFyeTRXNmI4dGhLbG5SRjRjZEVqcTdFMWFqV01pY0REaGtpU1JPS19EaVhrXzVHM2IwemtVd2diZlZfZzJkM1Y0RDRJM0JKcFotcEhMV2VhXzZKdmNKNGtONjNReTV5M2d1eFRTVlVYeWpSdU5tZnRUQ3A1RXlidExIRmc?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
           "why": "Trump administration eliminating H-1B extension protections and restricting work permit auto-renewals marks major policy shift affecting Indian IT professionals."
+        }
+      ]
+    },
+    "finance": {
+      "items": [
+        {
+          "title": "Wall Street edges higher as earnings season gets underway",
+          "link": "https://example.com/seed/fin-1",
+          "source": "Seed",
+          "why": "Placeholder finance item until the next scheduled build runs."
+        },
+        {
+          "title": "Sensex and Nifty close at record highs on strong inflows",
+          "link": "https://example.com/seed/fin-2",
+          "source": "Seed",
+          "why": "Placeholder India markets item."
+        },
+        {
+          "title": "Global markets mixed as investors weigh rate outlook",
+          "link": "https://example.com/seed/fin-3",
+          "source": "Seed",
+          "why": "Placeholder world markets item."
+        },
+        {
+          "title": "Tech megacaps lead Nasdaq gains ahead of earnings",
+          "link": "https://example.com/seed/fin-4",
+          "source": "Seed",
+          "why": "Placeholder US stocks item."
+        },
+        {
+          "title": "Oil and gold steady as dollar holds firm",
+          "link": "https://example.com/seed/fin-5",
+          "source": "Seed",
+          "why": "Placeholder commodities item."
         }
       ]
     }

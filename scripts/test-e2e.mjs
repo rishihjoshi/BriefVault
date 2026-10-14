@@ -14,15 +14,19 @@ const DIGEST = {
     sunrise: '7:09 AM', sunset: '6:28 PM', label: 'Partly cloudy', emoji: '⛅',
   },
   tabs: {
-    local: { items: [
-      { title: 'Local lead', link: 'https://ex/1', source: 'S', why: 'w' },
-      { title: 'Evil', link: 'javascript:alert(document.cookie)', source: 'S', why: 'w' },
-    ] },
+    local: {
+      items: [
+        { title: 'Local lead', link: 'https://ex/1', source: 'S', why: 'w' },
+        { title: 'Evil', link: 'javascript:alert(document.cookie)', source: 'S', why: 'w' },
+      ],
+      stlouis: [{ title: 'STL metro item', link: 'https://ex/5', source: 'S', why: 'w' }],
+    },
     world: { items: [{ title: 'World lead', link: 'https://ex/2', source: 'S', why: 'w' }] },
     india: {
       items: [{ title: 'India lead', link: 'https://ex/3', source: 'S', why: 'w' }],
       immigration: [{ title: 'H-1B update', link: 'https://ex/4', source: 'S', why: 'w' }],
     },
+    finance: { items: [{ title: 'Markets lead', link: 'https://ex/6', source: 'S', why: 'w' }] },
   },
   micro: { theme: 'focus', cards: [{ title: 'Card one', insight: 'i', takeaway: 't' }] },
 };
@@ -51,10 +55,10 @@ globalThis.fetch = async () => ({ ok: true, json: async () => DIGEST });
 
 const { loadDigest, show, showUpdate } = await import('../docs/app.js');
 
-test('loadDigest renders the Local tab with full weather details', async () => {
+test('loadDigest renders the Local/USA tab with weather, hero, and St. Louis metro', async () => {
   await loadDigest();
   const html = els.main.innerHTML;
-  for (const s of ['⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph', 'Local lead']) {
+  for (const s of ['United States', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph', 'Local lead', 'St. Louis Metro', 'STL metro item']) {
     assert.ok(html.includes(s), `Local render missing "${s}"`);
   }
   assert.ok(els.updated.textContent.startsWith('Updated'), 'updated timestamp not set');
@@ -86,6 +90,11 @@ test('switching tabs re-renders the right content', () => {
   assert.ok(india.includes('India lead'));
   assert.ok(india.includes('US–India Immigration'));
   assert.ok(india.includes('H-1B update'));
+
+  show('finance');
+  const finance = els.main.innerHTML;
+  assert.ok(finance.includes('hero-finance'), 'finance hero missing');
+  assert.ok(finance.includes('Markets lead'), 'finance item missing');
 
   show('micro');
   const micro = els.main.innerHTML;

@@ -116,6 +116,22 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .skel-item   { height: 74px; margin-bottom: 10px; }
 @keyframes skel-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
 
+/* ── Per-tab hero band (gradient + glyph, no external images) ── */
+.hero {
+  display: flex; align-items: center; gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 15px 18px;
+  margin-bottom: 18px;
+}
+.hero-glyph { font-size: 30px; line-height: 1; }
+.hero-tag { font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); }
+.hero-usa     { background: linear-gradient(120deg, #fdeeec, #eef2fb); }
+.hero-world   { background: linear-gradient(120deg, #e8f5f1, #eef3fb); }
+.hero-india   { background: linear-gradient(120deg, #fdf0e1, #edf7eb); }
+.hero-finance { background: linear-gradient(120deg, #e8f6ed, #eef3fb); }
+.hero-learn   { background: linear-gradient(120deg, #f1ecfb, #fdeef4); }
+
 /* ── Weather card ── */
 .weather {
   display: flex;

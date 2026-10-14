@@ -1,14 +1,29 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '11'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v11)
+const APP_VERSION = '12'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v12)
 
 const TITLES = {
   local: 'USA',
   world: 'World',
   india: 'India',
+  finance: 'Finance',
   micro: 'Microlearning',
 };
+
+// Per-tab hero: a lightweight gradient band + glyph (no external images, offline-safe).
+const HERO = {
+  local:   { glyph: '🗽', tint: 'hero-usa',     tag: 'United States' },
+  world:   { glyph: '🌍', tint: 'hero-world',   tag: 'Around the world' },
+  india:   { glyph: '🪔', tint: 'hero-india',   tag: 'India & immigration' },
+  finance: { glyph: '📈', tint: 'hero-finance', tag: 'Markets & money' },
+  micro:   { glyph: '💡', tint: 'hero-learn',   tag: 'Today’s lesson' },
+};
+function heroBanner(tab) {
+  const h = HERO[tab];
+  if (!h) return '';
+  return `<div class="hero ${h.tint}"><span class="hero-glyph" aria-hidden="true">${h.glyph}</span><span class="hero-tag">${esc(h.tag)}</span></div>`;
+}
 
 let digest = null;
 let current = 'local';
@@ -54,19 +69,26 @@ function renderWeather(w) {
   </div>`;
 }
 
+function subSection(label, items, emptyMsg) {
+  return `<div class="section-label">${esc(label)}</div>`
+    + (items && items.length ? items.map(newsItem).join('') : `<div class="empty">${esc(emptyMsg)}</div>`);
+}
+
 function renderTab(tab) {
   const t = digest.tabs;
-  if (tab === 'local') return renderWeather(digest.weather) + rankedBlock(t.local.items);
-  if (tab === 'world') return rankedBlock(t.world.items);
-  if (tab === 'india') {
-    const imm = t.india.immigration || [];
-    return rankedBlock(t.india.items)
-      + `<div class="section-label">US–India Immigration</div>`
-      + (imm.length ? imm.map(newsItem).join('') : '<div class="empty">No US–India immigration news today.</div>');
+  if (tab === 'local') {
+    return heroBanner('local') + renderWeather(digest.weather) + rankedBlock(t.local.items)
+      + subSection('St. Louis Metro', t.local.stlouis, 'No St. Louis metro news today.');
   }
+  if (tab === 'world') return heroBanner('world') + rankedBlock(t.world.items);
+  if (tab === 'india') {
+    return heroBanner('india') + rankedBlock(t.india.items)
+      + subSection('US–India Immigration', t.india.immigration, 'No US–India immigration news today.');
+  }
+  if (tab === 'finance') return heroBanner('finance') + rankedBlock(t.finance && t.finance.items);
   if (tab === 'micro') {
     const m = digest.micro;
-    return `<span class="theme-pill">Today: ${esc(m.theme)}</span>`
+    return heroBanner('micro') + `<span class="theme-pill">Today: ${esc(m.theme)}</span>`
       + m.cards.map(c => `<div class="card">
           <h3>${esc(c.title)}</h3>
           <div class="insight">${esc(c.insight)}</div>
