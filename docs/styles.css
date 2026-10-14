@@ -77,8 +77,10 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   gap: 12px;
 }
 .app-header h1 { font-family: var(--serif); font-size: 23px; font-weight: 700; letter-spacing: -0.015em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.header-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
 .updated { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .updated.stale { color: #b45309; }  /* briefing older than a day — build likely failing */
+.version { font-size: 10px; color: var(--muted); opacity: 0.7; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
 
 .main-content {
   flex: 1;
@@ -208,6 +210,24 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   border-top: 1px solid var(--line);
 }
 .card .takeaway b { color: var(--accent); }
+
+/* ── Update banner (new version available) ── */
+.update-banner {
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px 16px;
+  background: var(--ink); color: var(--bg);
+  font-size: 13px;
+}
+.update-banner[hidden] { display: none; }
+#update-btn {
+  flex-shrink: 0;
+  font-family: var(--sans); font-size: 13px; font-weight: 600;
+  color: var(--ink); background: var(--bg);
+  border: none; border-radius: 8px; padding: 8px 15px; min-height: 36px; cursor: pointer;
+  transition: opacity var(--t);
+}
+#update-btn:active { opacity: 0.8; }
 
 /* ── Bottom nav ── */
 .bottom-nav {

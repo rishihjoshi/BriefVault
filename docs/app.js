@@ -1,6 +1,8 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
+const APP_VERSION = '11'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v11)
+
 const TITLES = {
   local: 'USA',
   world: 'World',
@@ -145,7 +147,46 @@ async function loadDigest() {
   }
 }
 
+// ── Service worker + update prompt ──
+// A new deploy ships a new SW that waits (sw.js no longer skipWaiting's). When one is
+// detected we reveal the update banner; tapping Reload activates it and reloads once.
+let updating = false;
+
+function showUpdate(reg) {
+  const b = document.getElementById('update-banner');
+  if (!b || b.dataset.shown) return;          // show once
+  b.dataset.shown = '1';
+  b.hidden = false;
+  document.getElementById('update-btn').addEventListener('click', () => {
+    updating = true;
+    reg.waiting && reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+  });
+}
+
+function registerSW() {
+  if (typeof navigator === 'undefined' || !('serviceWorker' in navigator)) return;
+  // Reload only for an update the user asked for — not the first-install claim.
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (updating) location.reload(); });
+  navigator.serviceWorker.register('./sw.js').then(reg => {
+    if (reg.waiting && navigator.serviceWorker.controller) showUpdate(reg);   // update already waiting
+    reg.addEventListener('updatefound', () => {
+      const nw = reg.installing;
+      if (!nw) return;
+      nw.addEventListener('statechange', () => {
+        if (nw.state === 'installed' && navigator.serviceWorker.controller) showUpdate(reg);
+      });
+    });
+    // Catch deploys that landed while the PWA sat open in the background.
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') reg.update();
+    });
+  }).catch(err => console.warn('SW:', err));
+}
+
 function init() {
+  const v = document.getElementById('version');
+  if (v) v.textContent = 'v' + APP_VERSION;
+  registerSW();
   document.getElementById('nav').addEventListener('click', e => {
     const btn = e.target.closest('.nav-btn');
     if (btn && digest) show(btn.dataset.tab, true);
@@ -156,4 +197,4 @@ function init() {
 // Guarded so the pure render helpers can be imported in Node tests without a DOM.
 if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', init);
 
-export { esc, safeUrl, newsItem, topStory, renderWeather, rankedBlock, renderTab, show, loadDigest, freshness };
+export { esc, safeUrl, newsItem, topStory, renderWeather, rankedBlock, renderTab, show, loadDigest, freshness, showUpdate, APP_VERSION };
