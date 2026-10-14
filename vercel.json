@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "docs",
-  "buildCommand": "echo 'No build: static PWA; docs/data/digest.json is pre-built by the GitHub Action.'",
-  "framework": null
+  "buildCommand": "echo 'No build: static PWA; the digest is published to the data branch by the GitHub Action.'",
+  "framework": null,
+  "git": { "deploymentEnabled": { "data": false } }
 }

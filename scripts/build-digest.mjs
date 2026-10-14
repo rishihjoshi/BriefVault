@@ -24,7 +24,12 @@ const POOL_CAP = 15;                        // items per feed handed to Claude
 const LAT = 38.627, LON = -90.199, TZ = 'America/Chicago';
 
 const FEEDS = {
-  local: ['https://news.google.com/rss/search?q=%22St.+Louis%22+Missouri&hl=en-US&gl=US&ceid=US:en'],
+  // "Local" tab = US national news. Several feeds so one flaky source can't empty the pool.
+  local: [
+    'https://news.google.com/rss/headlines/section/topic/NATION?hl=en-US&gl=US&ceid=US:en',
+    'https://feeds.npr.org/1003/rss.xml',
+    'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
+  ],
   world: [
     'https://feeds.bbci.co.uk/news/world/rss.xml',
     'https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en',
@@ -54,11 +59,21 @@ const WMO = {
 
 const parser = new Parser({ timeout: 15000 });
 
+async function parseFeed(url, tries = 2) {
+  for (let attempt = 1; ; attempt++) {
+    try { return await parser.parseURL(url); }
+    catch (err) {
+      if (attempt >= tries) throw err;
+      await new Promise(r => setTimeout(r, 800 * attempt));
+    }
+  }
+}
+
 async function fetchPool(urls) {
   const items = [];
   for (const url of urls) {
     try {
-      const feed = await parser.parseURL(url);
+      const feed = await parseFeed(url);
       for (const it of (feed.items || [])) {
         items.push({
           title: (it.title || '').trim(),
@@ -151,7 +166,7 @@ Rules:
 - "micro" cards are ORIGINAL insights you write on the theme "${theme}" (do NOT quote or
   summarize any specific copyrighted book). "insight" = 2–3 sentences; "takeaway" = one action.
 
-POOL local (St. Louis, MO):
+POOL local — US national news (country-wide, not city-specific):
 ${show(pools.local)}
 
 POOL world:
