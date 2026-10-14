@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailypulse-v10'; // bump on any static asset change
+const CACHE_NAME = 'dailypulse-v11'; // bump on any static asset change (keep in sync with APP_VERSION in app.js)
 const STATIC_ASSETS = [
   './index.html',
   './app.js',
@@ -9,9 +9,9 @@ const STATIC_ASSETS = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(c => c.addAll(STATIC_ASSETS)).then(() => self.skipWaiting())
-  );
+  // No skipWaiting here: a new SW waits so the page can prompt the user to update,
+  // then activates on demand via the SKIP_WAITING message below.
+  e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(STATIC_ASSETS)));
 });
 
 self.addEventListener('activate', e => {
@@ -20,6 +20,11 @@ self.addEventListener('activate', e => {
       .then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
+});
+
+// Page calls this (via the "Reload" button) to activate the waiting SW immediately.
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('fetch', e => {

@@ -30,11 +30,14 @@ const DIGEST = {
 // --- minimal DOM/fetch stub (only what app.js actually touches) ---------------
 function makeEl() {
   let html = '';
+  const handlers = {};
   return {
     set innerHTML(v) { html = v; }, get innerHTML() { return html; },
-    textContent: '', scrollTop: 0,
+    textContent: '', scrollTop: 0, hidden: false, dataset: {},
     classList: { toggle() {}, add() {}, remove() {} },
-    setAttribute() {}, removeAttribute() {}, focus() {}, addEventListener() {},
+    setAttribute() {}, removeAttribute() {}, focus() {},
+    addEventListener(ev, fn) { (handlers[ev] ||= []).push(fn); },
+    _fire(ev) { (handlers[ev] || []).forEach(f => f({})); },
     querySelector() { return { addEventListener() {} }; },
   };
 }
@@ -46,7 +49,7 @@ globalThis.document = {
 };
 globalThis.fetch = async () => ({ ok: true, json: async () => DIGEST });
 
-const { loadDigest, show } = await import('../docs/app.js');
+const { loadDigest, show, showUpdate } = await import('../docs/app.js');
 
 test('loadDigest renders the Local tab with full weather details', async () => {
   await loadDigest();
@@ -61,6 +64,17 @@ test('the javascript: link is neutralized end-to-end (never a live href)', () =>
   const html = els.main.innerHTML;
   assert.ok(!/href="javascript:/i.test(html), 'javascript: href leaked through the pipeline');
   assert.ok(html.includes('href="#"'), 'bad link should degrade to href="#"');
+});
+
+test('showUpdate reveals the banner once and wires skip-waiting (no duplicate handlers)', () => {
+  let posts = 0;
+  const reg = { waiting: { postMessage: m => { if (m.type === 'SKIP_WAITING') posts++; } } };
+  showUpdate(reg);
+  showUpdate(reg);  // second call must no-op via the dataset.shown guard
+  const banner = els['update-banner'];
+  assert.equal(banner.hidden, false, 'banner should be revealed');
+  els['update-btn']._fire('click');
+  assert.equal(posts, 1, 'one click → exactly one skip-waiting message (wired once, not twice)');
 });
 
 test('switching tabs re-renders the right content', () => {
