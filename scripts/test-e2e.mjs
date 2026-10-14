@@ -26,7 +26,13 @@ const DIGEST = {
       items: [{ title: 'India lead', link: 'https://ex/3', source: 'S', why: 'w' }],
       immigration: [{ title: 'H-1B update', link: 'https://ex/4', source: 'S', why: 'w' }],
     },
-    finance: { items: [{ title: 'Markets lead', link: 'https://ex/6', source: 'S', why: 'w' }] },
+    finance: {
+      items: [{ title: 'Markets lead', link: 'https://ex/6', source: 'S', why: 'w' }],
+      quotes: [
+        { symbol: '^GSPC', name: 'S&P 500', price: 5815.03, changePct: 0.41 },
+        { symbol: '^IXIC', name: 'Nasdaq', price: 18502.69, changePct: -0.23 },
+      ],
+    },
   },
   micro: { theme: 'focus', cards: [{ title: 'Card one', insight: 'i', takeaway: 't' }] },
 };
@@ -95,6 +101,9 @@ test('switching tabs re-renders the right content', () => {
   const finance = els.main.innerHTML;
   assert.ok(finance.includes('hero-finance'), 'finance hero missing');
   assert.ok(finance.includes('Markets lead'), 'finance item missing');
+  assert.ok(finance.includes('S&amp;P 500'), 'market quote name missing');   // & is escaped
+  assert.ok(finance.includes('+0.41%'), 'market up change missing');
+  assert.ok(finance.includes('-0.23%') && finance.includes('quote down'), 'market down change missing');
 
   show('micro');
   const micro = els.main.innerHTML;

@@ -188,6 +188,11 @@
           "source": "Seed",
           "why": "Placeholder commodities item."
         }
+      ],
+      "quotes": [
+        { "symbol": "^GSPC", "name": "S&P 500", "price": 5815.03, "changePct": 0.41 },
+        { "symbol": "^IXIC", "name": "Nasdaq", "price": 18502.69, "changePct": -0.23 },
+        { "symbol": "^NSEI", "name": "Nifty 50", "price": 24781.1, "changePct": 0.62 }
       ]
     }
   },
