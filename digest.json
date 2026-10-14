@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-14T14:30:31.008Z",
+  "location": "St. Louis, MO",
+  "weather": {
+    "high": 80,
+    "low": 69,
+    "highC": 27,
+    "lowC": 21,
+    "precip": 81,
+    "wind": 11,
+    "sunrise": "7:09 AM",
+    "sunset": "6:23 PM",
+    "label": "Heavy rain",
+    "emoji": "🌧️"
+  },
+  "tabs": {
+    "local": {
+      "items": [
+        {
+          "title": "Stock Market Today: Yields Jump, Nasdaq Opens Lower After Hot Inflation Reading — Live Updates - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiVVMwcjFtY3BJZEVkSGxrR3dFTzVMbWpJa3U5X3l3WnlTUkZNZm1FVnlQeG9jRmhnY3l6SXZLb0dsVjhEbkxwOFUtbmphbndDMlRvN3hYUkY3THIybXA1Sm9sTklEalA0VDNvR3JuZkZ2ckhhcTB3aTd3?oc=5",
+          "source": "Top stories - Google News",
+          "why": "September inflation at 3.7% exceeds expectations and directly impacts consumer purchasing power and Fed policy before midterm elections."
+        },
+        {
+          "title": "Ship carrying 2,500 containers sinks after hitting mine in Strait of Hormuz, claim Iran’s Guards - The Independent",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYnFKdG5Fb0RKUUxQWUM3dERsOTFCMXBYZ3p6LVR4akVXZ3M5b3pkT2VBcXV6UVdzSVcybzFua19fU2xDeFVfekl2Y1BINDNCV1ktSTlKc2RaMWhPOU4yMGNKcDBvUV9UUUNJcS1qbWNaa0d1LTFhLWoyRm52LXZJX0hFWnRza1RLSVRUZVFSUVd5NGJ2TVhmNEd4NE4?oc=5",
+          "source": "Top stories - Google News",
+          "why": "Container ship sinking in Strait of Hormuz escalates regional instability and threatens global shipping amid Iran-US tensions."
+        },
+        {
+          "title": "Bank of America Q3 profit tumbles 17% as $1.2 billion fine and soft trading weigh on results - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORVZhSHhnaTNraDVrUUw3MXZyQTlrQmpxU3lHQkJYRV8wUmtudGtZUElJYVplTV85dWVBZE1fVEJfVUEybi0teU9sUlN2ZVB3TGtRN2UycGFFYjFfUWMwMUlwT2UzS3c5TzBnN2RRQ196NVRpMzlvWGF5Z0kxQy0ya3d3eWY0LW5tajdYdXFpQU16MTN1a185TnVPd3BncUhtQ0dmS3N5eE9tT1J1dzNqZk5qT2thWktRZTI0RFlPRW5RWFY4WnUwMUJXV3R3aFkyS2RlbjVYaXFyVkRTX1NJ?oc=5",
+          "source": "Top stories - Google News",
+          "why": "Bank of America's 17% profit decline and $1.2B fine signal financial sector stress and broader economic headwinds."
+        },
+        {
+          "title": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027 - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LV21JUFpQVll5U0FzOW5OT210bUdKRFpXUUdDQ0kzVHdxZDhSeGZhckRyX0pWMnhnR2EtVVg0YWJ3MTliZ3N4bTg3LXQ3aENyZHItZzVCdVV2SzBVNTVKV0pRZHVOMTZnWTdiTmxyc9IBdEFVX3lxTE5WOWh0dTNMNGZJTjdoa3pwbllXQzVUbllqMVlHd2FUS1BZYS1aWHpYckhoMmtXUTM2R2ZYX1dkU3BMd2ZfOE83MGwxRXNXQnR1Wk1jZ0ZXY3pDU28zUXUwUFBCUTBVdkJWNHlSRHN0WmhaWGND?oc=5",
+          "source": "Top stories - Google News",
+          "why": "3.6% Social Security COLA for 2027 affects millions of retirees and reflects ongoing inflation pressures on fixed incomes."
+        },
+        {
+          "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico - The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNE84dTlMaURmaG9obkVKY2tPYzdoSHRuQjFrZUQ4Szh0dzFfOFpNeVlKcVRDNXVXQXVRYU1LZTNHQ2h4ckNLc01HSzdjWmIzQUFZTHdJUFo1OTN1bGJOVWVwRllrZFhLdUtvZTVaLUJnN0RnUDhwcWpvUGx6aVlJc3lEeGhIQUNxNFlNRkRQZGFxMHUwOVVqUENSdw?oc=5",
+          "source": "U.S. - Latest - Google News",
+          "why": "Federal judge blocks Trump's ban on CNN, MS NOW, and Politico from White House, affirming press freedom protections."
+        }
+      ]
+    },
+    "world": {
+      "items": [
+        {
+          "title": "Ukrainian drones hit Russia's top data centre in attack on AI ambitions - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlNheVdFZk5KM25CV0NxS0tHbG81dGlSTTRZaVNLbkNiQklzNmV5d0s5M2NtTlBlSTIzTk5DbXFBME5USFNYS21ZYUxpeVhuUXpkZ2hCVVVITFZ1Q2ZJOWZsWlVkWVdSX3k4Qm5vNkl4MjhGWXp0NXVIcnNHc1c5S0VwU2Q5V29FcmF1NWh1a0hZa0FycXdvRVd3Q0I2VU9sS3NB?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Ukrainian drone strikes on Russia's top data center directly threaten Moscow's AI infrastructure and demonstrate unconventional warfare escalation."
+        },
+        {
+          "title": "Live Updates: Houthis launch new attack on Saudi capital as Trump mulls U.S. role in Mideast war's new front - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Houthis' coordinated attacks on Saudi Arabia and Trump's consideration of deeper Mideast involvement signals potential expansion of regional conflict."
+        },
+        {
+          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+          "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "why": "German trial of Ukrainian accused of Nord Stream pipeline bombing reopens geopolitical tensions and sabotage allegations with international implications."
+        },
+        {
+          "title": "Zelensky to Visit U.K. as Ukraine Presses Allies on Intelligence Sharing - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzNJNGQtTzhxM3Z2VklpUF9wakxhUnlRY3RmZ3BldzlBVm1Ob3phWFRnVnZOekVlTGcyZFU5ODMxOE1yOG1WZmU4U3JHdEpKZ0FvZ1J0ODJFVURMUmZSNC1UcTJBV29TVE80cGN1YkdmN0FmNlM1dlMtT1M3ZGFsM2FjVmNhNkdsamRzbzdBcFpyMjJPWVJCaA?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Zelensky's UK visit to press allies on intelligence sharing reflects Ukraine's critical need for sustained Western military and intelligence support."
+        },
+        {
+          "title": "Pope Leo spends a peaceful night in the hospital after cancer surgery - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2FVdnBfU19rMGdWb2xBWjBrRlBMUFhETDBRejMyUWYzdDAzN215ZlRlT2lGQmJ5TWlrWVZvdEtKTlI5b0FOajVyWmpyYnR2NlZCT3lEcjFWNmhLMGE2Q2VvMFpqTnBKT3NncmlPVFo0eTE4akRmVmlJZGpmc3NRMXhScmhMa0d0RE1RR183OFVlYXpaLTN2U2R1ZnltM3VaU01jYVhmdWFKUQ?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Pope Leo's cancer surgery and hospitalization create uncertainty about papal leadership and succession during a pivotal church period."
+        }
+      ]
+    },
+    "india": {
+      "items": [
+        {
+          "title": "‘How do you explain the deletion of 130 million names?’: why Indian voters are on the streets - The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG0wUzJBZEVScFRjeTI1elBTemFWM2lfbjlfYnhFbVdGZm5KalhTNld0cVJNQmpyUU8zdVhESUNQM2MxTXNyY1BsWkE1VVNYRDNqWWF0bVowYWhMcVl4WlJpRXBTcFY1NS10SmpHMzlhVkh5MlVHbG1TcXcxWW1sY216QmlNU1kyNXdLYmFFVER5QWZxTG44MmN3?oc=5",
+          "source": "\"India\" - Google News",
+          "why": "Deletion of 130 million voter names from Indian rolls raises major electoral integrity concerns and has triggered street protests."
+        },
+        {
+          "title": "Mukesh Ambani's Jio files updated prospectus for record India IPO - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN2pOLUFIMVROWjYtbmFkc1p1SU4zb0dENXZ6RHVRR2F2ZDFMYkU5QlRmTi01V2g0c0p4QkdadjRsdW5XeWNZU2F3VUNsR1pnZ0s1QTRPTjNoSUZhUjFXdk9IZ3hSZkhUX0lIWGhYYlk5OEpqSGtnZjdsQzdnM2EwZThhcFF5VjhqcXU1VWprc3pFdGZPeTl4cFhhbmp2UGE3SFpXalBWTHJqTDNX?oc=5",
+          "source": "\"India\" - Google News",
+          "why": "Jio's record India IPO filing signals landmark privatization and shifts in India's telecom-energy sector landscape under Ambani."
+        },
+        {
+          "title": "IMF projection on India’s growth is impressive. But what about prosperity? - The Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOXBHa1NRV0c3VGZQQ2tsSklaNm5qTFVRcWpURHZOeEMxWV9wWVZaNG5HeFoyTjR5LXYxWDBrQzRXNzFvcGRzUDFKTmNxVUFySmdQUTN2SmRvMkZsWDFIQ1k3R05WdkhGa1ZjRjVIQ245RUVfN0UyQ3B0SGNkcHZkcEJ2bXNqWkxGVkZhbnVWeER0a2xvSDlTOGw3aGlCTTN3LXZldU9IS3BiVTlWQlE?oc=5",
+          "source": "\"India\" - Google News",
+          "why": "IMF's optimistic growth projection for India must be reconciled with questions about whether gains translate to broader prosperity and employment."
+        },
+        {
+          "title": "India Needs ₹15 Lakh Crore To Add 91 GW Nuclear Capacity By 2047 - Sarkaritel.com",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmV1ZWFRaENvdzRZVl9TcXhMNTF1NTlieHVwUnJLMGRvNnFKS2VDUldxd3lDUFB5YzQya3RNalc2UnZndXdET3VRcnZ2My1kdy1oTTA5c3p5a3VhX2N5cVotODFmOG1yam1vY0ljSFB0LXdKYjRrZ19zTFZ3U3NxZFkzOFVHNlE?oc=5",
+          "source": "\"India\" - Google News",
+          "why": "India's ₹15 lakh crore nuclear expansion plan by 2047 represents major strategic investment in clean energy and energy security."
+        },
+        {
+          "title": "Canada races to seal India trade pact by year-end, deepen EU ties - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOXNyY0JKZ3FLSkljUGp1XzZXbkFMa29UR0dtSVExajRyTGxmNUZMVDNwMVpJZmtKd0pKbzZVOEFZaThFNUdLUnYzOVJndG53U0YxSTZBV3RPelVMU01KYzZncDY3YWpFYTB1eUlaZ19QbmQ0dVRxVWVqclhiWl9CZ29FQjU4SFJ5WVJCYjlkUUsxRWRWRVU1WFYtdFZWNFJ4S1A3SG9QaF9Tc3pTZFE?oc=5",
+          "source": "\"India\" - Google News",
+          "why": "Canada's year-end push for India trade pact reflects competitive trade diplomacy and India's growing economic centrality."
+        }
+      ],
+      "immigration": [
+        {
+          "title": "Fresh setback for H-1B workers: US ends 540-day automatic work permit extension, impact on Indians explained | Hindustan Times - Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdjdYTF9iWkJac0p2eHZ5RTkzdTR2M3Z6T29McU5ianpPZVlvT2EwbEkwejdHdU9YZVg1R0dqWHM0Mm0wM2gwRmNJQjlXQWlkLTY2NkROZU9zTDR5T2ZfRFFlYU0xdG9JSC1PRUt2N0pYaXJQQnVLSzAzWnI0WEh4UlIzT2RtVUgyQmUwQVJlaG1MVUw2dHdFcGZzcjdFYlFBbENGX0x3M3hMZjJtVUN2NFdtMGs0U0h5VURXUVlLaGxlbThjeWp3WnloZnhsUlRBZ2dHUzdXcXU5b2xGbmZnOVNhV3loTkxlSV85bFgxLXZ2NkcwM3JCYkdxWEpkb1I0ZUdrcTFGM2PSAY4CQVVfeXFMTUVNemx4ZTFxZFdWM0dtdnZIWkFFU3ozWUEtUVFBRTNPS2dmNmw1S3lLc3dXT0V1OUZjeVgtWGNyTm16SGMyYnBBZmI5RVR4SDdxVE9Yb2JhLXRtbGFjZG83eTVrUzNJMjdpZ2dpMjNYeEd6d0Y4V2FXQ21CbWNPckxCUmRTRTJNM0lzcXFMSlEzSWxjdldQOEYtRzVpQUFGaVJFLVAyWG01YWhGcGpxM3ctRE85VmxzaDBsb0pDZDJjSzhEUHVNazd0S0NqRkdFVlVjd3BjTHNxSVo2Wkt4U3RlUHltNW52Mk1hQTFkalhGSllOZUlxenpPc0I2eUhiUTFGdXJqMERGQTkyOHlB?oc=5",
+          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
+          "why": "US termination of 540-day automatic work permit extensions directly harms Indian H-1B workers already facing denial rate increases and visa backlogs."
+        },
+        {
+          "title": "DHS Wrongly Claims An Immigration Policy Did Not Increase H-1B Denials - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUGxXNmpwckdBSGU3ZUNpTUxNYTFZQ1dnVHBJaml3MHhoRG1JUHJ1QzVnSDhVbTRQUndqQmxRWEZyMnJJbXRxdTY1U1daZllIUUtMY0V6TmlVaW9aVEFZSDM2YVNwa3R1SWtYaDd1TS03b1hVWkdWT2xHUF9nam80OU5sWWhKRHV6Ym9mZE1aQ1hPYTcyVVMyM2NKYXVSU1RxY1FKVEdyQ1RSTEQ1WGpxNzdzVlhBZ1NCTlZyMThUTmFZemd3?oc=5",
+          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
+          "why": "DHS data shows immigration policy changes have genuinely increased H-1B denials, contradicting official claims and harming Indian tech workers."
+        },
+        {
+          "title": "The Unintended Winner of US Green Card Pause: India’s Offshore AI Hubs - Analytics India Magazine",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOakJtcWJvR29XSXk4RlJkXzE1MWtCQTAwUGk4Y2txYzN5bktkYlJiN0tIQ2xyV2w5dkdpZHIydVRySWg5czRtTzlpY2dOLUJhTlNoQ0pNTTFmRk5kcFF4YnNDWVB0SUNPcHEwaWRHRkhCMkVaR2NzUGdwZkJaS3hxWUVFNjAtZzFqcllUWjZDNVJhMV9mV2s5UGNkaVEwUWF4Rk5nVnJKYVZ5NUdDbURj?oc=5",
+          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
+          "why": "US green card pause unintentionally accelerates India's offshore AI hubs as talent and investment redirect from visa-dependent US employment."
+        }
+      ]
+    }
+  },
+  "micro": {
+    "theme": "creativity",
+    "cards": [
+      {
+        "title": "Constraints as Creative Fuel",
+        "insight": "Severe limitations—time, budget, or resources—paradoxically unlock creative breakthroughs by forcing prioritization and novel problem-solving. When scope is narrow, imagination must expand to fill the gap, often yielding simpler, more elegant solutions than unconstrained projects.",
+        "takeaway": "When facing resource limits, reframe them as creative challenges rather than obstacles; define your smallest viable experiment first."
+      },
+      {
+        "title": "Collision as Catalyst",
+        "insight": "Breakthrough ideas often emerge at the intersection of unrelated fields or perspectives. The friction between different disciplines, cultures, or viewpoints creates cognitive tension that pushes thinkers beyond established patterns and assumptions.",
+        "takeaway": "Deliberately seek input from people outside your domain; schedule cross-functional conversations to challenge your default thinking."
+      },
+      {
+        "title": "Failure as Data, Not Verdict",
+        "insight": "Creative work thrives in environments where unsuccessful attempts are treated as information rather than judgment. Rapid iteration with low stakes builds confidence, reveals hidden insights, and normalizes experimentation as part of the process.",
+        "takeaway": "Track what didn't work and why; share failed prototypes with collaborators to accelerate collective learning."
+      },
+      {
+        "title": "Boredom as a Fallow Field",
+        "insight": "Sustained creative output requires periods of apparent inactivity—mind-wandering, reflection, and rest—not just execution. The subconscious continues processing and connecting ideas when conscious effort pauses, often surfacing unexpected connections.",
+        "takeaway": "Build buffer time into projects; protect space for unstructured thinking as essential to creative depth, not a luxury."
+      }
+    ]
+  }
+}
