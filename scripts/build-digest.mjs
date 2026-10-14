@@ -162,44 +162,65 @@ async function fetchWeather() {
 
 // Major indices for the Finance tab. Fetched server-side with FMP_API_KEY so the key
 // never reaches the client (same model as ANTHROPIC_API_KEY).
-// US-listed ETF proxies, quoted via Stooq (free, no API key). Price is the ETF's; the
-// % change is the session move (last vs open), which tracks each market's direction.
+// US-listed ETF proxies for the Finance tab. Price is the ETF's; % change tracks each
+// market's direction. Quoted from keyless sources (Yahoo chart first, Stooq CSV fallback).
 const MARKET_SYMBOLS = [
-  ['spy.us', 'S&P 500 · SPY'], ['qqq.us', 'Nasdaq · QQQ'], ['dia.us', 'Dow · DIA'],
-  ['inda.us', 'India · INDA'], ['ewj.us', 'Japan · EWJ'], ['ewu.us', 'UK · EWU'],
-  ['ewh.us', 'Hong Kong · EWH'], ['vt.us', 'World · VT'],
+  ['SPY', 'S&P 500 · SPY'], ['QQQ', 'Nasdaq · QQQ'], ['DIA', 'Dow · DIA'],
+  ['INDA', 'India · INDA'], ['EWJ', 'Japan · EWJ'], ['EWU', 'UK · EWU'],
+  ['EWH', 'Hong Kong · EWH'], ['VT', 'World · VT'],
 ];
+const NAME_BY = Object.fromEntries(MARKET_SYMBOLS);
+const UA = 'Mozilla/5.0 (compatible; DailyPulse/1.0)';
 
-// Parse Stooq's light-quote CSV (f=sd2t2ohlcv): Symbol,Date,Time,Open,High,Low,Close,Volume.
-// Skips unavailable rows (N/D) and computes the session % change from open→close.
+async function fetchYahooQuote(symbol) {
+  try {
+    const res = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`,
+      { signal: AbortSignal.timeout(15000), headers: { 'User-Agent': UA } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const m = (await res.json())?.chart?.result?.[0]?.meta;
+    if (!m || typeof m.regularMarketPrice !== 'number') return null;
+    const prev = m.chartPreviousClose ?? m.previousClose;
+    const changePct = (typeof prev === 'number' && prev > 0)
+      ? Math.round(((m.regularMarketPrice - prev) / prev) * 10000) / 100 : 0;
+    return { symbol, name: NAME_BY[symbol] || symbol, price: Math.round(m.regularMarketPrice * 100) / 100, changePct };
+  } catch { return null; }
+}
+
+// Fallback: Stooq light-quote CSV (f=sd2t2ohlcv). Skips N/D rows; session open→close change.
 export function parseStooqQuotes(csv) {
-  const nameBy = Object.fromEntries(MARKET_SYMBOLS);
   const out = [];
   for (const row of String(csv).trim().split('\n').slice(1)) {
     const c = row.split(',');
-    const sym = (c[0] || '').trim(), open = parseFloat(c[3]), close = parseFloat(c[6]);
-    if (!Number.isFinite(close) || close <= 0) continue;
+    const base = (c[0] || '').replace(/\.US$/i, '').toUpperCase();
+    const open = parseFloat(c[3]), close = parseFloat(c[6]);
+    if (!base || !Number.isFinite(close) || close <= 0) continue;
     const changePct = Number.isFinite(open) && open > 0 ? Math.round(((close - open) / open) * 10000) / 100 : 0;
-    out.push({ symbol: sym, name: nameBy[sym.toLowerCase()] || sym, price: close, changePct });
+    out.push({ symbol: base, name: NAME_BY[base] || base, price: close, changePct });
   }
   return out;
 }
 
+async function fetchStooq() {
+  const syms = MARKET_SYMBOLS.map(([s]) => `${s.toLowerCase()}.us`).join(',');
+  const res = await fetch(`https://stooq.com/q/l/?s=${syms}&f=sd2t2ohlcv&h&e=csv`,
+    { signal: AbortSignal.timeout(15000), headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`stooq HTTP ${res.status}`);
+  return parseStooqQuotes(await res.text());
+}
+
 async function fetchMarkets() {
   try {
-    const syms = MARKET_SYMBOLS.map(([s]) => s).join(',');
-    const res = await fetch(`https://stooq.com/q/l/?s=${syms}&f=sd2t2ohlcv&h&e=csv`, {
-      signal: AbortSignal.timeout(15000),
-      headers: { 'User-Agent': 'DailyPulse/1.0 (+github-actions)' },
-    });
-    if (!res.ok) throw new Error(`stooq HTTP ${res.status}`);
-    const out = parseStooqQuotes(await res.text());
-    console.log(`Stooq: ${out.length}/${MARKET_SYMBOLS.length} quotes`);
-    return out;
-  } catch (err) {
-    console.warn(`Stooq markets failed (news-only finance this run): ${err.message}`);
-    return [];
-  }
+    const yahoo = (await Promise.all(MARKET_SYMBOLS.map(([s]) => fetchYahooQuote(s)))).filter(Boolean);
+    if (yahoo.length) { console.log(`Markets via Yahoo: ${yahoo.length}/${MARKET_SYMBOLS.length}`); return yahoo; }
+    console.warn('Yahoo returned 0 quotes; trying Stooq');
+  } catch (err) { console.warn(`Yahoo error (${err.message}); trying Stooq`); }
+  try {
+    const stooq = await fetchStooq();
+    if (stooq.length) { console.log(`Markets via Stooq: ${stooq.length}/${MARKET_SYMBOLS.length}`); return stooq; }
+    console.warn('Stooq returned 0 quotes');
+  } catch (err) { console.warn(`Stooq error (${err.message})`); }
+  console.warn('No market source returned quotes (news-only finance this run)');
+  return [];
 }
 
 function buildPrompt(pools, theme) {
