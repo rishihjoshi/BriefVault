@@ -2,7 +2,7 @@
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
 const TITLES = {
-  local: 'Local · St. Louis',
+  local: 'USA',
   world: 'World',
   india: 'India',
   micro: 'Microlearning',
@@ -114,12 +114,17 @@ const SKELETON =
   + '<div class="skel skel-top"></div>'
   + Array.from({ length: 4 }, () => '<div class="skel skel-item"></div>').join('');
 
+// The digest lives on the repo's `data` branch (refreshed by the scheduled Action),
+// so updating the briefing never touches main and never redeploys the app. Fetched
+// cross-origin from GitHub raw; the service worker caches it network-first for offline.
+const DIGEST_URL = 'https://raw.githubusercontent.com/rishihjoshi/DailyPulse/refs/heads/data/digest.json';
+
 async function loadDigest() {
   const main = document.getElementById('main');
   main.setAttribute('aria-busy', 'true');
   main.innerHTML = `<div class="skeleton" aria-hidden="true">${SKELETON}</div>`;
   try {
-    const res = await fetch('./data/digest.json', { cache: 'no-cache' });
+    const res = await fetch(DIGEST_URL, { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     digest = await res.json();
     const f = freshness(digest.generatedAt);
