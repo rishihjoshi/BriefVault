@@ -39,8 +39,14 @@ const FEEDS = {
     'https://feeds.bbci.co.uk/news/world/rss.xml',
     'https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en',
   ],
-  india: ['https://news.google.com/rss/search?q=India&hl=en-IN&gl=IN&ceid=IN:en'],
-  immigration: ['https://news.google.com/rss/search?q=H-1B+OR+%22green+card%22+OR+USCIS+OR+%22India+immigration%22&hl=en-US&gl=US&ceid=US:en'],
+  india: [
+    'https://news.google.com/rss/search?q=India&hl=en-IN&gl=IN&ceid=IN:en',
+    'https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en',
+  ],
+  immigration: [
+    'https://news.google.com/rss/search?q=H-1B+OR+%22green+card%22+OR+USCIS+OR+%22India+immigration%22&hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=USCIS+OR+%22H-1B+visa%22+OR+%22employment+green+card%22+OR+%22visa+bulletin%22&hl=en-US&gl=US&ceid=US:en',
+  ],
   // Finance tab: US stocks, world + India markets, major market-moving news.
   finance: [
     'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en',
@@ -230,8 +236,9 @@ function validateDigest(d) {
   const w = d.weather;
   for (const k of ['high', 'low', 'highC', 'lowC', 'precip', 'wind']) assert.equal(typeof w[k], 'number', `weather.${k} not a number`);
   for (const k of ['sunrise', 'sunset']) assert.ok(w[k], `weather.${k} missing`);
+  // At most n items (a sparse feed may yield fewer this run); every present item well-formed.
   const check = (items, n, name) => {
-    assert.equal(items.length, n, `${name} expected ${n} items, got ${items.length}`);
+    assert.ok(Array.isArray(items) && items.length <= n, `${name} expected <= ${n} items, got ${items?.length}`);
     for (const it of items) {
       assert.ok(it.title, `${name} item missing title`);
       assert.ok(/^https?:\/\//.test(it.link || ''), `${name} item missing valid link`);
@@ -267,9 +274,10 @@ async function main() {
     fetchPool(FEEDS.immigration), fetchPool(FEEDS.finance), fetchWeather(),
   ]);
   const pools = { local, stlouis, world, india, immigration, finance };
-  for (const [k, v] of Object.entries(pools)) {
-    assert.ok(v.length, `empty pool: ${k} (all feeds failed?)`);
-  }
+  // A transient empty secondary feed shouldn't nuke the whole briefing — that section
+  // just renders short/empty this run. Only abort if the primary (local) pool is empty.
+  for (const [k, v] of Object.entries(pools)) if (!v.length) console.warn(`empty pool: ${k} (all feeds failed this run)`);
+  assert.ok(local.length, 'primary pool (local) empty — aborting rather than publishing an empty briefing');
 
   const client = new Anthropic({ apiKey });
   const msg = await client.messages.create({
