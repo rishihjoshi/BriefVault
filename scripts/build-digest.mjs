@@ -170,33 +170,46 @@ const MARKET_SYMBOLS = [
   ['EWH', 'Hong Kong · EWH'], ['VT', 'World · VT'],
 ];
 
+function normalizeQuotes(data) {
+  if (!Array.isArray(data)) return [];
+  const nameBy = Object.fromEntries(MARKET_SYMBOLS);
+  const order = Object.fromEntries(MARKET_SYMBOLS.map(([s], i) => [s, i]));
+  return data
+    .filter(q => q && typeof (q.price ?? q.close) === 'number')
+    .map(q => ({
+      symbol: q.symbol,
+      name: nameBy[q.symbol] || q.name || q.symbol,
+      price: q.price ?? q.close,
+      // Field name differs across FMP endpoints (changesPercentage / changePercentage).
+      changePct: Number(parseFloat(q.changesPercentage ?? q.changePercentage)) || 0,
+    }))
+    .sort((a, b) => (order[a.symbol] ?? 99) - (order[b.symbol] ?? 99));
+}
+
 async function fetchMarkets() {
   const key = process.env.FMP_API_KEY;
   if (!key) { console.warn('FMP_API_KEY not set — skipping market quotes'); return []; }
-  try {
-    const syms = MARKET_SYMBOLS.map(([s]) => encodeURIComponent(s)).join(',');  // keep commas literal
-    // Don't log this URL anywhere — it carries the key.
-    const res = await fetch(`https://financialmodelingprep.com/api/v3/quote/${syms}?apikey=${key}`, { signal: AbortSignal.timeout(15000) });
-    if (!res.ok) throw new Error(`FMP HTTP ${res.status}`);
-    const data = await res.json();
-    if (!Array.isArray(data)) return [];
-    const nameBy = Object.fromEntries(MARKET_SYMBOLS);
-    const order = Object.fromEntries(MARKET_SYMBOLS.map(([s], i) => [s, i]));
-    const out = data
-      .filter(q => q && typeof q.price === 'number')
-      .map(q => ({
-        symbol: q.symbol,
-        name: nameBy[q.symbol] || q.name || q.symbol,
-        price: q.price,
-        changePct: Number(parseFloat(q.changesPercentage)) || 0,
-      }))
-      .sort((a, b) => (order[a.symbol] ?? 99) - (order[b.symbol] ?? 99));
-    console.log(`FMP: ${out.length}/${MARKET_SYMBOLS.length} quotes`);
-    return out;
-  } catch (err) {
-    console.warn(`FMP markets failed (news-only finance this run): ${err.message}`);
-    return [];
+  const csv = MARKET_SYMBOLS.map(([s]) => encodeURIComponent(s)).join(',');
+  // Try newer "stable" API first, then legacy v3 — whichever this plan allows. The URL
+  // (which carries the key) is never logged; only the endpoint path on failure.
+  const endpoints = [
+    `https://financialmodelingprep.com/stable/quote?symbol=${csv}&apikey=${key}`,
+    `https://financialmodelingprep.com/api/v3/quote/${csv}?apikey=${key}`,
+  ];
+  for (const url of endpoints) {
+    const path = url.split('?')[0];
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const out = normalizeQuotes(await res.json());
+      if (out.length) { console.log(`FMP ok via ${path}: ${out.length} quotes`); return out; }
+      console.warn(`FMP ${path}: 200 but 0 usable quotes`);
+    } catch (err) {
+      console.warn(`FMP ${path}: ${err.message}`);
+    }
   }
+  console.warn('FMP: no endpoint returned quotes (news-only finance this run)');
+  return [];
 }
 
 function buildPrompt(pools, theme) {
