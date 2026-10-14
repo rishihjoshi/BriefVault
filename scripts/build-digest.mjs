@@ -160,6 +160,43 @@ async function fetchWeather() {
   };
 }
 
+// Major indices for the Finance tab. Fetched server-side with FMP_API_KEY so the key
+// never reaches the client (same model as ANTHROPIC_API_KEY).
+const MARKET_SYMBOLS = [
+  ['^GSPC', 'S&P 500'], ['^DJI', 'Dow Jones'], ['^IXIC', 'Nasdaq'],
+  ['^NSEI', 'Nifty 50'], ['^BSESN', 'Sensex'],
+  ['^FTSE', 'FTSE 100'], ['^N225', 'Nikkei 225'], ['^HSI', 'Hang Seng'],
+];
+
+async function fetchMarkets() {
+  const key = process.env.FMP_API_KEY;
+  if (!key) { console.warn('FMP_API_KEY not set — skipping market quotes'); return []; }
+  try {
+    const syms = MARKET_SYMBOLS.map(([s]) => encodeURIComponent(s)).join(',');  // keep commas literal
+    // Don't log this URL anywhere — it carries the key.
+    const res = await fetch(`https://financialmodelingprep.com/api/v3/quote/${syms}?apikey=${key}`, { signal: AbortSignal.timeout(15000) });
+    if (!res.ok) throw new Error(`FMP HTTP ${res.status}`);
+    const data = await res.json();
+    if (!Array.isArray(data)) return [];
+    const nameBy = Object.fromEntries(MARKET_SYMBOLS);
+    const order = Object.fromEntries(MARKET_SYMBOLS.map(([s], i) => [s, i]));
+    const out = data
+      .filter(q => q && typeof q.price === 'number')
+      .map(q => ({
+        symbol: q.symbol,
+        name: nameBy[q.symbol] || q.name || q.symbol,
+        price: q.price,
+        changePct: Number(parseFloat(q.changesPercentage)) || 0,
+      }))
+      .sort((a, b) => (order[a.symbol] ?? 99) - (order[b.symbol] ?? 99));
+    console.log(`FMP: ${out.length}/${MARKET_SYMBOLS.length} quotes`);
+    return out;
+  } catch (err) {
+    console.warn(`FMP markets failed (news-only finance this run): ${err.message}`);
+    return [];
+  }
+}
+
 function buildPrompt(pools, theme) {
   const show = arr => arr.map((it, i) =>
     `  [${i}] ${it.title} — ${it.source}${it.snippet ? ` :: ${it.snippet}` : ''}`
@@ -251,6 +288,15 @@ function validateDigest(d) {
   check(d.tabs.india.items, 5, 'india');
   check(d.tabs.india.immigration, 3, 'immigration');
   check(d.tabs.finance.items, 5, 'finance');
+  const quotes = d.tabs.finance.quotes;  // optional — FMP may be unset/down
+  if (quotes !== undefined) {
+    assert.ok(Array.isArray(quotes), 'finance.quotes not an array');
+    for (const q of quotes) {
+      assert.ok(q.symbol && q.name, 'quote missing symbol/name');
+      assert.equal(typeof q.price, 'number', 'quote price not a number');
+      assert.equal(typeof q.changePct, 'number', 'quote changePct not a number');
+    }
+  }
   assert.ok(d.micro.theme, 'micro.theme missing');
   assert.ok(d.micro.cards.length >= 3, 'micro needs >=3 cards');
   for (const c of d.micro.cards) assert.ok(c.title && c.insight && c.takeaway, 'micro card incomplete');
@@ -269,9 +315,9 @@ async function main() {
   const dayOfYear = Math.floor((Date.now() - Date.UTC(new Date().getUTCFullYear(), 0, 0)) / 864e5);
   const theme = THEMES[dayOfYear % THEMES.length];
 
-  const [local, stlouis, world, india, immigration, finance, weather] = await Promise.all([
+  const [local, stlouis, world, india, immigration, finance, weather, markets] = await Promise.all([
     fetchPool(FEEDS.local), fetchPool(FEEDS.stlouis), fetchPool(FEEDS.world), fetchPool(FEEDS.india),
-    fetchPool(FEEDS.immigration), fetchPool(FEEDS.finance), fetchWeather(),
+    fetchPool(FEEDS.immigration), fetchPool(FEEDS.finance), fetchWeather(), fetchMarkets(),
   ]);
   const pools = { local, stlouis, world, india, immigration, finance };
   // A transient empty secondary feed shouldn't nuke the whole briefing — that section
@@ -295,7 +341,7 @@ async function main() {
       local: { items: resolvePicks(local, r.local, 5), stlouis: resolvePicks(stlouis, r.stlouis, 3) },
       world: { items: resolvePicks(world, r.world, 5) },
       india: { items: resolvePicks(india, r.india, 5), immigration: resolvePicks(immigration, r.immigration, 3) },
-      finance: { items: resolvePicks(finance, r.finance, 5) },
+      finance: { items: resolvePicks(finance, r.finance, 5), quotes: markets },
     },
     micro: r.micro,
   };

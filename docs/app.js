@@ -1,7 +1,7 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '12'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v12)
+const APP_VERSION = '13'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v13)
 
 const TITLES = {
   local: 'USA',
@@ -11,18 +11,27 @@ const TITLES = {
   micro: 'Microlearning',
 };
 
-// Per-tab hero: a lightweight gradient band + glyph (no external images, offline-safe).
+// Per-tab hero band: editorial line-art SVG motif (no emoji, no external images,
+// offline-safe) + serif tag over a soft paper tint. Red accent ties to the theme.
 const HERO = {
-  local:   { glyph: '🗽', tint: 'hero-usa',     tag: 'United States' },
-  world:   { glyph: '🌍', tint: 'hero-world',   tag: 'Around the world' },
-  india:   { glyph: '🪔', tint: 'hero-india',   tag: 'India & immigration' },
-  finance: { glyph: '📈', tint: 'hero-finance', tag: 'Markets & money' },
-  micro:   { glyph: '💡', tint: 'hero-learn',   tag: 'Today’s lesson' },
+  local: { tint: 'hero-usa', tag: 'United States',
+    svg: '<line x1="4" y1="22" x2="4" y2="2.5"/><path d="M4 3.5h13l-3 4 3 4H4" stroke="#b23b2e"/>' },
+  world: { tint: 'hero-world', tag: 'Around the world',
+    svg: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18" stroke="#b23b2e"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/>' },
+  india: { tint: 'hero-india', tag: 'India & immigration',
+    svg: '<circle cx="12" cy="12" r="9" stroke="#b23b2e"/><circle cx="12" cy="12" r="2"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/>' },
+  finance: { tint: 'hero-finance', tag: 'Markets & money',
+    svg: '<path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 5-7" stroke="#b23b2e"/><path d="M15 4h4v4" stroke="#b23b2e"/>' },
+  micro: { tint: 'hero-learn', tag: 'Today’s lesson',
+    svg: '<path d="M2 5h7a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H2z"/><path d="M22 5h-7a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h7z" stroke="#b23b2e"/>' },
 };
 function heroBanner(tab) {
   const h = HERO[tab];
   if (!h) return '';
-  return `<div class="hero ${h.tint}"><span class="hero-glyph" aria-hidden="true">${h.glyph}</span><span class="hero-tag">${esc(h.tag)}</span></div>`;
+  return `<div class="hero ${h.tint}">
+    <span class="hero-tag">${esc(h.tag)}</span>
+    <svg class="hero-art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${h.svg}</svg>
+  </div>`;
 }
 
 let digest = null;
@@ -69,6 +78,22 @@ function renderWeather(w) {
   </div>`;
 }
 
+const fmtNum = n => Number(n).toLocaleString('en-US', { maximumFractionDigits: 2 });
+
+// Compact index grid at the top of Finance. Up/down shown by sign + colour (not colour alone).
+function renderMarkets(quotes) {
+  if (!quotes || !quotes.length) return '';
+  return `<div class="markets">` + quotes.map(q => {
+    const up = Number(q.changePct) >= 0;
+    const pct = `${up ? '+' : ''}${Number(q.changePct).toFixed(2)}%`;
+    return `<div class="quote ${up ? 'up' : 'down'}">
+      <div class="q-name">${esc(q.name)}</div>
+      <div class="q-price">${esc(fmtNum(q.price))}</div>
+      <div class="q-chg">${esc(pct)}</div>
+    </div>`;
+  }).join('') + `</div>`;
+}
+
 function subSection(label, items, emptyMsg) {
   return `<div class="section-label">${esc(label)}</div>`
     + (items && items.length ? items.map(newsItem).join('') : `<div class="empty">${esc(emptyMsg)}</div>`);
@@ -85,7 +110,11 @@ function renderTab(tab) {
     return heroBanner('india') + rankedBlock(t.india.items)
       + subSection('US–India Immigration', t.india.immigration, 'No US–India immigration news today.');
   }
-  if (tab === 'finance') return heroBanner('finance') + rankedBlock(t.finance && t.finance.items);
+  if (tab === 'finance') {
+    return heroBanner('finance')
+      + renderMarkets(t.finance && t.finance.quotes)
+      + rankedBlock(t.finance && t.finance.items);
+  }
   if (tab === 'micro') {
     const m = digest.micro;
     return heroBanner('micro') + `<span class="theme-pill">Today: ${esc(m.theme)}</span>`

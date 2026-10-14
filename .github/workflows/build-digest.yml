@@ -22,6 +22,7 @@ jobs:
       - name: Build digest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: node scripts/build-digest.mjs
       - name: Publish digest to the data branch (Vercel ignores it, so no redeploy)
         env:

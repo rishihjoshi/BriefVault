@@ -118,19 +118,31 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 
 /* ── Per-tab hero band (gradient + glyph, no external images) ── */
 .hero {
-  display: flex; align-items: center; gap: 12px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: 15px 18px;
+  padding: 16px 18px;
   margin-bottom: 18px;
 }
-.hero-glyph { font-size: 30px; line-height: 1; }
-.hero-tag { font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); }
+.hero-art { width: 42px; height: 42px; color: var(--ink); flex-shrink: 0; }
+.hero-tag { font-family: var(--serif); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); }
 .hero-usa     { background: linear-gradient(120deg, #fdeeec, #eef2fb); }
 .hero-world   { background: linear-gradient(120deg, #e8f5f1, #eef3fb); }
 .hero-india   { background: linear-gradient(120deg, #fdf0e1, #edf7eb); }
 .hero-finance { background: linear-gradient(120deg, #e8f6ed, #eef3fb); }
 .hero-learn   { background: linear-gradient(120deg, #f1ecfb, #fdeef4); }
+
+/* ── Finance: index quote grid ── */
+.markets { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 18px; }
+.quote {
+  border: 1px solid var(--line); border-radius: 10px;
+  padding: 10px 12px; background: var(--card);
+}
+.q-name { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.q-price { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.q-chg { font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 1px; }
+.quote.up .q-chg   { color: #15803d; }
+.quote.down .q-chg { color: #b91c1c; }
 
 /* ── Weather card ── */
 .weather {

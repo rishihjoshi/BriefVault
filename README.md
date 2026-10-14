@@ -25,7 +25,7 @@ AI calls. The service worker caches the shell and last digest for offline use.
 ## Setup
 
 1. Push this folder to a GitHub repo.
-2. **Settings → Secrets and variables → Actions** → add `ANTHROPIC_API_KEY`.
+2. **Settings → Secrets and variables → Actions** → add `ANTHROPIC_API_KEY` (and optionally `FMP_API_KEY` from financialmodelingprep.com for the Finance tab's live index quotes — the tab falls back to news-only without it).
 3. **Settings → Pages** → Source: `main` branch, `/docs` folder.
 4. **Actions** tab → run **Build daily digest** once via *Run workflow* to replace the seed data.
 
