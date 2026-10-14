@@ -13,10 +13,10 @@ const csv = [
 test('parses price, computes session change, maps friendly name', () => {
   const q = parseStooqQuotes(csv);
   assert.equal(q.length, 2, 'N/D row should be skipped');
-  assert.equal(q[0].symbol, 'SPY.US');
+  assert.equal(q[0].symbol, 'SPY');           // .US stripped, normalized
   assert.equal(q[0].price, 582.9);
   assert.equal(q[0].changePct, 0.5);
-  assert.equal(q[0].name, 'S&P 500 · SPY');   // mapped case-insensitively
+  assert.equal(q[0].name, 'S&P 500 · SPY');   // mapped from normalized symbol
   assert.equal(q[1].changePct, -1);
 });
 
