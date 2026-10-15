@@ -1,242 +1,242 @@
 {
-  "generatedAt": "2026-10-15T01:03:05.776Z",
+  "generatedAt": "2026-10-15T15:24:14.915Z",
   "location": "St. Louis, MO",
   "weather": {
-    "high": 80,
-    "low": 69,
-    "highC": 27,
-    "lowC": 20,
-    "precip": 81,
-    "wind": 11,
-    "sunrise": "7:09 AM",
-    "sunset": "6:23 PM",
-    "label": "Light drizzle",
+    "high": 79,
+    "low": 60,
+    "highC": 26,
+    "lowC": 15,
+    "precip": 56,
+    "wind": 16,
+    "sunrise": "7:10 AM",
+    "sunset": "6:22 PM",
+    "label": "Showers",
     "emoji": "🌦️"
   },
   "tabs": {
     "local": {
       "items": [
         {
-          "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
+          "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bXY3WjdLWnUtYVI0V2NNQmMtd2hZemx6MHM0RXpobVg4YlNqWm01aWluQVlSTTdxbHlTNW5tTE12YmlCVU9lZGYwWkh4ZXBKcjdUR3ZmcUk3bEE?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "U.S. intelligence warnings about Ukraine's Starlink access restrictions create geopolitical tensions amid concerns of Trump-era policy shifts affecting critical military communications."
+          "why": "Trump cancels controversial livestream of military execution, reversing earlier plan for Fort Hood shooter Nidal Hasan."
         },
         {
-          "title": "In blistering ruling, judge says Trump’s golf plans spurred ‘breakneck’ tree removal - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVkwMENqUDU0c1RfVF9YYzdHMzdkaFJ0REpVN25yNGs3dFJvd3VTQkcyYjJSS3dnYV92d0lSY1MwaFI2QzdlR241NGIxMVptTzM2WGN0dGo3V05JUE1odnY4OHp6V2MyTHlBNEk5UWF2TVJOMElNNFFGWE5oQzUtTi1YYkw5SDM0RS1GSVR6R2JHODNTWUdLU2l3azlxRzRmZlpWNGNxTWt3LWI0?oc=5",
+          "title": "California’s 'carpet-bombed' wealth tax measure runs into a wall - Politico",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQlQ1RzRZWmJVc3dsQlR5STNza1BHTFNudTU4aFFMLXNtYXZXa2Z5NE95LVdTM2FOSWl6b21vQmdmaUhVRlFIR1M4SXFTenhfR2I1THpDdGtzZGEzY0lJWWcwMTEzc1hmMWFNYkppN181MldXam4xeDJidmwwR3A2WGFqdHc3dw?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "Federal judge rebukes Trump administration over aggressive tree removals at D.C. golf course, signaling judicial pushback on executive actions."
+          "why": "California's wealth tax on billionaires faces legal and political obstacles, with ultra-wealthy residents relocating."
         },
         {
-          "title": "Denmark pushes back as Trump touts Greenland oil and mineral deals - Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUUxZM1Vxb0wzdkhXaEtETzZuTGVlbGwxYU05ZjE3TnJpS19YLUJWUWVibHJoR0s2OFdwd3BrVkhYV3JsalhuYnBBSU1TMnRjaEdodE5MVktmQ21pQl9vZkotV19vRk9pZm9EUHA0THJLV0Z3RjBzNmZtZFpMRTBLUjdDRHMycEFGMUxWWnRHMXk4WEN4YnJvYno4WGoxajd5NVhESVVJVklaTzJy0gGyAUFVX3lxTFBKTEdHZ1h2OERJOHpQQXhOdUpmYlEwVzdha0ZlcTBZYnhGODVnZHZ3ZVVIekgtd2NLNU5mWTdfZGtwdHVCdjFnUHNZdTNHN0ZDV3NybHNjNkFCd0tLQ2tvcmpmY0dVVll1UndiQkxfT0NZeUppeVROamFjMm5uMXB4VEd1MEZzQU5GQ1QzVlM0YnlNdy14V0JLZ2d1V19oN2NDN0VNTFJjZlJMRmJhbHczclE?oc=5",
-          "source": "U.S. - Latest - Google News",
-          "why": "Trump's Greenland resource claims face pushback from Denmark and Greenland officials, highlighting tensions over Arctic resource strategy."
-        },
-        {
-          "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+          "title": "Exclusive | White House Press Secretary Katie Zacharia Didn’t Pass Bar Exam - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXJTS29fYm1OMk05TkdsdktoanFOeml6d1JqWUR3ZEozM1gzcGlvWkZ5RUhvRG8yYjNNWXVWV1AtN2VlRWRIMEZsYmduTXo4dXhDcFVmT2dZTDYyR0QyazVRbjJNSG9pUzkwbFNmazNTdzFyNnpwM01TOUs0Sk56RUxkc0N2bmZSWmVjblltQWZVOEpPc01FdDVQUDVHcGMweHdTVFRKam9Vdw?oc=5",
           "source": "Top stories - Google News",
-          "why": "Iranian military sinks two ships in Strait of Hormuz, escalating Middle East regional conflict with direct threat to global shipping."
+          "why": "White House Press Secretary Katie Zacharia misrepresented bar admission status, raising credential verification concerns."
         },
         {
-          "title": "Cost to Resolve Lawsuits Tied to Disgraced Ex-CPD Detective Reynaldo Guevara Tops $473M, With 25 Lawsuits Pending - WTTW News",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSC0xdjcxdDYxMWNSUDhmMWFRa1ZzQXliWXhMYkhkQkF0Q1BOc0hlRWdyZXVaYloyMlcyQmRuZWtRN044S3NQOEw2M3paQndUNnRuMnd6RVhHUC10VldfVVZSRVQyalFnU2oxSXEyc0EwMnZPZUh0VGl3SVdtS1czMm5oX1E2Qnk1Q1VRbk9DTnNLQTJzd2F2bzdlcVZLTy1nZ0hPOS1TOGdkZ0t1eFdQSFBVQ194SE0?oc=5",
+          "title": "James Talarico announces record-breaking $64 million fundraising haul in Texas Senate race - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ2lxU3B5VUtDaXUzOVdfR1FSR2g1amoxcnZJU3cycWVaX05jN0QwRzRxeFVlNVI2UHUyQVFDQzAzenRLZWdwZE84TXZnU3JFeFJCZTUxaVExYnBobEhUSXpzWVdvMUxjY0EyUERTOXJES21ERE5iZlRPQjZ6VEhuVFN2V1dxNHpGeXhleFZMN2RDeDBRVmZz?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "Chicago police misconduct settlement reaches $473M, reflecting systemic accountability issues in major U.S. law enforcement."
+          "why": "Democrat James Talarico raises record $64 million for Texas Senate race in third quarter fundraising."
+        },
+        {
+          "title": "Iran War Updates: Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
+          "source": "Top stories - Google News",
+          "why": "Ships in Strait of Hormuz face continued drone attacks as Iran escalates maritime disruptions affecting global oil flow."
         }
       ],
       "stlouis": [
         {
-          "title": "First Full MetroLink Rail Expansion Completed in 20 Years with $192M Airport Project - Metro Magazine",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGVON1JKZk1CTndDY2UxelVxdi1WWG53OXkxVUFhUUdERGhlbzNaWnEzRlNWeXJubnVjZG5MOE5VbHJTR1d0b3RrMEVMb0FtR2FMdzhKQmYycFJjM3VwU244V05XcXljTlJpWlhaOU5RU0wzRFdOSHdWZV8tQlJEbVRsME1URUJldEc1Qzk1RGNLQ3JUYjdHYThMWURwT3JBZThtUVdmdzhzclhyUmxrM1RqUUZ0M2U4NGZZ?oc=5",
+          "title": "Officials Celebrate Completion of MetroLink Extension to MidAmerica - Herald Publications",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUG5MLXNUbnFjVGJ1dVJYVkZJaVJXSTFNTFlHT04zb2dmVkFsVjNxcFJxM0dzOGxtOERpM3pLWDF1STFiQ2RvTFNKV044QVNwR3gzb3FuaHR6bFpCR3VTUEFuaFVLaUdmQk94UkxRcUk3S3ZIZkRWa2tYWDFZbG1fVFpGaVZfMU5DWElJZGxiMjlDS2VlblZBcXVwVGlUOW50aW1kU0txMGlhUQ?oc=5",
           "source": "\"\"St. Louis\" metro\" - Google News",
-          "why": "MetroLink rail expansion to MidAmerica Airport completed after $192M investment—first major transit infrastructure expansion in 20 years for the region."
+          "why": "MetroLink extension to MidAmerica Airport completed, expanding public transit access to St. Louis area."
         },
         {
-          "title": "Ameren gives Lincoln University $100,000 grant - St. Louis American",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORU5nTkpBSVBhaDRLdFFWS2ZOWXFrTlA3VkFfQ3k0ZXNkalFwR0tESWRSVWNQQ1Mybm8zQWIxZ012NzBZRm5BUGJoSkJjUVR1VjNpRVE3SG10TnpyVVlzNUp1N1BnV21oWFRNdkxBT2U3WHd1RVdOOWJTSDU5dG5rbFBpOGs?oc=5",
+          "title": "Missouri man charged with murder in fatal East St. Louis shooting - Belleville News-Democrat",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IMkpLaGVIaTBRSlZhMW9NWmh2bVZrSzU3RU9qYmttWHNSbFdLWWtmUWQyWTRzSzFyM2RWYXZPUkpwbXotTzlrQmFTUDBYcV9sWGVaOUVpTENCVFVZMmNFUVYtMHlrWmtzWlHSAWpBVV95cUxPWFBUNWxldnZPaW5JRkNMMTVmVjYyVWlMVmZGa2tqNFFwOTJfa3I4TDJxZHNxTkFfTWlaRGFpZ3JZa3lIMHU5d0ZYZ19qU1drTFZ1cnRzZlVOTGFELUdGdXdtUXRlaVE3Y3Rn?oc=5",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "Ameren grants $100,000 to Lincoln University, demonstrating corporate investment in regional education and community development."
+          "why": "Missouri man charged with murder in fatal East St. Louis shooting, ongoing public safety concern."
         },
         {
-          "title": "Two St. Louis groups receive $877,626 for maternal nutrition - St. Louis American",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdE8xVW1JalZONmdlNkJiNlJTbXJoc3l3MGtId2pnOXAtYUFFNmZVRnk2SlNXMXRDM0NUNURLdTlxQUd0TDMtSU1EMl9Bclg4NXY1UUVLQnNZM2xYLUFGTXpDTHBCN3Q1NWZ5T2JhYUV2UE0tb0dwc3YxTVI1ZkFUWHB2a0dNVEpKUVFYWDYwYW1qZEZyV3c?oc=5",
+          "title": "Cardinals to Explore Trades Involving Three, Including Ivan Herrera - Sports Illustrated",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdFhqbFZWUGFBVkJuTFhHYlRMVmYyNFktSlNveGNXcGVHVTRvdDZId0dFS1pzMmtlUFBXV0pfWS1oU1RVZ3hFX0RxOTN6RTN5cHB4R0dKeTRKNldkSW1sRWVkb05Jd3YyRUxOWG1UcHJCelF6aFlPNW5KcGJyd25FSi1HLWxoSWZUZ1BnNVVpU1kxLXVjMDJqRElVT0lEZmFnakhmcFA3Q0NfYmstLWc?oc=5",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "Two St. Louis organizations receive $877,626 for maternal nutrition programs, addressing critical health equity needs in the metro area."
+          "why": "Cardinals explore trades involving three players including catcher Ivan Herrera as team reshuffles roster."
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+          "title": "School roof collapses in northwestern Pakistan, killing at least 33 people - Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWWNzLUF3ejNSMkNLR3JXSzluTzhCR29YSXZ3MEZKb3ZnYzNYbmFTNWxKNGtGb2h6RlluZ2xJZ1I3LW85S3RwV3NqaVdoT3JoUnFBWHlJeWdVNkNtTFZXR3RLWURZdEUxZjVmaXMwdUEyUDltbE5STHloZUdKSFRLSmZqSzNVTHlXOXc2TFprb0xrQmxiZER4ZnlmSW9YZHpJdVdIYXN1dnNTQ0EtZTdGTkpFZElUQdIBuwFBVV95cUxPZ1hkN1NMVWRfTEdVRzdPai1zQ0dqYzZxQlRNbmxzYml3T2RLNkVGM1AwTmtPVWRZQklkcGc0YmtYZlh5ekRnYWFETEYyd0RkWnNObm5FTzRMZ1BMR3djbWdzYjZpSmVjTXN0VzE5Z21FTUtaZVM4SlN4aC1HQVV0b2otNTRrSlhzcnp3a2ktM0V5RFVQWnpQcURkdkQyUkNnUnF4ci11WnlRTW02YjhjNW5YQ05ic2NMdkNZ?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Iranian military sinks two ships in Strait of Hormuz, escalating conflict with direct impact on global maritime commerce and oil prices."
+          "why": "School roof collapses in Peshawar, Pakistan, killing at least 33 pupils and a teacher in a major disaster."
         },
         {
-          "title": "Live Updates: Houthis launch new attack on Saudi capital as Trump mulls U.S. role in Mideast war's new front - CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, as US relations teeter - AP News",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanVvOXBrUl9qVzlNb3ljaFNMclJtU0JkcGMwOHg3WngxQnJhSUc4VzZGV0hvRDBBek9DejBaaTNwWVVSd0thaUt4dXJWZGVEVHdaeXNHQXVpV3pmZVJwN2o2ZDFrTXNGTVdaLTcwY1haLXBlWTRRNnpZSXFFSmllQ0xEdTZHLVRhREJCU3Q3WHlycGhCcEdTSXpjX0VDb1BXYXFiaGp5VjBXQQ?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Houthis launch sustained attacks on Saudi Arabia including Aramco headquarters, signaling new phase of regional conflict with energy sector implications."
+          "why": "Ukraine resumes attacks on Russian oil refineries, defying Trump administration as US-Ukraine tensions escalate."
         },
         {
-          "title": "Albania protests: Student protesters attack government ministries in Tirana - BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pVDRtanRzbU5VNUdQTU5rUG1vLVVkeUk3bmFXUUxpVHYxZ0VhOGpWYkpsZkVmNzVkaTdUMG4tNngyS2l5Rnl1TFk3Y0YxZ3hYTnZtdndjTWZMTUk?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Albanian student protesters clash with police and attack government buildings, reflecting broader European unrest over education and economic opportunity."
-        },
-        {
-          "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
-          "link": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+          "link": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "why": "Musk suggests U.S. government may be throttling Ukraine Starlink speeds, raising questions about American tech policy in wartime."
+          "why": "Seven crew members missing after drone attack leaves tanker ablaze off Romania's Black Sea coast in NATO waters."
         },
         {
-          "title": "World’s oldest shipwreck discovered off coast of Turkey - The Conversation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZGc2bV9RRU9wcUt3Z0g5Z2p1eFIydFRHNVRUY0E2MUZwcVF2RjBTOUNaaGpsNFZIU3dqM0g3bUZ5TWROblVndE9vYUdKWHVmUElDTi12SHBjRnZCQnpzRktpbDY4UWpsNFllM2t4UkM0Y2JsSE84MW93VWRnUmJreUg5UnVRc2Zac09uM1VfTm5CVUk?oc=5",
+          "title": "Inside the Plague Research Labs at the Heart of a Russian Mystery - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDRVMmNodXNoa3JHQmh2b3lsMVIzSWQzSDJFOHNaYTFGRm01RW11Y3dVLXFBM3ZFNHZXSS13OXBkVXh0UndYNWk4b2hxdE00UXAtdEF4VTJEdnpWUWQ3SnR4N1VsV2ZQZFk5NFdsanhmODFOSjJZNjlQb0tydlJ1MElFcmZRQ2s?oc=5",
           "source": "World - Latest - Google News",
-          "why": "World's oldest known shipwreck discovered off Turkey coast, providing unprecedented archaeological insights into ancient maritime trade routes."
+          "why": "Russia's plague research labs face scrutiny as frozen regions harbor disease risks amid international concern."
+        },
+        {
+          "title": "Albania’s leader defies calls to resign as student protesters rampage in capital - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN3UyTGFVRmpzRE9VaGlERUxRMmk0eTE2NU1oS3VmVzRPVGV3Z2tfejRTNUZraTh3azQ4NXNUNnZ5S2tJUUFfVnIyQ19pUGZLU3RCS2NUQXEzR2RpVjhhb1hCVXprNG56Y0szNEFfSDFlZ1JvdU83cmNCQnFGc0dtVjhPVGdSTmIydmZKRjNlYnhjZXpJQmpVWVBzcjBPcVlwLXFNeXpseEdnVFhuUGFVSVZzeUtXQQ?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Albania's PM defies resignation calls while student protesters rampage in capital over governance concerns."
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "Mukesh Ambani's Jio sets price band for India IPO - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWno4bGJDMVFBczNiazY1TjZtOHVpZzk4M2QyTnJCZFBqbk5vNUVNaFRiV0RxNXVYTEVUZTdHSHA1ZHYyUnFHMGF6bTY3RmFRbmQtUG45VFYyQVo2bllOUFItV2VMaGRhdlIwcmRwZWw5VWd4NWwyTnNMb3pKR2U2THB1YjNaWmNhZTh1VktYOXB2bWdhVFpB?oc=5",
+          "title": "India’s September exports jump 23% to $44.4 billion; trade deficit narrows to $30.2 billion - BusinessLine",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZUtUQS02VVB1QVdScTNfVkVGaF9oY092OEI1VkczSmdCeFdYa2Z5U2poMVM4TlkxWWhjTjRLbHF1NEZMRmREeXh4VmNuU21YWDFRRkZDMTlFUFEtMG91MElUQ2Zpei03VEFvX2F2YkhWcE1adE11VUFhRXlwVnVEUnBMTTJ5aVJJeXMyb0JQbFMzS3BJM2p5UXFPLWVodExpeDVVNFFTQW9TbmtEVG82bmhINVFYeHZjYVplbHZfWW5wMVBPMTZOdVFIZGRTazRCN1dvcWNDVXB6bzZLXzQ0U0M0b9IB6gFBVV95cUxQU1NSZmJMYnQ4ZHdhcGlVUjdiUzFtOHNIWS1MQ0NENFU4ZHB1bVBLcFBxWXpjTHU3eURvTU00NkZmVlo2clF0VEtsNzZDOTVYU1lqWXR1Yk9fTGdDMWtLRVJpV3hLTlYxY3paei1Rb182Q3ZOQXVIZ0k3M0ZIeS1Ud3lXX2dwbmdvamkzZlBJMjBtcW4ybDR3VUxYVGlzY0NpMEc4Zkp4bUE3S2pfVDVVTGZXWTQtUU12LXJJaC0yTkVYZE5pR1cwUU9NRExDRkJ4ekQ5T0tqaHRtME0xNlBnam43ZkZjRS1nMGc?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Mukesh Ambani's Jio sets price band for mega-IPO, positioning India's telecom-to-tech conglomerate for major market debut amid valuation scrutiny."
+          "why": "India's September exports surge 23% to $44.4 billion while trade deficit narrows significantly, signaling economic strength."
         },
         {
-          "title": "West Asia conflict: Why Indian seafarers keep sailing into Hormuz - The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN0djaXB2bzFJX3RFU1dFYjdGMXA2dzdLUkNmNjFoUV9ZQm9hZ1d4U3U0WnFwTmZBS3ZFaExrMTRBOGZuSGQyOUdnVnlPQWU3SUdWOHh5UldqempPZWd5bU5xTHpJc2NYMm92Vl94OExfZVJFbUFOQlFqY3pmMzFnMk85N2hEejd1OFBJekMycnU4bFhqalRac2JwQW9VXzh4bzJSS0l30gGsAUFVX3lxTE1XakFyU2NfUEI4eGdzOV9USTBRbmNwT1J1cjF1QXN6M0FLRExMSDYxdkdWaWhKNXY2bzFVeUJ3NEhxYW16NGNkckFtNm0xZXAzRXlVSlFTMGlmU3BmVkgydXdpbTFSLWZiVHp3Nk84RFFuSjVSdG1mLVRTNEhWdlNTanNvdEkzWlZpV2VwaWVuLTJTdzA5Y3hzenFvNUxYOFA3OGVERm95dUxsYXY?oc=5",
+          "title": "Anti-CEC protest LIVE | Delhi's Connaught Place Central Park closed on Oct. 16-17, NDMC says ahead of CJP's 'tiranga' protest - The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObXQxZWpNQWtvaXdYTUo2S2dtcWpXQk5zSUV0bEhJdk9TLTczUDZtdHlCbGl3bjhqaDdBZm9DMFJtM1M4YmNEMndSOXVuVGpfd2xXZ1RJUGFtVFFDU1ozQmtFaEJpMEpEZGl6SDM1eUZ5OXFlOVd2bENNcmtQM1F1Ylc5N1FIbmt2d1loYTlYWnQwX3oyWXRnd3FRTG1DVjVpcUdiSFdUanIwdFg5YVJFWFR5UXZFLU5uMzRfVEMyNWU3RmNuVEVr0gHOAUFVX3lxTFB6cDUwTWNIbGxxdGUxMGdMUk9CcGRwa0VMWUg2a0RQMW9kWm8xTHVnc0pDVWdlN3dsMV9tRU5IdFZNQkNPbURDUk9oaUJlNE15SnJmdm1vWjFmLTNuM1ZyRWVQajJ5Ui1BeU9zaUVESl9Oc284TkxQOHE4ZkZDZGw5MHZKNHJGeTRWVXZlSURNaDY2ZGVJYlhVRU5VZTNBR3I0OXJNSTBDUjByY1NNXzhSNVFsRVNEX1JOVGdBMnNjNnVzYV9rY2xRUHNFdTNn?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Indian seafarers navigate heightened risks in Strait of Hormuz amid West Asia conflict, highlighting economic vulnerability to regional instability."
+          "why": "Delhi authorities restrict gatherings at Connaught Place as CJP protest planned, reflecting political tensions over CEC."
         },
         {
-          "title": "Uttarakhand Murder Victim's Parents, Congress Leaders Detained Amid Protest In Delhi - NDTV",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQnpDUXdUU2FRd2xweGJtOHl5ZFdQaVc4bFlSU1pJT3ZDNDFyemVpRE1qNXpfb0pOUW91eW5aVUJrbXVSYkVvejExeGRUd2l2QjlYdEt5UnkxY1NjckFaY1hES1luTVFWcnlXa2ZWdWlqUC1QRlVOVXZPSkEyZVA2WWlvYkFBU2hGcDM2VVlvY2NNM0xxeERuZkxRSjBpMzFONU95YnpNWlY5QkotYXk1MXlQUdIBuwFBVV95cUxOYzZJeEd2a216OTZ1NHc0UEMxMWp2Z1hOcTUyQUxJdElGeG9NeDNjTXNiY0UxY1Z0Ty1la0VjQV9ERU8tWGZocWllV09XMFAtcFV0cGpuQmFrNUhBN2kyN2FxQmo2bmt2V2VtZ2QtTTNRU3VtYWV4bjNvNm1jcDBHSndMS1N5RmJqcVZpazVUNGFkcWo5S1VXMFNzZE5EUS1CU3RMOEN4SElEeWhMS1VUTnRIRU1JQWVHUEZj?oc=5",
+          "title": "Wipro deal wins plunge to near four-year low, deepening turnaround worries - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSTVtQ3c4RUtVTEJEVjZmeGFINmNQanZiZXBOQ3J1UnBXREdndE5qcDdxNHhRMzVIcWpSaUt1UkZqUHltYnhFZjBYak1sMzFLelNjdVN6aFN3Z3VhV2x4ZTJEMFNLZ1BKTnFnWm1jYWZjM0ZOcTdHUUFkRlI0ZE1KTGZiLWI2MTNwMlljNmxyMTRvM2RYNFVHQnd6S2ltTHV5QUl0YQ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Uttarakhand murder victim's parents and opposition leaders detained during India Gate protests, reflecting political tensions around justice system accountability."
+          "why": "Wipro's deal wins plunge to four-year low, deepening turnaround concerns for India's IT services giant."
         },
         {
-          "title": "Hyundai Motor India Limited Inaugurates Pune Plant; Celebrates Its 30 Years in India and Positions for Future Growth - hyundai.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCU3NCRE5fcm95YVZ5VG1RWmR1eG9RbndWQXl4UWc3UFA3OVB5eXpLOWVqcWIwaEl5a0FIanhROUZvVWFucG05MUVCdzMwT1pzQnF0ZHJyWWFLY2xjdkRZLXZRRzJmY2dYSTN0RFR6RHE?oc=5",
+          "title": "Anti-CEC Protest Live Updates: 'Do not to participate in any gathering': Delhi cops warn of action over CJP stir - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPc0FFV05fNWF2OUZSTmV5a3ZIREMtUE5CUDZWOXJPTlB5OHZzcXlIdFdyeV92OG9zVjN4ODFvR280dHJoX21GcVlweHl4U2syTUdLa0xmU3FidDEzdzRwcHU0RTNCak9yQ1NPQ1BzUHdWd19jU2FwUFFfSENzYUlHR1p5UTdxM3NRcGhnalhHaVlRUGEyT2k3ZjE2ZTN4Q0hESUkxN3J3a3V5ck8xVEZRYWp4VjdLdmJlYnlYMmRxUjlRRjZtMjFVRC1CWFNQNHJSV1gwdlVrcWc3Y2lBUGItRk4yRm9NbTAtRDlqMS1Hd0UyeDhlMGJaYVYyRWZBdjF3eTY0T3VnSFdpYWFteVhMRWRPR0c0TkFtY3E2a2JMWdIBpAJBVV95cUxPUk5nVXlXby15SHBYVUFNUjVFbnpDeWwtSkdsb1Y3VVJib0lSaW4yY0cxcFo0blNfSVExSFA4ZGJlNVNSMEp3eWhxSFMzazlJSTNoS1V4T3Z4Y2pPZTRieHJqeXhiQ0ZtOVotZXQ4c3NyaC1GNzRDSUxqVzJWcXcxMkNfUjQzM0ppMnVkUW82ZjVVSzBwVV9lOVFOV1pyN1hKaWdXX0tGMFRvWS1zandoUFF1aUY2YXluV2dVMjJMX1RxazdyVjlYeVg2VjliSFZsQkR6cmgwMGNtSGdRS19sbU5xTXN5WEdZZzAxanBIMS15TGFRdHFyVDZPNWRRWXlaZU5na1pvN0U2enljeEpMZDBMemV4bWVJaUs5YkpuSURBa3Vz?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Hyundai inaugurates Pune plant and celebrates 30 years in India, signaling continued foreign automaker commitment to domestic market."
+          "why": "Anti-CEC protest escalates in Delhi with police warnings against participation in gatherings near Connaught Place."
         },
         {
-          "title": "India & US nearing a landing point on trade deal: EAM Jaishankar - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSXpxVUhsWjNjZGVUOGdreGhLRDlfRWRDQ1RPZzRqcDRYbVlYWEVGNDd0R3J0YUxfVWtkQ0tQM05QcXE3Nlpjam91OUZqRnIwYV94M3dPazVocnZjLXRCcG1rYTlaMnMzQ2dhSm9UYzVqd3RaOTRlQVhWdlJpRVg1QVdncXpzUGd3bFRTc2pTeHBDSnRxTGtCZ2EwNHpNaHZZcWdwcWRKeGRzNlV5WkY2YWttZ2JHT1BQS3I4R0dBTmxxRGxHelp0YdIBzgFBVV95cUxOSlZ0MHBMUFdReTVodndwYWl5ZUxBZGY0M190MnA5TE9VdTZ0VGRGUXNZNlJlWklHVUVRR3ZNaTZ4eGpNVmlSMXdYRVcyVXBwcnhzMkNCVVgwQmRsQlBIbDhlZF9PbmxVSjVYUG5hQlc0a2dZOWdGdHA2VUZMdVN2UldmYW45eXE1YzRibUZqd1VBQjhxZFdpNkpFaUVZVGJjU1N5Qm00YXB3RTU1N0ZHNDVXVEM2ZFZVQThkdHhoZGM5WGlBVmZzaXlJY094UQ?oc=5",
+          "title": "IND-W vs ZIM-W T20 2026: Smriti Mandhana era begins as India host Zimbabwe - schedule, where to watch live - Olympic Channel",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVEZOQTlfbTR5bTJONVJIQmR1ZFloMnZSQjRzcWMtd3VGVWZpX0V4bjRqV3dUc3hUU3ZJSGpacG5uLVdVaGo0VmdGWk0yOXkxakduTlFaSjVwd1ppcFV4MWI5NTRaS05xem1rVUo1YlcxaTVEY1BDZXJxTENoZXRZR0FaMlA3d3hyVVNoYTVUNzlfeElkcm5LSjdnZnFCTGwxMlVNUm1zcm9pejhLR0MtZ21n?oc=5",
           "source": "\"India\" - Google News",
-          "why": "India-U.S. trade deal negotiations near landing point, suggesting imminent bilateral commerce agreement with broad economic implications."
+          "why": "Smriti Mandhana era begins as India Women host Zimbabwe in T20 series under new leadership."
         }
       ],
       "immigration": [
         {
-          "title": "H-1B visa update: Why Indian workers could face fresh checks despite previous approvals - Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbExHSVVKd3VibjJFb1dNc2Y5T3JuUTZnczNTTU11azU0S2RUUk5SaWh3aDBZbGdfcWtLLW5SWnNFQk5FMmJFNkZwT2pnT3o3S1VuaUJNWlJ2eThBN2RGbzQtd1JLX2VTWkpHLWN1SFBoUXh0SU5rZkFSRFI1OWRJMmNlRDB6QzBySDd3VlBTOG9OMDRmOTBHR1VrcGJOWTV6aXVYWFJZNE8ycmdiUEJuR0lRMS1xWUI2eXBndm9ZZFJXNjBHS21hMkoxd0xUS3djRjdKUFpDRDU?oc=5",
+          "title": "Indian-American Group Urges Trump to Protect PERM Green Card Program Amid Tech Company Suspensions - INDIA New England News",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0xmaEphUGRVTUZxYUxxT1N2dWduS0NURU03bEN5RjhzUXZvVlU3Y0dyQ3BGUE9zV2ktY3I2aGlCWXlzQ2U1REFMbUk0M1ptZGxVS0pEN29TZENiQmxfUFNJXzlDZVRIY1dwb0p0VWU4ZkNYbG9sdjRCS0sycXNoeDNRWmkyVWNmdXpCeWRPTUtqTm5waWNpMGxhaHZOdXhMQWlrTHE1c3RkQkIwZ0dOZFhwd2Vkc05IcUFJNERTYXhnOFNBWWc?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "USCIS proposes new scrutiny protocols for H-1B visa renewals despite prior approvals, raising uncertainty for hundreds of thousands of Indian tech workers."
+          "why": "Indian-American groups urge Trump to protect PERM green card program after major tech companies suspend filings."
         },
         {
-          "title": "H-1B alert: USCIS new proposal to make visa renewal riskier for workers - know how Indian professionals will be affected | Hindustan Times - Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeER4aHI5X196eF8zdWYyR29oR0tlYzQtdjNKRWF2cEQ0aEFkRXY1dzk0VXBhWVpoeDhuRWFuRWoxYUFHc0huQWtKRU5jTVd0Wmh2eFRuT3JUbTRPTUs0WFlUQVZIRC1ya0ItQ2dYeFpueHowN3RUaFV3S09kVGh4bXo3enFEdE1GeWtCTFhwR1A5dFNDaU9PZDVsR3l1Mk1ra1FuVE82SzNxOG56anNsWnd6RzlfX1VkU011bDRpM0tYMlBEX1k5T0Vhd2MtTWlNNGE0LXBnY3JSLXJKdFZoMXFSaEc1UDZUZTV0TUtkSmxHMTduYXpDMlJTd0UxbWdOLXRfcmZFOVAtd3Z2LTRDV01jd3Q4d9IBmwJBVV95cUxNM2p5QWd1MHQ1SjZNX3hYR21JbFJscVVVbnowT1c2OGxMcndCckgzTlBEc0IyeDdVV3RsdWtBbTV5ZkR1QXYxejhnMXE0NGJINUFVUDVreG0wdjVQOC1pYXFmamx2dmdiT2pYX3hWUDVHM2NEYnprR2FZY1FBMFlnZmI2dHR1YU5WcTFHMFpvTmlFOGM4VzZCZzlCWlBpWVRyWkh3dklKQWQ0U1ZFLVRMNWVXQk5XUE5MSEJvbVIyRkw4emlBYlg2TTQ1UWlQaE15NGE1Wm9SeW9nM0F6eFlkRVJnYV9uODBmVmdKVTE0SmZFSW03Rmp2MkZSZEstQUQ1eW5md2FDUmVZdVg2MmJ2ZF9lbmFuRGxSM1RF?oc=5",
+          "title": "Microsoft’s Brad Smith Says Green-Card Curbs Could “Cripple” U.S. Tech. Here’s How Much It Hits Microsoft - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUHRock5kM25Rc29EWVZwRXNGb3lLTDh6Z2FHektILWFCY1c1cjNEM0VVbWtJTHpDX0hsOTZzOHB0bHdraUU2MnhyY0JKOFNMaS1raVJEWDhDUExNZGNqVFV4eEFmZWlJRjZLcmJkWkw2bWNjN2VUOC1VbjU4V2FodHRSSDZBWXA5ZlFHYUc2RVBhY2I0MktWYjV3d2JKWHF3S3lmNXlLa09LRFVyUk9uVVo5ekQwem1LeERaZUZyUGI5UnA1?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "USCIS new proposal to make H-1B visa renewal riskier threatens employment security for Indian professionals already in the U.S. workforce."
+          "why": "Microsoft president warns that green-card restrictions could 'cripple' US tech sector competitiveness globally."
         },
         {
-          "title": "USCIS ends 540-day work permit extension: Immigrants could face job disruptions - The American Bazaar",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2FlU1M3RXp2c3RwU3BXa0tkdUR2QW83Ymp0cXRVUUEwdFVxaW5Nd0JnTkl4NzJ0QXpXZFM4OHZiM1Fyc0tqVDZyNW5oM1NPV0hXdC05dl9NdkxQUWpZc2txajAzU2NGZ3g4SWtHeHpPWVIycGZHcjhwWFpHaUt6OXdGMWYxLWpfZTE4QmFNRVFENDFVLW5F?oc=5",
+          "title": "USCIS raises immigration fees in October: Which applicants will pay more? - El Cronista",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWQxWlVtdllQc1dabVc2aEVZRUF2UEE5RTF2NGRiYk1xT2ZWREt2MkR2ZFViRlFhR1d2SXJzbXEtYmJmbkNGZWszemVGVktta3ZBSWpqbnJsWENTbl9Va2p3aHNXblA4R29HRHBBa3YwbElNYmdLNWFMU1AxMUQwZnNWSmxLbTllVUFSRVphbnRyQXdvUFpGUGtRbW85UndReVFxOWFZaDlpQUU1b2ZUYUR3?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "USCIS ends automatic 540-day work permit extensions for immigrants, forcing faster green card processing and creating job disruption risks for dependent workers."
+          "why": "USCIS raises immigration fees in October across multiple application categories, increasing costs for visa and green card applicants."
         }
       ]
     },
     "finance": {
       "items": [
         {
-          "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-          "source": "Business - Latest - Google News",
-          "why": "Nasdaq plunges on hot CPI inflation data, triggering worst day in two months as market fears Federal Reserve rate hike cycle revival."
-        },
-        {
-          "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPempZdGRIVjc4VGlKVXY0VjRrOFh5YUtFNFdUZ0NUTUQyV2Y5UjhzY1JkMUhINDdJdm5meFoxRFZxcmhPazBZUEZWV01SRjZuV0RxTnV2TDd0c2lRa0JuRkY3N1FpRlRkZGU5WmJSdXlXaHVzb2VfcHJCdjNJaGt3NmhOdUxUVF9RS0JCdU5MeEI?oc=5",
+          "title": "Nasdaq slides to near one-month low as AI rout deepens - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
           "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "S&P 500 and Nasdaq see worst day in over two months with chipmaker rout deepening, signaling broad tech and AI trade reversal."
+          "why": "Nasdaq slides to near one-month low as chip stocks plunge in continued AI sector rout affecting market confidence."
         },
         {
-          "title": "Asian markets sell off as AI trades crumble after hot US CPI data - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
-          "source": "\"global markets OR FTSE OR Nikkei OR \"Hang Seng\"\" - Google News",
-          "why": "Asian markets sell off as AI trades crumble following hot U.S. CPI data, cascading global selloff across tech-heavy indices."
+          "title": "Stock Market Today: S&P 500, Nasdaq open lower as tech stock drop sharply; Dow rises as Treasury yields drop - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQem16UFhoRWMtTXFaVlg3emJLd2c3eUJkeFBWZU94dk8yczZCeGRoVEpLNEhRaDV0NmJ0d1N2UnJrWGd2SXhQdkVrNGx0RHVTdTZzUVlRcHdHeFNWVlZXa3RGS2pZOTQ5c2hvSTZwTy1NWnFmdVktb2VQRnBZR2dXRjNWZFJ1TkMtMEtxQWRqSHBxRkZNX0g0Z1NQVG1DakMwZnk0czBMSkUyeGxRMnZXVnRaNW9XMFBsNzRPY1hhclNjQXVUTEE?oc=5",
+          "source": "Business - Latest - Google News",
+          "why": "S&P 500 little changed while tech shares drop sharply for second day and wholesale inflation surges, signaling sector rotation."
         },
         {
-          "title": "Asian Markets Drop as AI Trades Sink After Hot US CPI Data - Global Banking & Finance Review",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTZaNkRES1c5SW1SY28yTHAxdEx1SDJDaTZxZmRvZldaTjZTMUdZdzdRa1hsbWx6SFlBYWZUeEh2WVgxa3RkWmR2SXpFaWV3Mjk2eTJNZUhaaEZWTHRnM1BFTE9kWEhZcVBad2ZPWmhwd1RXa2pUQjJPejFSVnRaYzJDVzNJWXlYcUN4ZUJMWmM3d0pJcWk5Z0NxVmw2Zw?oc=5",
-          "source": "\"global markets OR FTSE OR Nikkei OR \"Hang Seng\"\" - Google News",
-          "why": "Asian markets drop as AI trades sink after hot U.S. CPI, reflecting worldwide market anxiety over inflation and monetary tightening."
-        },
-        {
-          "title": "Sensex Today | Stock Market LIVE Updates: Nifty bulls seek clear direction on Sensex expiry; Stock-specific tr - CNBC TV18",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOF9abkY1MjNmX0JuTUlJdlJDQkVuaUh5SURmdllDWTNuR0JFZzhRMVFWNVp1TmYycmtpWDFfdmJLd1FBVU1CQkkwQ3hDNUE2aGxpb1Y3MEwzbmxNTi1uWlRPM0xxN0pVTUtXUzlud29OcXFjSHp2b1BURnBaX1U4ZGdIQnpNUmRKeDAwVGlvd3JFMmlRc0lEZjdQV1RmZllzLTRNY0xzMG84R09xS0Y4U3VYd0k2R1QyRXN4NUVuWEV2NlZvYk5YWEhULWFMVGttc0t5bWZjaFgtSFlMXzJxOFRxLTlDemd3Zzg3TmpleDc3RzczbXRJU0dRX1Jvc2JIOVRzanBTclFSdk9tb1Zr0gGUAkFVX3lxTE5rMmZOa1AwS3dONWplX0Q3RjhIU1V4WTZBRjY3dENjbnhTdk5JX2hGeXF5dnVhT1FGU05kVWtXU0tBcVdmZFV4d0NGTDhYU1JLT2JZODVzYS1NQzNhV3YteUpEQ1d1bjdWOFVXMFgwN1UyM1NVNFhBN2ZPei1QMFNlSm4xUnJVak1jS3pPNmJWcXZmZ3VuUndmaUZ2a0NwWHdHeEF1ei11dndZYy1RUXMtZUh4eHFqUzJJOUk1M2hsSTNnVG1pY3FKWUZLRFNYbFh4NDZOUUYxM0N2QTU0N2pVMVpOcnN4clVtLUs3cVVnYmlIai1lM0htb0JIUHlFZVdKZkpyN3A3dklqRHJPWWJ2VVVsdQ?oc=5",
+          "title": "Sensex Jumps 1,534 Points as Falling Oil Prices Lift Indian Stocks - INDIA New England News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWFNOVjlvWVVuWGs5VV90VnlBaUZIdHdEb2ZKUWxDdDVQc1RGdEk3SjdZSXM0YkJVNGFVdW5mWWNXVDgyYk9uV3JGMlgwNkZKLUszZEFTTENxMC1UOTV6MHFrbkRabjJtUHhsRlJtR19oYkhvRzk2U24zN05XYXY5d0NheFFZemxaRjllTGNuajJOdHdwYXhDUXBR?oc=5",
           "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
-          "why": "Indian stock market seeks direction amid Sensex expiry and global risk-off sentiment, reflecting spillover from U.S. inflation concerns."
+          "why": "Sensex jumps 1,534 points as falling oil prices lift Indian stocks, boosting emerging market sentiment."
+        },
+        {
+          "title": "IT, private banks lift Nifty 1.7% as Asian AI stocks tumble; smallcaps fall - Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON0JlaTBlVXNKY09lczEyVEZodWJwcXRzdG0tQ21INVltWXh4UG1HbWJIaHNfVGJYZS10QVlrU2swUWdEOHB2T2dYNzZsNlhKYWFBY1BYbkdrZFVIdlF4cWdBVUFpTi0yU2FUY0dwTzdSbVZwM1dfSmJrSVRrcGxRc29WRTJwRDBOTC0yZ3Y1Xy1McFRZRVVQYlI1aFdCNDFKNFVNTzZOOWl0cXMtQTQtY0pUcVRNNzN0bXhZaHMyTm9rUkxieFVsNzRfdzFBOWloZjBzeWVB0gHbAUFVX3lxTFBIUTdUUHFVM1dZLXMyRVRtTTJsS0NjcVZtdm5TSVpFOVFvb28tNkR4dVVRMGJ4YWFTbGl1S1J4eFQwbktLZzJ6RHhpX0VEZmloYk41aElZZmpMWEhTZWp4TS1sa0Mydkc1RGptNjF3RnllQ3VSeFJVM0pkVlhlTGVlZ1dVYm1YZ085VHljSEVTcE5BVWVTVURLM2t4bWJad0dHSU8xX1hhNVQzajJyTUFMc0duUEdPN0owbE5ZTW1nS3p2UjIwdzNVWVhtQU9pdFJzM0x1SWJzRUVoQQ?oc=5",
+          "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
+          "why": "Nifty rises 1.7% led by IT and private banks as Asian AI stocks tumble, showing India's market resilience."
+        },
+        {
+          "title": "EXCLUSIVE WEF could appoint Lagarde as early as November, sources say - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNExHamNuVlEwYUJMR1pmbjhxVFpNYURJVDNqU2wydDRMSDV3WkNSajkweDMzTU9FRGpsclhFLWFJVVRzcWxpMWlZN0VkYkNyUVlOWmhoZ1BNNXA5M2s4WU1EUEZVMDRWM3ktWUtaTmM2UkhfMEdSZ29oXzBZMFJyUngxN05NYjYzUUVQVksxaHBjSzFyVjNHLVpaaFZweTVlUkMtNnQ3dUI?oc=5",
+          "source": "Business - Latest - Google News",
+          "why": "IMF could appoint ECB President Lagarde as World Economic Forum chair as early as November, signaling leadership transition."
         }
       ],
       "quotes": [
         {
           "symbol": "SPY",
           "name": "S&P 500 · SPY",
-          "price": 769.6,
-          "changePct": -1.08
+          "price": 770.4,
+          "changePct": 0.1
         },
         {
           "symbol": "QQQ",
           "name": "Nasdaq · QQQ",
-          "price": 728.95,
-          "changePct": -1.97
+          "price": 724.62,
+          "changePct": -0.59
         },
         {
           "symbol": "DIA",
           "name": "Dow · DIA",
-          "price": 515.63,
-          "changePct": -0.11
+          "price": 521.14,
+          "changePct": 1.07
         },
         {
           "symbol": "INDA",
           "name": "India · INDA",
-          "price": 47.04,
-          "changePct": -0.42
+          "price": 47.87,
+          "changePct": 1.75
         },
         {
           "symbol": "EWJ",
           "name": "Japan · EWJ",
-          "price": 95.84,
-          "changePct": -1.52
+          "price": 95.12,
+          "changePct": -0.75
         },
         {
           "symbol": "EWU",
           "name": "UK · EWU",
-          "price": 46.91,
-          "changePct": 0.19
+          "price": 47.76,
+          "changePct": 1.81
         },
         {
           "symbol": "EWH",
           "name": "Hong Kong · EWH",
-          "price": 21.92,
-          "changePct": -1.92
+          "price": 22.06,
+          "changePct": 0.65
         },
         {
           "symbol": "VT",
           "name": "World · VT",
-          "price": 157.67,
-          "changePct": -1.31
+          "price": 157.88,
+          "changePct": 0.13
         }
       ]
     }
@@ -245,24 +245,24 @@
     "theme": "productivity & focus",
     "cards": [
       {
-        "title": "Single-Task Seasons Beat Multitasking Marathons",
-        "insight": "Productivity peaks when you align your energy with seasonal or project-based cycles rather than juggling parallel priorities. Batch similar work, establish clear season boundaries, and signal when you're switching focus modes.",
-        "takeaway": "Declare one \"primary focus\" per quarter; communicate it to your team so context-switching expectations reset."
+        "title": "Protect deep work windows from shallow obligations",
+        "insight": "Peak productivity occurs when you can concentrate uninterrupted on cognitively demanding tasks, yet most work environments fragment attention into constant context-switching. The cost of resuming focus after interruption multiplies when you have back-to-back meetings, Slack notifications, and reactive email cycles.",
+        "takeaway": "Block 2-3 hour windows on your calendar for focused work and treat them with the same non-negotiable priority as client meetings."
       },
       {
-        "title": "Friction Points Are Hidden Productivity Leaks",
-        "insight": "Repeated small obstacles—authentication delays, notification interruptions, unclear workflows—accumulate into massive time loss. Often the biggest gains come from removing one friction point, not adding new tools.",
-        "takeaway": "Track three tasks that annoyed you this week; systematically eliminate the friction from the one causing most delay."
+        "title": "Energy management beats time management",
+        "insight": "Hours spent tired, distracted, or unmotivated produce far less output than fewer hours spent in a state of full engagement and mental clarity. Your most valuable asset isn't how many hours you work—it's the quality of attention you bring to those hours.",
+        "takeaway": "Track when you feel most alert and productive over one week, then schedule your hardest thinking work during those peak windows."
       },
       {
-        "title": "Recovery Time Is Peak Performance Planning",
-        "insight": "The gap between intense work blocks and real rest determines sustainable output. Rushing from one task to another without transition depletes cognitive reserves; spacing allows pattern recognition and creative insight.",
-        "takeaway": "After deep work sessions, enforce 15-minute \"transition\" blocks with no email or new tasks—let your mind settle."
+        "title": "Single-task mastery builds long-term advantage",
+        "insight": "Multitasking creates an illusion of productivity while fragmenting the depth needed to produce exceptional work or develop genuine expertise. The ability to sustain focus on one problem until it's solved compounds over months and years into mastery others cannot replicate.",
+        "takeaway": "Choose one priority per day—not three—and don't move to the next task until that one reaches a natural stopping point."
       },
       {
-        "title": "Clear Exit Criteria Beat Endless Refinement",
-        "insight": "Ambiguous finish lines invite perfectionism and scope creep, killing momentum. Defining success upfront—what \"done\" means, what version 1.0 includes—creates psychological closure and frees you to move forward.",
-        "takeaway": "Before starting any project, write three acceptance criteria and share them with a colleague; revisit only if requirements genuinely shift."
+        "title": "Friction against distraction is your most valuable tool",
+        "insight": "Willpower is finite, so the most reliable productivity strategy isn't about discipline—it's about making distractions harder to access than focused work. Removing notifications, logging out of social apps, and physically separating from your phone reduces the daily friction of choosing focus.",
+        "takeaway": "Audit your workspace and devices tomorrow: delete three apps, disable three categories of notifications, and create one physical barrier between you and your phone during work blocks."
       }
     ]
   }
