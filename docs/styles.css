@@ -72,12 +72,17 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   width: 100%;
   padding: 0 16px 10px;
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 12px;
 }
-.app-header h1 { font-family: var(--serif); font-size: 23px; font-weight: 700; letter-spacing: -0.015em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.brand { display: flex; flex-direction: column; min-width: 0; gap: 0; }
+.wordmark { font-family: var(--serif); font-size: 11px; font-weight: 700; letter-spacing: 0.01em; color: var(--muted); line-height: 1.2; }
+.app-header h1 { font-family: var(--serif); font-size: 23px; font-weight: 700; letter-spacing: -0.015em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 1.1; }
 .header-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
+.live { display: inline-flex; align-items: center; gap: 5px; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; color: var(--accent); }
+.live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: live-pulse 2s ease-in-out infinite; }
+@keyframes live-pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(178,59,46,0.45); } 50% { box-shadow: 0 0 0 4px rgba(178,59,46,0); } }
 .updated { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .updated.stale { color: #b45309; }  /* briefing older than a day — build likely failing */
 .version { font-size: 10px; color: var(--muted); opacity: 0.7; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
@@ -116,21 +121,28 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .skel-item   { height: 74px; margin-bottom: 10px; }
 @keyframes skel-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
 
-/* ── Per-tab hero band (gradient + glyph, no external images) ── */
-.hero {
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 16px 18px;
-  margin-bottom: 18px;
+/* ── Per-tab editorial masthead (eyebrow + line-art icon + serif title + double rule) ── */
+.masthead {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 4px double var(--ink);
 }
-.hero-art { width: 42px; height: 42px; color: var(--ink); flex-shrink: 0; }
-.hero-tag { font-family: var(--serif); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); }
-.hero-usa     { background: linear-gradient(120deg, #fdeeec, #eef2fb); }
-.hero-world   { background: linear-gradient(120deg, #e8f5f1, #eef3fb); }
-.hero-india   { background: linear-gradient(120deg, #fdf0e1, #edf7eb); }
-.hero-finance { background: linear-gradient(120deg, #e8f6ed, #eef3fb); }
-.hero-learn   { background: linear-gradient(120deg, #f1ecfb, #fdeef4); }
+.masthead-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.masthead-eyebrow {
+  font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--accent);
+}
+.masthead-icon { width: 30px; height: 30px; color: var(--ink); flex-shrink: 0; }
+.masthead-title {
+  font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em;
+  font-size: 40px; line-height: 1.02; margin-top: 8px; color: var(--ink);
+}
+
+/* Editorial rank number (#1, #2…) */
+.num { color: var(--accent); font-weight: 700; }
+
+/* ── Finance: index quote grid ── */
+.markets { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 18px; }
 
 /* ── Finance: index quote grid ── */
 .markets { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 18px; }

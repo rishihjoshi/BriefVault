@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailypulse-v13'; // bump on any static asset change (keep in sync with APP_VERSION in app.js)
+const CACHE_NAME = 'dailypulse-v14'; // bump on any static asset change (keep in sync with APP_VERSION in app.js)
 const STATIC_ASSETS = [
   './index.html',
   './app.js',
@@ -6,6 +6,7 @@ const STATIC_ASSETS = [
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-maskable.svg',
+  './icons/apple-touch-icon.svg',
 ];
 
 self.addEventListener('install', e => {

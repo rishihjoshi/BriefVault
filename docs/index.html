@@ -8,13 +8,21 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="DailyPulse">
-  <link rel="apple-touch-icon" href="./icons/icon.svg">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg">
 
   <meta name="application-name" content="DailyPulse">
   <meta name="mobile-web-app-capable" content="yes">
 
   <meta name="theme-color" content="#faf8f4">
-  <meta name="description" content="Your daily briefing: St. Louis news & weather, world, India & immigration, microlearning.">
+  <meta name="description" content="DailyPulse — twice-daily editorial briefings: US & St. Louis news, world, India & immigration, markets, and a daily lesson.">
+
+  <!-- Social preview (SVG banner; some platforms prefer a PNG — swap if needed) -->
+  <meta property="og:title" content="DailyPulse">
+  <meta property="og:description" content="Twice-daily editorial briefings: US & St. Louis news, world, India, markets, and a daily lesson.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./hero.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="./hero.svg">
 
   <!-- Editorial type (Newsreader headlines / Roboto body); swap avoids FOIT, Georgia/system fallback works offline -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,8 +38,12 @@
   <div id="app">
     <header class="app-header">
       <div class="header-row">
-        <h1 id="tab-title">USA</h1>
+        <div class="brand">
+          <span class="wordmark">DailyPulse</span>
+          <h1 id="tab-title">USA</h1>
+        </div>
         <div class="header-meta">
+          <span class="live" aria-label="Live — updates twice daily"><span class="live-dot" aria-hidden="true"></span>LIVE</span>
           <span id="updated" class="updated"></span>
           <span id="version" class="version"></span>
         </div>

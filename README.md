@@ -1,5 +1,7 @@
 # DailyPulse
 
+![DailyPulse — twice-daily editorial briefings](docs/hero.svg)
+
 Personal daily-briefing PWA that captures the rhythm of twice-daily updates
 spanning US & local news, world events, India, and markets. Editorial-light,
 newspaper-style, installable, offline-capable. Five tabs, refreshed on a schedule:
