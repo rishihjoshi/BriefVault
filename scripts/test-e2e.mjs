@@ -64,7 +64,7 @@ const { loadDigest, show, showUpdate } = await import('../docs/app.js');
 test('loadDigest renders the Local/USA tab with weather, hero, and St. Louis metro', async () => {
   await loadDigest();
   const html = els.main.innerHTML;
-  for (const s of ['United States', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph', 'Local lead', 'St. Louis Metro', 'STL metro item']) {
+  for (const s of ['United States', 'USA Pulse', '#1', '#2', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph', 'Local lead', 'St. Louis Metro', 'STL metro item']) {
     assert.ok(html.includes(s), `Local render missing "${s}"`);
   }
   assert.ok(els.updated.textContent.startsWith('Updated'), 'updated timestamp not set');
@@ -99,7 +99,7 @@ test('switching tabs re-renders the right content', () => {
 
   show('finance');
   const finance = els.main.innerHTML;
-  assert.ok(finance.includes('hero-finance'), 'finance hero missing');
+  assert.ok(finance.includes('Market Pulse'), 'finance masthead missing');
   assert.ok(finance.includes('Markets lead'), 'finance item missing');
   assert.ok(finance.includes('S&amp;P 500'), 'market quote name missing');   // & is escaped
   assert.ok(finance.includes('+0.41%'), 'market up change missing');
