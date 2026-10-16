@@ -1,242 +1,242 @@
 {
-  "generatedAt": "2026-10-16T00:52:51.685Z",
+  "generatedAt": "2026-10-16T15:03:59.109Z",
   "location": "St. Louis, MO",
   "weather": {
-    "high": 79,
-    "low": 60,
-    "highC": 26,
-    "lowC": 16,
-    "precip": 56,
-    "wind": 15,
-    "sunrise": "7:10 AM",
-    "sunset": "6:22 PM",
-    "label": "Heavy rain",
+    "high": 60,
+    "low": 48,
+    "highC": 16,
+    "lowC": 9,
+    "precip": 24,
+    "wind": 17,
+    "sunrise": "7:11 AM",
+    "sunset": "6:21 PM",
+    "label": "Light rain",
     "emoji": "🌧️"
   },
   "tabs": {
     "local": {
       "items": [
         {
-          "title": "Live updates: 3 children among dead in Bend school shooting, OPB sources say - Oregon Public Broadcasting - OPB",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GWmdRdXJBZy1uRWplOENEWU92cU5VbFNJcDdJTW5ycjB5MlZyYVlVcVZoYUc2MzE3MzkwWDZCZW45U1ZBdmxDSnZfbHA4bU4xTG54dzJ4MHNTN3gwdmJ6VlljSGJDbnFVU2dWVUFMbm9EbTlF?oc=5",
+          "title": "Bystander 'heroically intervened' after three children and teacher killed in US school shooting in Bend, Oregon - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yaTBMZDFNRHAtdFFvNnl2WUNRVFNQUkN3bTNtbjljQWRXRWRlWXBOS2F4YUlraFNPVUk4Mm45cGotMFd1ZEduRlBTOTlwOFZ5dVhKRmN3?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "School shooting in Bend, Oregon kills 3 children and 1 adult with suspected shooter also dead—major public safety incident."
+          "why": "School shooting in Bend, Oregon kills four children and teacher before bystander intervenes—critical public safety incident."
         },
         {
-          "title": "EXCLUSIVE: Order to limit Starshield for Ukraine came from inside White House, sources say - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFVmdXZNRHVvVzZhYTJWZTRETDgtRElBT0RibUJvX2VfUkI1NGt6Q1lTVmdON21mNjdXTjFNcXBkZlJ5X0NFYkMzOVQwWjZZTjNPN3hlY09Ta3ZUMUVoRm9lWWV4N29rWXV6dXpQNTNCRUhXTHVySUlUZTNaR2dORUVPd3l0SEJOTmJFaTJURnNyTi1icE5qZmsxSDNuNFRKTEd5Q21iSEdtUXJCWEI0UWNwOGZDdw?oc=5",
+          "title": "Tens of thousands in SoCal without power as Santa Ana winds force safety shutoffs - ABC7 Los Angeles",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazI1VEs4Znc2ZFNraUhjbGs0NnFPc2o0MlVJV2NMdDd3a1oxLTh0d05JOU1MQ1JNV0hJc1dSOEhYcEYyRG5vanQwdTlUbTk0WTZQQm9LQnpLTHg1VDg1aXVyRUJoYkFfZGVtYVFaTzd4TGNERmFocU5qX3oxQU1LdXBfWVNYd0J2WXdxZGZWeFN5QzhWeUpRbFlKX19laG81aW5tN0liVUY?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "White House order to limit Starshield satellite access to Ukraine signals shift in US military support policy."
+          "why": "Tens of thousands lose power across Southern California as Santa Ana winds trigger safety shutoffs and multiple wildfires."
         },
         {
-          "title": "Justice Dept. sues California, seeks to stop state from counting 20,000 ballots - Los Angeles Times",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMzlSWUJLNUJqMDViVnh3b3YwOGxxX3UteU5NaWNXbTNMRzBINjZBTWVla25oWFpwUGtLdEtFbmh5TzZpZ3Npb3VETjFFbThvUGc0NXdhQVUzb0JpcU5rcU1fRDFWeVc0b0h4R1hNUHBsczNwSjN1Z1p1Q19tcDRsRE1la280YWdkSDFpaWROdWE4OXFOdmRBX1VTWWFwYWJZaFJPSUhJcTJfb2NHVE5ybjl0UU9TVDVJMDk1ME5zWEFEQlBSYlg0cl9UenVRSjZHcFE?oc=5",
+          "title": "White House Reportedly Ordered Limits On Ukraine's Starshield Use—As Trump Blasts Zelenskyy - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWjFfZmNfVXVQQW5zcGdvWjNBQ2d4SzY2aHR1bHRwc3lYOEdKNmY1ZW41enFkRW9CaGFJeFZvQlliUmJFczdma2NvUVlqQ1ZUckVCWGEyeXlLR2NCdTJGNzBIZS1UZWVOcTEtc2pGZFp4clFxcXVDZmowd1BJaFVjR1drbm9iYVdheUdLMU15QVNGRkRQTjZINlJxQzB6TVpPaDZ1d2ZvVGpabGNabldjU19xa3c0MmdhZ1VVQlFnVlZkcmNXNktETkQtSFppRXNIU0ZORlpEQzlodG11TjlnVHBrbnBLdw?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "DOJ sues California over 20,000 alleged noncitizen voters, escalating election administration disputes."
+          "why": "White House restricts Ukraine's Starlink use amid Trump's controversial peace overtures, escalating geopolitical tensions."
         },
         {
-          "title": "Trump cancels Hegseth’s plan to live-stream Fort Hood shooter’s execution - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS0ZORHZZWGZOckxJMEEycklIZk1vaUgxNmNsUGZ5dVlIMXV3R1RGU3dWVnk3U3RIR0FDMU9OdmE3VWUwbGs5Ny0yZE5CWENHNUdHQlNXeGV3V2tPbDl2Q2E3Qi1hVE9yWjhMT0ZpdUc4dFY4anBDeDZqdVZMSzdFSjhVX0lIN1JLRE5GY1RWQjhfYnNxajNVbnVNVnhsV282M0dyZ19NYmpDT0d2OTllS0ZZNWlzWTc2Y2MzQTVUbjBLQUdYaC1rbQ?oc=5",
-          "source": "U.S. - Latest - Google News",
-          "why": "Trump cancels livestream of military execution, halting unprecedented plan by Pentagon leadership."
+          "title": "Warsh Vows to Tame Inflation as A.I. Delivers ‘Shock’ to Economy - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92Rk9VSzVNVHNBSmk1b3BzMTQyemFQdHNiSWVQYU1uVVJ1cEd4Y1lJTVlqZUU2TVNkb2drcEg5X1FxN2E1RWdKMjN6QmZwOTR4U0ZGay1yNXBxa1BaemN2ZXh3QkQ5UlV3MnFDSVBLS2k3REJqelluUnNB?oc=5",
+          "source": "Top stories - Google News",
+          "why": "Fed official Warsh signals inflation-fighting resolve while signaling possible rate hold, affecting market expectations."
         },
         {
-          "title": "ICE Agents Who Rammed a Worker in Houston Were Chasing a Dead Man, Family Says - The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yNFh5UnVvXzdoc1dRQl90YVJIS2x3MjlCeUNyNUYyTWhNblpiaUlxSjdLM09HbGFwQUdROVJZRGJBZDU3am1Bbkk3LThIUWthUXFEcEl3UVBncHJ2VDNNYW56bDJxOU4zQ3lyTUctVkdNODFtQ3d5Qnhlcw?oc=5",
-          "source": "U.S. - Latest - Google News",
-          "why": "ICE agents hit Houston immigrant with vehicle while pursuing dead man, raising accountability questions."
+          "title": "Apple iPhone Duo preorders sell out, deliveries extend to late January - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYTZNd2dCOVJMRl9ZSjRJVWQ5RGZ6bm5SSmtKUk9GZjFkV0c1ODBwLVYyYzRPOS1SR2V3a2NxTmtqdVZZcmFKT3ZhRDlEZXFpWDd0N1JGQWdqMDBlc3gxMTRnR0ZoRE9Xb0RSamZEUzFWaGdnUFhvcE1scGxQbC0xZ0lWSFlXMDhqUWh6YUZKWTlDenZ2MzhJbUNrUmhRWGRBUmJ2WVlhY1lxVlVMTXNTSnV6amNrNkFMUkgyYXVhaUlqekFkN0FaWg?oc=5",
+          "source": "Top stories - Google News",
+          "why": "Apple iPhone Duo preorders sell out immediately with late January deliveries, signaling strong demand for foldable devices."
         }
       ],
       "stlouis": [
         {
-          "title": "Federal agencies band together for Operation Show Me Justice, leading to 400+ arrests across St. Louis - KSDK",
-          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSFdmVzd4b2tWRy1TQXNlNTB2eFZSTnlkcXlHSE5HbW14YWJKdl9VWVFjSjg3QVNxQUlpT0V2WFYtSTJGSU9hY2hRX1JzVXFtekh6SGtDTGlCbFdDYWpYNTdUc21SamJKb1ZhOXI4ZUhzUWk2UEdZVlBKQVR4LUhmaGhYeGRYUUU1Ti1oX3ZPMVZWM3Vpa1pORGF2ZFF0NERuUnZiSllJYXN0c2pDUWlwMHJ6Q0ZxUW1DS1NrdUh0STlsRG1pLUdBOWZ1ZElIRklsOUZvaEk3cUpGRFBtc0M5WmZaNm5sMW5aSDQ0OVNLSVNXdFl5ZXlkeDJma1NURXFHby1mcExYcGJzUnc?oc=5",
+          "title": "St Louis MetroLink completes $192m extension to MidAmerica airport - Railway Gazette International",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZnZmZ0xrWlFxY1lBYjllU1dwMmZfMUo1QVNPMlVQYXpBemJHcmhWRmFhWnNPLVBaRk5VMENPRllIYzNBanpqZlVsUnlKVDVESE8xNkFuNTN5cXpLb2NYMnd1X3JUclZ5eWhibUc4YkRqRkQzR1hkck9Ga04weDQyeF85amxXTUZ5ZEFXakwwempjLWoxWDlSTzc0QnR5SHhZQk9DRTJCVklGZHVHS3plY0FB?oc=5",
           "source": "\"\"St. Louis\" metro\" - Google News",
-          "why": "Federal Operation Show Me Justice results in 435+ arrests in St. Louis crime surge crackdown."
+          "why": "MetroLink completes $192 million airport extension, major infrastructure investment improving regional connectivity."
+        },
+        {
+          "title": "Operation Show Me Justice | DOJ announces 435 arrests in St. Louis crime crackdown - KOKI FOX 23",
+          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQZUNTNXI2LVFqbHJXdUJHVEp0RmdVUmV1LW1HQkZrN1dSYzhfeW54LWZBRkJGcWgtWkU1dDZBNFg0RVdOTFVmWTVMdm9Jcm9uRVZtTFFzX0RYcV90ZzdXZVRvSENsd2pITTdRM0dManJXbmR3MklMbzZLTWZWTThiWnBZV1JnalRab0FyMWlLNHZ0d3dVd1BRWm14YUxuV2ZZWUY4OUNLUE1MVXY0bGJJTGNIQVVqSWRtQlg0akx1WUxpcDdOUi1tY0N1YXI2ODZOQkNqWkszUXRGcXZiNWY4MDI2MXgtaXZIanBHdVpyRFZaTjBjeWQtUUV5YURrWllQWTFfanl5eDZHVENZbVAzeE5NOVh0Zm9yRDd0TkJGNVhIdDdtNjQwVjdCbjBKTWtHd0NqSXRwRVZhTGEyd05LM0hTdUJIdTlIdHJxWUFwU3BXNDVOVS1rWGZnem83TVhqNEE3cA?oc=5",
+          "source": "\"\"St. Louis\" Missouri\" - Google News",
+          "why": "DOJ announces Operation Show Me Justice with 435 arrests in St. Louis crime crackdown, significant federal enforcement action."
         },
         {
           "title": "St. Louis CITY SC clinches playoff berth, extends unbeaten streak to record 21 matches - St. Louis American",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTm9rTjhqRE1vc01VZ3h1c1o4bGR3ZGttdkU3YVI5U0k4azVEV1V1UVl4dWpES0Fkc0NqMmFsZUpFSDBndERmZlhTc3lucTR4Y2YwT2dTaExITGNiTXdTN05uTmNrTDZVdGpRa3QtUWRxUFpaN2ZFWnBVWmI2QmhUWms5WFNHWS1rUFRZdlBTN3laVlo4UmRjM3o5SjktUVFKX3U0UmZFU0xkNHVLaUJNamFLWVU4WDBzeGFVRw?oc=5",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "St. Louis CITY SC clinches playoff berth and extends unbeaten streak to 21 matches."
-        },
-        {
-          "title": "Officials Celebrate Completion of MetroLink Extension to MidAmerica - Herald Publications",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUG5MLXNUbnFjVGJ1dVJYVkZJaVJXSTFNTFlHT04zb2dmVkFsVjNxcFJxM0dzOGxtOERpM3pLWDF1STFiQ2RvTFNKV044QVNwR3gzb3FuaHR6bFpCR3VTUEFuaFVLaUdmQk94UkxRcUk3S3ZIZkRWa2tYWDFZbG1fVFpGaVZfMU5DWElJZGxiMjlDS2VlblZBcXVwVGlUOW50aW1kU0txMGlhUQ?oc=5",
-          "source": "\"\"St. Louis\" metro\" - Google News",
-          "why": "MetroLink extension to MidAmerica completed, expanding regional transit infrastructure."
+          "why": "St. Louis CITY SC clinches playoff berth with 21-match unbeaten streak, major athletic achievement for the region."
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "At the scene of a school roof collapse in Pakistan",
-          "link": "https://www.bbc.co.uk/news/videos/cr5yn5wel153o?at_medium=RSS&at_campaign=rss",
+          "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
+          "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "why": "School roof collapse in Pakistan kills 33 pupils and teacher, major humanitarian disaster."
+          "why": "Zelensky defends Ukraine's right to self-defense after Trump criticism, deepening US-Ukraine policy conflict."
         },
         {
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "link": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "Houthi missile attack on Yemeni presidential palace kills five, escalating regional conflict."
-        },
-        {
-          "title": "A brewing Pacific storm could become one of the planet’s strongest this year - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNW1kT3NvVDRTQ2I2MmJHRk1XakNtZjNhb01LSHJlajRxcDBHc0JfRnRMNXNDTUVXemkwRHFzUlBWSFFkQ1pLcUdOXzIweFpPVWxKNmZRWFp4VmxoaFVkQkM2aEpjRTQ1dU1paW8tbEpCaHM5YjRWU0FTa0RER1NPRVJLdUZjNVJhaHV0NVU2NG8yRDJjeWhpUERRNExiVzR2SVpZdVdKTWtBTzNLRVloMDRPSlBaNll5ME96Vm5n?oc=5",
+          "title": "Israeli settlers attack Palestinians and Washington Post photographer in West Bank - The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV1p3QWNMcUlFQTQxMVgtX2U3YVhmMzBPcjg3U3RmSXFqc3ljOWxuc3h4MXRtQ0tYQkk5RjZYblBWdDVGM3hTcmlwaDRLZ1BRNWJOU1JTam80SmFWMTNYNks2X2V2TURDQmoxZWo1X1h5MnpocVdVRGpWUnI4dGRWM3BmTEh5WWU5cl9mdkhRTldqc2hSSlZrV3hKSE1rdFMzNENJbVdmeEZtWDFmRVE?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Powerful Pacific typhoon approaching Guam could become one of planet's strongest storms this year."
+          "why": "Israeli settlers attack Palestinians and Washington Post journalist in West Bank, escalating violence amid ongoing tensions."
         },
         {
-          "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger at Trump mounts - NBC News",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
+          "title": "Norwegian teen sentenced to 20 years for U.K. murder plot tied to Iran-linked gang - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmVZbGpIOHBTNEh3VmFGOXc1Z0VfSHZOcnJ0VlVKUHk3MFJjNUdxZWVnanNTVnM1SGhHWHMtbC1uVGt3THJlQ1F5T3BuQTJYMVMyN1JUY2JfNWFpNVBIaUF4YVoxVFNSS1dEUF9zcDMtajNoYWUxTWhqbzVZYjduOU9ER0ZnZDNKMmxEMkpfM253YjUzWjl1THNnZ2FzTjlyN1FpT2lHN2ZlcmpZaV9NdkN1djBJeGs?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Ukraine resumes strikes on Russian refineries defying Trump pressure, signaling continued resolve."
+          "why": "Norwegian teen sentenced to 20 years for Iran-linked UK murder plot, exposing international organized crime network."
         },
         {
-          "title": "Tip-off foiled US teen suspect's plot to attack Hindu temple, police say",
-          "link": "https://www.bbc.co.uk/news/articles/cqgm0j4kjvevo?at_medium=RSS&at_campaign=rss",
+          "title": "Patients in chains rescued from suspected illegal rehab centre in South Africa",
+          "link": "https://www.bbc.co.uk/news/articles/cmwyvxj49gpwo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "why": "Alleged US teen's plot to attack Hindu temple thwarted only when gun jammed, raising security concerns."
+          "why": "200 patients rescued from illegal South African rehab center found in chains with severe neglect, humanitarian crisis."
+        },
+        {
+          "title": "Pope pictured for first time since surgery and cancer diagnosis",
+          "link": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "why": "Pope Leo pictured for first time since lung cancer surgery, providing health update on aging pontiff's recovery."
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "PM Modi to visit Canada on December 11-12 as India, Ottawa push to boost ties - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaGJOOG90TXBac0NYRDgtajhSRWR3emVfV21QTjZxQ2VNWTQwa2g1UTMzeUZPSjltaE9XMkdtMU9pN19BeTRCdndxMkNfWHF0V3ZITXN6VmQyVWVjMjdNUG5zY0pIb1k2aVFIcHlpMV9uRlF2ZFh5OUIwYWxJWVJhbkxDWDFaTUFOWTk1LWZnUk1BM1hJcUhMZ080U0xPMFc3bjlBT2UzVDlpS01Wa19jSFFoSTI4TG5tWUVXdTJpY1JNY3NFZDJoc0hyYlhxSWpkUkJQcDJFNGhDQ19k0gHiAUFVX3lxTE1WRDZ6MTFEc3M0ekphRTQ4MWFmclJidExCVHBLUVIxZExJankyWWdWQkFUM00xaUw0aTFJRGFvMVJqcUk2QnZsekhMOGVhOGFNaWNTTnExZlRJMC0zWmJ4RExVWGJpNW1femFxSDZLZEdPNnBxLWg3bkRSMG5SXzI5SFV5am5aY2JtY25rSjBMLThEVXRQTzZWamZteHhETVJvdndSU3hhTVVXYldicjZYVzR6TTBNbmZHbGU3S2JfeklqNHFDZ2g0NVlaVHpEUTRWQVBGVGFqM1FMNE9LZnlJeWc?oc=5",
+          "title": "Minimum Salary Level for Employment Visas Significantly Increased Main Website - Fragomen",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVVpaZ2x1cEpPLXlBb3BBQmJzQzJmVmV0MFQyNUJoTWRHekh6WmhsZDRfejhGajBodnJCMXNDb0ZMOGNRVkNKZzlGeEpxWjE2NHQzcFV6LV8zQ0JxVnlkLUhGUDdMbkVkUXJocWJLcDVmazhoUkR2UjhmUUJjaTlVbXQtclUxcTAyUjB2azg3WldDUVBiVVhmUVdjb1RkNWNGeTNTbDJ3bkZjODJZb2Fn?oc=5",
           "source": "\"India\" - Google News",
-          "why": "PM Modi's planned Canada visit December 11-12 signals India-Ottawa effort to strengthen bilateral ties."
+          "why": "Minimum salary level for employment visas significantly increased, affecting H-1B and skilled worker programs."
         },
         {
-          "title": "India flags ‘growing hostility’ after mass-shooting plot at US Hindu temple - The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZTl2clM3WFFIREV0Wlg0LTZOcGJ5cjdNdU41Z0NRTHI3OEVQbFV3SlNQa1ZxRlh3elU5RjFocWc2VGpNcTJidjRuWGk0WXk3bE1aOHFRUjRUYUFwbnpfR25idEs1aTJKMG1CVDduS3ZOX3BXeUd3Vkc1dGcxVmdWMnliUERoMFNnT0U2QzdtaDFkS0poY1IxZE16OHY1dWVKaEo4cXNseHZXcGZLQTI4dGlYdV8zcVdKZzgwc1ppQUZ0RmRNZXM1eE8tSGs4N2JxbXAxYUxxRE1jdXpObDNMU2l30gHoAUFVX3lxTE5INldYVUowT0hEUEFVNzRlNlV0cmdoUFR1YUVTd3dTYjczd0tEN0F2NGNIcXprQWJQVFJZMk9pTnJSOHpHekd3M04wMW03N1VqOTJiUHJiei1qYXd1Y0RySEhSb0pRLWoyclplSHFiQlNUbmtFTGw3RDEzdWlSUFk0MG5FQ1RFRFNHcmJmQ1I2UEZXOUtRNkd0NzVMMHl1ODd3MEZEQlVlZ01rRFhaQjluQUs4YkgzNHNpNjlETDB1ZjRpZG5MRk1PczY0YjN6SVpSc2FTNkNnNmtjUk1BcXh6YnVySTlhT0w?oc=5",
+          "title": "Indian fitness firm Cult.fit gets regulatory nod for IPO - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNellIZ1ZTd3lPSW52OUozWU13NDRzTDNhd1cxNHNuZmpvdGtkTUhEeWVDYk1ZTVd2OFhMN01mSC01WHhBSHF5RXlQcmtobjM3cXQ2aXZZRzlBMDVWTVFjLXJvRE1fQnFIRmZuWlRyWlFKTVhOV1BVZXdOcXF0QnZ3VWxzcGlFN1dqX2ZmanEyejdSVTVvR3lNRlp0cWcza3NC?oc=5",
           "source": "\"India\" - Google News",
-          "why": "India flags growing hostility after mass-shooting plot at US Hindu temple, raising diaspora security concerns."
+          "why": "Indian fitness firm Cult.fit receives regulatory approval for IPO, major fintech expansion milestone."
         },
         {
-          "title": "CJP, Abhijeet Dipke: India's 'cockroach' protesters set to return despite police crackdown - BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTWkxbWticGNZUXdvNm5CdlVJMWRGWHpWWkZBYkczMnh3Uk5EZ0s2b1gxY1Fyc05pMWx1SS04NFpnU0E2MmFRUkRTeFc3TWw2WDdEdXlNb0VpR00?oc=5",
+          "title": "India agrees to Maldives request for rollover of Rs 30 billion swap facility - DD News",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVFVzbGthTWNVODM5S1dpMTZfOTdKZzN1ZmtfWnRxcEhHUjVKdWFzbzNwdHRQblhvdjhsSmtoRUlzTEFUWGpTWnNJcC1xM3hWNkFvQnJVY3dvQ2s1SXhOZXkyUzlfZGxNZ09TMXFTdnFUT29KREJhZ09fWjVncTY5YXN2ZThzVUFfVlROZ1U2YkMyRDNOdWsyUEJEd1F2ZG9HT0FxUw?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Youth-led Cockroach Janta Party challenges Indian Election Commission over alleged electoral irregularities."
+          "why": "India extends Rs 30 billion currency swap facility to Maldives, reinforcing regional financial stability."
         },
         {
-          "title": "After Jio's listing, Reliance Industries could topple Tata as India's most valuable group - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ21aXzlTU19NSXRYMlNvTHN1M2VJeUQtTFcxOC1RbGNoN2dlUmR1ZWJ0U01KNWgtOEgtVmwzZWw1QmZPMUxMWkY1dEFXT2d5OFJHNUFsZmdqSU01MnEzaE8wTGNabzNDSnpPMlhLTl8yZTJwd0FCOWF2SVZpbGdpQV9KbGxZaVlWM0NHcG9FOGNvZXY1SFlfOWxQYUY1aHZmODJsYWtFWEsxM3JNb2tVdDFxSnRLYmN3cmJqbnRFb1FHVTZPRDZybVNrWUdaYmFuT3NrTmx0RkNNQjFPeGJ5WXcwQ0YzN0ljRWfSAe8BQVVfeXFMT2VCQTI4Ukg4Zmx1TW1SV2twck51VkVQUU84Q0p4ZGwyaU82Mi13cWxlQjZMdkZoUXB3Nk5mcmlYZFZ0bVdVcHZWRm44Y3ZOejg5VGhIc1FsMzRRZEQzY1l2NDd2ZDQzY2RMNW82TkVweEVsdVdSV1dESW9OR2k5U0RRVzJFSkFCNEFOVlhIV1I4UFNLc0tfUmZIby1YSzc5MENiODJHM3JLMDJtMTl0T3FiRExEdWM3d1VXMVVUXzJOb2JOME9MaHI1T2xOcWdnYU5rbkJnTG1ncHJfQnllUzAzVndZUWRkYlpxcmQ4STg?oc=5",
+          "title": "Sudhakar Dalela appointed as next Ambassador of India to Nepal - News On AIR",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWDFiby1vWU51Rm5fbjllQnVIV2pwRGxBYWZZaDdMbl9TNzZsWWI5aFZJX1pDWUVWdTJQRjhhb2FSeHhtM0tOMjVjLThncklCWUlmNnF4dlFVZkNRaWswMVdQdmNnc1REZHM2OXRjRlItMndORi1sVXEyMkRnS3hSNnBkbWhvZ3RMVXhxdlVmNDV0UQ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Reliance Industries could topple Tata as India's most valuable group after Jio listing."
+          "why": "Sudhakar Dalela appointed as Ambassador to Nepal, key diplomatic appointment strengthening India-Nepal ties."
         },
         {
-          "title": "Negotiations moving at incredible pace: Sergio Gor on India-US trade deal - The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWk5SW5nZTB3a1Y1UDU2aEszMGFjZVhpUmJLM2ZCU2RIdGpTTFNfUExvMlhkQ0M4UWhBV2ZNT01MaENRNF93b2pTWGpoT3ljYXBrclBaektJLVFZekJONXN6ZU5wOFBILXNNb3ZDUm53cFRGbmI1VC0tUXJlTVByZ2NIR0Z6bmhHbmc4T2FCZUFYWTNPd2M3dF9SNVNmbzFGX0ZGNE1UNGY4RGVkREdfS3N1NmhCMC1LRm1VYTZCQdIBxgFBVV95cUxPZm5EdlpkWTJFNlNyTGV5MWFuSV9zUlU5cjZRU05xajlfZnVpdGN1NnN3b0FHTThobnh2dGxRLTZvWG1oTnhrSVdHdnEwUzRtV2dwZEQ1R1hHSHZUT2JsQUtTTkMzSUtMUnNwREQ0YV9ZMVVQQ01WR3J0eVh6bnBENjZZSmZ0TlpNYUE2WkRFcWRQWjJZcXFmQy12d0h4WVJtMWNadWVhUTBBS1Nha1A1MHpjeDZZUF9vNkZWT2otVGlyRWs5NWc?oc=5",
+          "title": "Dodge the cops, reach the protest: India's latest online political game goes viral - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV0ZhY25OTjhFWGVZdlBLODFzUnRIUUhXZ29NR1ZmR0NMaWpSSm1nUHZKZEtWZUE5U0ZuYVItUHVTX01DZnpMcnBLYkxDSk1xV2RrRXRYR2RlbjBZbjgwdlZvWTNqYzFqT1lKemhtZXhGSzkwUFpUUWlUdWE4cnRUUW83S0VYdnBTcm5hOHVkYVhJRUM0QzZjTEpXV1NRSk5yRXAydklqMzNLVWRoc0lwX0N2dHVPZnVnNnBN?oc=5",
           "source": "\"India\" - Google News",
-          "why": "US-India trade deal negotiations moving at 'incredible pace,' signaling major commerce expansion."
+          "why": "Viral online game 'dodge the cops, reach the protest' sparks political engagement in India among youth."
         }
       ],
       "immigration": [
         {
-          "title": "Microsoft President Brad Smith warns Trump’s Green Card restrictions could hurt tech - The American Bazaar",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOFE4WUw3RnhxRi1aMUxYMFVfNUdfSWVKMmtMZTBJNm5zU3Nabjcwbms0RklsT3JIUHZuOGhHUnV1NWpIZTNMWU8tQ2laa2U3TmVzRm96ZmhJLTdjbkxaS3VpaE42RlRxUU5Bb3JYMnVHOG9oVnYxNFI1RW9hV1N6QjdlTDh1MGNpWkNhcjNzY1NNZUNvV29iS2J6MHFKQktqLXMtSXk0RWVFcUVLSXhlWkhqWlUyM29zdHBBTnBaVUJxVmFjM1h5cFVxSm1rdUs5?oc=5",
+          "title": "H-1B Visa Salary Threshold Could Hit $140,000 Under New Bill - Newsweek",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUGY2TVd5RFM1MlBBYVdEWW44Qk5lQWZtN1laMUZ0Z2VNa2Z4eFhiMWI3c0FnbzBCWm0ySHhXYmt5VmlpQUh5b2s1dUxudzQ0Z1F4ME1wNE9yb1ZrS3NLNmt2UExWR01qUzJnVmhIZkEyT0FBTzVScGd2X2IwLS1EQzRzN0lPX2NMU1RZUkFpZU8zYkxPOGc?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Microsoft president warns Trump's green card restrictions could significantly harm US tech sector competitiveness."
+          "why": "H-1B visa salary threshold could rise to $140,000 under new bill, major policy shift affecting Indian tech workers."
         },
         {
-          "title": "House bill seeks $140,000 H-1B wage floor - India Tribune - Chicago",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3A3LXJWX2hZS1lQWjU2UnhJNC1LZGZPMnlYei1hRFczQXE2UHd5UHZwYkxFdXVRWjhheFVmMEVkc2hDSkZPdmlNOTdkb3RFVVl3ZGdvc28yTHlpbVFobWduYnBSVGxDUmpyeUhxc0dhSUd1VDZEVHNEYzlVWkRoeQ?oc=5",
+          "title": "Green Card Approval Rate Drops for 3 of 5 Major Categories - Newsweek",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2hpS3ZZUEdmTVVhU29qa05YS3piV0tkS0NUVGNmWGJiVy1CYXJIdDFXQUlUM202X213bV82LU5iTDRMLTYyYzlEYTkwZDRxTldsWG1BRkVwZG5lT2ZyVVptQ25GcUFrSHVKWThGV2YtaXk3NE5xdXczRGRkdUpmbWZsMk5WZjZtUzN1M1lHSVo?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "House bill proposes $140,000 H-1B wage floor, raising cost floor for specialty occupation workers."
+          "why": "Green card approval rates drop for three of five major categories, indicating stricter immigration enforcement."
         },
         {
-          "title": "US Green Card lottery 2027: Judge orders Trump administration to reopen Diversity Visa registration from N - The Economic Times",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxONUZUdUJwMEZYRU1KQXZqNWNadjBiSWU2d1pKQlM0elpPNzk0aFRIMkF4ckpIbGVfMkF1NVpWRS0tVWxaX3IzM0VxSURYeU1ad0ZiaTc4TWphWEhPcVlGX1QzMktvVmhhRnM4bHdSM2NBeTM5SXB6TTNGSE1FUlRFUUswVUlLSzFXY18xVl9pUkR4MzhOZ0Z5R2V3MUJRaVVjT1p1dkhqNE5scWZVd19JRjlQWExYMFRJUnozSi1oZnVzX2pOdUlhQ1BiRGRFc0NXd0dHZ2d4YkhFdVFqdS13SUlLTDZBOEhuSjZEbFcwbTFDLVF3cHBxQUN1aEJmNGhZTGtHVTB1MDh5MGJh0gGSAkFVX3lxTE9QcUhsN3V3eVEzYXlWaWtEc202NWR1ZGl3RlR2RW40OXlwTjVUODcxcVV3d05Oak1uYlhqQ1VteDZWeGNGdUhLLS1YOTNzOHdzNXRMcmlOV2hBSkxlWjBYYW1HTDVSN0YzZnVkOWlGbFZ3ekZZRmFlbHpBMGdFU0ZPOUIyaWx3T0twU1lxenZ4bGVxLWtIcVdBeEtMaEFTYW5PLTVhRVdmYVVzZ3FyM0tvcFlBV2R5c1JQLWhicjhLNnVpMmV5Qy1uTllSajF1VFZFRkpHMEVrVWQ2ZU8xRUxGU203Zjl4U2FnaWRDWS1laVdmc3IwdnZxeWg1SUFYRzlNMlRMb29wSjZ2ZHZSd2I3d2c?oc=5",
+          "title": "Microsoft president warned Trump's green card push for skilled workers risks U.S. tech - Quartz",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjcTFxZjNnQVNFM2x1NVpaRVR6bnZMQjN4SV9NdkJhV2NPOVNFZGtaRWFTc1hXTFdhd1RYZGE4WXF3Q0llMEltZzM5RkhiN3dNUWhWd2FaOFJTQTNXSDVWYmg4WlhZRGl3Z21tMEp2LWRPLWt2Q0ZSTWU3U1Q?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Judge orders Trump administration to reopen 2027 Diversity Visa lottery registration, overturning prior closure."
+          "why": "Microsoft president warns Trump's green card crackdown risks driving tech talent out of US, citing competitive disadvantage."
         }
       ]
     },
     "finance": {
       "items": [
         {
-          "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
+          "title": "Dow jumps 200 points, Nasdaq slides as investors continue to rotate out of AI stocks: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93d3pqaDdoN1RiVVZKZnIyYl9SZ05PdXNGc3JIMjFqbmF4Um96Z1prZVJVcHBrV3g1YmR6X1ZJNEhINUUtRm5ESXVtTTFMdGUwbUs4N3BjUjNZQzhDX3pjRmhmMlY1YzVjbkFtM2RkWUZZQzhtYURJ0gF8QVVfeXFMTWxnYjlydmY0c2ZnQkdLcHo2NFZVcFpEWUNvcGUxOUZXSVhzSVE5UDJGMUc0ZGttWF95YVFTTmJZeGJpUXYyV2NicmtfdTIyTDRXdjdxemNCaDdtZlRVRzNWU18tWlVDNjdOTU5pTlNPOTZmdWJTRGUwRmE4RA?oc=5",
           "source": "Business - Latest - Google News",
-          "why": "Anthropic's revenue growth slowdown triggers investor valuation cuts and broader AI sector concerns."
+          "why": "Dow gains 200 points while Nasdaq slides as investors rotate out of AI stocks, signaling sector rebalancing."
         },
         {
-          "title": "S&P 500 ends higher as traders shift from AI to healthcare - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
+          "title": "Warsh Boosts Market Expectations of Fed Rate Hold in October - Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHZhMDY1QkVFRU1NQ0c1NkxlNzR2cDR4NEgwbVFMSkQ3RzFSNlFYT1Q0d1BzOWpRUGtLcTg1YUk0UkxOc2tKWENkTGxkRWc5SFAwWDFMS3JxdXJfWUIyNmwzR1Z0T3B5SmF0R2hjc0lDdXppV0wzQmw2bHh0a0FZS1BsUXVJdkdyZF9YcWIxMlZ3RnMwOVZ0YlFDeHdFWE5nTXdSdlQwb2NfZw?oc=5",
           "source": "Business - Latest - Google News",
-          "why": "S&P 500 gains as traders rotate out of AI stocks into healthcare amid overspending concerns."
+          "why": "Fed official Warsh boosts market expectations of rate hold in October, stabilizing rate-cut uncertainty."
         },
         {
-          "title": "Dow Jones Futures: Techs Slide On Anthropic Valuation Doubts; Tesla Roadster On Tap - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU2WGRpRzlyZGptcTdpR19RN2d5WVNxWWt6MnlPWEowaTdIdVc0enNEb1ZxbDlHWXNGaVFjT2dJa3cwT1h1SHlJbEVUWXV2WGY0WXhSaW56a0hqX2NyWkJ6R0tFQnJINHlJQnRDX0EyVll3Yzl5TWV5YUZyS3p4WXhKcmZnSkRCWVRiQWlERENCcDllTU1xUjJLaDAzT01SX2lRM1hIcUdDNURsa05mTQ?oc=5",
+          "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
           "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "Tech stocks slide on Anthropic valuation doubts; Dow futures shift as market reassesses AI valuations."
+          "why": "Stock market swings on AI fears and tumbling yields with Taiwan Semi and ASML in focus, tech sector turmoil."
         },
         {
-          "title": "Hong Kong Stock Exchange: Hang Seng Index Slips to 24,062.72 as AI Selloff Hits Lenovo and SMIC - BBN Times",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR1hTQjdwRU95Q0ZfNnlidzV0em1Qa3EzNlFtZTl2MHR1T1pxOUtmNHE5TVdhSmZTdzRrQS00ZXhhWlJPLWxTMXF5d0xPSVRhR05jNFI0N1YtcE5uQ1JGZWRaU2FMb0V0OS12anlNOFh3NjFKTHVyMnVPeG9DWUp4RzFoX0FqNmNvOXdPNFpGVjlzMjY5dkNjbTFXYXN3YkNiY0hRN25Db0UxakxRcnRsNlVKdGhJaWZhY0ZHZkFXM083MHFJZGdQVGlabFo1eGs?oc=5",
-          "source": "\"global markets OR FTSE OR Nikkei OR \"Hang Seng\"\" - Google News",
-          "why": "Hang Seng falls as AI selloff hits Lenovo and SMIC, spreading losses across Asian markets."
+          "title": "European Shares Outperform S&P 500 Amid Defensive Tilt From AI - Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQWM2bE45djhQWllsMnF2NGJtcG43N2R4aEEwQUtvel9nX2g0NU96YlB3amRGTHJnNVBCTml0a3Q0MDlrU3dxWFdZNnZVa3dkU1pHV19kQ21XZkFIdDBWNzg3c3dSbENlNjV4c181YnlPVldQQTRlWW9GLUY5NFVmVzk1MEgyNWFvaVMwUWdOOFBlZ2VQVVhOVndERWdwMW9Dc1lkZTF2emxlRnNVdFBUeU45cw?oc=5",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "why": "European shares outperform S&P 500 amid defensive tilt from AI, shifting international investment flows."
         },
         {
-          "title": "KOSPI rout exposes risks of AI-fueled debt - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vdEFlTkxYRVN2aWVWdF9wMW00YkozQ0xEOEVvbFpLakM5czdrcUJNR3dRc2pWZDJfU1ZzS3NqRHZQQnp4TWdIc3pqWVNhNGYxbkJXaHpWSjg4WWJ3RGJ0dFp4Ukpndw?oc=5",
-          "source": "\"global markets OR FTSE OR Nikkei OR \"Hang Seng\"\" - Google News",
-          "why": "South Korean KOSPI rout exposes risks of AI-fueled corporate debt accumulation globally."
+          "title": "Harvard's bet on SpaceX helped its endowment grow faster than the S&P 500 - Business Insider",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEJzS2h1LW8zWWxtYTlTRzE2ZXNCdlEyOEVuajBoZHpxODYtNGw1YjFtTF9hRzJSU3VrbGNYZkpsRjZnTVJFMVphNFFTYUpfU1BlSG53dEFjWnlzUWdWNUV3ajM5Slk5N3Q4X1o4SWg0YnhwZ3pkVGFWU3QwUk9HUzlBLWs2U2ZINWFjSWx0S0xkOGZXUzl4c3hTSFRzemt2TGVEOUhCNWFOa0NVN19BbQ?oc=5",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "why": "Harvard's SpaceX bet helps endowment grow faster than S&P 500, validating private market venture strategy."
         }
       ],
       "quotes": [
         {
           "symbol": "SPY",
           "name": "S&P 500 · SPY",
-          "price": 771.79,
-          "changePct": 0.28
+          "price": 771.07,
+          "changePct": -0.09
         },
         {
           "symbol": "QQQ",
           "name": "Nasdaq · QQQ",
-          "price": 728,
-          "changePct": -0.13
+          "price": 720.28,
+          "changePct": -1.06
         },
         {
           "symbol": "DIA",
           "name": "Dow · DIA",
-          "price": 521.18,
-          "changePct": 1.08
+          "price": 523.34,
+          "changePct": 0.44
         },
         {
           "symbol": "INDA",
           "name": "India · INDA",
-          "price": 47.95,
-          "changePct": 1.93
+          "price": 47.96,
+          "changePct": 0.01
         },
         {
           "symbol": "EWJ",
           "name": "Japan · EWJ",
-          "price": 95.43,
-          "changePct": -0.43
+          "price": 96.05,
+          "changePct": 0.65
         },
         {
           "symbol": "EWU",
           "name": "UK · EWU",
-          "price": 47.76,
-          "changePct": 1.81
+          "price": 48.28,
+          "changePct": 1.08
         },
         {
           "symbol": "EWH",
           "name": "Hong Kong · EWH",
-          "price": 22.08,
-          "changePct": 0.73
+          "price": 22.14,
+          "changePct": 0.28
         },
         {
           "symbol": "VT",
           "name": "World · VT",
           "price": 158.31,
-          "changePct": 0.41
+          "changePct": 0
         }
       ]
     }
@@ -245,24 +245,24 @@
     "theme": "stoic philosophy",
     "cards": [
       {
-        "title": "Control What You Can",
-        "insight": "Stoicism teaches that external events—market crashes, job losses, others' opinions—lie beyond our control. What remains in our power is our judgment, effort, and response. By focusing energy on what we can influence, we free ourselves from the anxiety of chasing outcomes we cannot secure.",
-        "takeaway": "When facing uncertainty this week, identify one aspect of your situation within your control and act decisively on it."
+        "title": "Control Only What Is Within You",
+        "insight": "Stoicism teaches that external events—market crashes, job losses, criticism—lie beyond our command. What remains eternally yours is your judgment, effort, and response. The Stoic practitioner accepts circumstances while directing full agency toward reasoned choices and virtue.",
+        "takeaway": "When facing an uncontrollable situation, ask: 'What is my responsibility here?' and act with integrity on that answer."
       },
       {
-        "title": "Virtue as the Only True Good",
-        "insight": "The stoics believed that living according to reason and virtue was the path to flourishing—not wealth, status, or comfort. External goods are indifferents; they have value only insofar as they support a virtuous life. This reframes success from accumulation to integrity.",
-        "takeaway": "Before pursuing an opportunity, ask: does this align with my values, or does it compromise my character for short-term gain?"
+        "title": "Perspective Through Scaled Time",
+        "insight": "A setback that feels catastrophic today shrinks in significance when viewed across a lifetime or human history. Stoics practiced premeditatio malorum—imagining worst-case scenarios—not to paralyze, but to reduce the shock and clarify what genuinely matters. This temporal reframing dissolves false urgencies.",
+        "takeaway": "When stressed, step back: How important will this feel in five years? Let that perspective guide your effort."
       },
       {
-        "title": "Prepare for Adversity",
-        "insight": "Stoic practice involves negative visualization—imagining hardship before it arrives. This isn't pessimism but prudent mental rehearsal that builds resilience. When difficulty comes, it feels less like a shock and more like an expected challenge to be met with calm reason.",
-        "takeaway": "Spend 10 minutes this week mentally preparing for one potential setback in your work or life; consider how you'd respond with composure."
+        "title": "Virtue as the Sole True Good",
+        "insight": "Stoicism breaks ties with popular culture's obsession with wealth, status, and comfort. Instead, it posits that only living with wisdom, justice, courage, and temperance constitutes genuine success. External gains pale against the inner alignment required by virtue.",
+        "takeaway": "Measure your day's success by your character and effort, not by outcomes or possessions."
       },
       {
-        "title": "Impermanence Is Freedom",
-        "insight": "Everything changes—circumstances, relationships, our bodies, empires. Rather than resisting this truth, stoics embraced it as liberating. Recognizing that nothing is permanent reduces attachment to outcomes and frees us to act with urgency and wisdom in the present moment.",
-        "takeaway": "Reflect on one thing you're clinging to or resisting, and practice letting it go with the knowledge that change is inevitable."
+        "title": "The Power of Acceptance",
+        "insight": "Stoics do not passively surrender to injustice; rather, they accept reality as it is—not as they wish it were—so they can act effectively within it. Resistance to facts wastes energy; acceptance clarifies where action can take root.",
+        "takeaway": "State the facts plainly, grieve if needed, then ask: 'Given reality as it is, what is my next move?'"
       }
     ]
   }
