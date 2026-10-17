@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailypulse-v17'; // bump on any static asset change (keep in sync with APP_VERSION in app.js)
+const CACHE_NAME = 'dailypulse-v18'; // bump on any static asset change (keep in sync with APP_VERSION in app.js)
 const STATIC_ASSETS = [
   './index.html',
   './app.js',
@@ -6,6 +6,7 @@ const STATIC_ASSETS = [
   './manifest.json',
   './world-spinning.gif',
   './india-flag.png',
+  './usa-news.jpg',
   './icons/icon.svg',
   './icons/icon-maskable.svg',
   './icons/apple-touch-icon.svg',
