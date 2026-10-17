@@ -138,6 +138,18 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   font-size: 40px; line-height: 1.02; margin-top: 8px; color: var(--ink);
 }
 
+/* World tab: animated spinning-Earth hero (GIF carries its own title) */
+.world-hero {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 4px double var(--ink);
+}
+.world-hero img {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
+  object-fit: cover; object-position: top;   /* clip the baked-in bottom tagline */
+  border-radius: 12px; background: #0a1a33;
+}
+
 /* Editorial rank number (#1, #2…) */
 .num { color: var(--accent); font-weight: 700; }
 

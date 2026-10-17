@@ -1,7 +1,7 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '15'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v15)
+const APP_VERSION = '16'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v16)
 
 const TITLES = {
   local: 'USA',
@@ -35,6 +35,12 @@ function heroBanner(tab) {
     </div>
     <h2 class="masthead-title">${esc(h.title)}</h2>
   </div>`;
+}
+
+// World tab leads with the animated spinning-Earth GIF (its own hero title) instead
+// of the line-art masthead the other tabs use; same double-rule divider underneath.
+function worldBanner() {
+  return `<div class="world-hero"><img src="./world-spinning.gif" alt="Spinning globe — world news" width="640" height="427" loading="eager"></div>`;
 }
 
 let digest = null;
@@ -124,7 +130,7 @@ function renderTab(tab) {
     return heroBanner('local') + renderWeather(digest.weather) + rankedBlock(t.local.items)
       + subSection('St. Louis Metro', t.local.stlouis, 'No St. Louis metro news today.');
   }
-  if (tab === 'world') return heroBanner('world') + rankedBlock(t.world.items);
+  if (tab === 'world') return worldBanner() + rankedBlock(t.world.items);
   if (tab === 'india') {
     return heroBanner('india') + rankedBlock(t.india.items)
       + subSection('US–India Immigration', t.india.immigration, 'No US–India immigration news today.');
