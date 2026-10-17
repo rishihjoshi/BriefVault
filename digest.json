@@ -1,268 +1,268 @@
 {
-  "generatedAt": "2026-10-16T15:03:59.109Z",
+  "generatedAt": "2026-10-17T00:53:31.891Z",
   "location": "St. Louis, MO",
   "weather": {
     "high": 60,
-    "low": 48,
+    "low": 49,
     "highC": 16,
     "lowC": 9,
     "precip": 24,
-    "wind": 17,
+    "wind": 16,
     "sunrise": "7:11 AM",
     "sunset": "6:21 PM",
-    "label": "Light rain",
+    "label": "Rain",
     "emoji": "🌧️"
   },
   "tabs": {
     "local": {
       "items": [
         {
-          "title": "Bystander 'heroically intervened' after three children and teacher killed in US school shooting in Bend, Oregon - BBC",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yaTBMZDFNRHAtdFFvNnl2WUNRVFNQUkN3bTNtbjljQWRXRWRlWXBOS2F4YUlraFNPVUk4Mm45cGotMFd1ZEduRlBTOTlwOFZ5dVhKRmN3?oc=5",
+          "title": "Oregon school shooter identified, used shotgun bought by mother, sources say - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzNWZTVjSGdjd1FZSnRTMW5QR1N0cXAteFc1bDVOSy1DaEdDaHlfcHV0bjJLUVNRQjJzVF8yQUMta00yRHRxS3pmYzZzU3JLU3pyMG5nTTlIaHl6Z3dOSGZsQUdvQ0ZIX2NONlZ1WkRPSVBKdl80UEppZl82YmN3ZG8xVkhTMDVVYk4wamFR?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "School shooting in Bend, Oregon kills four children and teacher before bystander intervenes—critical public safety incident."
+          "why": "School shooting at Bend, Oregon elementary school killed four people including teacher; critical public safety incident with ongoing investigation."
         },
         {
-          "title": "Tens of thousands in SoCal without power as Santa Ana winds force safety shutoffs - ABC7 Los Angeles",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazI1VEs4Znc2ZFNraUhjbGs0NnFPc2o0MlVJV2NMdDd3a1oxLTh0d05JOU1MQ1JNV0hJc1dSOEhYcEYyRG5vanQwdTlUbTk0WTZQQm9LQnpLTHg1VDg1aXVyRUJoYkFfZGVtYVFaTzd4TGNERmFocU5qX3oxQU1LdXBfWVNYd0J2WXdxZGZWeFN5QzhWeUpRbFlKX19laG81aW5tN0liVUY?oc=5",
+          "title": "Multiple fires burn in Southern California, triggering some evacuations - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ2daUzRfcjA2Yl9QZENieGhXVTdLWUNCa2VSSm0zcGM4cUhnZkJZYkJlWTRhRVFFZmduVjRlcy1pSEJzVmVxbTIzTHZGQzZQN1E3MTZOU3BtNjBJOV91Wm1maEI0TThTSEN1Y09wNmV1RV9DcE5BeGRralE0M2dTRnZzMmwxem81NVFNYWNOYTlVRU4tVC1DUFlnZnhpSlJBd1pQcGkxdlphS2pYNDBFSWRB?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "Tens of thousands lose power across Southern California as Santa Ana winds trigger safety shutoffs and multiple wildfires."
+          "why": "Multiple Southern California wildfires fueled by Santa Ana winds causing tens of thousands of evacuations and widespread property damage."
         },
         {
-          "title": "White House Reportedly Ordered Limits On Ukraine's Starshield Use—As Trump Blasts Zelenskyy - Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWjFfZmNfVXVQQW5zcGdvWjNBQ2d4SzY2aHR1bHRwc3lYOEdKNmY1ZW41enFkRW9CaGFJeFZvQlliUmJFczdma2NvUVlqQ1ZUckVCWGEyeXlLR2NCdTJGNzBIZS1UZWVOcTEtc2pGZFp4clFxcXVDZmowd1BJaFVjR1drbm9iYVdheUdLMU15QVNGRkRQTjZINlJxQzB6TVpPaDZ1d2ZvVGpabGNabldjU19xa3c0MmdhZ1VVQlFnVlZkcmNXNktETkQtSFppRXNIU0ZORlpEQzlodG11TjlnVHBrbnBLdw?oc=5",
+          "title": "Amber Guyger, ex-Dallas police officer who killed man after mistakenly entering his apartment, is released on parole - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPanRwdThYMkttOXhKWFZsMXdlbXgtay1xZWxNWG9ycm9yZWZrQjlQNUtZSVRyenFtOEJNRVdOQ3dITzZqRWRMRlctclhZMWtZRXZvVjlvcF9EZUFHTUFucHphZWE3R1NKTVJIemRDdDkwZXFmUVFvSnpVbmw3Ulh0cWdubjdtSXpCZDRyUDJpSUtURXJ4elU3VkE3QUx1V2phQ2thWmJqdUt1UmJnR0Z4RXdn?oc=5",
           "source": "U.S. - Latest - Google News",
-          "why": "White House restricts Ukraine's Starlink use amid Trump's controversial peace overtures, escalating geopolitical tensions."
+          "why": "Ex-Dallas police officer Amber Guyger released on parole after serving seven years for fatal shooting in high-profile police misconduct case."
         },
         {
-          "title": "Warsh Vows to Tame Inflation as A.I. Delivers ‘Shock’ to Economy - The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92Rk9VSzVNVHNBSmk1b3BzMTQyemFQdHNiSWVQYU1uVVJ1cEd4Y1lJTVlqZUU2TVNkb2drcEg5X1FxN2E1RWdKMjN6QmZwOTR4U0ZGay1yNXBxa1BaemN2ZXh3QkQ5UlV3MnFDSVBLS2k3REJqelluUnNB?oc=5",
+          "title": "Immigrant ICE was seeking when its agent hit a man with its SUV has been dead since 2017, family says - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNak9vSVF3N01LaG9IVWxIeGZSU3NMQ1MtRUF2QVJGeVI1N2l4RXBQVTVuVHE1dm82dWpqQUwzekZ2dFBmMTlORERhdThJSzNWQ094X29ZaTZ1Y2FfQnNhQ1p0WXpxeUk2bGI5UkVlYVdDSFhmOXJyQkVPUGNram4xSjBmUWxGWFRqTWVBODNtNnpwZ3JOM0JrVUtHaE92YVJDM1VzSnYzRnhQX3k5VFcwNEdfZw?oc=5",
+          "source": "U.S. - Latest - Google News",
+          "why": "ICE operation targeting deceased immigrant raises questions about agency protocols and oversight in immigration enforcement."
+        },
+        {
+          "title": "With Tesla Roadster debut, Elon Musk shows \"flying cars are real\" - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT3lCdkZnNjI5dXpHQ0tnUkFMR3laX1QtZVF3QW9YXzJfX3NoSHdfQXVySkxRLXpEaFhoRUtVQTA3YjFMTUp0cGthYjJGanJGMFlJaFk3X3BxT1RPcGotV0tPRF8wX01aSkhPVGF1NmNEbkhrbld6VzYxTVI3YzFOZXg5Y2Q2YzN0?oc=5",
           "source": "Top stories - Google News",
-          "why": "Fed official Warsh signals inflation-fighting resolve while signaling possible rate hold, affecting market expectations."
-        },
-        {
-          "title": "Apple iPhone Duo preorders sell out, deliveries extend to late January - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYTZNd2dCOVJMRl9ZSjRJVWQ5RGZ6bm5SSmtKUk9GZjFkV0c1ODBwLVYyYzRPOS1SR2V3a2NxTmtqdVZZcmFKT3ZhRDlEZXFpWDd0N1JGQWdqMDBlc3gxMTRnR0ZoRE9Xb0RSamZEUzFWaGdnUFhvcE1scGxQbC0xZ0lWSFlXMDhqUWh6YUZKWTlDenZ2MzhJbUNrUmhRWGRBUmJ2WVlhY1lxVlVMTXNTSnV6amNrNkFMUkgyYXVhaUlqekFkN0FaWg?oc=5",
-          "source": "Top stories - Google News",
-          "why": "Apple iPhone Duo preorders sell out immediately with late January deliveries, signaling strong demand for foldable devices."
+          "why": "Tesla's flying car concept debut signals major shift in automotive technology though regulatory clarity remains uncertain."
         }
       ],
       "stlouis": [
         {
-          "title": "St Louis MetroLink completes $192m extension to MidAmerica airport - Railway Gazette International",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZnZmZ0xrWlFxY1lBYjllU1dwMmZfMUo1QVNPMlVQYXpBemJHcmhWRmFhWnNPLVBaRk5VMENPRllIYzNBanpqZlVsUnlKVDVESE8xNkFuNTN5cXpLb2NYMnd1X3JUclZ5eWhibUc4YkRqRkQzR1hkck9Ga04weDQyeF85amxXTUZ5ZEFXakwwempjLWoxWDlSTzc0QnR5SHhZQk9DRTJCVklGZHVHS3plY0FB?oc=5",
-          "source": "\"\"St. Louis\" metro\" - Google News",
-          "why": "MetroLink completes $192 million airport extension, major infrastructure investment improving regional connectivity."
+          "title": "St. Louis high school football team cancels season for player misconduct - STLtoday.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZW00ei0tYVlyUS1VclA3MERfdTBOVDE1UThoZ1VzM2RYUDdWOVNzT1hTdFp1OFFJdWFtNFVGLXdWZWY4Qy1lamVUYWxIMU9KOV82TkxrRzZ1dm1lV05JVkRlR2hEM1JiM1pzVmhQME1QUklUZ0hPaTRNWTN6V3JoR1BGRGROYlkwTHhQVDN2cVJOeU43al9TRHVqdw?oc=5",
+          "source": "\"\"St. Louis\" Missouri\" - Google News",
+          "why": "St. Louis high school football season canceled due to player misconduct, reflecting serious disciplinary issues within local athletics."
         },
         {
-          "title": "Operation Show Me Justice | DOJ announces 435 arrests in St. Louis crime crackdown - KOKI FOX 23",
-          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQZUNTNXI2LVFqbHJXdUJHVEp0RmdVUmV1LW1HQkZrN1dSYzhfeW54LWZBRkJGcWgtWkU1dDZBNFg0RVdOTFVmWTVMdm9Jcm9uRVZtTFFzX0RYcV90ZzdXZVRvSENsd2pITTdRM0dManJXbmR3MklMbzZLTWZWTThiWnBZV1JnalRab0FyMWlLNHZ0d3dVd1BRWm14YUxuV2ZZWUY4OUNLUE1MVXY0bGJJTGNIQVVqSWRtQlg0akx1WUxpcDdOUi1tY0N1YXI2ODZOQkNqWkszUXRGcXZiNWY4MDI2MXgtaXZIanBHdVpyRFZaTjBjeWQtUUV5YURrWllQWTFfanl5eDZHVENZbVAzeE5NOVh0Zm9yRDd0TkJGNVhIdDdtNjQwVjdCbjBKTWtHd0NqSXRwRVZhTGEyd05LM0hTdUJIdTlIdHJxWUFwU3BXNDVOVS1rWGZnem83TVhqNEE3cA?oc=5",
+          "title": "St. Louis Wants to Build a $3B Tech Hub—But the Data Center Anchoring It Is Sparking Backlash - Realtor.com",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUk5RbGd2Yk9wSFdtZE5TeE55QTh6WEwzeWtROW5JY0I2cTVweVRnanBzS1hXVVEwbV83MHI1WXQtY3VlYldDVjBoNlNybWUxa3gzNmdkTjV0NVpkNmtFaW5HTnd0MW80VnQzdWk2Z29nWHJKbkI3dmpLVHVFQ2hnUW9zZ29QeFh1OXI0OFRZVjA?oc=5",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "DOJ announces Operation Show Me Justice with 435 arrests in St. Louis crime crackdown, significant federal enforcement action."
+          "why": "St. Louis pursuing $3 billion tech hub anchored by data center facing community backlash over development impact."
         },
         {
-          "title": "St. Louis CITY SC clinches playoff berth, extends unbeaten streak to record 21 matches - St. Louis American",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTm9rTjhqRE1vc01VZ3h1c1o4bGR3ZGttdkU3YVI5U0k4azVEV1V1UVl4dWpES0Fkc0NqMmFsZUpFSDBndERmZlhTc3lucTR4Y2YwT2dTaExITGNiTXdTN05uTmNrTDZVdGpRa3QtUWRxUFpaN2ZFWnBVWmI2QmhUWms5WFNHWS1rUFRZdlBTN3laVlo4UmRjM3o5SjktUVFKX3U0UmZFU0xkNHVLaUJNamFLWVU4WDBzeGFVRw?oc=5",
+          "title": "Challenger focuses on education as Democrats target House seat in St. Louis County - STLtoday.com",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUC1vY1FxaEhueVM5RGdNR3BxM1VwNGxCMmIxYzVHbzR5Uk5jbmFVbGRVR1V5amNjb0FiTWc4MDlRblFsWWoyemdVeG1BV3d0dmpMMy1hRkgxamhybXk1SW9LLWhPcmFQY05adGltYmNqVEhSbmVWMUlFUmhkb1Z1eG9TUy1lY09JNTdOdENNZjBwRGI3UzNiSXdoOTVTLU1SWmZyZjVsVEg?oc=5",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "St. Louis CITY SC clinches playoff berth with 21-match unbeaten streak, major athletic achievement for the region."
+          "why": "Democrats targeting St. Louis County House seat with education-focused challenger in competitive midterm race."
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-          "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "Zelensky defends Ukraine's right to self-defense after Trump criticism, deepening US-Ukraine policy conflict."
+          "title": "What Life Is Like in Kyiv as Russia Tries to Make It Unlivable - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ1ZyZzN2aDhYaGpfTWktaXhZUGhEX0F0Vk1sUnJkdHdnQUxJLWd6TnhVLUNDMjlHVG1rY1RZTHFQYUVaWXNILVNFYWU5UklRb2ROZXdNTE1ZRDdxdnhvdTRfVzdTdUpfcFVvdGVCZ0c3dnpzbmVRaXhDNW02M3ZmeXNHQQ?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Russia's bombardment campaign intensifies effort to make Kyiv unlivable as Ukraine adapts to ongoing full-scale invasion."
         },
         {
           "title": "Israeli settlers attack Palestinians and Washington Post photographer in West Bank - The Washington Post",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV1p3QWNMcUlFQTQxMVgtX2U3YVhmMzBPcjg3U3RmSXFqc3ljOWxuc3h4MXRtQ0tYQkk5RjZYblBWdDVGM3hTcmlwaDRLZ1BRNWJOU1JTam80SmFWMTNYNks2X2V2TURDQmoxZWo1X1h5MnpocVdVRGpWUnI4dGRWM3BmTEh5WWU5cl9mdkhRTldqc2hSSlZrV3hKSE1rdFMzNENJbVdmeEZtWDFmRVE?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Israeli settlers attack Palestinians and Washington Post journalist in West Bank, escalating violence amid ongoing tensions."
+          "why": "Israeli settlers' attacks on Palestinians and Washington Post photographer escalate tensions during West Bank olive harvest season."
         },
         {
-          "title": "Norwegian teen sentenced to 20 years for U.K. murder plot tied to Iran-linked gang - NBC News",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmVZbGpIOHBTNEh3VmFGOXc1Z0VfSHZOcnJ0VlVKUHk3MFJjNUdxZWVnanNTVnM1SGhHWHMtbC1uVGt3THJlQ1F5T3BuQTJYMVMyN1JUY2JfNWFpNVBIaUF4YVoxVFNSS1dEUF9zcDMtajNoYWUxTWhqbzVZYjduOU9ER0ZnZDNKMmxEMkpfM253YjUzWjl1THNnZ2FzTjlyN1FpT2lHN2ZlcmpZaV9NdkN1djBJeGs?oc=5",
+          "title": "New photos show Pope Leo celebrating Mass at hospital as he recovers from lung cancer surgery - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdVNXX2RlMEVVZkt2bFllTG5aclpoZ3BoMzJQbzFncHJyWWI4SXFHbzRMQUFQLWxxQVpRdG9rU1MtY0NzeVpKLW9xc2ZINFJ1LUZIekxfV2JjcFBaUW5ubEtKMkFBdG5VS3RmRzhya2s5a2tBSk9ESExWMWJaRUtXRnNR?oc=5",
           "source": "World - Latest - Google News",
-          "why": "Norwegian teen sentenced to 20 years for Iran-linked UK murder plot, exposing international organized crime network."
+          "why": "Pope Leo's first images post-lung cancer surgery provide reassurance about pontiff's recovery and papal succession stability."
         },
         {
-          "title": "Patients in chains rescued from suspected illegal rehab centre in South Africa",
-          "link": "https://www.bbc.co.uk/news/articles/cmwyvxj49gpwo?at_medium=RSS&at_campaign=rss",
+          "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+          "link": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "why": "200 patients rescued from illegal South African rehab center found in chains with severe neglect, humanitarian crisis."
+          "why": "Italian defense minister warns Trump against restricting Ukraine support, arguing it risks prolonging Russia's invasion."
         },
         {
-          "title": "Pope pictured for first time since surgery and cancer diagnosis",
-          "link": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "Pope Leo pictured for first time since lung cancer surgery, providing health update on aging pontiff's recovery."
+          "title": "Meta employees said Lula's accounts were hindered during Brazil election, Folha reports - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd0p1V2xfQXVzaVlPdVhQdWxra2NPSWtJRGZoZ3ZqdHd1Z1NZOVFpQUhxY2RKU2g0VVo3T280MW9rSXhJZW83TTk3M2hXSDFJcWs2LVhoblM5eTdOQV94NVk1b1YwWVBRN2hOcXB2enRBY3haQVpZd2tNZjExZGVWOTlFZDA1VkFINU5Nb1RIZWpISjVpc3pSN0MxWGxkbG9saDVWNmI5cWVVak0tTWNhZXBraGxwTXl4LWF0cUdHMFFOLVI2c3BV?oc=5",
+          "source": "World - Latest - Google News",
+          "why": "Meta employees report Lula's accounts were hindered during Brazil election, raising platform accountability concerns ahead of electoral court decision."
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "Minimum Salary Level for Employment Visas Significantly Increased Main Website - Fragomen",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVVpaZ2x1cEpPLXlBb3BBQmJzQzJmVmV0MFQyNUJoTWRHekh6WmhsZDRfejhGajBodnJCMXNDb0ZMOGNRVkNKZzlGeEpxWjE2NHQzcFV6LV8zQ0JxVnlkLUhGUDdMbkVkUXJocWJLcDVmazhoUkR2UjhmUUJjaTlVbXQtclUxcTAyUjB2azg3WldDUVBiVVhmUVdjb1RkNWNGeTNTbDJ3bkZjODJZb2Fn?oc=5",
+          "title": "India's energy security priority: Envoy Vinay Kumar amid US sanctions over Russian oil - ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQndBTV9QU01XbnJRbEFSY0tOc3pzdGl4eHM0NldmZXBzME1IVS1NUW5TcUVic2FSZjJFUFlqV1FkUmlWSU44WXNkWDN6VElENGgzZE1zVHh4Mm1IM3I3dE9rOENOMUpPc1VqMGZoVTd0bjg2ak9XaXV3aFYxcUxzN3ZxRE5jNjd6Q2J6VmxkbzNGd0gycDRKc0w3RTdtZnE2RFRZb3hQNFlPWGcwT0xwNXBpdmRfc256M1pLM09qYlVIeElRbWpVQl9oNlFNZFhHZXNZ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Minimum salary level for employment visas significantly increased, affecting H-1B and skilled worker programs."
+          "why": "India defends energy security priority amid US sanctions over Russian oil purchases, signaling geopolitical tensions in energy policy."
         },
         {
-          "title": "Indian fitness firm Cult.fit gets regulatory nod for IPO - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNellIZ1ZTd3lPSW52OUozWU13NDRzTDNhd1cxNHNuZmpvdGtkTUhEeWVDYk1ZTVd2OFhMN01mSC01WHhBSHF5RXlQcmtobjM3cXQ2aXZZRzlBMDVWTVFjLXJvRE1fQnFIRmZuWlRyWlFKTVhOV1BVZXdOcXF0QnZ3VWxzcGlFN1dqX2ZmanEyejdSVTVvR3lNRlp0cWcza3NC?oc=5",
+          "title": "Rogue AI agents broke into Indian firms' live systems, government says - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWE4SllpWmQwcUxOeXpjRVg5NWhCdHY2bE1LT1kxdEN2bkxYS29Vc3hVV0dEbm1XeDd0dHNQUzZNQWxiMHItQV9XMTVHY21YMDJLZXFTVWFrUGZDY19PQXcxMnBBZzViSE45TWJkTHBNRnBkOUZVUjY1NzM5bWpFTFd1dmdLMnNlRUJtVTBobVJOV1htWUlxSXFqLUN0d2tQMGh6NkJ4bFpvYUJpN3lDRUVES2dtemF4eGViejJn?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Indian fitness firm Cult.fit receives regulatory approval for IPO, major fintech expansion milestone."
+          "why": "Indian government confirms rogue AI agents breached live systems at firms, highlighting cybersecurity vulnerabilities in critical infrastructure."
         },
         {
-          "title": "India agrees to Maldives request for rollover of Rs 30 billion swap facility - DD News",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVFVzbGthTWNVODM5S1dpMTZfOTdKZzN1ZmtfWnRxcEhHUjVKdWFzbzNwdHRQblhvdjhsSmtoRUlzTEFUWGpTWnNJcC1xM3hWNkFvQnJVY3dvQ2s1SXhOZXkyUzlfZGxNZ09TMXFTdnFUT29KREJhZ09fWjVncTY5YXN2ZThzVUFfVlROZ1U2YkMyRDNOdWsyUEJEd1F2ZG9HT0FxUw?oc=5",
+          "title": "India’s 'Cockroach' generation tests myth of world’s largest democracy - Daily Sabah",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc2Z4WVA1VHU4NnB0Q3hxV0luaXl2QzRsR0YzX0RWcjMtbWlTc0JPVDRXbEIybHJXRFhmd21rSTlmcHp4LXpGSEthU1FjTHJKa0lFM3luZ3dNczUxLXNpbFkwWjU2MXY3VUV2eS1kSEpuOTJNY2UtR3Y5WFpxSkpfQlZpT3UxeGgtVFNrSVBnVlBkbmxJMnJ0eW1BQzdNeHIzb0xWTWdGUV9PSTQ?oc=5",
           "source": "\"India\" - Google News",
-          "why": "India extends Rs 30 billion currency swap facility to Maldives, reinforcing regional financial stability."
+          "why": "India's 'Cockroach' generation challenges democratic institutions and state control, reflecting deepening generational tensions."
         },
         {
-          "title": "Sudhakar Dalela appointed as next Ambassador of India to Nepal - News On AIR",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWDFiby1vWU51Rm5fbjllQnVIV2pwRGxBYWZZaDdMbl9TNzZsWWI5aFZJX1pDWUVWdTJQRjhhb2FSeHhtM0tOMjVjLThncklCWUlmNnF4dlFVZkNRaWswMVdQdmNnc1REZHM2OXRjRlItMndORi1sVXEyMkRnS3hSNnBkbWhvZ3RMVXhxdlVmNDV0UQ?oc=5",
+          "title": "Curbs on protests mark India’s second freedom movement: Dipankar Bhattacharya - The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOHh0Y0hyNlE1dVJQNExJc0N0MmVpb2hDQW9vQVh0em1GRUZsMkVHTE0wcUNHc0h5T19fODIyNU5KRnFILW5zQjN3QU5xZWM0Skw4TlM5ZWlaRVoydmExVjQxaWktUDdDQ1pZRzhiaF9VZngxamVKbHhVMW9WWmxPbXlmODVsR1pNMk13MFc0WkVzbkF5d1oxWEVRdGk4UExJQnN1bDB2dlRHbzhtTVloZ2NuMVY5eGpBbWlDNmpXVEVrWXg4WFpVV1hzSmJKQUXSAdYBQVVfeXFMTjhVdHowU2o4bXBXRlliZ2IzQ1Z1SXlTelkzV2RaalZjYmdDUHVGV0hEc0J6WmM2Wm1ETFVNUU90UDA2WHM3TmpfeksxRzRlMjlMMVB3X1AwSzNwdzJ5dnZJRXJDVExVcVZQWnNFb1puSlVKaXZ5bV9PRkdjUDVJT1I1MFFFRFpiMGxHYXBJT1g1LTNtOUM1aV9aUnY0MjJ5Y0tnSGx2TUZHSDV3Y1RPQ3BBdnNyLWd4R1FVREJSUEpFb2dkTHYzLTF1QXk2UHY1TkhCbWMwdw?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Sudhakar Dalela appointed as Ambassador to Nepal, key diplomatic appointment strengthening India-Nepal ties."
+          "why": "Curbs on protests at Delhi's iconic Jantar Mantar site signal government restrictions on dissent marking India's second freedom movement."
         },
         {
-          "title": "Dodge the cops, reach the protest: India's latest online political game goes viral - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV0ZhY25OTjhFWGVZdlBLODFzUnRIUUhXZ29NR1ZmR0NMaWpSSm1nUHZKZEtWZUE5U0ZuYVItUHVTX01DZnpMcnBLYkxDSk1xV2RrRXRYR2RlbjBZbjgwdlZvWTNqYzFqT1lKemhtZXhGSzkwUFpUUWlUdWE4cnRUUW83S0VYdnBTcm5hOHVkYVhJRUM0QzZjTEpXV1NRSk5yRXAydklqMzNLVWRoc0lwX0N2dHVPZnVnNnBN?oc=5",
+          "title": "US India Caucus seeks hate-crime probe into Illinois temple shooting plot - India Today",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ3B0MnRYczIyN19WbWR5N2hoLXFjM3lVSUpSS2N1U2Zta2tlWmhjUEFpa0hVRFJlRUxCcHRyUFE2ZFVfTzFQdGtvUEZvNVRZc2xSbTkxdTV0MUo0c3p1LXplY2czeXZXT1JBSnZLOGFtME5yaTY2N3pVMGd5RTBTYTJmWUZtNVlNZEZ1dmphbFB6SHRqR0ZaSmNyZ0h1czBMclNYRFZhUDBYb3Z0blZhR1Y3dDRuUjg4RFo5VlRLd3JUNVdQNjJ0VHVYckx1SjjSAdQBQVVfeXFMT3F6UGFHMXMydEpycEpUVGtIRU5sbk9IX2hhRUdWYlNpVk9wa2JhYUZDOUR4QzFOR2JuMWs5OHM1eDRmSGNzYnF3Y01yU2ZpTlV5WG1QanVlMmR6WFBLZVpGaHJFcy1mRlJuZGtzMWRoVHFwdjAzWGxsdXB0Z1hHZ3c3S1BrT0hTS1VZbGJtWnVfQWVvN3RGNnJzUEU0WW4wWUU3R2pzTXRVNGF3b0hwZnpWYnEtVWtENlZEQmo3a2k2Um8xVVg2SDVKNWtOQ2tFUFVDX0U?oc=5",
           "source": "\"India\" - Google News",
-          "why": "Viral online game 'dodge the cops, reach the protest' sparks political engagement in India among youth."
+          "why": "US India Caucus seeks hate-crime probe into alleged Illinois temple shooting plot targeting Hindu community."
         }
       ],
       "immigration": [
         {
-          "title": "H-1B Visa Salary Threshold Could Hit $140,000 Under New Bill - Newsweek",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUGY2TVd5RFM1MlBBYVdEWW44Qk5lQWZtN1laMUZ0Z2VNa2Z4eFhiMWI3c0FnbzBCWm0ySHhXYmt5VmlpQUh5b2s1dUxudzQ0Z1F4ME1wNE9yb1ZrS3NLNmt2UExWR01qUzJnVmhIZkEyT0FBTzVScGd2X2IwLS1EQzRzN0lPX2NMU1RZUkFpZU8zYkxPOGc?oc=5",
+          "title": "DOJ secures Cloudera settlement amid H-1B visa crackdown - Fox Business",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1INlFnQkZTaDl1djRHU0hNOFI2eTZBU0twZzlwc2IyUzJUOFozY1h5dEh5OU1FYVBCTDF1cXliZk92eUlKYUJIU2dTb2tjeEtNZ1dBVGE2WS12aEE?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "H-1B visa salary threshold could rise to $140,000 under new bill, major policy shift affecting Indian tech workers."
+          "why": "DOJ secures Cloudera settlement in H-1B visa crackdown, signaling escalated enforcement against visa sponsorship violations."
         },
         {
-          "title": "Green Card Approval Rate Drops for 3 of 5 Major Categories - Newsweek",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2hpS3ZZUEdmTVVhU29qa05YS3piV0tkS0NUVGNmWGJiVy1CYXJIdDFXQUlUM202X213bV82LU5iTDRMLTYyYzlEYTkwZDRxTldsWG1BRkVwZG5lT2ZyVVptQ25GcUFrSHVKWThGV2YtaXk3NE5xdXczRGRkdUpmbWZsMk5WZjZtUzN1M1lHSVo?oc=5",
+          "title": "US ends 540-day work permit extensions, affecting H-1B spouses - India Today",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMXVLcjlsalVPUGZHWFhFc2tlQUVYNkx6cDhHQi1uOF9ha2oxbWR2T2JVNmNuTURMaGd3WXZOaW10dE9NZzkxUVI4ZnY1eV9ReE51YlZvN0ZZT3pDTHFlb0RTLS1vd2RWYk94d04xNWxKZG83MFN0bmZPcWdBZWltNWJBeXlUUGJfRzl2WTZiLXZQOXVUQ1g3WkY0Wk5mT0VEYnJWQUhNc083YWNCU1BHetIBtgFBVV95cUxQUVpfd1RrYlhoR0VwQ1o5Y2ZYYWtWVDFXR2FxTGotSzhad1F2VjNsUUJUVFlicG43V0liQlpHZHZXblB1M19CczZVakpiaGxMU0JtUEVlMDUtZ04xTjB3UFNyYkxSQlB5MmJuUkFxVlE0TXlkZjNGZXgyZU9OVVdjLVVtRExSY21PM2t5MG1McGNzaFhrelVTTk5hMlR2RDVJZnlQLXlTdE9Fa2hYN3dHTlpIWmFJQQ?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Green card approval rates drop for three of five major categories, indicating stricter immigration enforcement."
+          "why": "US ends 540-day automatic work permit extensions for H-1B spouses, significantly restricting employment mobility for immigrant families."
         },
         {
-          "title": "Microsoft president warned Trump's green card push for skilled workers risks U.S. tech - Quartz",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjcTFxZjNnQVNFM2x1NVpaRVR6bnZMQjN4SV9NdkJhV2NPOVNFZGtaRWFTc1hXTFdhd1RYZGE4WXF3Q0llMEltZzM5RkhiN3dNUWhWd2FaOFJTQTNXSDVWYmg4WlhZRGl3Z21tMEp2LWRPLWt2Q0ZSTWU3U1Q?oc=5",
+          "title": "Microsoft President warns Trump’s H-1B, green card crackdown could drive tech talent out of US - ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFJTT1BkSnJsaXVyNDJnRXFhclA5SUFSbFgwb1lab0hkUHJNNkVEQnQzRWtiREJoNmFUc3g0aHUtVjE1UEJXbTVNUnd4QXpIZXFiZkFicWxMTnhMYlYwcXB1R1RYclQ2Z2FxNVdlOU00ajV3YUs3OHRGVEhfT2Uyb3dHVWhMR0RHQ25JUlp1dXZQdklaOE9Tc2FDZXRxSG9YUHRLLUU0dVprVTgtMHFYanNxRmQ1VGhMSENzTVROZXRPRzEtRzIxLTJ0NlpkcXk1SXktaHhrVXZxOU1MaE5Zdg?oc=5",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Microsoft president warns Trump's green card crackdown risks driving tech talent out of US, citing competitive disadvantage."
+          "why": "Microsoft president warns Trump's H-1B and green card crackdowns could drive global tech talent out of US, raising competitiveness concerns."
         }
       ]
     },
     "finance": {
       "items": [
         {
-          "title": "Dow jumps 200 points, Nasdaq slides as investors continue to rotate out of AI stocks: Live updates - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93d3pqaDdoN1RiVVZKZnIyYl9SZ05PdXNGc3JIMjFqbmF4Um96Z1prZVJVcHBrV3g1YmR6X1ZJNEhINUUtRm5ESXVtTTFMdGUwbUs4N3BjUjNZQzhDX3pjRmhmMlY1YzVjbkFtM2RkWUZZQzhtYURJ0gF8QVVfeXFMTWxnYjlydmY0c2ZnQkdLcHo2NFZVcFpEWUNvcGUxOUZXSVhzSVE5UDJGMUc0ZGttWF95YVFTTmJZeGJpUXYyV2NicmtfdTIyTDRXdjdxemNCaDdtZlRVRzNWU18tWlVDNjdOTU5pTlNPOTZmdWJTRGUwRmE4RA?oc=5",
+          "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers — AAPL, MSTR, UBER, SOXX In Focus - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVNyb0lXX25TWjgySGUweEJsX2g3SkRBMUhheEhfZW9xbG92N3R1b3JqdHdYNFo4a2N3RjNjWjRRSWg5QWpsZVVWZlZlem9ndHVxTDdsS3JJMXc4ZmpiQW5wejJrQ1JGSmdGVFFManFvemhlWGRza1V2MDRqM3A5b0xfQlpMaFpOazRrSnhiQzFJWUZzVHlxOWtR?oc=5",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "why": "Nasdaq 100 records worst week in 18 months as chipmakers fall, signaling major correction in technology sector valuations."
+        },
+        {
+          "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWwtaE0zalpGS3dlQkJuT2lJSHdXdEVjbkItLUVDMlYzWHNjYnpQWGF3TlpnNDV5ME9DWG5YU0ZtbVVGdnZNRndsSkdOZHRzUU5iQjVhd20yY1h6WF9VUjMwVXdLQktSX0o3amgyZVpmeXJiY1gtRHVCbTNfV3VsQ2ZLcHU2ek9a?oc=5",
           "source": "Business - Latest - Google News",
-          "why": "Dow gains 200 points while Nasdaq slides as investors rotate out of AI stocks, signaling sector rebalancing."
+          "why": "Tech stocks erase $1 trillion in wealth as oil surges to $110, highlighting dual pressures from inflation and sector valuation concerns."
         },
         {
-          "title": "Warsh Boosts Market Expectations of Fed Rate Hold in October - Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHZhMDY1QkVFRU1NQ0c1NkxlNzR2cDR4NEgwbVFMSkQ3RzFSNlFYT1Q0d1BzOWpRUGtLcTg1YUk0UkxOc2tKWENkTGxkRWc5SFAwWDFMS3JxdXJfWUIyNmwzR1Z0T3B5SmF0R2hjc0lDdXppV0wzQmw2bHh0a0FZS1BsUXVJdkdyZF9YcWIxMlZ3RnMwOVZ0YlFDeHdFWE5nTXdSdlQwb2NfZw?oc=5",
+          "title": "With Layoffs and a Firing, Netflix Hurries to Rewrite Its Narrative - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPanZ5YVAxYnBGOGlsZW1jVnhWbkhHU0JnR211RGctX3JHM2Y0QXZHVC1NR3pCR3prc0pudTd4WXZBNnhGZXdiTFlvV2ZDNjVDVzNMeFZTelV0cGVzOElKS1QyV01jbmZibV8tRFkwMXdSU3NMUkZfY3I2eEEyc1djekV0LTg2MmpORmVJ?oc=5",
           "source": "Business - Latest - Google News",
-          "why": "Fed official Warsh boosts market expectations of rate hold in October, stabilizing rate-cut uncertainty."
+          "why": "Netflix eliminates roughly 1,000 jobs in major restructuring aimed at rewriting company narrative and improving profitability."
         },
         {
-          "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
+          "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0xEdzRIMVNLYnAyTkhHSmVNTnRyMDJ3WGdOeFY0Vy1kRUtmWC1FZW42aDNfWTctUHM5X2hlWkhuOHFwblR1Q054a19YV3ZLNTlVVVlmMlRTZ0wxLWE2cmN3SWpjVHU4VDJZWU12Q0hPajE5cDdvQm9ic05PNHNRVG45bEI1ZFVHaEN5QnZjbHMxUDFVbHZ2cFNlMUZydw?oc=5",
           "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "Stock market swings on AI fears and tumbling yields with Taiwan Semi and ASML in focus, tech sector turmoil."
+          "why": "Wall Street tumbles amid worries about AI trade dynamics and elevated oil prices creating market-wide headwinds."
         },
         {
-          "title": "European Shares Outperform S&P 500 Amid Defensive Tilt From AI - Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQWM2bE45djhQWllsMnF2NGJtcG43N2R4aEEwQUtvel9nX2g0NU96YlB3amRGTHJnNVBCTml0a3Q0MDlrU3dxWFdZNnZVa3dkU1pHV19kQ21XZkFIdDBWNzg3c3dSbENlNjV4c181YnlPVldQQTRlWW9GLUY5NFVmVzk1MEgyNWFvaVMwUWdOOFBlZ2VQVVhOVndERWdwMW9Dc1lkZTF2emxlRnNVdFBUeU45cw?oc=5",
-          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "European shares outperform S&P 500 amid defensive tilt from AI, shifting international investment flows."
-        },
-        {
-          "title": "Harvard's bet on SpaceX helped its endowment grow faster than the S&P 500 - Business Insider",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEJzS2h1LW8zWWxtYTlTRzE2ZXNCdlEyOEVuajBoZHpxODYtNGw1YjFtTF9hRzJSU3VrbGNYZkpsRjZnTVJFMVphNFFTYUpfU1BlSG53dEFjWnlzUWdWNUV3ajM5Slk5N3Q4X1o4SWg0YnhwZ3pkVGFWU3QwUk9HUzlBLWs2U2ZINWFjSWx0S0xkOGZXUzl4c3hTSFRzemt2TGVEOUhCNWFOa0NVN19BbQ?oc=5",
-          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "Harvard's SpaceX bet helps endowment grow faster than S&P 500, validating private market venture strategy."
+          "title": "Chartist Talk: Can Nifty 50 extend gains towards 23,500 next week? Sudeep Shah's top picks are TVS Motor,... - Moneycontrol.com",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQTTZJRll5S3UzWEt3ckJweHlTcDQ1d2M4blhFVWc1bzlMYzBvTmR4RllWUEpkMGxrbVZabFZHSXhJWjNPZTBjb01KYW1OY0lxY3dGNlJKZnlBZ3BHZUZDZFRnM2dDd00tY3NHaExJMFNKSGU0NDgxbENSU2xXMUVVem5VeDRsWW9HXzAxMHpMNktJTXVZcDZNTnVldFl1NW54UjN0Z2E0c1JEemJoQzRWRTNjaTNjRmFGXzA0eEdaYnUzeFVFUnBVdDVNSGhiY1ZOd0ttMkZyU1RhWWhqQmhtMWI1Q1phWmxVSmRnZEt2bVFqWlZFTTdRbTFOTmE4ZE5veW1PeTNn0gGLAkFVX3lxTE5wWHJrbEFsUHUtalJKbmkyTFBfSUUxMVZ4T2lqZkMyRVR5MFRBY0dMV3FxbVd2ekZRbkVtN1d6MDAwMzVxSGliUUkwQW9DYjY4ektFczFWcGZrdVh2cDNwMVBOUFB3MDNqR2RSTWM4SkQ2QzZLU2VWTzY3MVVwenlpekNZcG5jSlZvT1RNdXRnRGtIZGtUdVZ5a3JyX2NDRjRVd0g1cVpVTHJHTElEZEkzZkY3eVN0eVNJaUllX2cxblhFR2ZiSUdiVVFiSEJva2p2MkNjX29ZNHJBQjZSeVFqNHpCWHp0c2cyMGsyWkpTaDQtRFhOMnJ3MllHazc0MWZOdFV6amJBVXdXdw?oc=5",
+          "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
+          "why": "Nifty 50 charts path toward 23,500 with analyst picks showing Indian equity market momentum despite global volatility."
         }
       ],
       "quotes": [
         {
           "symbol": "SPY",
           "name": "S&P 500 · SPY",
-          "price": 771.07,
-          "changePct": -0.09
+          "price": 763.25,
+          "changePct": -1.11
         },
         {
           "symbol": "QQQ",
           "name": "Nasdaq · QQQ",
-          "price": 720.28,
-          "changePct": -1.06
+          "price": 709.8,
+          "changePct": -2.5
         },
         {
           "symbol": "DIA",
           "name": "Dow · DIA",
-          "price": 523.34,
-          "changePct": 0.44
+          "price": 519.1,
+          "changePct": -0.38
         },
         {
           "symbol": "INDA",
           "name": "India · INDA",
-          "price": 47.96,
-          "changePct": 0.01
+          "price": 47.66,
+          "changePct": -0.6
         },
         {
           "symbol": "EWJ",
           "name": "Japan · EWJ",
-          "price": 96.05,
-          "changePct": 0.65
+          "price": 94.88,
+          "changePct": -0.58
         },
         {
           "symbol": "EWU",
           "name": "UK · EWU",
-          "price": 48.28,
-          "changePct": 1.08
+          "price": 48.01,
+          "changePct": 0.52
         },
         {
           "symbol": "EWH",
           "name": "Hong Kong · EWH",
-          "price": 22.14,
-          "changePct": 0.28
+          "price": 22.09,
+          "changePct": 0.05
         },
         {
           "symbol": "VT",
           "name": "World · VT",
-          "price": 158.31,
-          "changePct": 0
+          "price": 156.82,
+          "changePct": -0.94
         }
       ]
     }
   },
   "micro": {
-    "theme": "stoic philosophy",
+    "theme": "personal finance",
     "cards": [
       {
-        "title": "Control Only What Is Within You",
-        "insight": "Stoicism teaches that external events—market crashes, job losses, criticism—lie beyond our command. What remains eternally yours is your judgment, effort, and response. The Stoic practitioner accepts circumstances while directing full agency toward reasoned choices and virtue.",
-        "takeaway": "When facing an uncontrollable situation, ask: 'What is my responsibility here?' and act with integrity on that answer."
+        "title": "Market Volatility and Portfolio Rebalancing",
+        "insight": "When major indices experience sharp corrections—as tech stocks did this week—it creates a natural rebalancing opportunity for diversified investors. Rather than panic selling, reviewing your asset allocation against your original targets can lock in discipline when emotions run high.",
+        "takeaway": "Schedule a quarterly portfolio review to rebalance back to your target allocation, using downturns as a mechanical trigger rather than an emotional reaction."
       },
       {
-        "title": "Perspective Through Scaled Time",
-        "insight": "A setback that feels catastrophic today shrinks in significance when viewed across a lifetime or human history. Stoics practiced premeditatio malorum—imagining worst-case scenarios—not to paralyze, but to reduce the shock and clarify what genuinely matters. This temporal reframing dissolves false urgencies.",
-        "takeaway": "When stressed, step back: How important will this feel in five years? Let that perspective guide your effort."
+        "title": "Inflation's Hidden Cost: Oil Prices and Your Budget",
+        "insight": "Oil surging to $110 per barrel ripples through everyday expenses—gas, delivery services, heating, and goods transportation all become more expensive. Consumers often underestimate how commodity price swings affect their real purchasing power beyond the headline inflation rate.",
+        "takeaway": "Build a 10–15% buffer into your monthly budget for energy and transportation costs, and track oil prices as an early warning signal for inflation acceleration."
       },
       {
-        "title": "Virtue as the Sole True Good",
-        "insight": "Stoicism breaks ties with popular culture's obsession with wealth, status, and comfort. Instead, it posits that only living with wisdom, justice, courage, and temperance constitutes genuine success. External gains pale against the inner alignment required by virtue.",
-        "takeaway": "Measure your day's success by your character and effort, not by outcomes or possessions."
+        "title": "Job Market Shifts and Career Insurance",
+        "insight": "Large-scale tech layoffs and sector resets remind us that even stable-seeming roles face disruption from business restructuring and economic cycles. Building a financial cushion isn't just about emergency funds; it's about reducing desperation when job transitions happen.",
+        "takeaway": "Maintain an emergency fund covering 6–9 months of expenses and continuously update your professional network and skills to weather industry downturns without crisis."
       },
       {
-        "title": "The Power of Acceptance",
-        "insight": "Stoics do not passively surrender to injustice; rather, they accept reality as it is—not as they wish it were—so they can act effectively within it. Resistance to facts wastes energy; acceptance clarifies where action can take root.",
-        "takeaway": "State the facts plainly, grieve if needed, then ask: 'Given reality as it is, what is my next move?'"
+        "title": "Immigration Policy and Salary Negotiation",
+        "insight": "Stricter H-1B policies and work authorization restrictions create tighter competition for visa-sponsored roles, potentially suppressing wages for affected workers and reshaping hiring strategies. This geopolitical shift affects not just immigrants but wage pressure across tech and skilled sectors.",
+        "takeaway": "If your industry depends on visa talent, expect faster automation adoption and wage moderation; prioritize building unique, hard-to-replace skills and negotiate total compensation carefully."
       }
     ]
   }
