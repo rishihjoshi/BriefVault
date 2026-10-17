@@ -102,7 +102,7 @@ test('switching tabs re-renders the right content', () => {
 
   show('finance');
   const finance = els.main.innerHTML;
-  assert.ok(finance.includes('Market Pulse'), 'finance masthead missing');
+  assert.ok(finance.includes('finance-banner.svg'), 'finance hero banner missing');
   assert.ok(finance.includes('Markets lead'), 'finance item missing');
   assert.ok(finance.includes('S&amp;P 500'), 'market quote name missing');   // & is escaped
   assert.ok(finance.includes('+0.41%'), 'market up change missing');

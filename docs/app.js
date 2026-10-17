@@ -1,7 +1,7 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '18'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v18)
+const APP_VERSION = '19'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v19)
 
 const TITLES = {
   local: 'USA',
@@ -11,33 +11,7 @@ const TITLES = {
   micro: 'Microlearning',
 };
 
-// Per-tab editorial masthead: an eyebrow tag + line-art SVG motif (no emoji, offline-safe)
-// + a big serif title under a newspaper double-rule. Inspired by the GLOBAL PULSE mockup.
-const HERO = {
-  local: { tag: 'United States', title: 'USA Pulse',
-    svg: '<line x1="4" y1="22" x2="4" y2="2.5"/><path d="M4 3.5h13l-3 4 3 4H4" stroke="#b23b2e"/>' },
-  world: { tag: 'Around the world', title: 'Global Pulse',
-    svg: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18" stroke="#b23b2e"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/>' },
-  india: { tag: 'India & immigration', title: 'India Pulse',
-    svg: '<circle cx="12" cy="12" r="9" stroke="#b23b2e"/><circle cx="12" cy="12" r="2"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/>' },
-  finance: { tag: 'Markets & money', title: 'Market Pulse',
-    svg: '<path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 5-7" stroke="#b23b2e"/><path d="M15 4h4v4" stroke="#b23b2e"/>' },
-  micro: { tag: 'Today’s lesson', title: 'Daily Lesson',
-    svg: '<path d="M2 5h7a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H2z"/><path d="M22 5h-7a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h7z" stroke="#b23b2e"/>' },
-};
-function heroBanner(tab) {
-  const h = HERO[tab];
-  if (!h) return '';
-  return `<div class="masthead">
-    <div class="masthead-top">
-      <span class="masthead-eyebrow">${esc(h.tag)}</span>
-      <svg class="masthead-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${h.svg}</svg>
-    </div>
-    <h2 class="masthead-title">${esc(h.title)}</h2>
-  </div>`;
-}
-
-// Some tabs lead with an image hero instead of the line-art masthead; same
+// Every tab leads with an image hero (photo, animated GIF, or animated SVG); same
 // double-rule divider underneath. `mod` adds a crop variant (e.g. 'anchor-top').
 function tabHero(src, alt, mod = '') {
   return `<div class="tab-hero ${mod}"><img src="${src}" alt="${esc(alt)}" width="640" height="360" loading="eager"></div>`;
@@ -136,13 +110,13 @@ function renderTab(tab) {
       + subSection('US–India Immigration', t.india.immigration, 'No US–India immigration news today.');
   }
   if (tab === 'finance') {
-    return heroBanner('finance')
+    return tabHero('./finance-banner.svg', 'Market Pulse — finance')
       + renderMarkets(t.finance && t.finance.quotes)
       + rankedBlock(t.finance && t.finance.items);
   }
   if (tab === 'micro') {
     const m = digest.micro;
-    return heroBanner('micro') + `<span class="theme-pill">Today: ${esc(m.theme)}</span>`
+    return tabHero('./micro-banner.svg', 'Daily Lesson — microlearning') + `<span class="theme-pill">Today: ${esc(m.theme)}</span>`
       + m.cards.map(c => `<div class="card">
           <h3>${esc(c.title)}</h3>
           <div class="insight">${esc(c.insight)}</div>

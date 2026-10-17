@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Daily Lesson — microlearning">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2140"/>
+      <stop offset="1" stop-color="#1b1530"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4c65a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f4c65a" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title{font-family:Georgia,'Times New Roman',serif;fill:#f3efe7;font-weight:700}
+      .eyebrow{font-family:Arial,Helvetica,sans-serif;fill:#f4c65a;font-weight:700;letter-spacing:3px}
+    </style>
+  </defs>
+  <rect width="640" height="360" fill="url(#mbg)"/>
+  <circle cx="472" cy="158" r="118" fill="url(#halo)">
+    <animate attributeName="r" values="112;132;112" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.9;0.45" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#f4c65a" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/>
+    <line x1="472" y1="52" x2="472" y2="28"/>
+    <line x1="556" y1="92" x2="574" y2="74"/>
+    <line x1="388" y1="92" x2="370" y2="74"/>
+    <line x1="588" y1="168" x2="612" y2="168"/>
+    <line x1="356" y1="168" x2="332" y2="168"/>
+  </g>
+  <circle cx="472" cy="158" r="60" fill="#ffd873" stroke="#f4b23c" stroke-width="3">
+    <animate attributeName="opacity" values="1;0.88;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <path fill="none" stroke="#c9881f" stroke-width="3" d="M454 158 q9 -20 18 0 q9 20 18 0"/>
+  <g stroke="#cfd4e0" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="454" y1="222" x2="490" y2="222"/>
+    <line x1="458" y1="234" x2="486" y2="234"/>
+    <line x1="464" y1="246" x2="480" y2="246"/>
+  </g>
+  <text class="eyebrow" x="44" y="156" font-size="15">TODAY’S LESSON</text>
+  <text class="title" x="42" y="208" font-size="56">Daily Lesson</text>
+</svg>
