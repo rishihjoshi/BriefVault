@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T13:59:16.665Z",
+  "generatedAt": "2026-10-17T15:34:16.882Z",
   "location": "St. Louis, MO",
   "weather": {
     "high": 57,
@@ -17,176 +17,352 @@
     "local": {
       "items": [
         {
-          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
-          "link": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
-          "source": "NPR Topics: National",
-          "why": "A 16-year-old former student killed three children and one teacher at a primary school in Oregon, representing a critical mass shooting incident."
-        },
-        {
-          "title": "CDC to send ‘disease detective’ to help tackle Pennsylvania measles outbreak - The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUNHRzVfU3BUQV84MFNyU1JOTnp2UmY5RnZoQ3RGZWFLRWo4WFBaRU9KaHBPTHFtNzhNWDlwRnZaMkdMLVBSMmdtRnVCWkpMMXZyU21LaVZEN3hXYjh2RUlGMmtCTWVBM3VCSVVLX0hZZDZKdl9WRWI3NzNOREM4ZjZMbVZvbUxKNjc4cTUzalFOOV9O?oc=5",
-          "source": "Top stories - Google News",
-          "why": "The US measles outbreak has reached 4,410 cases with CDC deploying specialists to Pennsylvania, signaling a serious public health crisis."
-        },
-        {
-          "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress - NBC News",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5",
+          "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
+          "summary": "President Trump signed an executive order Friday evening to waive sanctions against Russia that had been set to take effect under a new law. The decision has drawn sharp criticism from both GOP and Democratic lawmakers, with Senator Thom Tillis calling it 'beyond irresponsible.' Ukrainian President Zelensky condemned the move as a 'reward' for Putin that will embolden Russia and intensify the war, particularly as Moscow continues attacking Ukrainian energy infrastructure.",
           "source": "U.S. - Latest - Google News",
-          "why": "Trump's waiver of Russia sanctions passed by Congress marks a major foreign policy reversal with direct impact on Ukraine conflict."
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+          "sources": [
+            {
+              "source": "U.S. - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5"
+            },
+            {
+              "source": "Just In News",
+              "link": "https://thehill.com/homenews/administration/6155725-trump-waives-russia-sanctions/"
+            }
+          ]
         },
         {
-          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
-          "link": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
-          "source": "NPR Topics: National",
-          "why": "Trump administration diverts $86 million in teen pregnancy prevention funding to a contractor with political ties, raising accountability concerns."
+          "title": "California residents are waking up to their homes sliding into the ocean. And the worst is yet to come. - NBC News",
+          "summary": "California residents are experiencing accelerating coastal erosion with homes sliding into the ocean, and experts warn the worst is yet to come as winter storms approach. The crisis threatens multiple communities including Newport Beach and Balboa Island, with local governments racing to bolster flood protection and slow erosion before conditions deteriorate further.",
+          "source": "U.S. - Latest - Google News",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeXlrcUZHbDBrTWVuVnV6X1V6TDJtTUdoY1ViWnJlX2g5eF9fVGducHJTNXYxV0VaX1hUUllmVTZ5YkZIMEpMYm9FSE9HYXVGQnZ4dTV5dnhka013TWZrVENKMnlXa3NINGJaanpVM3JLWVBXTjR4ajdPNmk1U1poaUh1Y1E5aXEyRUE0cE9lMmdFdEZYdUZwTHJ4QkVoRXp2Y0Rrc3hwRjU3eTlPaG95OG1JMkVsdnRuT2c?oc=5",
+          "sources": [
+            {
+              "source": "U.S. - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeXlrcUZHbDBrTWVuVnV6X1V6TDJtTUdoY1ViWnJlX2g5eF9fVGducHJTNXYxV0VaX1hUUllmVTZ5YkZIMEpMYm9FSE9HYXVGQnZ4dTV5dnhka013TWZrVENKMnlXa3NINGJaanpVM3JLWVBXTjR4ajdPNmk1U1poaUh1Y1E5aXEyRUE0cE9lMmdFdEZYdUZwTHJ4QkVoRXp2Y0Rrc3hwRjU3eTlPaG95OG1JMkVsdnRuT2c?oc=5"
+            }
+          ]
         },
         {
-          "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
-          "link": "https://www.npr.org/2026/10/17/nx-s1-6003823/journalist-ronan-farrow-on-elon-musks-trillion-dollar-political-influence",
-          "source": "NPR Topics: National",
-          "why": "Elon Musk's trillion-dollar wealth and political influence across the economy and elections warrant scrutiny as the world's richest person."
+          "title": "Pope Leo returns to the Vatican 4 days after lung cancer surgery",
+          "summary": "Pope Leo was discharged from the Vatican hospital just four days after undergoing lung cancer surgery, ahead of the initially estimated week-long recovery period. Medical experts noted that earlier discharge was possible depending on the patient's recovery trajectory, and the Pope's audiences were canceled through Tuesday.",
+          "source": "PBS News Hour - The Latest",
+          "link": "https://www.pbs.org/newshour/world/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery",
+          "sources": [
+            {
+              "source": "PBS News Hour - The Latest",
+              "link": "https://www.pbs.org/newshour/world/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery"
+            },
+            {
+              "source": "Just In News",
+              "link": "https://thehill.com/homenews/house/6155846-george-santos-press-secretary/"
+            }
+          ]
+        },
+        {
+          "title": "Final Trump arch plans submitted to city omit proposed military complex",
+          "summary": "Final site plans for President Trump's proposed 250-foot-tall triumphal arch in Washington, D.C., submitted to the National Capital Planning Commission omit previously announced military features. The documentation shows a scaled-back version of the president's original announcement regarding the monument.",
+          "source": "Just In News",
+          "link": "https://thehill.com/homenews/administration/6155776-trump-arch-plans-omit-military-complex/",
+          "sources": [
+            {
+              "source": "Just In News",
+              "link": "https://thehill.com/homenews/administration/6155776-trump-arch-plans-omit-military-complex/"
+            }
+          ]
+        },
+        {
+          "title": "Standing with farmers: Why US fertilizer independence matters",
+          "summary": "U.S. fertilizer independence has emerged as a critical issue for American farmers, as demand shocks in Asia or supply disruptions in the Middle East directly affect domestic agricultural production and costs. The story underscores the strategic vulnerability of relying on global fertilizer markets.",
+          "source": "Just In News",
+          "link": "https://thehill.com/opinion/finance/6154116-us-farmers-face-economic-headwinds/",
+          "sources": [
+            {
+              "source": "Just In News",
+              "link": "https://thehill.com/opinion/finance/6154116-us-farmers-face-economic-headwinds/"
+            }
+          ]
         }
       ],
       "stlouis": [
         {
-          "title": "SLPS cancels Miller–Sumner football season amid misconduct investigation - St. Louis American",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3NxWEJxLTN2SnFodXFuQXFSTzR1REZOOUJ5MTFtcDAzbTA5eEhGakNxdmlHUnhOSkU5aUhhRjJ1MjlkblBSdHRFNXljRlFjUThKV2NacTIyUTFPRXpOaGFJbWZTVURVbHlpWFBnNTdQNTc5RHRGVm5FRS0zWFhZcjlFYjBDZWJhcEZ5Q0tKeDh4QTV4S2JSc2JIXzFJVGZGaXR5OXI0dGI3dw?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "St. Louis Public Schools cancels Miller-Sumner football season over misconduct investigation, affecting local youth athletics."
-        },
-        {
           "title": "St. Louis Wants To Build a $3 Billion Tech Hub—but the Data Center Anchoring It Is Sparking Backlash - Realtor.com",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUk5RbGd2Yk9wSFdtZE5TeE55QTh6WEwzeWtROW5JY0I2cTVweVRnanBzS1hXVVEwbV83MHI1WXQtY3VlYldDVjBoNlNybWUxa3gzNmdkTjV0NVpkNmtFaW5HTnd0MW80VnQzdWk2Z29nWHJKbkI3dmpLVHVFQ2hnUW9zZ29QeFh1OXI0OFRZVjA?oc=5",
+          "summary": "St. Louis is planning to build a $3 billion tech hub anchored by a major data center, but the project is sparking significant community backlash. The proposal aims to transform the region into a tech innovation center, though concerns about the environmental and social impacts of the data center facility are fueling local opposition.",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "St. Louis plans a $3 billion tech hub anchored by a data center, but the project is sparking significant community backlash."
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUk5RbGd2Yk9wSFdtZE5TeE55QTh6WEwzeWtROW5JY0I2cTVweVRnanBzS1hXVVEwbV83MHI1WXQtY3VlYldDVjBoNlNybWUxa3gzNmdkTjV0NVpkNmtFaW5HTnd0MW80VnQzdWk2Z29nWHJKbkI3dmpLVHVFQ2hnUW9zZ29QeFh1OXI0OFRZVjA?oc=5",
+          "sources": [
+            {
+              "source": "\"\"St. Louis\" Missouri\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUk5RbGd2Yk9wSFdtZE5TeE55QTh6WEwzeWtROW5JY0I2cTVweVRnanBzS1hXVVEwbV83MHI1WXQtY3VlYldDVjBoNlNybWUxa3gzNmdkTjV0NVpkNmtFaW5HTnd0MW80VnQzdWk2Z29nWHJKbkI3dmpLVHVFQ2hnUW9zZ29QeFh1OXI0OFRZVjA?oc=5"
+            }
+          ]
         },
         {
           "title": "Man admits to scheme to steal 14 St. Louis-area properties through fraudulent deeds - FOX 2",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaEo1NW44V254TzVhQWhzeU95bUxSZUVYd2lYVGFNU2JxVWZfQ3V2dG5CN3VKWnA5cnFFNUNGZzRNWnBYT1FzSEp1b2ZURk1nV0ZqbF9hRzNlVkpzWjJvSS00clh6V21XelFNV0xMdHg3NG1vZjRHa3VsTnRZOWZOV19RVzMyQ3BINDc5eWRhNkoxRHBfVkVZa3lzQ3htRnhhOEZmWlF1Yk9iMHVKM0RvZ3ktWDNuS0lu0gG-AUFVX3lxTE02Nldaems1YnpjbFYyUHJMblVXcG5ucjl2cFZ4bGxwQVp4UndqTm9uQ0Ffa3hSckFHaXR5SlNHMjh4cWlxeHJ4MFhaNkNpQ0g5eWVUZW56MlVfeW5qSTNNTkdjUUVidEJkWmJCMjRaVU9qZXNiRHV3S0xOQjdHVFNxMmluNW9VX1ZPb3EyVUFHT1dvZmhBaktSRF9MZ2NiOU1QOWVqZXpRRzBDaUV6cEFtZnU3dUlKbEJJRDVwNHc?oc=5",
+          "summary": "A man has admitted to a scheme to steal 14 properties in the St. Louis area through fraudulent deeds, according to FOX 2. The case highlights ongoing property fraud concerns affecting homeowners in the region.",
           "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "A man admitted to a scheme to steal 14 St. Louis-area properties through fraudulent deeds, revealing vulnerability to title fraud."
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaEo1NW44V254TzVhQWhzeU95bUxSZUVYd2lYVGFNU2JxVWZfQ3V2dG5CN3VKWnA5cnFFNUNGZzRNWnBYT1FzSEp1b2ZURk1nV0ZqbF9hRzNlVkpzWjJvSS00clh6V21XelFNV0xMdHg3NG1vZjRHa3VsTnRZOWZOV19RVzMyQ3BINDc5eWRhNkoxRHBfVkVZa3lzQ3htRnhhOEZmWlF1Yk9iMHVKM0RvZ3ktWDNuS0lu0gG-AUFVX3lxTE02Nldaems1YnpjbFYyUHJMblVXcG5ucjl2cFZ4bGxwQVp4UndqTm9uQ0Ffa3hSckFHaXR5SlNHMjh4cWlxeHJ4MFhaNkNpQ0g5eWVUZW56MlVfeW5qSTNNTkdjUUVidEJkWmJCMjRaVU9qZXNiRHV3S0xOQjdHVFNxMmluNW9VX1ZPb3EyVUFHT1dvZmhBaktSRF9MZ2NiOU1QOWVqZXpRRzBDaUV6cEFtZnU3dUlKbEJJRDVwNHc?oc=5",
+          "sources": [
+            {
+              "source": "\"\"St. Louis\" Missouri\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaEo1NW44V254TzVhQWhzeU95bUxSZUVYd2lYVGFNU2JxVWZfQ3V2dG5CN3VKWnA5cnFFNUNGZzRNWnBYT1FzSEp1b2ZURk1nV0ZqbF9hRzNlVkpzWjJvSS00clh6V21XelFNV0xMdHg3NG1vZjRHa3VsTnRZOWZOV19RVzMyQ3BINDc5eWRhNkoxRHBfVkVZa3lzQ3htRnhhOEZmWlF1Yk9iMHVKM0RvZ3ktWDNuS0lu0gG-AUFVX3lxTE02Nldaems1YnpjbFYyUHJMblVXcG5ucjl2cFZ4bGxwQVp4UndqTm9uQ0Ffa3hSckFHaXR5SlNHMjh4cWlxeHJ4MFhaNkNpQ0g5eWVUZW56MlVfeW5qSTNNTkdjUUVidEJkWmJCMjRaVU9qZXNiRHV3S0xOQjdHVFNxMmluNW9VX1ZPb3EyVUFHT1dvZmhBaktSRF9MZ2NiOU1QOWVqZXpRRzBDaUV6cEFtZnU3dUlKbEJJRDVwNHc?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "SLPS cancels Miller–Sumner football season amid misconduct investigation - St. Louis American",
+          "summary": "St. Louis Public Schools canceled the Miller–Sumner high school football season following a misconduct investigation into player behavior. The decision reflects growing scrutiny of school athletics programs and student conduct standards in the district.",
+          "source": "\"\"St. Louis\" Missouri\" - Google News",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3NxWEJxLTN2SnFodXFuQXFSTzR1REZOOUJ5MTFtcDAzbTA5eEhGakNxdmlHUnhOSkU5aUhhRjJ1MjlkblBSdHRFNXljRlFjUThKV2NacTIyUTFPRXpOaGFJbWZTVURVbHlpWFBnNTdQNTc5RHRGVm5FRS0zWFhZcjlFYjBDZWJhcEZ5Q0tKeDh4QTV4S2JSc2JIXzFJVGZGaXR5OXI0dGI3dw?oc=5",
+          "sources": [
+            {
+              "source": "\"\"St. Louis\" Missouri\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3NxWEJxLTN2SnFodXFuQXFSTzR1REZOOUJ5MTFtcDAzbTA5eEhGakNxdmlHUnhOSkU5aUhhRjJ1MjlkblBSdHRFNXljRlFjUThKV2NacTIyUTFPRXpOaGFJbWZTVURVbHlpWFBnNTdQNTc5RHRGVm5FRS0zWFhZcjlFYjBDZWJhcEZ5Q0tKeDh4QTV4S2JSc2JIXzFJVGZGaXR5OXI0dGI3dw?oc=5"
+            }
+          ]
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-          "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "Trump waives multiple Russia sanctions citing national security, escalating tensions with Zelenskyy and complicating Ukraine conflict resolution."
+          "title": "Trump’s pause on Russia sanctions is ‘reward’ for Putin, Zelenskyy says",
+          "summary": "Ukrainian President Zelenskyy has characterized Trump's decision to roll back Russia sanctions as a 'reward' for Putin that will embolden the Russian leader and intensify the ongoing war. The move comes as Russia continues targeting Ukraine's power infrastructure with large-scale attacks designed to make Ukrainian cities unlivable.",
+          "source": "World news | The Guardian",
+          "link": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+          "sources": [
+            {
+              "source": "World news | The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine"
+            },
+            {
+              "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss"
+            },
+            {
+              "source": "World - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbC1qYWlqcW1qUTM3TllqMnBDSmRaRFJiaW03WDZJOU5KNUx4U1U5US1iMktLZmVlMEctLWR2WC1NbkJTMHN3LWQ0RDRtY3FFZkV6aGFvWkNIRC1qLXQwQUtjYVk3aW9jZ3g2bHdNOFBPSk1TRTZ6RUJUbW5vTlBOWERCc0VEdmlSUnI5UXUwaEhTaGRvZ2hpMzJtdFpvMnlFMjIxR2pfTFQ3UEJLbzVKTi1ac1ZyNnFS?oc=5"
+            }
+          ]
         },
         {
-          "title": "Live updates: Dozens detained in Paris as protestors clash with police during France protests - CNN",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fRUVuRk5wWnVyYThSZlZvdGpteHQ3U3F5M2ZQcjJlMXNobG9sTVBtcm1iVm80Q0RPalhtRmlhRGFIWmNLUDdNZWJOMWdtakdhS25sN3lPcDZ6MFVkeWp1U0Qxb3ByTHJlYm5uSXBUWm5KMGxGa1FjbzZOQ2I1QQ?oc=5",
+          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+          "summary": "Thousands of Tunisians rallied in what organizers described as the largest protest in years against President Saied's government, uniting unions and opposition groups to demonstrate against poor living conditions and restrictions on political freedoms. The demonstration reflects growing discontent with the country's economic and political situation.",
+          "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+          "sources": [
+            {
+              "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "title": "'Our land, our Albania': young lawmaker demands new future as protests rage - Reuters",
+          "summary": "Student protests in Albania have intensified with demands for political change and the resignation of longtime Prime Minister Edi Rama, as a young lawmaker calls for a new future amid the unrest. The Albanian PM has blamed 'foreign hands' for the disturbances, while demonstrators cite concerns about governance and opportunity.",
           "source": "World - Latest - Google News",
-          "why": "Mass protests across France result in 160+ arrests and burning of tourism offices as youth unrest intensifies over policy grievances."
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbC1qYWlqcW1qUTM3TllqMnBDSmRaRFJiaW03WDZJOU5KNUx4U1U5US1iMktLZmVlMEctLWR2WC1NbkJTMHN3LWQ0RDRtY3FFZkV6aGFvWkNIRC1qLXQwQUtjYVk3aW9jZ3g2bHdNOFBPSk1TRTZ6RUJUbW5vTlBOWERCc0VEdmlSUnI5UXUwaEhTaGRvZ2hpMzJtdFpvMnlFMjIxR2pfTFQ3UEJLbzVKTi1ac1ZyNnFS?oc=5",
+          "sources": [
+            {
+              "source": "World - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbC1qYWlqcW1qUTM3TllqMnBDSmRaRFJiaW03WDZJOU5KNUx4U1U5US1iMktLZmVlMEctLWR2WC1NbkJTMHN3LWQ0RDRtY3FFZkV6aGFvWkNIRC1qLXQwQUtjYVk3aW9jZ3g2bHdNOFBPSk1TRTZ6RUJUbW5vTlBOWERCc0VEdmlSUnI5UXUwaEhTaGRvZ2hpMzJtdFpvMnlFMjIxR2pfTFQ3UEJLbzVKTi1ac1ZyNnFS?oc=5"
+            }
+          ]
         },
         {
-          "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
-          "link": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "A Chinese nursery owner is jailed for life after hundreds of children were poisoned with inedible paint in meals, exposing systemic safety failures."
+          "title": "Elon Musk agrees to settle lawsuits over 2024 election lottery",
+          "summary": "Elon Musk and his America Pac political action committee agreed to settle two class action lawsuits alleging fraud over his 2024 election lottery scheme, which promised to give away $1 million per day to random signatories of a petition. The settlement resolves legal action brought by residents in multiple states.",
+          "source": "World news | The Guardian",
+          "link": "https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit",
+          "sources": [
+            {
+              "source": "World news | The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit"
+            }
+          ]
         },
         {
-          "title": "Houthis strike Yemen’s Aden: What that means - Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTlmbG9pRzMxeFVBSVZ4U1RWZHRtS0lzWTduNTVJZWtuc1FDWUM1ZXZwTXFRMl9SSU1NenVEdEI5bVUwTUFVRFE2NEZRNnMydGRDdG50MDRraWQydHpnMS1WUHVNWjhPNmhnOC1GNXEwU0xKQzNjZ25YZ3ZJTmFPRHhsN0ZOUUhxUlotczRnSWdoN0dLZjBIYzQ2Z2nSAaIBQVVfeXFMTk5hTXhPcU82VG9McHB6MmEzRWZYbG9HR19iUmxrYW5ONnY5Q20wRWNzLTk2MlJuWkxDU0lfclNHYkpGMUdOaFN5T01RQ3c0dTkwanpHTlJPZjlVcDU1ajNUU0dJT0dHQ0FPeGswMmRidklOYW5yNjFaZFozM2ZBdXp2eTRUdl80WUtlMTBDX1JGc2xtXzV4alAyUjFIWFdzYmlR?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Houthis launch deadly attack on Yemen's Aden and presidential palace in escalating campaign, raising Middle East regional tensions."
-        },
-        {
-          "title": "Hormuz ship attacks hit record high as Iran escalates strikes with little U.S. response - NBC News",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Strait of Hormuz ship attacks reach record highs as Iran escalates maritime strikes with minimal US response, threatening global trade."
+          "title": "Florida fisher dragged into water and killed by 12ft alligator",
+          "summary": "A 71-year-old Florida man, Steve Hamilton, was killed while fishing at a pond in Winter Garden by a nearly 12-foot-long alligator in a rare fatal animal attack. Authorities subsequently killed the alligator responsible for the incident.",
+          "source": "World news | The Guardian",
+          "link": "https://www.theguardian.com/us-news/2026/oct/17/alligator-attack-florida-fisher-killed",
+          "sources": [
+            {
+              "source": "World news | The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/17/alligator-attack-florida-fisher-killed"
+            },
+            {
+              "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+              "link": "https://www.aljazeera.com/features/longform/2026/10/17/why-adults-are-going-back-to-summer-camp?traffic_source=rss"
+            }
+          ]
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "India Defence: Corruption Exposures Amongst Defence Production Surge - Security Risks Asia",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRlA0Y2NPVjYwQmFqY2pld1RmRmR0N3ROaHpXalNkVUV2RTl2N3pNZ0hKRVR1cU9fallKNGlwVDlfRHlSN1BXRnNxVDFDVkRpUllxZGlMcEczNmd5S1NlQ0Y4QmVKRk53c3NSVW5pbE9hNTZOMldLUEFQcVhPZi1zM29ZaVA4VkF3LTljTlFoQmpjaExiQVdKX2diSlBIYkFlXy1wOEZn?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "Corruption exposures amid India's defence production surge pose significant national security risks requiring immediate oversight."
+          "title": "FIR against officials of Reliance Consumer Products, Reliance Retail, Blinkit and Zomato Hyperpure over expired food products",
+          "summary": "Police in Thane registered an FIR against 10 officials and employees of Reliance Consumer Products, Reliance Retail, Blinkit, and Zomato Hyperpure over the distribution of expired food products. The investigation involves disposal agency operators and local suppliers in a significant food safety enforcement action.",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "link": "https://www.thehindu.com/news/national/maharashtra/fir-against-reliance-consumer-products-director-9-others-after-fda-crackdown-on-expired-food-products/article71595443.ece",
+          "sources": [
+            {
+              "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+              "link": "https://www.thehindu.com/news/national/maharashtra/fir-against-reliance-consumer-products-director-9-others-after-fda-crackdown-on-expired-food-products/article71595443.ece"
+            }
+          ]
         },
         {
-          "title": "'Legal Profession Is Not For Faint Of Heart': Chief Justice To Law Graduates - NDTV",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzF5eXU4eTl3WEkxanBhekFZOWNwZFZ1MG5rU3g3MXd3R1RyQUp2MU03Z2JCSjVGNEo5cjU2bC1walpoYUQwRlhUWjJDODNpQTEyQ3N0Yl96a3lDMzhXQnJBdFczbWlnNFZhNGs2Zmd1M2RYMnkxVW5JNWE4S1ozeUR5X3lFU1ltMzdzVE1vRVdVQ2VFSXBxN3otNzM4RnlIVHotaUZXX3czUHRiUGFSd0VVQW_SAbwBQVVfeXFMUGZzN0s3VHN6bkhaTXJFbzdiZFlFNVkyaG51b1dON1BPWGEtQ0ZDS3Z4LUVjYVAzSmxVV0NkVjdKbXdZWFg5SjVza2oybmJERng4U1dvb0V0YTFpNXZlZlBDcC1PTEpONnJ1bmZXT1hPbjNGaWpUek5YQ1hXT1pFNFRQbFNBWWFZYUl4N3FMd2twLTVPeExsdnBmTXJiVVJBUUl5bl9lTkw5ZV82Q0hBSUg1Zno1dk5vUkJEV3E?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "India's Chief Justice tells law graduates that the legal profession demands resilience, signaling challenges in India's judicial system."
+          "title": "Green signal for L.B. Nagar–Hayathnagar elevated corridor in Hyderabad; Centre approves five ropeways, and three ROBs: Telangana Minister",
+          "summary": "The Union Minister has approved a greenfield elevated corridor project between L.B. Nagar and Hayathnagar in Hyderabad, along with five ropeway projects and three road-over-bridges. Officials have been directed to prepare a fresh development project report for the proposed elevated corridor on the Hyderabad–Srisailam NH-765.",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "link": "https://www.thehindu.com/news/national/telangana/centre-approves-lb-nagarhayathnagar-double-decker-corridor-five-ropeways-and-three-robs-in-telangana-komatireddy/article71578563.ece",
+          "sources": [
+            {
+              "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+              "link": "https://www.thehindu.com/news/national/telangana/centre-approves-lb-nagarhayathnagar-double-decker-corridor-five-ropeways-and-three-robs-in-telangana-komatireddy/article71578563.ece"
+            }
+          ]
         },
         {
-          "title": "Watch: Bird strike damages Emirates aircraft, Delhi-Dubai flight delayed - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUnlWZ1FDWWlsT182RklreFBGTC13ZWM4RlhaU2VvQXptbXQ5bmpvVU5LM3J0THFuUFVJZ3FTdFBsTldlbk03bDVBbEsxZkZEV2FsSmV5d1hkODNteFNRMVdSeTZSRVpzdlRKcnVpWWpCblJBWllMeGZTbzF6ekJTdmVYT3VDMWs1cmY5bTVZWlJrU0xMSFdRVzBTU3g5X096aHYydzlndVhqUFA1M3FHV2t4UUN0MGZDM1o5ZF93V1I3Yjl2QUQ2Y0QwdGFJS1NwSV9SS9IB2gFBVV95cUxPVDUzZmhhZHRrODdrRzZxaDBVMkcySXJEZVptZG1aZFlpQU15aEpMOEtRTEt5cDdwekpzTWx4LUY3b0p0bXRsVlpBY2lBdHFMWFp3bjhTRUhqM2xqS0NrUlBESzRzU1I3SGlYaGViS2lWcE5YcFdxX3RjdV96V2c3WFI4NlRWb213SnczLTZ5TzJ5amQ4S19KOXFkYmh1cm9GcGotZnpKVW90V2hpejNmeW5NX2tWRExnRmdtS3N4VGwyTVFxUFFTYUNZbkU1Vlg1NkZ5TUJDbUdyZw?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "A bird strike damages an Emirates aircraft on the Delhi-Dubai route, highlighting airport safety concerns in India."
+          "title": "Over 20 students of Kozhikode college suspended after group clash over social media post",
+          "summary": "Over 20 students at a Kozhikode college were suspended following a group clash that erupted over a social media post, with violence continuing even after injured students were admitted to nearby hospitals. The incident reflects ongoing tensions among student groups on campus.",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "link": "https://www.thehindu.com/news/national/kerala/over-20-students-of-kozhikode-college-suspended-after-group-clash-over-social-media-post/article71578508.ece",
+          "sources": [
+            {
+              "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+              "link": "https://www.thehindu.com/news/national/kerala/over-20-students-of-kozhikode-college-suspended-after-group-clash-over-social-media-post/article71578508.ece"
+            }
+          ]
         },
         {
-          "title": "LIVE! Actor Imran Khan challenges 'leave India' notice in HC - Rediff",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ub1FudnZtM1BaY24wandqal94SzRPenJ4LWdXNDhreEsyZHljWEJFY1UzTVBYeDJ0ZHJfcWx0NFlxX3pINHlKYlRqOERITjlmaEdjcFkya19lNC1zeXRDWXJHdklNNXFDUlVlODhVTmp4ZzBq?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "Actor Imran Khan challenges a 'leave India' notice in high court, signaling potential legal action against immigration enforcement decisions."
+          "title": "Keralam facing construction material shortage, relies on support from Tamil Nadu to tide over situation: CM",
+          "summary": "Kerala is facing a significant construction material shortage and has become reliant on support from Tamil Nadu to address the crisis, according to Chief Minister V.D. Satheesan. The shortage is driving up housing construction costs and threatening progress on major infrastructure projects.",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "link": "https://www.thehindu.com/news/national/kerala/keralam-facing-construction-material-shortage-relies-on-support-from-tamil-nadu-to-tide-over-situation-cm/article71578400.ece",
+          "sources": [
+            {
+              "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+              "link": "https://www.thehindu.com/news/national/kerala/keralam-facing-construction-material-shortage-relies-on-support-from-tamil-nadu-to-tide-over-situation-cm/article71578400.ece"
+            }
+          ]
         },
         {
-          "title": "LIVE: India vs West Indies – fifth T20 International - Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMVlFNHZmdUs5XzEwYUhVOFpKNEUzVVBEa2J0cF9tVUxVRkltUWlSaWtrakZjXzFTUHpoZTF3OXJTUW16VEpLQnd2WUladVQxZnpZRXQxTmhQaEdqUm5md0VaSVBabFpSZUpQYVV5RTY4dTNNdE5vZEd2S09RVkFDZ2JJNlZHeVBpSVdkVEVXR3dVSkt0NzlvbFJPd0tweEd0akw0RtIBqgFBVV95cUxNNjhDdnBDQzBHTGgwSG5lMXcxOEhoSkdaY05IUlhWUTlhUldpZUpCTEN3NTJsWlZuMzhsLU92d2hPQnZLaXRQbUFIY0JpaWVNQ3ZWa296cEJHb0tvVXFKN1NFUXFzMnV4eHBfNTJtSHQxS2ZENEZBdXBuTGJqVnEzNlQ1eExOYV9WWEpMbFFLWno4QTJfSXliSU9NeWFvdTJPMDhSRlNfRFc0dw?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "India faces West Indies in a T20 cricket final, representing a major sporting event in the cricket calendar."
+          "title": "Tyeb Mehta’s ‘Rickshaw Puller’ sells for ₹69.1 crore",
+          "summary": "A painting by renowned artist Tyeb Mehta titled 'Rickshaw Puller' sold for ₹69.1 crore at auction, representing a significant sale in India's contemporary art market. The acrylic on canvas dates from 2002, the final decade of Mehta's career, and depicts the rickshaw puller figure he frequently explored in his later work.",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "link": "https://www.thehindu.com/entertainment/art/tyeb-mehtas-rickshaw-puller-sells-for-691-crore/article71578346.ece",
+          "sources": [
+            {
+              "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+              "link": "https://www.thehindu.com/entertainment/art/tyeb-mehtas-rickshaw-puller-sells-for-691-crore/article71578346.ece"
+            }
+          ]
         }
       ],
       "immigration": [
         {
-          "title": "‘Cheap foreign labour’: US Congressman claims H-1B visa holders from India, China replacing American grad - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaWctdVBFQnhUNEN1bE83aGNRZXgxNVhpU0VXVTlldGlOVzhKSkZSR2I0UFNJdF9JOURZZzNWSXUyZmJjQWQ4T3hTNlVHM2VnZE5KYVFEejJTNTFOam5oQ19zNzRrR3ZSRUF3VW45MjhBWENZU2RwU3FZaHhXUnRhQ3Atc2M2dFRRNFZEMUhva1IwYzBUc1NIcmZod2oyQ2FkTklYQXpPeTBYRksyeUlVXzg1cmx2djVNVjBBUE54VjZBMVNCQUE5QkZPaVlaSGdxX3pEWWJIQW1fWUFHMEQ5QXpwYjlzME5MbXVsU2RGLUVic2NlSXBvX0p5a01RWFJxeHlMMUxKUFrSAY4CQVVfeXFMTWJqNnEyV1B0cE4ySFYycTNZUksyVmlNd3JfaDA2T3NsejR4TU5IaXFhSGxzR0Fzbl9ONGRkeEdtRk5KM01jYktsVXVyV1h1ZElBU19HWnlONDlob3VoZjg3R0RYVnJGR3ljaEpFRzhJWnpxNWRNZEtvVUJGVzQ1TTR6ZjMyTlg1LUhaMjZwT19YVzdIdFFhTmo4UEpWcXlySVVYbWJUX0ZoNnBHTVF3Z1VYYkFzeXRScnAxWWpoS3FyYXhBcWN6X0Mxa3U1NlFRVGJ4NjdBdlNuRmdmSnlpRks4YlZkM09OcmlnVzdrLXVwUUM0ZzBodUFvNGtkTDRodGpaRUVhOWVrXzBtNEhR?oc=5",
+          "title": "US Congressman Riley Moore calls H-1B, OPT programmes ‘scams’ - The Federal",
+          "summary": "US Congressman Riley Moore has characterized H-1B and OPT (Optional Practical Training) programs as 'scams,' adding to ongoing political criticism of foreign worker visa programs. The congressman's comments reflect broader concerns about these visa categories in Congress.",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "US Congressman alleges H-1B visa holders from India and China are replacing American computer science graduates with cheaper labour."
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQjUyTzVZNG9KRkloTWZ2bkEyWWUzemNvZDdNUXlTLVVYaFhkNmRlX3hYY0dYTHkyLXdDbGxqdXY2amFNS0dFRHZnRnlhTW5HdnJCTnFnNUxVNTdINFp1b2NLT0J4RE9YUnN5VzgtT3pyaVN6aVpab2xwSmFHS2FwcE5JVzA3ZEZBTFdnLTgyUGRISmEwUE1Wc2U2TFVRaHlscjZpWV9QN2t4aHZDT29pSw?oc=5",
+          "sources": [
+            {
+              "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQjUyTzVZNG9KRkloTWZ2bkEyWWUzemNvZDdNUXlTLVVYaFhkNmRlX3hYY0dYTHkyLXdDbGxqdXY2amFNS0dFRHZnRnlhTW5HdnJCTnFnNUxVNTdINFp1b2NLT0J4RE9YUnN5VzgtT3pyaVN6aVpab2xwSmFHS2FwcE5JVzA3ZEZBTFdnLTgyUGRISmEwUE1Wc2U2TFVRaHlscjZpWV9QN2t4aHZDT29pSw?oc=5"
+            }
+          ]
         },
         {
           "title": "US suspends green-card filings for Microsoft, Adobe as AI talent race tightens - CryptoRank",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSHo5QUVVeEcyX291b0dZWER6YXQ5V0xDeHlzc2lxX3RGempkNHBXWTdPY2tBdFNOVnZlaGxVV0UtRDF2NlFhTDVoWE9ZVkJOdThZbTVLNEthNGQteXoteVZrUWM3Yk1sQlZtRE1VVzFlTTFnZTU0eGRySVREQ083Z1hvT04?oc=5",
+          "summary": "The US has suspended green-card filings for Microsoft and Adobe as competition for AI talent intensifies, signaling potential restrictions on employment-based green card processing for major tech companies. The move highlights the tightening talent race in the artificial intelligence sector.",
           "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Microsoft and Adobe face green-card filing suspensions as the US tightens AI talent acquisition amid visa competition intensification."
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSHo5QUVVeEcyX291b0dZWER6YXQ5V0xDeHlzc2lxX3RGempkNHBXWTdPY2tBdFNOVnZlaGxVV0UtRDF2NlFhTDVoWE9ZVkJOdThZbTVLNEthNGQteXoteVZrUWM3Yk1sQlZtRE1VVzFlTTFnZTU0eGRySVREQ083Z1hvT04?oc=5",
+          "sources": [
+            {
+              "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSHo5QUVVeEcyX291b0dZWER6YXQ5V0xDeHlzc2lxX3RGempkNHBXWTdPY2tBdFNOVnZlaGxVV0UtRDF2NlFhTDVoWE9ZVkJOdThZbTVLNEthNGQteXoteVZrUWM3Yk1sQlZtRE1VVzFlTTFnZTU0eGRySVREQ083Z1hvT04?oc=5"
+            }
+          ]
         },
         {
-          "title": "US Scraps 540-Day Work Permit Extension: What Indian H-1B Workers Need To Know - News18",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU01IQUUzZXdQUmRZWTI5NmdLbzZLV1FyZklFakR0WDVFcmkzZ1VKQVFJOGpRMjFUOHhIWnJudTVaSU5pM1c2X1libVJPYjFZX2k3SXl4Uy1FdWZLMlBMaXBxeEx6VlVkNUR2VGoxWTczMl94czdhbFJwTnZBcjIxZjd0YlN4S3BSSUd0STdPMjBiRWpxajVqci14RFE1OHdhU25CMDZwZ0xwZlNtOFpqMTgxeVJQYmlUNG5hbUpCUjFOSXVM0gHKAUFVX3lxTE5qTGhPWkFTYl83MlVMaHdkZVhjY2Q5QUd2R0RrMi13WUFvUzQtTlFKZ0pZdmd1WXRHTHYycy1IVHBiMWQ4TmlHbDg3M0k2RkNmNWkyTUU1ODBGWWZsU3FsRTE3WTItbzBMdnNMck1pc0l3MXQ5RU9EU0EzU0h0cjFtSlYtOFJseWNIMmo3cWRHWnp5d2VTLXU1VzRoQUV3QTAzdE5VMXJKSkRqSVRvSkYzUjlfUDZDZlRkNFNXR3k2dUhtMll4ejdSdGc?oc=5",
-          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "The US scraps a 540-day work permit extension for H-1B workers, directly impacting Indian visa holders' employment stability."
+          "title": "US report flags sweeping H-1B visa restrictions and rising costs - Telangana Today",
+          "summary": "A US government report has flagged sweeping H-1B visa restrictions and rising costs associated with the visa program, according to recent analysis. The findings underscore growing regulatory and financial barriers to employers seeking to hire foreign workers on H-1B visas.",
+          "source": "\"USCIS OR \"H-1B visa\" OR \"employment green card\" OR \"visa bulletin\"\" - Google News",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObHlhamx5VkhQR19PN3BUUEEzTU0yTUkxQWJ0b1ZlSDEwaXJVdWg0OUhJeXVnVDNfcXlSRW5NeWt4eS1PTm1FQW9PRnJiTFlGS2Y3cmJxUFU4MnRVMExPYU1NV2cydUtVRlV5MUlhUjk4cmZhdTRwSFRQRlBNN1VGUy1Cd0xSVEw2VmRJQXg2alFqV3JEdlE?oc=5",
+          "sources": [
+            {
+              "source": "\"USCIS OR \"H-1B visa\" OR \"employment green card\" OR \"visa bulletin\"\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObHlhamx5VkhQR19PN3BUUEEzTU0yTUkxQWJ0b1ZlSDEwaXJVdWg0OUhJeXVnVDNfcXlSRW5NeWt4eS1PTm1FQW9PRnJiTFlGS2Y3cmJxUFU4MnRVMExPYU1NV2cydUtVRlV5MUlhUjk4cmZhdTRwSFRQRlBNN1VGUy1Cd0xSVEw2VmRJQXg2alFqV3JEdlE?oc=5"
+            }
+          ]
         }
       ]
     },
     "finance": {
       "items": [
         {
-          "title": "Stock market this week: Chip stocks fell 12% by October 16 - Opening Bell Daily",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtLUtfU1diRE03X0VXTF9GS1EtaXR3ZnU5YWZDbGpaWlhIZDNiRjBxZzZ1ZXhSOUZ3UDBIRVViUW5uOGtsOEJvVnRJZ1U3RUR4QnozQVkxWjYtZXhBZmEtS0ktWG9iLXRwNk55eXdsVnp1OVFmNEtHV2JoY1ZhUQ?oc=5",
-          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "Chip stocks fell 12% by mid-October, signaling significant sector weakness and potential broader market correction risks."
-        },
-        {
           "title": "S&P 500, Nasdaq, Leaders Break Support; What To Do Now - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+          "summary": "The S&P 500 and Nasdaq have broken through key support levels, with market leadership facing significant headwinds and recent winners being dumped by investors. Analysts are providing guidance on what investors should do in response to the technical deterioration.",
           "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
-          "why": "S&P 500 and Nasdaq leaders break key support levels, prompting investor reallocation from recent winners and raising correction concerns."
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+          "sources": [
+            {
+              "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5"
+            }
+          ]
         },
         {
           "title": "Nifty soars 2.8% this week: What lies ahead for Dalal Street? - Experts decode 5 triggers, key levels for next week - Livemint",
-          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOUcwamd5R1lhWHFCOEE2c3JiRV9raTl3TFRHTDFIN3ZPYUM3ODVfcE5pWlpJTEI0cm9sZFlTanA2Wm5NRi1wWVo4Q1M5QjlaV1d4Y2g3Y2RzTnBUUnh0Ymt0MU95aFNJTWRQUlFPX3NaalphQ0ZkWHcyU0hxXzVpY1lGZDYwcWROY1pURmswUDRoWnlCMTlHNWp6SlZpRl9JajloSTc0dGxaUmYwZUcyRUhGNjZTVmR3NDNfcHloWndkRmJGZEhzbkZIdXdyaEdFOTBsMXl5cVdnOG5Tdl9HdTM5ZlRsWDZ1RlNMcWlJZmZYS1Jra1Yzc0t0aGdCMG1wQUhsbzU5VGZuNzTSAZACQVVfeXFMTm1YYjV0czQwOC1VZnV6dEVZeDFOcDlyXzVfQV9FUjBUVkNDZE16a0tBOHFfTm1ZUE1QUHVsdG1kZ1h1RUR1dU9zd09YM0tjQ0owcWlHZGNvQzVlbm0tVzRmNlczMXg5WWliU2RkT2pPMWdBdlVMXzlqZklFakF6MVpoNXN1TlJjd1ZCWkJuWEo5Z0d0YmpydDVUZUpfUi14cHF0OTVESHRHRWVWSjZ2Q3dTZXMxbURjUEJrVjdXVmhkRlpocGtNZ1o3X25IaU5NVnAtTUY0dk9sa01VaUpSOHpJM1cwQVhKbkYxMG5oM05CVENMT3BLUjZWUnoyQVRQNDZRYUJaa3FCSmdlLUR4cnY?oc=5",
+          "summary": "India's Nifty index surged 2.8% during the week, prompting market experts to identify five key triggers and support levels to watch for Dalal Street in the coming week. The analysis reflects optimism about market momentum but caution about potential pullbacks.",
           "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
-          "why": "India's Nifty index soared 2.8% this week with IT stocks rising amid inflation concerns, reflecting mixed market sentiment."
+          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOUcwamd5R1lhWHFCOEE2c3JiRV9raTl3TFRHTDFIN3ZPYUM3ODVfcE5pWlpJTEI0cm9sZFlTanA2Wm5NRi1wWVo4Q1M5QjlaV1d4Y2g3Y2RzTnBUUnh0Ymt0MU95aFNJTWRQUlFPX3NaalphQ0ZkWHcyU0hxXzVpY1lGZDYwcWROY1pURmswUDRoWnlCMTlHNWp6SlZpRl9JajloSTc0dGxaUmYwZUcyRUhGNjZTVmR3NDNfcHloWndkRmJGZEhzbkZIdXdyaEdFOTBsMXl5cVdnOG5Tdl9HdTM5ZlRsWDZ1RlNMcWlJZmZYS1Jra1Yzc0t0aGdCMG1wQUhsbzU5VGZuNzTSAZACQVVfeXFMTm1YYjV0czQwOC1VZnV6dEVZeDFOcDlyXzVfQV9FUjBUVkNDZE16a0tBOHFfTm1ZUE1QUHVsdG1kZ1h1RUR1dU9zd09YM0tjQ0owcWlHZGNvQzVlbm0tVzRmNlczMXg5WWliU2RkT2pPMWdBdlVMXzlqZklFakF6MVpoNXN1TlJjd1ZCWkJuWEo5Z0d0YmpydDVUZUpfUi14cHF0OTVESHRHRWVWSjZ2Q3dTZXMxbURjUEJrVjdXVmhkRlpocGtNZ1o3X25IaU5NVnAtTUY0dk9sa01VaUpSOHpJM1cwQVhKbkYxMG5oM05CVENMT3BLUjZWUnoyQVRQNDZRYUJaa3FCSmdlLUR4cnY?oc=5",
+          "sources": [
+            {
+              "source": "\"Sensex OR Nifty OR \"Indian stock market\"\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOUcwamd5R1lhWHFCOEE2c3JiRV9raTl3TFRHTDFIN3ZPYUM3ODVfcE5pWlpJTEI0cm9sZFlTanA2Wm5NRi1wWVo4Q1M5QjlaV1d4Y2g3Y2RzTnBUUnh0Ymt0MU95aFNJTWRQUlFPX3NaalphQ0ZkWHcyU0hxXzVpY1lGZDYwcWROY1pURmswUDRoWnlCMTlHNWp6SlZpRl9JajloSTc0dGxaUmYwZUcyRUhGNjZTVmR3NDNfcHloWndkRmJGZEhzbkZIdXdyaEdFOTBsMXl5cVdnOG5Tdl9HdTM5ZlRsWDZ1RlNMcWlJZmZYS1Jra1Yzc0t0aGdCMG1wQUhsbzU5VGZuNzTSAZACQVVfeXFMTm1YYjV0czQwOC1VZnV6dEVZeDFOcDlyXzVfQV9FUjBUVkNDZE16a0tBOHFfTm1ZUE1QUHVsdG1kZ1h1RUR1dU9zd09YM0tjQ0owcWlHZGNvQzVlbm0tVzRmNlczMXg5WWliU2RkT2pPMWdBdlVMXzlqZklFakF6MVpoNXN1TlJjd1ZCWkJuWEo5Z0d0YmpydDVUZUpfUi14cHF0OTVESHRHRWVWSjZ2Q3dTZXMxbURjUEJrVjdXVmhkRlpocGtNZ1o3X25IaU5NVnAtTUY0dk9sa01VaUpSOHpJM1cwQVhKbkYxMG5oM05CVENMT3BLUjZWUnoyQVRQNDZRYUJaa3FCSmdlLUR4cnY?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "Stock market this week: Chip stocks fell 12% by October 16 - Opening Bell Daily",
+          "summary": "Chip stocks fell 12% by October 16, marking a significant selloff in the semiconductor sector that has weighted heavily on overall market performance. The decline reflects concerns about valuations and demand in the technology hardware space.",
+          "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtLUtfU1diRE03X0VXTF9GS1EtaXR3ZnU5YWZDbGpaWlhIZDNiRjBxZzZ1ZXhSOUZ3UDBIRVViUW5uOGtsOEJvVnRJZ1U3RUR4QnozQVkxWjYtZXhBZmEtS0ktWG9iLXRwNk55eXdsVnp1OVFmNEtHV2JoY1ZhUQ?oc=5",
+          "sources": [
+            {
+              "source": "\"stock market OR S&P 500 OR Nasdaq OR Dow\" - Google News",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtLUtfU1diRE03X0VXTF9GS1EtaXR3ZnU5YWZDbGpaWlhIZDNiRjBxZzZ1ZXhSOUZ3UDBIRVViUW5uOGtsOEJvVnRJZ1U3RUR4QnozQVkxWjYtZXhBZmEtS0ktWG9iLXRwNk55eXdsVnp1OVFmNEtHV2JoY1ZhUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "Software’s new consolidator gets big vote of confidence from Berkshire - CNBC",
+          "summary": "Warren Buffett's Berkshire Hathaway made a $330 million investment in Bending Spoons, a software consolidation company, signaling the investment giant's confidence in the sector. The move represents Buffett's push into new territory beyond traditional holdings.",
+          "source": "Business - Latest - Google News",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEFPR29HeXp0X3FVMHhZY2ZmWE85ZzNYamtxN3c0dUkyT0gwNFhFSjFCdXc0d25Hc2tMX0VFSDdRc1F0RzRSY3N4VE1jOWdhend1VHJvQURBOXlDYTBocGdyMnE4TldRNTlPNnh1V1g2aHZ5blhOQ3lScGNTeDhzbl9Db1phTmUxaEtCcFFva3lvbWVaOWMyNktNTERwNmlXOC1KY2sweEzSAa4BQVVfeXFMT08ycFNfd2NRc1FUMTBtTC1ENnpxV2NVUzVSRjBfb0hQV2YzZk44Vm5aMWh0V3ZzM1pJNHdabHVWUzNCQTV0eFJwaHZEa3U2bHRlcTVfdU40VjExbkNpRWVJcUhQbDdlU2txd1hFRVFuZkJHTTBVNkN6S1ZnTWV2TUFTcFlMNzJSVFdsTU9GVDNlTGZqdlV2NUp1MWhNc2tBQWZ5VjEybjVBanhrU3hn?oc=5",
+          "sources": [
+            {
+              "source": "Business - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEFPR29HeXp0X3FVMHhZY2ZmWE85ZzNYamtxN3c0dUkyT0gwNFhFSjFCdXc0d25Hc2tMX0VFSDdRc1F0RzRSY3N4VE1jOWdhend1VHJvQURBOXlDYTBocGdyMnE4TldRNTlPNnh1V1g2aHZ5blhOQ3lScGNTeDhzbl9Db1phTmUxaEtCcFFva3lvbWVaOWMyNktNTERwNmlXOC1KY2sweEzSAa4BQVVfeXFMT08ycFNfd2NRc1FUMTBtTC1ENnpxV2NVUzVSRjBfb0hQV2YzZk44Vm5aMWh0V3ZzM1pJNHdabHVWUzNCQTV0eFJwaHZEa3U2bHRlcTVfdU40VjExbkNpRWVJcUhQbDdlU2txd1hFRVFuZkJHTTBVNkN6S1ZnTWV2TUFTcFlMNzJSVFdsTU9GVDNlTGZqdlV2NUp1MWhNc2tBQWZ5VjEybjVBanhrU3hn?oc=5"
+            }
+          ]
         },
         {
           "title": "Senator warns ‘clock is ticking’ as Social Security funds run dry - Fox Business",
+          "summary": "A US senator has warned that 'the clock is ticking' as Social Security funds face depletion, raising alarm about the program's sustainability crisis. The statement highlights the urgent need for policymakers to address the long-term solvency of the retirement program.",
+          "source": "Business - Latest - Google News",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTjVCclVRS0wxZlpVUFpKZHh3QWdSTTFDdDV6ZlBMM1Y2b1RmNENXb1g3Mnd3V3FvckV6RHFJLU9UVmlXXy1WQlBVOW9LR0RfZjBvbURIeVprNDVzNHVCam5MTnZuUWgwNUcybGNWeU5jamotWG4wbFdPM3lRdnBXZ2hhMktSUGhGZS0yeW5tQlI0RW5GOXfSAZsBQVVfeXFMTU41SDFCY2w1Vnd0SjVfS1VQRzk3T3p5R2lTdUQ3VmdBT0xBeU9nUjV0ZGx5dUY2RFN2ZnJ0dUJfRXRXck1LNzMxTDc3c1NtQkRtZzN4b2FDYzBlcnJ3V0g0OWdpWFBOODBTcThDTGNjLV9ubDg5Y2pmRHNzeTV2amR6eXB1QW1RX3h0VFFjLV9hVm1DNm02cFoyYlE?oc=5",
-          "source": "Business - Latest - Google News",
-          "why": "Social Security funds face depletion urgency as a senator warns the clock is ticking on the retirement program's solvency crisis."
-        },
-        {
-          "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
-          "source": "Business - Latest - Google News",
-          "why": "Anthropic IPO valuations are being tempered due to revenue growth slowdown, signaling AI investor caution and market maturation."
+          "sources": [
+            {
+              "source": "Business - Latest - Google News",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTjVCclVRS0wxZlpVUFpKZHh3QWdSTTFDdDV6ZlBMM1Y2b1RmNENXb1g3Mnd3V3FvckV6RHFJLU9UVmlXXy1WQlBVOW9LR0RfZjBvbURIeVprNDVzNHVCam5MTnZuUWgwNUcybGNWeU5jamotWG4wbFdPM3lRdnBXZ2hhMktSUGhGZS0yeW5tQlI0RW5GOXfSAZsBQVVfeXFMTU41SDFCY2w1Vnd0SjVfS1VQRzk3T3p5R2lTdUQ3VmdBT0xBeU9nUjV0ZGx5dUY2RFN2ZnJ0dUJfRXRXck1LNzMxTDc3c1NtQkRtZzN4b2FDYzBlcnJ3V0g0OWdpWFBOODBTcThDTGNjLV9ubDg5Y2pmRHNzeTV2amR6eXB1QW1RX3h0VFFjLV9hVm1DNm02cFoyYlE?oc=5"
+            }
+          ]
         }
       ],
       "quotes": [
@@ -245,24 +421,24 @@
     "theme": "personal finance",
     "cards": [
       {
-        "title": "Diversify Beyond Tech Leadership",
-        "insight": "Market leadership is shifting away from technology as chip stocks plummet and sector concentration reverses. Investors holding concentrated tech positions face heightened volatility and should rebalance into underweighted sectors.",
-        "takeaway": "Review your portfolio allocation and trim overweight tech positions; move proceeds into defensive or overlooked sectors with lower valuations."
+        "title": "Diversify Beyond Tech",
+        "insight": "Market leadership is shifting away from concentrated tech holdings, with broader equity sectors gaining momentum. Overweighting any single sector leaves portfolios vulnerable to sudden corrections, as recent chip stock declines demonstrate.",
+        "takeaway": "Review your portfolio's sector allocation this week and ensure you're not overexposed to any one industry or company."
       },
       {
-        "title": "Social Security Crisis Demands Action",
-        "insight": "With Social Security funds running dry, younger workers cannot rely on current benefit levels in retirement. The urgency for personal retirement planning has never been higher as government programs face structural funding gaps.",
-        "takeaway": "Maximize 401(k) and IRA contributions now; model retirement scenarios assuming reduced Social Security benefits relative to current projections."
+        "title": "Watch Social Security Timelines",
+        "insight": "Policymakers are sounding alarms about Social Security's approaching depletion date, suggesting legislative action may arrive under pressure. Whether you're near retirement or decades away, understanding how changes might affect your benefits is increasingly important.",
+        "takeaway": "Visit ssa.gov to verify your earnings record and get a personalized retirement estimate; adjust retirement projections accordingly."
       },
       {
-        "title": "H-1B Work Visa Uncertainty Affects Career Planning",
-        "insight": "Tighter H-1B restrictions and green-card suspensions signal a shifting immigration landscape. For skilled workers or those in visa-dependent industries, work authorization stability is now a critical employment variable.",
-        "takeaway": "If visa-dependent, prioritize pathways to permanent residency; document skills in recession-resistant fields; consider geographic diversification of career options."
+        "title": "Real Estate Risks in Coastal Markets",
+        "insight": "Accelerating coastal erosion in California is destroying property values and threatening homeowner equity in affected regions. Climate-driven property damage is no longer hypothetical and will reshape insurance and real estate markets.",
+        "takeaway": "If you own coastal property or are considering such a purchase, commission a professional erosion and flood risk assessment before committing capital."
       },
       {
-        "title": "Inflation-Driven Market Rotation Creates Opportunities",
-        "insight": "As central banks navigate inflation concerns, different asset classes respond asymmetrically—IT stocks rise while broader market indices slip. Tactical rebalancing during sector rotation can enhance risk-adjusted returns.",
-        "takeaway": "Use market weakness to rebalance; rotate a portion of bond allocations into inflation-hedging assets like dividend-paying stocks or commodities."
+        "title": "Currency & Geopolitical Exposure",
+        "insight": "Sanctions waivers and trade policy shifts create volatility in currency and international stock markets. Those with significant overseas assets, retirement accounts with emerging-market funds, or foreign income streams face heightened uncertainty.",
+        "takeaway": "Audit any holdings or income denominated in foreign currency and consider whether your risk tolerance aligns with current geopolitical volatility."
       }
     ]
   }
