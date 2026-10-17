@@ -138,17 +138,24 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   font-size: 40px; line-height: 1.02; margin-top: 8px; color: var(--ink);
 }
 
-/* World tab: animated spinning-Earth hero (GIF carries its own title) */
-.world-hero {
+/* Image hero banner (World, India…) — replaces the line-art masthead */
+.tab-hero {
   margin-bottom: 20px;
   padding-bottom: 12px;
   border-bottom: 4px double var(--ink);
 }
-.world-hero img {
+.tab-hero img {
   display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
-  object-fit: cover; object-position: top;   /* clip the baked-in bottom tagline */
+  object-fit: cover; object-position: center;
   border-radius: 12px; background: #0a1a33;
 }
+/* World GIF: anchor top so the 16:9 crop clips the baked-in bottom tagline */
+.tab-hero.anchor-top img { object-position: top; }
+/* Ken Burns: slow zoom to give a still photo a bit of life (India).
+   Disabled for prefers-reduced-motion by the global rule below. */
+.tab-hero.ken-burns { overflow: hidden; border-radius: 12px; }
+.tab-hero.ken-burns img { animation: ken-burns 24s ease-in-out infinite alternate; }
+@keyframes ken-burns { from { transform: scale(1); } to { transform: scale(1.08); } }
 
 /* Editorial rank number (#1, #2…) */
 .num { color: var(--accent); font-weight: 700; }
