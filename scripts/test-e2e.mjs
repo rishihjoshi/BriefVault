@@ -66,7 +66,7 @@ const { loadDigest, show, showUpdate } = await import('../docs/app.js');
 test('loadDigest renders the Local/USA tab with weather, hero, and St. Louis metro', async () => {
   await loadDigest();
   const html = els.main.innerHTML;
-  for (const s of ['United States', 'USA Pulse', '#1', '#2', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph',
+  for (const s of ['usa-news.jpg', 'tab-hero', '#1', '#2', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph',
     'Local lead', 'A readable brief of the story.', 'Read', 'AP News', 'BBC', 'St. Louis Metro', 'STL metro item']) {
     assert.ok(html.includes(s), `Local render missing "${s}"`);
   }

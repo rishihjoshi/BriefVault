@@ -1,7 +1,7 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '17'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v17)
+const APP_VERSION = '18'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v18)
 
 const TITLES = {
   local: 'USA',
@@ -127,7 +127,7 @@ function subSection(label, items, emptyMsg) {
 function renderTab(tab) {
   const t = digest.tabs;
   if (tab === 'local') {
-    return heroBanner('local') + renderWeather(digest.weather) + rankedBlock(t.local.items)
+    return tabHero('./usa-news.jpg', 'USA General News — US Capitol, flag, and city skyline') + renderWeather(digest.weather) + rankedBlock(t.local.items)
       + subSection('St. Louis Metro', t.local.stlouis, 'No St. Louis metro news today.');
   }
   if (tab === 'world') return tabHero('./world-spinning.gif', 'Spinning globe — world news', 'anchor-top') + rankedBlock(t.world.items);
