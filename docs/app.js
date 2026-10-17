@@ -1,7 +1,7 @@
 // DailyPulse — reads the pre-built digest.json and renders 4 tabs.
 // No API key, no AI, no network beyond fetching its own digest (built by the Action).
 
-const APP_VERSION = '14'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v14)
+const APP_VERSION = '15'; // keep in sync with CACHE_NAME in sw.js (dailypulse-v15)
 
 const TITLES = {
   local: 'USA',
@@ -46,23 +46,37 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '
 // scheme, so href needs its own allowlist: only http(s) links render, anything else → '#'.
 const safeUrl = u => /^https?:\/\//i.test(String(u ?? '').trim()) ? String(u).trim() : '#';
 
+// "Read: AP · BBC · Reuters" — 2-3 external source links. Falls back to the single
+// {source, link} for an older digest that predates the sources array.
+function sourceChips(it) {
+  const sources = (it.sources && it.sources.length)
+    ? it.sources
+    : (it.link ? [{ source: it.source, link: it.link }] : []);
+  if (!sources.length) return '';
+  return `<div class="sources"><span class="read">Read</span>` + sources.map(s =>
+    `<a href="${esc(safeUrl(s.link))}" target="_blank" rel="noopener">${esc(s.source || 'Source')}</a>`
+  ).join('') + `</div>`;
+}
+
 // `n` (optional) renders an editorial rank number (#2, #3…) for the ranked list.
 function newsItem(it, n) {
   const num = n ? `<span class="num">#${n}</span> ` : '';
-  return `<a class="item" href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener">
+  const summary = it.summary || it.why || '';
+  return `<article class="item">
     <h3>${num}${esc(it.title)}</h3>
-    ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
-    <div class="src">${esc(it.source || '')}</div>
-  </a>`;
+    ${summary ? `<div class="summary">${esc(summary)}</div>` : ''}
+    ${sourceChips(it)}
+  </article>`;
 }
 
 function topStory(it, n = 1) {
-  return `<a class="top-story" href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener">
+  const summary = it.summary || it.why || '';
+  return `<article class="top-story">
     <div class="flag">Top Story</div>
     <h2><span class="num">#${n}</span> ${esc(it.title)}</h2>
-    ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
-    <div class="src">${esc(it.source || '')}</div>
-  </a>`;
+    ${summary ? `<div class="summary">${esc(summary)}</div>` : ''}
+    ${sourceChips(it)}
+  </article>`;
 }
 
 // A ranked list: first item is the Top Story (#1), the rest are numbered #2, #3…

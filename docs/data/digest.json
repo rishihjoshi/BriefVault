@@ -1,198 +1,473 @@
 {
-  "generatedAt": "2026-10-13T20:52:40.474Z",
+  "generatedAt": "2026-10-17T11:00:00.000Z",
   "location": "St. Louis, MO",
   "weather": {
-    "high": 93,
-    "low": 66,
-    "highC": 34,
-    "lowC": 19,
-    "precip": 6,
-    "wind": 10,
-    "sunrise": "7:08 AM",
-    "sunset": "6:25 PM",
-    "label": "Clear",
-    "emoji": "☀️"
+    "high": 72,
+    "low": 54,
+    "highC": 22,
+    "lowC": 12,
+    "precip": 10,
+    "wind": 8,
+    "sunrise": "7:12 AM",
+    "sunset": "6:20 PM",
+    "label": "Partly cloudy",
+    "emoji": "⛅"
   },
   "tabs": {
     "local": {
       "items": [
         {
-          "title": "St. Louis Leaders Announce Civil Service Reform - STL.News",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKZGdwbjJXdnFXUnFENGZRbVE5TWVtYVpHakZuWU05MnU1QkJRaXZTT1ppY0pQVTNYV05Ia0UzUWI3NVVoRW5zQjBxSzRFQ0lZdnhKT0ZwTVVTU3UwcEZxYkxaNWNJMFNtRHRKZlBGeTZiMFEzZWM0?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "St. Louis civil service reform addresses structural governance issues affecting the city's municipal operations and accountability."
+          "title": "USA placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/1",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/1"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/2"
+            }
+          ]
         },
         {
-          "title": "St. Louis Housing Bills Target $34.1M in Renovations - STL.News",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BVFlfWGxzd1AyclFBSnJLMlREd1hRSU5ab1YzLVdLOXlMRlJ1Z2hvRFNNSExWN2hsbDl0T1hleUFacmFWS2dQb1VNZ01BaktONTdlQnZLMU8wb3lWVjFYaVdPVEJHSk9OSVhlV2xLSjJObGg3cExiWll6ZGE?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "$34.1M housing renovation initiative signals major investment in neighborhood infrastructure and affordability."
+          "title": "USA placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/3",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/3"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/4"
+            }
+          ]
         },
         {
-          "title": "Ann Wagner-Fred Wellman is 1 of 8 US House races in St. Louis area. Here are the others. - STLtoday.com",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWWtQR0J0OUNjT1JCRHdseTZMWEx1cHZHSjJ6cVFVc0lrOGNoeG9YeGZCSnJNdXREQ1lidXIwLTFrQ1hQNGtJb2s5MS1mUGtFOEF2cnNJcklQZ0FzXzR5ZGJBZEZvVkItVG9WTUQ2Vy0zR0RUd0w4X1FLd1hiRmstVzlmRVpFVEtOYWlZZ2VSMHR5OER1MmhtNk1aZDVyVHJLa2tlWDg2LV8?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "Eight House races in the St. Louis area represent critical electoral contests shaping regional and national representation."
+          "title": "USA placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/5",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/5"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/6"
+            }
+          ]
         },
         {
-          "title": "Commentary: Why St. Louis parents demanded accountability for their public schools - Missouri Independent",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLS1JeUFXVUJDc0dNckZUUEE5VmVHTFlqNmtIUlZ6YWI3UGM3WWdyWTc4ZnF6WnA1b1BWeE5KdkZOMnd0NUEzcUFDcTJoYTBuYzJscE45WU54U0J6WkpCSk8wU0hOOWNXRmM0a1BGRURaVUFBZ05yOFlpUXBPcFppX0lWUVdHSXdBY01mT3dZZXBMS2VGOVVMNERKNVZpeEFrUDlhTHpBRHktRkJPei14UVdoNA?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "Parent-led school accountability movement reflects broader concerns about public education performance and governance."
+          "title": "USA placeholder story 4",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/7",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/7"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/8"
+            }
+          ]
         },
         {
-          "title": "Mason McTavish Has Nailed His First Impression in St. Louis - Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVJvc2YxdlNmWm9lQ1NhVXk2a0kwc215SFF1Zi1FMEFpNXF1Z1Q2SUQ3ZlNTNUxlaUJfMUpXSGltd3llYlNQYlctRTJ0YzB2V1owSUJ6d25GX3pnZmZJYTZodjI4ZkpiMzE1UzBGanhqOVM3dTdub0ZBS21OaXdlMFdlNTZLMHVJRkUwSmFPaHg?oc=5",
-          "source": "\"\"St. Louis\" Missouri\" - Google News",
-          "why": "Mason McTavish's successful integration with the St. Louis Blues provides local sports momentum and community interest."
+          "title": "USA placeholder story 5",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/9",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/9"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/10"
+            }
+          ]
         }
       ],
       "stlouis": [
         {
-          "title": "St. Louis metro board approves regional transit expansion",
-          "link": "https://example.com/seed/stl-1",
-          "source": "Seed",
-          "why": "Placeholder St. Louis metro item until the next scheduled build runs."
+          "title": "St. Louis metro placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/11",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/11"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/12"
+            }
+          ]
         },
         {
-          "title": "St. Louis County announces road and bridge repair plan",
-          "link": "https://example.com/seed/stl-2",
-          "source": "Seed",
-          "why": "Placeholder St. Louis metro item."
+          "title": "St. Louis metro placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/13",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/13"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/14"
+            }
+          ]
         },
         {
-          "title": "Downtown St. Louis development project breaks ground",
-          "link": "https://example.com/seed/stl-3",
-          "source": "Seed",
-          "why": "Placeholder St. Louis metro item."
+          "title": "St. Louis metro placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/15",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/15"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/16"
+            }
+          ]
         }
       ]
     },
     "world": {
       "items": [
         {
-          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-          "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "why": "Pope's lung cancer diagnosis and successful surgery is a major health development with global implications for Catholic leadership."
+          "title": "World placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/17",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/17"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/18"
+            }
+          ]
         },
         {
-          "title": "Zelenskyy says Ukraine received no intelligence from partners about missiles headed to Kyiv - AP News",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbkZsTE1wTW5KVUZmUUJ3MFhPTEdiajVmTWR3UUt6eU9uSWpHWlNmdDVpTUhSa1BnQTVDaW9GUXJoOXp2N2VmVGJ4cE5MNU1KazJCWVZPVGlIMGRnd2JTbndndmZGZEd0d3Zyc243ZnJ2RFVxMm9GNUItaXNteWRxUl9fUnlPc2wzVE1URzVDQXBhSmNiajN0MkdON3BrRGRjRllIUVptV0dzdDhYLTRlc3N6bw?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Zelenskyy's complaint about missing intelligence on Russian missile strikes reveals critical gaps in allied defense coordination."
+          "title": "World placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/19",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/19"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/20"
+            }
+          ]
         },
         {
-          "title": "U.K. intelligence chief warns Iran is shifting plots to ‘harder targets’ - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMHpoSWxCVzlWVmVkY05uUXZNLV85OHRFclFDZ1hXYV9HNzdFZ29XQ2xmVG9VYlF0VWhoNnJ4bzVxY1h2WmFOZGFQWE0tdndpTGVrTXNyTlgzLVBqS3ZvUXRmanBpWnBFckdSdVZvMHZSYUJMSUJCY0tBeGxTbnQzTTVtNmVvMWJNYUdoRHB0T29PcmRLVU5qV00wV3BRZ1c3YlRWTWhhclc1dGFIeEdrZjlpUHU?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "UK intelligence warning of Iran shifting to 'harder targets' indicates escalating state-level hybrid threats during geopolitical tensions."
+          "title": "World placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/21",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/21"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/22"
+            }
+          ]
         },
         {
-          "title": "EU opens two more Ukraine accession clusters as Hungary lifts veto - Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUzAxRWFTektob3Zvd0NSSWZWRUJxMXBqOXBTa1Z1UHFXeVRmYXJxR3NUYVRoLWUtbkVZV0JCelJzMVNkWk5RN2tqUnUycFpEMXdxTEJJUW5fUWlXM2k4ZzBqQzhMbUxHeDlUNllhd0VPQUdjcnoycndYQUxqM1M4WmdOaGtQYWI1ZGc1ak14VG5FNEV0MUFNeWw4aXUwRldJek9ET0JoaUxPUjBSN0w2RkxqSGdxcDJFVUI5bTNrOXBrUUR4?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Hungary lifting veto on Ukraine EU accession clusters advances Kyiv's integration pathway amid ongoing conflict."
+          "title": "World placeholder story 4",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/23",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/23"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/24"
+            }
+          ]
         },
         {
-          "title": "Drones hit ships in Black Sea, sinking 1 and prompting rescue operations, Bulgaria says - AP News",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMTJPTHc4YkdLRVc4S2RXZG1kVEFYRTNDR1pzdHk1anYybkY3ZFd1c0xaWS1kZ256M2hGM1dMMU84alVTbUQwVTBwUktsUWVzaXIzUnl0cnBWV3Y0aHFGQnhZZzllSjFfdjI0TjdyVGJxNXdwOFp5Y0liU3VoVE5pYXNTVjVTQTg1cUtvcE8tNzZvbzhjSUE?oc=5",
-          "source": "World - Latest - Google News",
-          "why": "Black Sea drone attacks sinking merchant vessels signals new maritime warfare tactics with commercial shipping implications."
+          "title": "World placeholder story 5",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/25",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/25"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/26"
+            }
+          ]
         }
       ]
     },
     "india": {
       "items": [
         {
-          "title": "Despite lockdowns and thousands detained, India's youth-led protests grow - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pTcC14X1hVQWVxaUc4UUVZaGttSG5Id1ZKN3Z1LXpMYzUzbE04OWRYc0IyNHliUlF4bUhqQ0Q1MFJOeUNmbF8yZ2VFR0xqS3VQVUR2RUpqaWpRN1F0aEZfSDVSeTdZMW1qVlhHSjNUUXZ4TkZ2UFRYSU0yOVhiRk53Yk5yZTVSVGY1bm5YdFRydlZtZElRamhUcWFJMjZFb2VmbmcwdG9pbm9MbjNNY3BB?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "Youth-led protests growing despite lockdowns and detentions indicate significant grassroots unrest and social mobilization in India."
+          "title": "India placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/27",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/27"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/28"
+            }
+          ]
         },
         {
-          "title": "India reaffirms Ladakh status as China says it doesn’t recognise the UT - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTktHUFdtRVNWbWlqaE1VcHl6NnIyYnlWUWtDNF90SWtPU18wcjF5bDZfdUJyeFpZc3ZfeHpkdFBhQlBndEt4QVVQY09Xdkt2TEFPLUFaMVQ2WFBLWEh3WnNkR2VaUjc1YzFGVEdjNG5kcEdtTlRDd19Rb2Rra1dRMFVOUC1USjJET011LWd5Nzd0LWRGNHA1ODVuSjdzNHZVWU8zcW5oTlRRTWszTV95dGU0VlVXQzVYRHNHQW1reEtYZHVJbnpycTNnTFlSYmZSS0hWQ9IB2gFBVV95cUxNaG1fbGZGbEF6dWxqUldmT08wUUxZcEpZTmVpUEM4SmFqUzFMa1JZdVRZSjAxLXBYQWN6eHhCeEN2RDlHRFozel9qS3h0M0h3MG5QR2JrTktPWUljQW5OTVhzRmN4Vjk1VXBpMjVMQ0tyUW1ydlhWS2lUR2xHUUVlemJ3SE9PS2pWWU9zeGFLRWcydjZoR2hnLXMyWGxvaW52X0VkTVprMHRvaGtJWXFSOUpUbnJaekwzc0JjNDBJTEJWZ012VjJJXzNEZ1hEQXhUdy1mckVRb3JFdw?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "India reaffirming Ladakh's territorial status amid Chinese non-recognition underscores ongoing border sovereignty disputes."
+          "title": "India placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/29",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/29"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/30"
+            }
+          ]
         },
         {
-          "title": "Indian Airlines Cancel Flights To Saudi Till October 17 Amid Houthi Attacks - NDTV",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUEdLOXVicnhEYjFnMkZQZjlqZVlkandyUm0zZXhKZFh4UW5pZk42bmlBeXU0OWFlSWdBOXVRbDNSRnl0ZlQ0VDB1RS1IWG5CYzhJYWt1Nm1uVXhVU3BZUFg5b1NuRXA2c2NuVFZzLVE5MGx0bmQxX21IV2p3clBzMlBjYThoeFZ2WVhXU3BKSWxiUjZ5RDVncGtfMEp2dENxNlBrZjJ3NG41bUl3eVJxMXUwV1RjZ2fSAb8BQVVfeXFMUGpDNG5oZm9ROFl3NVAtWFpRdVd0X3dXOGcxRGpJdTJQU19BTEplQ0xaRTdTdG51cnU1TmVBOU1wc1JMUFZtZE05aGZZU2ZBQU5TVzQ1QkRaV2pMTzBoMTVKcGx2dW5wMVhNM3Mtb09vd1FoekhlR2FEWTd1MHpRTE5hOE96aVU3MXZhTnl5ekV1RkVKTTluTWlPVWFCTVp4NHBqc0lOUDNWM0RPRjlsYkpVZjR3MjdLc3VlbDJUSGc?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "Indian airline flight cancellations to Saudi Arabia due to Houthi attacks demonstrate direct impact of Middle East instability on Indian commerce."
+          "title": "India placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/31",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/31"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/32"
+            }
+          ]
         },
         {
-          "title": "An update on the protests in India - NPR",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWGN6OWVNYTViSHNGX2JwRmF4REItLXdGdGpGWnJGbWdwNXNXU011Rm8xRUlUVHdWS0VFMTA4VEFmVzY5cjhmT09qX3pGSmFUcU5CTmNkT0tyejl6N1REZlpXZG1kS0U5TTBYNXNEREJVV1NrdFA0dHNWRW9kNGk2RDZhVUhtUQ?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "NPR update on India protests provides comprehensive coverage of domestic political and social unrest developments."
+          "title": "India placeholder story 4",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/33",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/33"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/34"
+            }
+          ]
         },
         {
-          "title": "Canadian FM arrives in India, to hold talks with EAM Jaishankar - DD News",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNzg5bUZDZk0wY2o1TGZFS0trMF9ObGZJVDJJNVJDbklSOTNDeEQtX0NmbFlocGVsYVdRLXU1b3RwVjk4ZFpXUnB3VHlXTHdIRnNUWFZwcGJOUzAzd1NLS3RyNUYybmk3SkxWTndxejhoSjNMMGdNLWVOb2ZzcWtxZ2g5Tm5fa0I3ZnhvMnpMMEVoUQ?oc=5",
-          "source": "\"India\" - Google News",
-          "why": "Canadian FM's India visit and talks with Jaishankar signal diplomatic engagement on bilateral and regional issues."
+          "title": "India placeholder story 5",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/35",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/35"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/36"
+            }
+          ]
         }
       ],
       "immigration": [
         {
-          "title": "Indians Account For 79% Of Employment Green Card Backlog, Face 179-Year Wait - IndiaWest",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0hGTjFuVW5SaEx3UENXWHdCZmRQNFFtV3NZaTEzYjBldXNfcDJiY1JGOTZkQW5ONDdEZWFPZU9TMk1wNU5sZEVLbDFta08xMTV3bUVkZGRjVDJRbjBQX1l0cGJOR2JZYUFTU1B0ZEZ6UnhWMzVOMmpsWmx1NXlFaDMtanlUeDUzdWNGRWtVLUF1NTJ4SldoeXpiejI0UQ?oc=5",
-          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Indians facing 179-year green card wait with 79% of employment backlog reveals systemic crisis in family reunification and skilled worker pathways."
+          "title": "US–India immigration placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/37",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/37"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/38"
+            }
+          ]
         },
         {
-          "title": "New rule for H-1B again? Visa extensions will be treated as fresh cases; asylum seekers and H-4 visa hold - The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOS3ljMzkwRFMtYzhpVlBCQ3RnUjFySy1wQXJVMnh5TEhnTkJ5S2tBTG9kb0JRSXBXZXhqcGxwaUtpWHlDRlhJX2tCOUtrd1lMU1NQNGNuNWhUSzFqV0pfaEVENTZjV3JKcEs5Z2JZSUQyazBDX0dKTXRfUjd2NW9LcVdtanBWZzNGWWlXQmw5NTZBN3BIRHpmakgyd3dXMEg4NjE3dTU2ajNnS3VNWC1PdDdvNDYzd2tQc0VEbnRKc3JrMFhkUjUyMkJXb1llZU1YczVRMVFpRG5uaTlyODBpOW1FTlhpUXZIa0czVko4UUQ4dVhsVElMclJlM1hoZmR6RXk5bmxtYlJLanItV1NQS3lrRS0yZzhTcGVwcWtaOF9yOTExS1HSAasCQVVfeXFMTUxGaDhIaVJaSGxKTnhZU3RsNW9BMVduYzh0eGhnUEU0TzZFeGRleGZHNHVZT3Fhb3oweDg0ZktfZlRGRmtxRGdKaUtLbTRoaDBNOHc5czBfeHNHb1dZUDRVQU9uNU42SDc1TThibmxnWTRVQUYwMjJLSU1BdTAxV2t4SjhhS3VvNkxyQUpLRnJGNWhBTWd6bmoxNmVFOUZEMnRVMmN2aDMwcVpvNEp5Ti1hUGlwdUZGRE9IT0c2STdlUE1OR3ZTcmdVNDVJTEFqZWI3MjFNcVZuaV8tTkVzUGVzUmp4Y1dTM1d2dm41UlM5M0xfYU4tWGRoUzNhTVBnbkRMTHY1OWhQU1YySGg5Z05MMkJBNzFXaXQwa25WYldPbjY2ZERIZ09xMnM?oc=5",
-          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "DHS proposal treating H-1B extensions as fresh cases will significantly tighten visa approvals for Indian skilled workers."
+          "title": "US–India immigration placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/39",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/39"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/40"
+            }
+          ]
         },
         {
-          "title": "Trump Administration Moves to End H-1B Extension Protections, Finalizes Restrictions on Work Permit Renewals - INDIA New England News",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORVNhOEZLcDBaeWY5S1MyNjFGMzl5SndHT0tkVGxyZm5EQ1Y0Q2VJdE5mN2pEaElKN3ZzRWpPNjhST0ltcUpkQWhSeDNLLVNaNE01NkFRUmFyeTRXNmI4dGhLbG5SRjRjZEVqcTdFMWFqV01pY0REaGtpU1JPS19EaVhrXzVHM2IwemtVd2diZlZfZzJkM1Y0RDRJM0JKcFotcEhMV2VhXzZKdmNKNGtONjNReTV5M2d1eFRTVlVYeWpSdU5tZnRUQ3A1RXlidExIRmc?oc=5",
-          "source": "\"H-1B OR \"green card\" OR USCIS OR \"India immigration\"\" - Google News",
-          "why": "Trump administration eliminating H-1B extension protections and restricting work permit auto-renewals marks major policy shift affecting Indian IT professionals."
+          "title": "US–India immigration placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/41",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/41"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/42"
+            }
+          ]
         }
       ]
     },
     "finance": {
       "items": [
         {
-          "title": "Wall Street edges higher as earnings season gets underway",
-          "link": "https://example.com/seed/fin-1",
-          "source": "Seed",
-          "why": "Placeholder finance item until the next scheduled build runs."
+          "title": "Markets placeholder story 1",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/43",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/43"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/44"
+            }
+          ]
         },
         {
-          "title": "Sensex and Nifty close at record highs on strong inflows",
-          "link": "https://example.com/seed/fin-2",
-          "source": "Seed",
-          "why": "Placeholder India markets item."
+          "title": "Markets placeholder story 2",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/45",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/45"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/46"
+            }
+          ]
         },
         {
-          "title": "Global markets mixed as investors weigh rate outlook",
-          "link": "https://example.com/seed/fin-3",
-          "source": "Seed",
-          "why": "Placeholder world markets item."
+          "title": "Markets placeholder story 3",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/47",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/47"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/48"
+            }
+          ]
         },
         {
-          "title": "Tech megacaps lead Nasdaq gains ahead of earnings",
-          "link": "https://example.com/seed/fin-4",
-          "source": "Seed",
-          "why": "Placeholder US stocks item."
+          "title": "Markets placeholder story 4",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/49",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/49"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/50"
+            }
+          ]
         },
         {
-          "title": "Oil and gold steady as dollar holds firm",
-          "link": "https://example.com/seed/fin-5",
-          "source": "Seed",
-          "why": "Placeholder commodities item."
+          "title": "Markets placeholder story 5",
+          "summary": "Placeholder brief until the next scheduled build runs — a short, skimmable 3-5 sentence summary of the story will appear here. Proposed or unconfirmed details are flagged as such.",
+          "source": "AP News",
+          "link": "https://apnews.com/seed/51",
+          "sources": [
+            {
+              "source": "AP News",
+              "link": "https://apnews.com/seed/51"
+            },
+            {
+              "source": "Reuters",
+              "link": "https://www.reuters.com/seed/52"
+            }
+          ]
         }
       ],
       "quotes": [
-        { "symbol": "SPY", "name": "S&P 500 · SPY", "price": 581.5, "changePct": 0.41 },
-        { "symbol": "QQQ", "name": "Nasdaq · QQQ", "price": 495.02, "changePct": -0.23 },
-        { "symbol": "INDA", "name": "India · INDA", "price": 52.18, "changePct": 0.62 }
+        {
+          "symbol": "SPY",
+          "name": "S&P 500 · SPY",
+          "price": 581.5,
+          "changePct": 0.41
+        },
+        {
+          "symbol": "QQQ",
+          "name": "Nasdaq · QQQ",
+          "price": 495.02,
+          "changePct": -0.23
+        },
+        {
+          "symbol": "INDA",
+          "name": "India · INDA",
+          "price": 52.18,
+          "changePct": 0.62
+        }
       ]
     }
   },
@@ -200,24 +475,24 @@
     "theme": "habits & behavior change",
     "cards": [
       {
-        "title": "The Identity Anchor Effect",
-        "insight": "People sustain behavior change more effectively when they reframe desired actions as core to their identity rather than external obligations. A person who views regular exercise as 'being athletic' rather than 'should exercise' achieves greater consistency because identity-based motivation operates at a deeper psychological level than willpower-dependent rules.",
-        "takeaway": "Choose one habit you want to build and explicitly adopt the identity label that goes with it (e.g., 'I am someone who reads daily'), then make small decisions that reinforce that identity."
+        "title": "Insight card 1",
+        "insight": "A short original insight on the daily theme goes here, two to three sentences long.",
+        "takeaway": "One concrete action to try today."
       },
       {
-        "title": "Friction Design Shapes Default Behavior",
-        "insight": "Environmental design—adding friction to unwanted actions and removing it from desired ones—outperforms pure motivation. When bad habits require extra steps (moving snacks to a high shelf, turning off app notifications) and good ones are frictionless (water bottle on desk, workout clothes laid out), behavior naturally shifts without constant mental effort.",
-        "takeaway": "Audit your physical environment this week and add one friction point to a habit you want to reduce and remove one from a habit you want to increase."
+        "title": "Insight card 2",
+        "insight": "A short original insight on the daily theme goes here, two to three sentences long.",
+        "takeaway": "One concrete action to try today."
       },
       {
-        "title": "The Streak Paradox",
-        "insight": "Tracking visible progress through streaks creates psychological momentum but can backfire—one missed day triggers all-or-nothing collapse. The paradox resolves by focusing on 'never miss twice' rather than 'never miss once,' which preserves identity and motivation even after inevitable lapses.",
-        "takeaway": "If you track a habit, adopt the rule that one slip is acceptable but two in a row signals you need to troubleshoot, not that you've failed entirely."
+        "title": "Insight card 3",
+        "insight": "A short original insight on the daily theme goes here, two to three sentences long.",
+        "takeaway": "One concrete action to try today."
       },
       {
-        "title": "Habit Stacking: The Attachment Strategy",
-        "insight": "Attaching a new behavior to an existing routine (brushing teeth, morning coffee, evening walk) exploits established neural pathways rather than requiring willpower for standalone actions. This 'piggyback' approach dramatically improves adoption because it borrows the automaticity already built into your routine.",
-        "takeaway": "Identify one existing daily habit and choose one small new behavior to chain directly after it—execute it together for the next two weeks before evaluating."
+        "title": "Insight card 4",
+        "insight": "A short original insight on the daily theme goes here, two to three sentences long.",
+        "takeaway": "One concrete action to try today."
       }
     ]
   }

@@ -172,15 +172,13 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .weather .temps { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .weather .meta  { font-size: 13px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
 
-/* ── Top story banner — bold editorial rule, no box ── */
+/* ── Top story — bold editorial rule, no box ── */
 .top-story {
   display: block;
   padding: 14px 2px 18px;
   margin-bottom: 8px;
   border-top: 3px solid var(--ink);
-  text-decoration: none;
   color: inherit;
-  transition: opacity var(--t);
 }
 .top-story .flag {
   display: inline-flex; align-items: center; gap: 6px;
@@ -192,9 +190,8 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   content: ''; width: 7px; height: 7px; border-radius: 50%;
   background: var(--accent);
 }
-.top-story h2 { font-family: var(--serif); font-size: 25px; font-weight: 700; margin: 8px 0 6px; line-height: 1.18; letter-spacing: -0.015em; }
-.top-story .why { font-size: 14.5px; color: var(--muted); line-height: 1.5; }
-.top-story .src { font-size: 11px; color: var(--muted); margin-top: 10px; letter-spacing: 0.04em; text-transform: uppercase; }
+.top-story h2 { font-family: var(--serif); font-size: 25px; font-weight: 700; margin: 8px 0 8px; line-height: 1.18; letter-spacing: -0.015em; }
+.top-story .summary { font-size: 15px; color: var(--text); line-height: 1.6; }
 
 /* ── News list — flowing rows separated by hairlines ── */
 .section-label {
@@ -210,20 +207,24 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   display: block;
   padding: 14px 2px;
   border-bottom: 1px solid var(--line);
-  text-decoration: none;
   color: inherit;
-  transition: background var(--t);
 }
 .item h3 { font-family: var(--serif); font-size: 18px; font-weight: 600; line-height: 1.28; letter-spacing: -0.005em; }
-.item .why { font-size: 13.5px; color: var(--muted); margin-top: 5px; line-height: 1.5; }
-.item .src { font-size: 11px; color: var(--muted); margin-top: 7px; letter-spacing: 0.04em; text-transform: uppercase; }
+.item .summary { font-size: 14px; color: var(--text); margin-top: 6px; line-height: 1.6; }
 
-/* Hover (pointer devices) + active press feedback */
-@media (hover: hover) {
-  .item:hover      { background: var(--card2); }
-  .top-story:hover { opacity: 0.78; }
+/* ── "Read: AP · BBC · Reuters" source links ── */
+.sources {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+  margin-top: 10px; font-size: 12.5px;
 }
-.item:active, .top-story:active { opacity: 0.7; }
+.sources .read { color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 10.5px; }
+.sources a {
+  color: var(--accent); font-weight: 600; text-decoration: none;
+  padding: 4px 0; min-height: 24px; display: inline-flex; align-items: center;
+}
+.sources a:not(:last-child)::after { content: '·'; color: var(--muted); margin-left: 10px; font-weight: 400; }
+@media (hover: hover) { .sources a:hover { text-decoration: underline; } }
+.sources a:active { opacity: 0.7; }
 
 /* ── Microlearning cards ── */
 .theme-pill {
