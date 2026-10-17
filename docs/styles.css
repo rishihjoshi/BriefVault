@@ -121,22 +121,6 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .skel-item   { height: 74px; margin-bottom: 10px; }
 @keyframes skel-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
 
-/* ── Per-tab editorial masthead (eyebrow + line-art icon + serif title + double rule) ── */
-.masthead {
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  border-bottom: 4px double var(--ink);
-}
-.masthead-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.masthead-eyebrow {
-  font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--accent);
-}
-.masthead-icon { width: 30px; height: 30px; color: var(--ink); flex-shrink: 0; }
-.masthead-title {
-  font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em;
-  font-size: 40px; line-height: 1.02; margin-top: 8px; color: var(--ink);
-}
 
 /* Image hero banner (World, India…) — replaces the line-art masthead */
 .tab-hero {
