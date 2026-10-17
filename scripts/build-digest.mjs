@@ -25,10 +25,12 @@ const LAT = 38.627, LON = -90.199, TZ = 'America/Chicago';
 
 const FEEDS = {
   // "Local" tab = US national news. Several feeds so one flaky source can't empty the pool.
+  // Direct free-publisher RSS (NPR/PBS/The Hill) gives links to free content, not redirects.
   local: [
-    'https://news.google.com/rss/headlines/section/topic/NATION?hl=en-US&gl=US&ceid=US:en',
     'https://feeds.npr.org/1003/rss.xml',
-    'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
+    'https://www.pbs.org/newshour/feeds/rss/headlines',
+    'https://thehill.com/news/feed/',
+    'https://news.google.com/rss/headlines/section/topic/NATION?hl=en-US&gl=US&ceid=US:en',
   ],
   // St. Louis metro subsection shown under the USA tab.
   stlouis: [
@@ -37,9 +39,12 @@ const FEEDS = {
   ],
   world: [
     'https://feeds.bbci.co.uk/news/world/rss.xml',
+    'https://www.theguardian.com/world/rss',
+    'https://www.aljazeera.com/xml/rss/all.xml',
     'https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en',
   ],
   india: [
+    'https://www.thehindu.com/news/national/feeder/default.rss',
     'https://news.google.com/rss/search?q=India&hl=en-IN&gl=IN&ceid=IN:en',
     'https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en',
   ],
@@ -49,12 +54,26 @@ const FEEDS = {
   ],
   // Finance tab: US stocks, world + India markets, major market-moving news.
   finance: [
+    'https://www.theguardian.com/business/rss',
     'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en',
     'https://news.google.com/rss/search?q=stock+market+OR+S%26P+500+OR+Nasdaq+OR+Dow&hl=en-US&gl=US&ceid=US:en',
     'https://news.google.com/rss/search?q=Sensex+OR+Nifty+OR+%22Indian+stock+market%22&hl=en-IN&gl=IN&ceid=IN:en',
     'https://news.google.com/rss/search?q=global+markets+OR+FTSE+OR+Nikkei+OR+%22Hang+Seng%22&hl=en-US&gl=US&ceid=US:en',
   ],
 };
+
+// Freely-readable outlets (prefer these for source links) vs. paywalled (deprioritize).
+const FREE_SRC = ['ap','associated press','reuters','bbc','npr','pbs','guardian','al jazeera','the hill',
+  'axios','cbs','abc news','cnbc','deutsche welle','france 24','the hindu','ndtv','pti','times of india',
+  'economic times','al-monitor','marketwatch','the conversation','propublica','.gov'];
+const PAID_SRC = ['new york times','nytimes','wall street journal','wsj','financial times',' ft ','bloomberg',
+  'washington post','the economist','the atlantic','foreign policy','barron','business insider','the information','seeking alpha'];
+function srcRank(name) {
+  const s = ` ${String(name || '').toLowerCase()} `;
+  if (PAID_SRC.some(p => s.includes(p))) return 2;  // paywalled last
+  if (FREE_SRC.some(f => s.includes(f))) return 0;  // free first
+  return 1;
+}
 
 // Microlearning theme rotates by day-of-year so it's deterministic and varied.
 const THEMES = [
@@ -234,17 +253,22 @@ number only — do NOT copy titles or URLs back.
 
 Return ONLY valid JSON, no prose, no code fences, matching this shape exactly:
 {
-  "local":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
-  "stlouis":     [ {"i": <index>, "why": "<one sentence>"} x3 ],
-  "world":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
-  "india":       [ {"i": <index>, "why": "<one sentence>"} x5 ],
-  "immigration": [ {"i": <index>, "why": "<one sentence>"} x3 ],
-  "finance":     [ {"i": <index>, "why": "<one sentence>"} x5 ],
+  "local":       [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x5 ],
+  "stlouis":     [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x3 ],
+  "world":       [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x5 ],
+  "india":       [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x5 ],
+  "immigration": [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x3 ],
+  "finance":     [ {"i": <index>, "summary": "<3-5 sentences>", "sources": [<index>, ...]} x5 ],
   "micro":       { "theme": "${theme}", "cards": [ {"title","insight","takeaway"} x4 ] }
 }
 Rules:
-- "i" = the [index] of the chosen item in that pool. "why" = ONE short sentence on why it matters.
-- Order each array by importance — the first pick is the Top Story.
+- "i" = the [index] of the chosen story in that pool. Order each array by importance (first = Top Story).
+- "summary" = a 3-5 sentence brief a reader can skim in under two minutes: what happened and why it
+  matters. Base it ONLY on the headline and snippet shown; if a detail is a proposal, allegation, or
+  uncertain, say so. Do NOT invent specifics (numbers, names, dates) that aren't in the provided text.
+- "sources" = 2-3 [index] values for items covering THIS SAME story from DIFFERENT outlets (include "i").
+  Prefer freely-readable outlets (AP, Reuters, BBC, NPR, PBS, The Guardian, Al Jazeera) over paywalled
+  ones (NYT, WSJ, FT, Bloomberg, Washington Post). If only one item covers it, return just [i].
 - "stlouis" = the 3 most important St. Louis / Missouri metro stories.
 - "immigration" = the 3 most important US–India immigration items (H-1B, green card, USCIS, visas).
 - "finance" = the 5 most important markets/finance stories (US stocks, India & world markets, major market-moving news).
@@ -271,19 +295,41 @@ ${show(pools.finance)}`;
 }
 
 // Resolve the model's chosen indices back to real pool items (trusted title/link/source).
+// Each item carries a summary and 2-3 distinct-outlet source links (free outlets first).
 // Drops out-of-range/duplicate picks and pads from the top of the pool so we always
 // return exactly n items even if the model under-picks or returns junk.
 export function resolvePicks(pool, picks, n) {
   const out = [], used = new Set();
-  const add = (i, why) => { used.add(i); out.push({ title: pool[i].title, link: pool[i].link, source: pool[i].source, why }); };
+  // Build up to 3 source links for a story: primary index first, then the model's extra
+  // indices, deduped by outlet name, sorted free-first. Always valid http(s) links.
+  const makeSources = (primaryI, extra) => {
+    const srcs = [], seenNames = new Set();
+    for (const j of [primaryI, ...(Array.isArray(extra) ? extra : [])]) {
+      const k = Number(j);
+      if (!Number.isInteger(k) || k < 0 || k >= pool.length) continue;
+      const name = pool[k].source || 'Source';
+      if (seenNames.has(name) || !/^https?:\/\//.test(pool[k].link || '')) continue;
+      seenNames.add(name);
+      srcs.push({ source: name, link: pool[k].link });
+      if (srcs.length === 3) break;
+    }
+    srcs.sort((a, b) => srcRank(a.source) - srcRank(b.source));
+    return srcs;
+  };
+  const add = (i, summary, extra) => {
+    used.add(i);
+    const sources = makeSources(i, extra);
+    const primary = sources[0] || { source: pool[i].source, link: pool[i].link };
+    out.push({ title: pool[i].title, summary, source: primary.source, link: primary.link, sources });
+  };
   for (const p of Array.isArray(picks) ? picks : []) {
     const i = Number(p?.i);
     if (Number.isInteger(i) && i >= 0 && i < pool.length && !used.has(i)) {
-      add(i, String(p?.why ?? '').trim() || 'Notable update.');
+      add(i, String(p?.summary ?? '').trim() || 'Summary unavailable for this update.', p?.sources);
       if (out.length === n) break;
     }
   }
-  for (let i = 0; i < pool.length && out.length < n; i++) if (!used.has(i)) add(i, 'Notable update.');
+  for (let i = 0; i < pool.length && out.length < n; i++) if (!used.has(i)) add(i, 'Summary unavailable for this update.', [i]);
   return out;
 }
 
@@ -305,7 +351,9 @@ function validateDigest(d) {
     for (const it of items) {
       assert.ok(it.title, `${name} item missing title`);
       assert.ok(/^https?:\/\//.test(it.link || ''), `${name} item missing valid link`);
-      assert.ok(it.why, `${name} item missing why`);
+      assert.ok(it.summary, `${name} item missing summary`);
+      assert.ok(Array.isArray(it.sources) && it.sources.length >= 1, `${name} item missing sources`);
+      for (const s of it.sources) assert.ok(/^https?:\/\//.test(s.link || ''), `${name} source missing valid link`);
     }
   };
   check(d.tabs.local.items, 5, 'local');
@@ -354,7 +402,7 @@ async function main() {
   const client = new Anthropic({ apiKey });
   const msg = await client.messages.create({
     model: MODEL,
-    max_tokens: 4000,
+    max_tokens: 8000,  // summaries are multi-sentence now
     messages: [{ role: 'user', content: buildPrompt(pools, theme) }],
   });
   const r = extractJson(msg.content[0].text);

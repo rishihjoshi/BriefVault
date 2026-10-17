@@ -16,18 +16,20 @@ const DIGEST = {
   tabs: {
     local: {
       items: [
-        { title: 'Local lead', link: 'https://ex/1', source: 'S', why: 'w' },
-        { title: 'Evil', link: 'javascript:alert(document.cookie)', source: 'S', why: 'w' },
+        { title: 'Local lead', summary: 'A readable brief of the story.', source: 'AP News', link: 'https://ex/1',
+          sources: [{ source: 'AP News', link: 'https://ex/1' }, { source: 'BBC', link: 'https://ex/1b' }] },
+        { title: 'Evil', summary: 'x', source: 'X', link: 'javascript:alert(document.cookie)',
+          sources: [{ source: 'X', link: 'javascript:alert(document.cookie)' }] },
       ],
-      stlouis: [{ title: 'STL metro item', link: 'https://ex/5', source: 'S', why: 'w' }],
+      stlouis: [{ title: 'STL metro item', summary: 'x', source: 'S', link: 'https://ex/5', sources: [{ source: 'S', link: 'https://ex/5' }] }],
     },
-    world: { items: [{ title: 'World lead', link: 'https://ex/2', source: 'S', why: 'w' }] },
+    world: { items: [{ title: 'World lead', summary: 'x', source: 'S', link: 'https://ex/2', sources: [{ source: 'S', link: 'https://ex/2' }] }] },
     india: {
-      items: [{ title: 'India lead', link: 'https://ex/3', source: 'S', why: 'w' }],
-      immigration: [{ title: 'H-1B update', link: 'https://ex/4', source: 'S', why: 'w' }],
+      items: [{ title: 'India lead', summary: 'x', source: 'S', link: 'https://ex/3', sources: [{ source: 'S', link: 'https://ex/3' }] }],
+      immigration: [{ title: 'H-1B update', summary: 'x', source: 'S', link: 'https://ex/4', sources: [{ source: 'S', link: 'https://ex/4' }] }],
     },
     finance: {
-      items: [{ title: 'Markets lead', link: 'https://ex/6', source: 'S', why: 'w' }],
+      items: [{ title: 'Markets lead', summary: 'x', source: 'S', link: 'https://ex/6', sources: [{ source: 'S', link: 'https://ex/6' }] }],
       quotes: [
         { symbol: '^GSPC', name: 'S&P 500', price: 5815.03, changePct: 0.41 },
         { symbol: '^IXIC', name: 'Nasdaq', price: 18502.69, changePct: -0.23 },
@@ -64,7 +66,8 @@ const { loadDigest, show, showUpdate } = await import('../docs/app.js');
 test('loadDigest renders the Local/USA tab with weather, hero, and St. Louis metro', async () => {
   await loadDigest();
   const html = els.main.innerHTML;
-  for (const s of ['United States', 'USA Pulse', '#1', '#2', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph', 'Local lead', 'St. Louis Metro', 'STL metro item']) {
+  for (const s of ['United States', 'USA Pulse', '#1', '#2', '⛅', '72°F', '22°C', '7:09 AM', '6:28 PM', '8 mph',
+    'Local lead', 'A readable brief of the story.', 'Read', 'AP News', 'BBC', 'St. Louis Metro', 'STL metro item']) {
     assert.ok(html.includes(s), `Local render missing "${s}"`);
   }
   assert.ok(els.updated.textContent.startsWith('Updated'), 'updated timestamp not set');
